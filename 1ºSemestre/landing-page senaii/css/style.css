@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {}
+
+
+/* font-family: 'Bebas Neue', cursive; */
+
+body {
+    background-color: aqua;
+}

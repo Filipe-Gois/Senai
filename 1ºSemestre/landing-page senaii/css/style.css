@@ -1,9 +1,7 @@
          @font-face {
-             font-family: bebas-neue;
+             font-family: "bebas-neue";
              src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
-             font-family: open-sans;
-             src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
-             font-family: courier-prime;
+             font-family: 'Courier New', Courier, monospace;
              src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
          }
          
@@ -42,6 +40,11 @@
              /* font-family: 'Open Sans', sans-serif; */
          }
          
+         header nav a:hover {
+             background-color: white;
+             color: #F9003D;
+         }
+         
          header nav a {
              font-family: bebas-neue;
              color: white;
@@ -53,5 +56,40 @@
          main .banner {
              width: 100%;
              height: 740px;
-             background-image: url(../);
+             color: white;
+             background-image: url(../assets/images/imagem-fundo-banner.png);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: bottom;
+         }
+         
+         main .banner-flex {
+             display: flex;
+             align-items: center;
+         }
+         
+         main .banner #bannerinfo {
+             width: 550px;
+         }
+         
+         main .banner #bannerinfo h1 {
+             margin-bottom: 40px;
+             padding-bottom: 30px;
+             font-family: "bebas-neue";
+             font-size: 60px;
+             border-bottom: 2px solid #FFAF00;
+             text-transform: uppercase;
+         }
+         
+         main .senai-informatica {
+             margin-bottom: 40px;
+             font-family: 'Courier New', Courier, monospace;
+             font-size: 53px;
+             font-weight: bold;
+             text-transform: uppercase;
+             color: #F9003D;
+         }
+         
+         main #bannersp {
+             background-color: #080324;
          }

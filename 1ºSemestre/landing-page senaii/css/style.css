@@ -1,95 +1,133 @@
-         @font-face {
-             font-family: "bebas-neue";
-             src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
-             font-family: 'Courier New', Courier, monospace;
-             src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
-         }
-         
-         * {
-             margin: 0;
-             padding: 0;
-             box-sizing: border-box;
-         }
-         
-         header {
-             background-color: #F9003D;
-             height: 60px;
-         }
-         
-         .layout-grid {
-             width: 100%;
-             height: 100%;
-             max-width: 1200px;
-             margin: 0 auto;
-         }
-         
-         header .header-flex {
-             height: 60px;
-             display: flex;
-             justify-content: flex-end;
-             align-items: center;
-         }
-         
-         header nav {
-             width: 600px;
-             display: flex;
-             justify-content: space-between;
-             font-family: bebas-neue;
-             /* font-family: 'Bebas Neue', cursive; */
-             /* font-family: 'Courier Prime', monospace; */
-             /* font-family: 'Open Sans', sans-serif; */
-         }
-         
-         header nav a:hover {
-             background-color: white;
-             color: #F9003D;
-         }
-         
-         header nav a {
-             font-family: bebas-neue;
-             color: white;
-             text-decoration: none;
-             letter-spacing: 2px;
-             text-transform: uppercase;
-         }
-         
-         main .banner {
-             width: 100%;
-             height: 740px;
-             color: white;
-             background-image: url(../assets/images/imagem-fundo-banner.png);
-             background-repeat: no-repeat;
-             background-size: cover;
-             background-position: bottom;
-         }
-         
-         main .banner-flex {
-             display: flex;
-             align-items: center;
-         }
-         
-         main .banner #bannerinfo {
-             width: 550px;
-         }
-         
-         main .banner #bannerinfo h1 {
-             margin-bottom: 40px;
-             padding-bottom: 30px;
-             font-family: "bebas-neue";
-             font-size: 60px;
-             border-bottom: 2px solid #FFAF00;
-             text-transform: uppercase;
-         }
-         
-         main .senai-informatica {
-             margin-bottom: 40px;
-             font-family: 'Courier New', Courier, monospace;
-             font-size: 53px;
-             font-weight: bold;
-             text-transform: uppercase;
-             color: #F9003D;
-         }
-         
-         main #bannersp {
-             background-color: #080324;
-         }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ header {
+     background-color: #F9003D;
+     height: 60px;
+ }
+
+ .layout-grid {
+     width: 100%;
+     height: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ header .header-flex {
+     height: 60px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+ }
+
+ header nav {
+     width: 600px;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+
+ header nav a:hover {
+     background-color: white;
+     color: #F9003D;
+ }
+
+ header nav a {
+     font-family: bebas-neue;
+     color: white;
+     text-decoration: none;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+ }
+
+ main .banner {
+     width: 100%;
+     height: 740px;
+     color: white;
+     background-image: url(../assets/images/imagem-fundo-banner.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+ }
+
+ main .banner-flex {
+     display: flex;
+     align-items: center;
+ }
+
+ main .banner #bannerinfo {
+     width: 550px;
+ }
+
+ main .banner #bannerinfo h1 {
+     margin-bottom: 40px;
+     padding-bottom: 30px;
+     font-family: "bebas-neue";
+     font-size: 60px;
+     border-bottom: 2px solid #FFAF00;
+     text-transform: uppercase;
+ }
+
+ main .senai-informatica {
+     margin-bottom: 40px;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 53px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #F9003D;
+ }
+
+ main #bannersp {
+
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     justify-content: flex-start;
+     background-color: #080324;
+     background-size: cover;
+     padding: 5%;
+     padding-left: 17%;
+
+ }
+
+ main #secao1 h1 {
+     color: #F9003D;
+     display: flex;
+     padding-bottom: 5%;
+     font-family: "bebas neue";
+     text-transform: uppercase;
+     font-size: 64px;
+
+ }
+
+ main #secao2 {
+     justify-content: flex-end;
+
+
+ }
+
+ main #secao2 h1 {
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     text-transform: uppercase;
+     font-size: 24px;
+
+ }
+
+ main #secao2 h2 {
+     color: #FFAF00;
+     font-family: "bebas neue";
+     font-size: 64px;
+
+ }
+
+ main #secao2 p {
+     color: #FFFFFF;
+     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+ }

@@ -85,8 +85,7 @@
 
      display: flex;
      justify-content: center;
-     align-items: flex-start;
-     justify-content: flex-start;
+     align-items: flex-end;
      background-color: #080324;
      background-size: cover;
      padding: 5%;
@@ -105,7 +104,11 @@
  }
 
  main #secao2 {
-     justify-content: flex-end;
+    display: flex; 
+    justify-content: end;
+    position: relative;
+    left: 10%;
+
 
 
  }

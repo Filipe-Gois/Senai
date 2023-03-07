@@ -16,6 +16,17 @@
      margin: 0 auto;
  }
 
+ body {
+     color: white;
+     background-color: #080324;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 16px;
+ }
+
+
+
+
+
  header .header-flex {
      height: 60px;
      display: flex;
@@ -81,56 +92,48 @@
      color: #F9003D;
  }
 
- main #bannersp {
-
-     display: flex;
-     justify-content: center;
-     align-items: flex-end;
-     background-color: #080324;
-     background-size: cover;
-     padding: 5%;
-     padding-left: 17%;
-
+ .sobre {
+     padding: 60px 0;
  }
 
- main #secao1 h1 {
+ .sobre .sobre-flex {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .sobre .sobre-flex .sobrebox {
+     width: 500px;
+ }
+
+ .sobre .sobre-flex .sobrebox h2 {
+     margin-bottom: 40px;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 64px;
      color: #F9003D;
-     display: flex;
-     padding-bottom: 5%;
-     font-family: "bebas neue";
-     text-transform: uppercase;
-     font-size: 64px;
-
  }
 
- main #secao2 {
-    display: flex; 
-    justify-content: end;
-    position: relative;
-    left: 10%;
-
-
-
+ .sobre .sobre-flex .participantes {
+     width: 640px;
+     padding-top: 10%;
  }
 
- main #secao2 h1 {
-     color: white;
+ .sobre .sobre-flex .participantes h3 {
+     margin-bottom: 20px;
      font-family: 'Courier New', Courier, monospace;
-     text-transform: uppercase;
+     font-weight: bold;
      font-size: 24px;
-
+     text-transform: uppercase;
  }
 
- main #secao2 h2 {
-     color: #FFAF00;
-     font-family: "bebas neue";
+ .sobre .sobre-flex .participantes h4 {
+     font-family: 'Bebas Neue', cursive;
      font-size: 64px;
-
+     color: #FFAF00;
  }
 
- main #secao2 p {
-     color: #FFFFFF;
+ .sobre .sobre-flex .participantes p {
      font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-
+     line-height: 28px;
+     text-align: justify;
+     padding-top: 2%;
  }

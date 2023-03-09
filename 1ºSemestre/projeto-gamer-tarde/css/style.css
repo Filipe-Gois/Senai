@@ -8,6 +8,29 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.layout-grid {
+
+width: 80%;
+margin: 0 auto;
+}
+
+
 body {
     background-color: blue;
+}
+
+header {
+    width: 1440px;
+    height: 140px;
+    background-color: #1B1426;
+    color: white;
+}
+
+header .contatos {
+display: flex;
+flex-direction: row;
+
+
+
+
 }

@@ -38,6 +38,11 @@ header .header-top {
     display: none;
 }
 
+header .header-bottom {
+    height: 60px;
+}
+
+
 header .logo {
     width: 86px;
 }
@@ -62,3 +67,27 @@ header .menu-usuarios {
 
 
 }
+
+@media screen and (max-width: 767px) {
+
+    .header {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+    

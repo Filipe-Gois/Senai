@@ -48,13 +48,14 @@
 
         <div class="header-bottom ">
             <div class="layout-grid alinhamento-between-center">
-                <img src="../projeto-gamer-tarde/Assets/icons/menu.svg" alt="">
+                <!-- menu hamburguer. Visível apenas no mobile -->
+                <img onclick="mostrarMenu()" src="../projeto-gamer-tarde/Assets/icons/menu.svg" alt="">
 
 
                 <img class="logo" src="../projeto-gamer-tarde/Assets/icons/logotipo-gamer.svg"
                     alt="imagem logotipo gamer com controle de video game ao centro">
 
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -89,25 +90,48 @@
                     </div>
                 </nav>
 
-                <img src="../projeto-gamer-tarde/Assets/icons/menu 2.svg" alt="icone de menu do usuario">
+                <img onclick="mostrarMenuUsuario()" src="../projeto-gamer-tarde/Assets/icons/menu 2.svg" alt="icone de menu do usuario">
 
-                <div class="menu-usuarios">
+                <div class="menu-usuarios " id="menu-usuarios">
+                    <div class="usuarios-flex">
 
-                    <a href="">
-                        <img src="../projeto-gamer-tarde/Assets/icons/conta icone.svg" alt="">
-                    </a>
-                    <a href=""></a>
-                    <img src="../projeto-gamer-tarde/Assets/icons/icone sacola.svg" alt="">
-
-                    <a href="">
-                        <img src="../projeto-gamer-tarde/Assets/icons/icone lupa.svg" alt="">
-                    </a>
-
+                        <a href="">
+                            <img src="../projeto-gamer-tarde/Assets/icons/conta icone.svg" alt="">
+                        </a>
+                        <a href=""> <img src="../projeto-gamer-tarde/Assets/icons/icone sacola.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="../projeto-gamer-tarde/Assets/icons/icone lupa.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
 
     </header>
+    
+    <main>
+        <div class="banner-principal">
+            <h1>Liga Gamers</h1>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        function mostrarMenu() {
+            // pega a navbar pelo id
+            document.getElementById("menu").classList.toggle("mostrar-menu")
+        }
+        function mostrarMenuUsuario() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-menu-usuarios")
+            
+        }
+
+    </script>
+
 </body>
 
 </html>

@@ -11,10 +11,16 @@ font-family: 'Titillium Web', sans-serif; */
     box-sizing: border-box;
 }
 
+/* classes genércias */
 .layout-grid {
     width: 90%;
     height: 100%;
     margin: 0 auto;
+}
+
+.mostrar-menu {
+    left: 0 !important;
+
 }
 
 /* alinhamento content + align items */
@@ -30,7 +36,10 @@ body {
 
 /* mobile first */
 header {
+    position: fixed;
+    width: 100vw;
     height: 60px;
+    z-index: 100;
     background-color: #1B1426;
 
 
@@ -53,13 +62,16 @@ header .logo {
 header .header-bottom nav {
     position: fixed;
     top: 60px;
-    left: 0;
+    left: -80vw;
+    z-index: 101;
     width: 80vw;
     height: calc(100vh - 60px);
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 28, 0.4));
     backdrop-filter: blur(45px);
     padding-bottom: 20px;
-    
+
+    /* tempo de transição do menu mobile */
+    transition: left 0.8s;
 
     display: flex;
     flex-direction: column;
@@ -98,5 +110,31 @@ header .header-bottom nav .midias-sociais {
 
 
 header .menu-usuarios {
-    display: none;
+    display: flex;
+    position: fixed;
+    top: 60px;
+    right: -20vw;
+    z-index: 101;
+    height: 170px;
+    width: 20vw;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 28, 0.4));
+    backdrop-filter: blur(45px);
+    transition: right 0.8s;
+
+
+
+}
+
+.usuarios-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around
+
+}
+
+.mostrar-menu-usuarios {
+    right: 0 !important;
 }

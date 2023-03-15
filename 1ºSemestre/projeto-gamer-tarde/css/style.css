@@ -31,12 +31,13 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 body {
-    background-color: white;
+    background-color: #1B1426;
 }
 
 /* mobile first */
 header {
     position: fixed;
+    top: 0;
     width: 100vw;
     height: 60px;
     z-index: 100;
@@ -132,9 +133,76 @@ header .menu-usuarios {
     height: 100%;
     align-items: center;
     justify-content: space-around
-
 }
 
 .mostrar-menu-usuarios {
     right: 0 !important;
+}
+
+
+main {
+    margin-top: 60px;
+}
+
+main .banner-principal {
+    width: 100%;
+    height: 606px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../Assets/icons/valorant-pergunte-3-scaled\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main .banner-principal h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-top: 13px;
+    text-shadow: 0px 0px 7px #FD4255;
+}
+
+
+main .banner-principal a {
+    height: 40px;
+    width: 171px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    color: #1B1426;
+    background-color: #F9AA01;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    bottom: 88px;
+    border-radius: 8px;
+}
+
+.fifaecsgo {
+    width: 100%;
+    height: 590px;
+
+    
+}
+
+.principais-jogos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* tablets >= 768px */
+
+
+
+
+/* desktop >= 1200px */
+
+@media screen and {
+    
 }

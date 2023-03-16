@@ -1,59 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Gamer Tarde</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
     <header>
         <div class="header-top">
             <div class="layout-grid">
+
                 <div class="contatos">
                     <div class="phone">
-                        <img src="../projeto-gamer-tarde/Assets/icons/icone_telefone.svg"
-                            alt="icone do telefone de contato">
+                        <img src="assets/icons/icone_telefone.svg" alt="Ícone do telefone de contato">
                         <p>(11) 0900-1010</p>
                     </div>
-
                     <div class="mail">
-                        <img src="../projeto-gamer-tarde/Assets/icons/icone_email.svg" alt="icone de email de contato">
+                        <img src="assets/icons/icone_email.svg" alt="Ícone de email de contato">
                         <p>contato@gamer.com.br</p>
                     </div>
                 </div>
 
-
                 <div class="midias-sociais">
-
                     <a href="">
-                        <img src="../projeto-gamer-tarde/Assets/icons/facebook.svg"
-                            alt="imagem link do facebook da empresa">
+                        <img src="assets/icons/facebook.svg" alt="Imagem link do facebook da empresa">
                     </a>
                     <a href="">
-                        <img src="../projeto-gamer-tarde/Assets/icons/linkedin.svg"
-                            alt="imagem link do linkedin da empresa">
+                        <img src="assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa">
                     </a>
                     <a href="">
-                        <img src="../projeto-gamer-tarde/Assets/icons/instagram.svg"
-                            alt="imagem link do instagram da empresa">
+                        <img src="assets/icons/intagram.svg" alt="Imagem link do instagram da empresa">
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="header-bottom ">
+        <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
-                <!-- menu hamburguer. Visível apenas no mobile -->
-                <img onclick="mostrarMenu()" src="../projeto-gamer-tarde/Assets/icons/menu.svg" alt="">
+                <!-- Menu Hamburger. Visível apenas no smartphone -->
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="assets/icons/menu.svg"
+                    alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
 
-
-                <img class="logo" src="../projeto-gamer-tarde/Assets/icons/logotipo-gamer.svg"
-                    alt="imagem logotipo gamer com controle de video game ao centro">
+                <img class="logo" src="Assets/icons/logotipo-gamer.svg"
+                    alt="Imagem logotipo gamer com um controle de vídeo game ao centro">
 
                 <nav class="menu" id="menu">
                     <a href="">Início</a>
@@ -61,123 +54,80 @@
                     <a href="">Equipes</a>
                     <a href="">Notícias</a>
 
-                    <!-- visível apenas no mobile -->
+                    <!-- vísível apenas no mobile -->
                     <a class="phone">
-                        <img src="../projeto-gamer-tarde/Assets/icons/icone_telefone.svg"
-                            alt="icone do telefone de contato">
+                        <img src="assets/icons/icone_telefone.svg" alt="Ícone do telefone de contato">
                         <p>(11) 0900-1010</p>
                     </a>
-
                     <a class="mail">
-                        <img src="../projeto-gamer-tarde/Assets/icons/icone_email.svg" alt="icone de email de contato">
+                        <img src="assets/icons/icone_email.svg" alt="Ícone de email de contato">
                         <p>contato@gamer.com.br</p>
                     </a>
 
-                    <div class="midias-sociais">
 
+                    <div class="midias-sociais">
                         <a href="">
-                            <img src="../projeto-gamer-tarde/Assets/icons/facebook.svg"
-                                alt="imagem link do facebook da empresa">
+                            <img src="assets/icons/facebook.svg" alt="Imagem link do facebook da empresa">
                         </a>
                         <a href="">
-                            <img src="../projeto-gamer-tarde/Assets/icons/linkedin.svg"
-                                alt="imagem link do linkedin da empresa">
+                            <img src="assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa">
                         </a>
                         <a href="">
-                            <img src="../projeto-gamer-tarde/Assets/icons/instagram.svg"
-                                alt="imagem link do instagram da empresa">
+                            <img src="assets/icons/instagram.svg" alt="Imagem link do instagram da empresa">
                         </a>
                     </div>
                 </nav>
 
-                <img onclick="mostrarMenuUsuario()" src="../projeto-gamer-tarde/Assets/icons/menu 2.svg"
-                    alt="icone de menu do usuario">
+                <!-- menu 3 pontinhos -->
+                <img class="menu-pontinhos" onclick="mostrarUsuarios()" src="assets/icons/menu 2.svg"
+                    alt="Ícone 3 pontinhos, abre e fecha o menu de usuários">
 
-                <div class="menu-usuarios " id="menu-usuarios">
-                    <div class="usuarios-flex">
-
-                        <a href="">
-                            <img src="../projeto-gamer-tarde/Assets/icons/conta icone.svg" alt="">
-                        </a>
-                        <a href=""> <img src="../projeto-gamer-tarde/Assets/icons/icone sacola.svg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="../projeto-gamer-tarde/Assets/icons/icone lupa.svg" alt="">
-                        </a>
-                    </div>
+                <div id="menu-usuarios" class="menu-usuarios">
+                    <a href="">
+                        <img src="assets/icons/conta icone.svg" alt="Ícone de perfil">
+                    </a>
+                    <a href="">
+                        <img src="assets/icons/icone sacola.svg" alt="Ícone de sacola">
+                    </a>
+                    <a href="">
+                        <img src="assets/icons/icone lupa.svg" alt="Ícone lupa de pesquisa">
+                    </a>
                 </div>
             </div>
         </div>
-
     </header>
 
     <main>
-        <section class="banner-principal">
+        <article class="banner">
             <h1>Liga Gamers</h1>
-            <a href="">Sobre</a>
-        </section>
+            <a href="" class="btn-sobre">Sobre</a>
+        </article>
 
-        <section class="fifaecsgo">
-            <div class="layout-grid">
 
-                <div class="principais-jogos">
-                    <div class="fifa">
-                        <img src="../projeto-gamer-tarde/Assets/icons/image fifa.png" alt="Imagem do jogo Fifa 2023">
-                    </div>
-
-                    <div class="csgo">
-                        <img src="../projeto-gamer-tarde/Assets/icons/image csgo.png"
-                            alt="imagem do jogo Counter Strike">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="entre-para-o-time">
-            <div class="tituloamarelo">
-                <h2>entre para o time progamer</h2>
-                <hr>
+        <section class="jogos">
+            <div class="layout-grid jogos-flex">
+                <img src="assets/image/image fifa.png" alt="Imagem do jogo Fifa 2023">
+                <img src="Assets/image/image csgo.png" alt="Imagem do jogo Counter Strike">
             </div>
 
-            <div class="bannerkilljoy">
-                <img src="../projeto-gamer-tarde/Assets/image/kiljoy.png" alt="Imagem da killjoy, valorant">
-                <div>
-                    <img src="../projeto-gamer-tarde/Assets/icons/icone controle.svg" alt="ícone de controle">
-                    <h3>20 jogos diferentes</h3>
-                    <p>São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores
-                        técnicas.</p>
-                </div>
-            </div>
-
-            <div class="bannerjinx">
-                <img src="../projeto-gamer-tarde/Assets/image/jinx banner.png" alt="Imagem da personagem jinx, Arcane">
-                <div>
-                    <img src="../projeto-gamer-tarde/Assets/icons/icone instrutor.svg" alt="ícone de instrutor">
-                    <h3>53 professores</h3>
-                    <p>Temos 53 Proplayers no nosso time para ensinar todas as es- tratégias, você vai aprender do
-                        básico ao avançado.
-                        Tempo de treinamento, des- canso, equipamentos. </p>
-                </div>
-            </div>
         </section>
     </main>
 
-    <footer>
+    <footer></footer>
 
-    </footer>
 
     <script>
+
         function mostrarMenu() {
             // pega a navbar pelo id
-            document.getElementById("menu").classList.toggle("mostrar-menu")
+            document.getElementById("menu").classList.toggle("mostrar-menu");
         }
-        function mostrarMenuUsuario() {
-            document.getElementById("menu-usuarios").classList.toggle("mostrar-menu-usuarios")
 
+        function mostrarUsuarios() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-usuarios");
         }
 
     </script>
-
 </body>
 
 </html>

@@ -210,6 +210,45 @@ main .jogos .jogos-flex {
         max-width: 1200px;
     }
 
+    header  {
+        height: 140px;
+        position: static;
+        
+    }
+
+
+    header .header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .contatos {
+        border: 2px solid #FD4255;
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .divs .phone, .mail */
+    header .header-top .contatos > div {
+        display: flex;
+        gap: 10px;
+        width: 200px;
+        border bottom: 2px solid #f9aa01;
+
+    }
+
+
+    header .header-top .midias-sociais {
+        border: 2px solid #FD4255;  
+        width: 140px;
+    }
+
+
+
     /* esconde os elementos desnecessários */
     header .header-bottom .menu-hamburger,
     header .header-bottom .menu-pontinhos,
@@ -219,7 +258,10 @@ main .jogos .jogos-flex {
         display: none;
     }
 
-   
+    
+   header .logo {
+    width: 200px;
+   }
 
     header .header-bottom nav {
         position: static;
@@ -236,14 +278,33 @@ main .jogos .jogos-flex {
     header .header-bottom nav > a {
         padding: 0;
         border: none;
+        font-size: 14px;
     }
 
     header .header-bottom .menu-usuarios {
         position: static;
         flex-direction: row;
-        background-color: transparent;
-        background-image: none;
+        background-color: none;
+        /* background-image: none; */
         height: auto;
         width: 140px;
     }
-}
+
+    main {
+        margin-top: 0;
+    }
+
+    main .banner {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../Assets/image/Banner_background_1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 740px;
+        
+    }
+    }
+
+   
+    

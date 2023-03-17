@@ -209,6 +209,7 @@ main .jogos .jogos-flex {
     .layout-grid {
         width: 85%;
         max-width: 1200px;
+        
     }
 
     header  {
@@ -268,6 +269,7 @@ main .jogos .jogos-flex {
 
    header .header-bottom {
     display: flex;
+    height: 90px;
    }
 
     header .header-bottom nav {

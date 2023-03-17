@@ -70,6 +70,7 @@ header .header-top {
 
 header .header-bottom {
     height: 60px;
+
 }
 
 header .logo {
@@ -184,6 +185,7 @@ main .banner a {
     text-decoration: none;
     background-color: #F9AA01;
     border-radius: 8px;
+    margin-bottom: 47px;
 }
 
 /* Sessão Jogos */
@@ -200,6 +202,32 @@ main .jogos .jogos-flex {
     justify-content: space-evenly;
 }
 
+main .banner-amarelo {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9AA01;
+    height: 1535px;
+    width: 100%;
+}
+
+main .banner-amarelo h3 {
+    font-family: TitilliumWeb-Black;
+    font-size: 18px;
+    color: #1B1426;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 70px;
+}
+
+main .banner-amarelo .killjoy img {
+    width: 314px;
+    height: 511px;
+}
+
+main .banner-amarelo .killjoy .jogosdiferentes {
+    width: 231px;
+    height: 300px;
+}
 
 /* Tablets >= 768px */
 @media screen and (min-width: 768px) {}
@@ -209,13 +237,14 @@ main .jogos .jogos-flex {
     .layout-grid {
         width: 85%;
         max-width: 1200px;
-        
+
     }
 
-    header  {
+    header {
+        position: static;
         height: 140px;
         position: static;
-        
+
     }
 
 
@@ -225,7 +254,7 @@ main .jogos .jogos-flex {
         justify-content: space-between;
         border-bottom: 2px solid #F9AA01;
         height: 50px;
-        
+
     }
 
     header .header-top .contatos {
@@ -233,14 +262,19 @@ main .jogos .jogos-flex {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+
     }
 
     /* .divs .phone, .mail */
-    header .header-top .contatos > div {
+    header .header-top .contatos>div {
         display: flex;
         gap: 10px;
         width: 200px;
-        
+        align-items: center;
+
 
     }
 
@@ -262,15 +296,14 @@ main .jogos .jogos-flex {
         display: none;
     }
 
-    
-   header .logo {
-    width: 200px;
-   }
 
-   header .header-bottom {
-    display: flex;
-    height: 90px;
-   }
+    header .logo {
+        width: 200px;
+    }
+
+    header .header-bottom {
+        height: 90px;
+    }
 
     header .header-bottom nav {
         position: static;
@@ -282,19 +315,22 @@ main .jogos .jogos-flex {
         padding-bottom: 0;
     }
 
-    
 
-    header .header-bottom nav > a {
+
+    header .header-bottom nav>a {
         padding: 0;
         border: none;
         font-size: 14px;
     }
 
+
     header .header-bottom .menu-usuarios {
+        display: flex;
         position: static;
         flex-direction: row;
         background-color: none;
-        /* background-image: none; */
+        justify-content: space-between;
+
         height: auto;
         width: 140px;
     }
@@ -310,10 +346,38 @@ main .jogos .jogos-flex {
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 740px;
+        height: 722px;
+    }
+
+    main .banner h1 {
+        font-family: TitilliumWeb-Black;
+        font-size: 80px;
+        margin-top: 15px;
+    }
+
+
+    main .banner a {
+        margin-bottom: 32px;
+        font-family: TitilliumWeb-Bold;
+        font-size: 24px;
         
     }
-    
 
-   }
-    
+    main .jogos .jogos-flex {
+        flex-direction: row;
+        width: 100%;
+        height: 500px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main .jogos img {
+        width: 556px;
+        height: 313px;
+    }
+
+    main .banneramarelo {
+        width: 100%;
+        height: 1000px;
+        background-color: #F9AA01;
+    }
+}

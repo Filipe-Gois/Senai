@@ -65,6 +65,7 @@ header {
 
 header .header-top {
     display: none;
+    height: 50px;
 }
 
 header .header-bottom {
@@ -222,10 +223,11 @@ main .jogos .jogos-flex {
         flex-direction: row;
         justify-content: space-between;
         border-bottom: 2px solid #F9AA01;
+        height: 50px;
+        
     }
 
     header .header-top .contatos {
-        border: 2px solid #FD4255;
         width: 420px;
         display: flex;
         justify-content: space-between;
@@ -237,14 +239,15 @@ main .jogos .jogos-flex {
         display: flex;
         gap: 10px;
         width: 200px;
-        border bottom: 2px solid #f9aa01;
+        
 
     }
 
 
     header .header-top .midias-sociais {
-        border: 2px solid #FD4255;  
+        display: flex;
         width: 140px;
+        justify-content: space-between;
     }
 
 
@@ -261,6 +264,10 @@ main .jogos .jogos-flex {
     
    header .logo {
     width: 200px;
+   }
+
+   header .header-bottom {
+    display: flex;
    }
 
     header .header-bottom nav {
@@ -304,7 +311,7 @@ main .jogos .jogos-flex {
         height: 740px;
         
     }
-    }
+    
 
-   
+   }
     

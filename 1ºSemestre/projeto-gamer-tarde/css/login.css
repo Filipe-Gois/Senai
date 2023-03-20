@@ -152,28 +152,81 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
 }
 
 main .tela-login {
-display: flex;
-flex-direction: column;
-width: 335px;
-height: 462px;
-justify-content: center;
-align-items: center;
-border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 462px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
+    backdrop-filter: blur(5px);
+}
+
+main .tela-login h1 {
+    font-size: 28px;
+    font-family: TitilliumWeb-Black;
+    text-transform: uppercase;
+    border-top: #F9AA01 solid 2px;
+    padding-bottom: 130px;
 }
 
 main .tela-login .email1 {
     width: 273px;
     height: 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: transparent;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    margin-bottom: 12%;
 }
+
+main .tela-login .email1 input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-right: 50px;
+
+}
+
 
 main .tela-login .senha1 {
     width: 273px;
     height: 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: transparent;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    margin-bottom: 20%;
+
 }
 
+main .tela-login .senha1 input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-right: 50px;
+}
+
+main .tela-login button {
+    width: 273px;
+    height: 40px;
+    background-color: #F9AA01;
+    color: #1B1426;
+    font-family: TitilliumWeb-Bold;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
 
 @media screen and (min-width: 1200px) {
     .layout-grid {
@@ -280,4 +333,4 @@ main .tela-login .senha1 {
 
 
 
-    }
+}

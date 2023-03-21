@@ -5,13 +5,13 @@
 }
 
 @font-face {
-    font-family: TitilliumWeb-Black;
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+    font-family: 'TitilliumWeb-Black';
+    src: url(../Assets/Fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
 @font-face {
-    font-family: TitilliumWeb-Bold;
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+    font-family: 'TitilliumWeb-Bold';
+    src: url(../Assets/Fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
 /* Reset CSS */
@@ -147,32 +147,50 @@ main {
     margin-top: 60px;
     height: 687px;
     background-image: url(../Assets/image/Banner_Login.png);
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
 }
 
+
+
 main .tela-login {
     display: flex;
     flex-direction: column;
     width: 335px;
     height: 462px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 8px;
     background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
     backdrop-filter: blur(5px);
+    border-image: linear-gradient(to right bottom);
 }
 
 main .tela-login h1 {
     font-size: 28px;
-    font-family: TitilliumWeb-Black;
+    font-family: 'TitilliumWeb-Black';
     text-transform: uppercase;
-    border-top: #F9AA01 solid 2px;
-    padding-bottom: 130px;
+    border-top: #F9AA01 solid 5px;
+}
+
+main .tela-login .cadastro {
+display: flex;
+flex-direction: column;
+
+}
+
+
+main .tela-login .cadastro .email1 img {
+    width: 20px;
+    height: 20px;
+}
+
+main .tela-login .cadastro .senha1 img {
+    width: 20px;
+    height: 16px;
 }
 
 main .tela-login .email1 {
@@ -180,11 +198,22 @@ main .tela-login .email1 {
     height: 40px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 8px;
     background-color: transparent;
     background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
     backdrop-filter: blur(3px);
-    margin-bottom: 12%;
+    margin-bottom: 40px;
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+    
 }
 
 main .tela-login .email1 input {
@@ -192,20 +221,33 @@ main .tela-login .email1 input {
     outline: none;
     border: none;
     padding-right: 50px;
-
+    color: white;
 }
 
+main .tela-login .email1 input::placeholder {
+    color: white;
+}
 
 main .tela-login .senha1 {
     width: 273px;
     height: 40px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 8px;
     background-color: transparent;
     background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
     backdrop-filter: blur(3px);
-    margin-bottom: 20%;
+    /* efeito da borda e do fundo glass */
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        /* fundo */
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        /* fundo borda */
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+    
 
 }
 
@@ -214,6 +256,7 @@ main .tela-login .senha1 input {
     outline: none;
     border: none;
     padding-right: 50px;
+    color: white;
 }
 
 main .tela-login button {
@@ -225,7 +268,11 @@ main .tela-login button {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
+    border-radius: 8px;
+}
 
+main .tela-login .senha1 input::placeholder {
+    color: white;
 }
 
 @media screen and (min-width: 1200px) {

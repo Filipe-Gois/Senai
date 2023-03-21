@@ -229,6 +229,38 @@ main .banner-amarelo .killjoy .jogosdiferentes {
     height: 300px;
 }
 
+footer {
+    height: 1531px;
+    width: 100%;
+    background-image: url(../Assets/image/backgroung_footer.png);
+}
+
+
+
+
+
+footer .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 212px;
+
+    background: linear-gradient(180deg, #000002 21.51%, rgba(67, 3, 99, 0.03) 100%);
+}
+
+footer .footer-top img {
+    height: 32px;
+    width: 110px;
+    margin-top: 40px;
+    
+}
+footer .footer-top p {
+    padding-top: 40px;
+}
+
+
+
 /* Tablets >= 768px */
 @media screen and (min-width: 768px) {}
 

@@ -14,6 +14,11 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: 'Quicksand-regular';
+    src: url(../Assets/Fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
 /* Reset CSS */
 
 * {
@@ -208,6 +213,15 @@ main .banner-amarelo {
     background-color: #F9AA01;
     height: 1535px;
     width: 100%;
+    /* justify-content: space-around; */
+
+
+}
+
+main .banner-amarelo .titulo-banner-amarelo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main .banner-amarelo h3 {
@@ -219,15 +233,114 @@ main .banner-amarelo h3 {
     padding-top: 70px;
 }
 
-main .banner-amarelo .killjoy img {
+main .banner-amarelo p {
+    border-bottom: 3px solid #1B1426;
+    width: 204px;
+    padding-top: 30px;
+    
+}
+
+main .banner-amarelo .killjoy-jinx {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+main .banner-amarelo .killjoy {
+    position: relative;
+    padding-top: 90px;
+}
+
+
+main .banner-amarelo .killjoy .imagemkilljoy {
     width: 314px;
     height: 511px;
+    position: relative;
+    
 }
 
 main .banner-amarelo .killjoy .jogosdiferentes {
     width: 231px;
     height: 300px;
+    background: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    backdrop-filter: blur(7.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    
 }
+
+main .banner-amarelo .killjoy .jogosdiferentes img {
+    width: 97px;
+    height: 97px;
+    margin-top: 25px;
+
+}
+
+main .banner-amarelo .killjoy .jogosdiferentes h4 {
+    font-family: TitilliumWeb-Black;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0px 0px 6px #C6A5E5;
+    padding-top: 10px;
+}
+
+main .banner-amarelo .killjoy .jogosdiferentes p {
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    padding-bottom: 35px;
+    font-family: 'Quicksand-regular';
+}
+
+main .banner-amarelo .jinx {
+    position: relative;
+}
+
+main .banner-amarelo .jinx .professores53 {
+    width: 231px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    backdrop-filter: blur(7.5px);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+}
+
+main .banner-amarelo .jinx .professores53 img {
+    width: 97px;
+    height: 96px;
+}
+
+main .banner-amarelo .jinx .professores53 h4 {
+    font-family: TitilliumWeb-Black;
+    font-size: 18px;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px #C6A5E6;
+    color: white;
+}
+
+main .banner-amarelo .jinx .professores53 p {
+    font-family: 'Quicksand-regular';
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+}
+
 
 footer {
     height: 1531px;
@@ -253,8 +366,9 @@ footer .footer-top img {
     height: 32px;
     width: 110px;
     margin-top: 40px;
-    
+
 }
+
 footer .footer-top p {
     padding-top: 40px;
 }
@@ -392,7 +506,7 @@ footer .footer-top p {
         margin-bottom: 32px;
         font-family: TitilliumWeb-Bold;
         font-size: 24px;
-        
+
     }
 
     main .jogos .jogos-flex {
@@ -402,6 +516,7 @@ footer .footer-top p {
         justify-content: space-between;
         align-items: center;
     }
+
     main .jogos img {
         width: 556px;
         height: 313px;

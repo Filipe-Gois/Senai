@@ -76,6 +76,11 @@ header .header-top {
     height: 50px;
 }
 
+header .header-top .contatos {
+    color: white;
+}
+
+
 header .header-bottom {
     height: 60px;
 

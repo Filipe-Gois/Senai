@@ -151,7 +151,120 @@ header .menu-usuarios {
     align-items: center;
 }
 
+main {
+    height: 1231px;
+    margin-top: 60px;
+    color: white;
+}
 
+main .equipes {
+    background-image: url(../Assets/image/Banner_cadastro_de_Equipe.png);
+    height: 1231px;
+    width: 100%;
+}
+
+/* main .equipes .blur {
+    height: 100%;
+    width: 100%;
+    background: rgba(217, 217, 217, 0.01);
+backdrop-filter: blur(2px);
+} */
+
+
+main .equipes .formulario-equipes {
+    height: 492px;
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+    }
+
+main .equipes .formulario-equipes .titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 290px;
+    height: 52px;
+    justify-content: center;
+}
+
+main .equipes .formulario-equipes .titulo h1 {
+    font-family: TitilliumWeb-Black;
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    /* width: 290px;
+    height: 43px; */
+}
+
+main .equipes .formulario-equipes .titulo p {
+    border-bottom: #F9AA01 solid 2px;
+    width: 250px;
+    
+}
+
+main .equipes .formulario-equipes .cadastro .idequipe {
+    width: 273px;
+    height: 40px;
+    
+}
+
+main .equipes table {
+    
+    border-radius: 8px;
+    /* display: flex; */
+    
+    width: 334px;
+    height: 394px;
+}
+
+main .equipes table thead {
+    width: 336px;
+    height: 51px;
+    
+}
+
+main .equipes table thead p {
+    border-bottom: #F9AA01 2px solid;
+}
+
+main .equipes table thead tr {
+    color: #F9AA01;
+    text-align: center;
+    
+}
+
+main .equipes table tbody tr .lixeira-icone {
+    height: 19px;
+    width: 16px;
+}
+
+
+main .equipes table tbody tr {
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
+backdrop-filter: blur(5px);
+border-radius: 8px;
+text-align: center;
+width: 336px;
+height: 70px;
+
+}
+
+/* main .equipes table tbody tr td .dado1 {
+    width: ;
+} */
+
+
+main .equipes table tbody tr .img-loud {
+    height: 32px;
+    width: 47px;
+    
+}
+
+
+
+/* Note: backdrop-filter has minimal browser support */
 
 @media screen and (min-width: 1200px) {
     .layout-grid {
@@ -304,11 +417,11 @@ header .menu-usuarios {
 }
 
 footer {
-    /* height: 1531px; */
+    height: 1531px;
     width: 100%;
     background-image: url(../Assets/image/backgroung_footer.png);
-}
 
+}
 footer .footer-top {
     display: flex;
     flex-direction: column;

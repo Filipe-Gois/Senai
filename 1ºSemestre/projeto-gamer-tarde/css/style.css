@@ -377,7 +377,7 @@ footer .footer-top p {
 
 footer .footer-bottom {
     width: 100%;
-    height: 1319px;
+    height: 1260px;
     display: flex;
     flex-direction: column;
 }
@@ -437,16 +437,16 @@ footer .footer-bottom .links-uteis .links-uteis-itens .links1 {
 
 footer .footer-bottom .links-uteis .links-uteis-itens .links1 .abc {
     width: 100px;
-    
+    gap: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 footer .footer-bottom .links-uteis .links-uteis-itens .links1 .abc hr {
-    width: 15px;
-    height: 5px;
-    
+    width: 20px;
+    height: 2px;
+    border: none;
     background-color: #F9AA01;
 
 
@@ -456,6 +456,7 @@ footer .footer-bottom .links-uteis .links-uteis-itens a {
     color: white;
     text-decoration: none;
     width: 110px;
+    margin-right: 10px;
     
 }
 

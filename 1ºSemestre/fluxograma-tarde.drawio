@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-03-27T19:48:44.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="y6qYzF2gsEkQC7JF96NV" version="21.1.1" type="device">
+  <diagram name="Página-1" id="Ne-a-9kH0nE5XFkvNd-5">
+    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-1" target="U_tbg-z2aMRyqDDXU0u2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-1" value="Início" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-2" target="U_tbg-z2aMRyqDDXU0u2-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-2" value="Qual a cor do semáforo ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-3" target="U_tbg-z2aMRyqDDXU0u2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-3" value="Cor do semáforo" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="364" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-4" target="U_tbg-z2aMRyqDDXU0u2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-4" target="U_tbg-z2aMRyqDDXU0u2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-4" value="a cor do semáforo é vermelho ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="336" y="320" width="156" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-5" target="U_tbg-z2aMRyqDDXU0u2-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-5" value="Frear e parar o carro." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="335" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-6" target="U_tbg-z2aMRyqDDXU0u2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-6" target="U_tbg-z2aMRyqDDXU0u2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-6" value="a cor do semáforo é amarelo ?&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="519" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-7" target="U_tbg-z2aMRyqDDXU0u2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-7" value="Reduzir a velocidade." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="535" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U_tbg-z2aMRyqDDXU0u2-8" target="U_tbg-z2aMRyqDDXU0u2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-8" value="pode seguir" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="65" y="840" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-9" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="364" y="860" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-14" value="SIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="335" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-17" value="NÃO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="335" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-23" value="SIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="535" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_tbg-z2aMRyqDDXU0u2-27" value="NÃO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="725" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

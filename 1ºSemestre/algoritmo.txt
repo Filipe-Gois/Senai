@@ -1,0 +1,13 @@
+algoritmo para decidir a média de um aluno
+
+qual a n1 ?
+
+qual a n2 ?
+
+qual a n3 ?
+
+Somar todas as notas e dividir por 3
+
+se o valor for acima de 5: aprovado
+
+caso não seja, será reprovado

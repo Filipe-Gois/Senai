@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\bin\Debug\net7.0\atividade-projeto-de-console.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\bin\Debug\net7.0\atividade-projeto-de-console.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\bin\Debug\net7.0\atividade-projeto-de-console.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\bin\Debug\net7.0\atividade-projeto-de-console.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\bin\Debug\net7.0\atividade-projeto-de-console.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\refint\atividade-projeto-de-console.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\atividade-projeto-de-console.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\obj\Debug\net7.0\ref\atividade-projeto-de-console.dll

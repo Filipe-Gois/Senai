@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\bin\Debug\net7.0\atividade2.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\bin\Debug\net7.0\atividade2.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\bin\Debug\net7.0\atividade2.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\bin\Debug\net7.0\atividade2.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\bin\Debug\net7.0\atividade2.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\refint\atividade2.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\atividade2.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\atividade-projeto-de-console\atividade2\obj\Debug\net7.0\ref\atividade2.dll

@@ -1,0 +1,12 @@
+1: informar o salário recebido
+2: informar o total gasto
+
+se
+valor gasto não ultrapassar o valor do salário: Gastos dentro do orçamento
+
+ou
+
+valor gasto ultrapassar o valor do salário: Orçamento estourado
+
+slário--gasto
+

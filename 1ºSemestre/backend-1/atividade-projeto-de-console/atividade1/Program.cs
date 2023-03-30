@@ -10,7 +10,7 @@ Console.WriteLine(@$"
 Console.ResetColor();
 
 Console.WriteLine($"Insira sua idade em anos: ");
-int idadeAnos = int.Parse(Console.ReadLine());
+int idadeAnos = int.Parse(Console.ReadLine()!);
 
 
 

@@ -1,0 +1,6 @@
+receber placar do jogo(gol de cada time)
+
+se o saldo de gols for igual= empate
+
+ou
+informar de quem foi a vitória

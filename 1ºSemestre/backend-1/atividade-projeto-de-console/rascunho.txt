@@ -1,0 +1,19 @@
+atividade 1:
+
+
+Filipe
+
+Idade em:
+
+meses;
+dias;
+horas;
+minutos.
+
+atividade 2:
+
+receber ano de nascimento
+
+calcular a idade em:
+anos;
+semanas.

@@ -1,0 +1,6 @@
+Ler as medidas dos lados de um triângulo
+
+determinar se é:
+equilátero (3 iguais)
+isósceles (2 iguais)
+escaleno (3 diferentes)

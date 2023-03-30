@@ -1,0 +1,6 @@
+verificar validade da senha
+
+senha correta: 1234
+
+ACESSO    PERMITIDO    caso    a    senha    seja    válida.
+ACESSO    NEGADO    caso    a    senha    seja    inválida.

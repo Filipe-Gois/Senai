@@ -1,0 +1,6 @@
+número de maçâs: <=11   R$0.30
+
+número de maçâs >=12   R$0.25
+
+ler número de maçâs compradas
+calcular o valor total da compra

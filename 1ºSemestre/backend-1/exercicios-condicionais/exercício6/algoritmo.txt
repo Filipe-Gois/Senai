@@ -1,0 +1,15 @@
+aprovação do aluno: 
+média >=7.0
+frequência >=75%
+
+
+situação real:
+média >=3 <7
+frequência 75% = rec
+
+
+frequência:
+
+se for menor que 75%: reprovado direto
+
+se for no mínimo 75%: avaliar a média para aprovar, reprovar ou ddeixar de REC

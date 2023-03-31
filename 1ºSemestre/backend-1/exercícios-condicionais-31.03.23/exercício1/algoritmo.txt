@@ -1,0 +1,8 @@
+pergutar:
+dia;
+mês;
+ano.
+de aniversário
+
+data válida: ok
+data inválida: especificar o pq;

@@ -1,0 +1,4 @@
+perguntar o raio de uma circunferência
+mostrar o diâmetro
+comprimento
+área

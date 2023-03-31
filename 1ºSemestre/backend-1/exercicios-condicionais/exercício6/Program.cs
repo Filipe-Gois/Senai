@@ -10,8 +10,14 @@ if ((media >= 7) && (freq >= 75))
     
 }
 
-else if ((media < 7) || (freq < 75))
+else if (freq < 75)
 {
-    Console.WriteLine($"Sinto muito, você foi reprovado.");
+    Console.WriteLine($"Sinto muito, você está reprovado.");
+    
+}
+
+else if ((freq >= 75) && (media >= 3) && (media < 7))
+{
+    Console.WriteLine($"Você será encaminhado para a recuperação. Estude!!");
     
 }

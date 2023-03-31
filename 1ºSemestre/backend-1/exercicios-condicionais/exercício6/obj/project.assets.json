@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fytho\\.nuget\\packages\\": {}
+    "C:\\Users\\46633783825\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercicios-condicionais\\exercício6\\exercício6.csproj",
+      "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\exercicios-condicionais\\exercício6\\exercício6.csproj",
       "projectName": "exercício6",
-      "projectPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercicios-condicionais\\exercício6\\exercício6.csproj",
-      "packagesPath": "C:\\Users\\fytho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercicios-condicionais\\exercício6\\obj\\",
+      "projectPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\exercicios-condicionais\\exercício6\\exercício6.csproj",
+      "packagesPath": "C:\\Users\\46633783825\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\exercicios-condicionais\\exercício6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fytho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\46633783825\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

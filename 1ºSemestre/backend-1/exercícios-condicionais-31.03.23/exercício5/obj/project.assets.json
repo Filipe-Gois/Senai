@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercícios-condicionais-31.03.23\\exercício3\\exercício3.csproj",
-      "projectName": "exercício3",
-      "projectPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercícios-condicionais-31.03.23\\exercício3\\exercício3.csproj",
+      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercícios-condicionais-31.03.23\\exercício5\\exercício5.csproj",
+      "projectName": "exercício5",
+      "projectPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercícios-condicionais-31.03.23\\exercício5\\exercício5.csproj",
       "packagesPath": "C:\\Users\\fytho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercícios-condicionais-31.03.23\\exercício3\\obj\\",
+      "outputPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\backend-1\\exercícios-condicionais-31.03.23\\exercício5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fytho\\AppData\\Roaming\\NuGet\\NuGet.Config"

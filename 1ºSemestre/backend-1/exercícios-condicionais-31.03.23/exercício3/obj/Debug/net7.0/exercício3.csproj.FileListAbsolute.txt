@@ -1,5 +1,0 @@
-C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício3\obj\Debug\net7.0\exercício3.csproj.AssemblyReference.cache
-C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício3\obj\Debug\net7.0\exercício3.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício3\obj\Debug\net7.0\exercício3.AssemblyInfoInputs.cache
-C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício3\obj\Debug\net7.0\exercício3.AssemblyInfo.cs
-C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício3\obj\Debug\net7.0\exercício3.csproj.CoreCompileInputs.cache

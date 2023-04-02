@@ -24,7 +24,7 @@ else if ((lado1 == lado2) || (lado1 == lado3) || (lado2 == lado3))
 
 else if ((lado1 != lado2) || (lado1 != lado3) || (lado2 != lado3))
 {
-    Console.WriteLine($"eu triângulo é escaleno, não possuindo lados iguais.");
+    Console.WriteLine($"Seu triângulo é escaleno, não possuindo lados iguais.");
     
 }
 

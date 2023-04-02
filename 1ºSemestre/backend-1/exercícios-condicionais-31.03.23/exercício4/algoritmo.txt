@@ -1,0 +1,25 @@
+fazer 5 perguntas:
+
+"Telefonou para a vítima?"
+
+
+"Esteve no local do crime?"
+
+
+"Mora perto da vítima?"
+
+
+"Devia para a vítima?"
+
+
+"Já trabalhou com a vítima?"
+
+classificar
+
+2 questões com sim: suspeita
+
+3 e 4 com sim: cúmplice
+
+5 com sim: culpado
+
+0 com sim: inocente

@@ -1,28 +1,37 @@
-﻿Console.WriteLine($"Você telefonou para a vítima ? (Responda com sim ou não)");
-string telefonou = Console.ReadLine() .ToUpper();
+﻿int respostasPositivas = 0;
 
+string resposta = "";
 
+List<string> perguntas = new List<string> {
+    "Você telefonou para a vítima? ",
+    "Você esteve no local do crime? ",
+    "Você mora perto da vítima? ",
+    "Você devia para a vítima? ",
+    "Você já trabalhou com a vítima? "
+};
 
-Console.WriteLine($"Você esteve no local do crime? (Responda com sim ou não)");
-string esteve = Console.ReadLine() .ToUpper();
-
-Console.WriteLine($"Você mora perto da vítima? (Responda com sim ou não)");
-string mora = Console.ReadLine() .ToUpper();
-
-Console.WriteLine($"Você devia para a vítima? (Responda com sim ou não)");
-string devia = Console.ReadLine() .ToUpper();
-
-Console.WriteLine($"Você já trabalhou com a vítima? (Responda com sim ou não)");
-string trabalhou = Console.ReadLine() .ToUpper();
-
-
-if ((telefonou == "NÃO") && (esteve == "NÃO") && (mora == "NÃO") && (devia == "NÃO") && (trabalhou == "NÃO"))
+foreach (string pergunta in perguntas)
 {
-    Console.WriteLine($"Você foi considerado inocente.");
+    Console.WriteLine($"{pergunta} [sim/não] ");
+    resposta = Console.ReadLine()! .ToUpper();
+
+    if (resposta == "SIM") 
+    {
+        respostasPositivas++;
+    }
 }
 
-
-else if ((telefonou == "SIM") && (esteve == "SIM") && (mora == "SIM") && (devia == "SIM") && (trabalhou == "SIM"))
-{
-    Console.WriteLine($"Você foi considerado culpado.");
-}
+switch (respostasPositivas) {
+    case 2:
+        Console.WriteLine($"Você é considerado Suspeito.");
+        break;
+    case 3 or 4:
+        Console.WriteLine($"Você é considerado Cúmplice.");
+        break;
+    case 5:
+        Console.WriteLine($"Você é considerado Culpado.");
+        break;
+    default:
+        Console.WriteLine($"Você é considerado Inocente.");
+        break;
+        }

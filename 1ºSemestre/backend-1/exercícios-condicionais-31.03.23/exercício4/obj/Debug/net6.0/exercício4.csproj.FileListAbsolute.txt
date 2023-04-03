@@ -13,3 +13,18 @@ C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\exercício
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.pdb
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.genruntimeconfig.cache
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\ref\exercício4.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\bin\Debug\net6.0\exercício4.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\bin\Debug\net6.0\exercício4.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\bin\Debug\net6.0\exercício4.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\bin\Debug\net6.0\exercício4.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\bin\Debug\net6.0\exercício4.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\refint\exercício4.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\exercício4.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\exercícios-condicionais-31.03.23\exercício4\obj\Debug\net6.0\ref\exercício4.dll

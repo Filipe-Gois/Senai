@@ -41,7 +41,7 @@ switch (bebida)
         Console.WriteLine($"Pepsi com gelo adicionada ao pedido.");
     }
     else{
-        Console.WriteLine($"CPepsi sem gelo adicionada ao pedido.");
+        Console.WriteLine($"Pepsi sem gelo adicionada ao pedido.");
         
     }
     break;
@@ -66,10 +66,10 @@ switch (bebida)
     
     
     if (respGelo == "SIM") {
-        Console.WriteLine($"Monter com gelo adicionada ao pedido.");
+        Console.WriteLine($"Monter com gelo adicionado ao pedido.");
     }
     else{
-        Console.WriteLine($"Monster sem gelo adicionada ao pedido.");
+        Console.WriteLine($"Monster sem gelo adicionado ao pedido.");
         
     }
     break;

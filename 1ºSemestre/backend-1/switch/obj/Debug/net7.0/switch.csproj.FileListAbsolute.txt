@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\bin\Debug\net7.0\switch.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\bin\Debug\net7.0\switch.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\bin\Debug\net7.0\switch.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\bin\Debug\net7.0\switch.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\bin\Debug\net7.0\switch.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\refint\switch.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\switch.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\obj\Debug\net7.0\ref\switch.dll

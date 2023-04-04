@@ -1,4 +1,6 @@
-﻿Console.WriteLine(@$"
+﻿// entrada
+// exibição no ocnsole
+Console.WriteLine(@$"
 -------------------------------------
 | Bem-vindo!                          |   
 |                                     | 
@@ -13,12 +15,17 @@
 
 Console.WriteLine($"Informe a bebida desejada:");
 
+// armazena a opção escolhida
 int bebida = int.Parse(Console.ReadLine()!.ToUpper());
+
 string respGelo = "";
 
+// processamento
 switch (bebida)
 {
     case 1:
+    Console.WriteLine($"A bebida escolhida foi Coca Cola.");
+    
     Console.WriteLine($"Gostaria de acrescentar gelo ?");
     respGelo = Console.ReadLine()! .ToUpper();
     
@@ -33,6 +40,8 @@ switch (bebida)
     break;
 
     case 2:
+    Console.WriteLine($"A bebida escolhida foi Pepsi.");
+    
     Console.WriteLine($"Gostaria de acrescentar gelo ?");
     respGelo = Console.ReadLine()! .ToUpper();
     
@@ -47,6 +56,8 @@ switch (bebida)
     break;
 
     case 3:
+    Console.WriteLine($"A bebida escolhida foi Fanta.");
+
     Console.WriteLine($"Gostaria de acrescentar gelo ?");
     respGelo = Console.ReadLine()! .ToUpper();
     
@@ -61,6 +72,8 @@ switch (bebida)
     break;
     
     case 4:
+    Console.WriteLine($"A bebida escolhida foi Monster.");
+
     Console.WriteLine($"Gostaria de acrescentar gelo ?");
     respGelo = Console.ReadLine()! .ToUpper();
     

@@ -13,3 +13,18 @@ C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\switch\esc
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.pdb
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.genruntimeconfig.cache
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\ref\escolha de refri exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\bin\Debug\net6.0\escolha de refri exercício.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\bin\Debug\net6.0\escolha de refri exercício.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\bin\Debug\net6.0\escolha de refri exercício.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\bin\Debug\net6.0\escolha de refri exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\bin\Debug\net6.0\escolha de refri exercício.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\refint\escolha de refri exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\escolha de refri exercício.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\switch\escolha de refri exercício\obj\Debug\net6.0\ref\escolha de refri exercício.dll

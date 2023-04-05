@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\exercício\\exercício.csproj": {}
+    "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\sla\\sla.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\exercício\\exercício.csproj": {
+    "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\sla\\sla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\exercício\\exercício.csproj",
-        "projectName": "exercício",
-        "projectPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\exercício\\exercício.csproj",
+        "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\sla\\sla.csproj",
+        "projectName": "sla",
+        "projectPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\sla\\sla.csproj",
         "packagesPath": "C:\\Users\\46633783825\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\exercício\\obj\\",
+        "outputPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\backend-1\\estruturas de repetição\\sla\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46633783825\\AppData\\Roaming\\NuGet\\NuGet.Config",

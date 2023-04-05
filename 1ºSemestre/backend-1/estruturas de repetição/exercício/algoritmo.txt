@@ -1,0 +1,9 @@
+validar informações:
+
+1)nome!= vazio
+
+2)idade >=0 <=100
+
+3)salário > 0
+
+4) Estado Civil: 's'(solteiro(a)), 'c'(casado(a)), 'v'(viúvo(a)), 'd'(divorciado(a));

@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\bin\Debug\net7.0\exercício.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\bin\Debug\net7.0\exercício.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\bin\Debug\net7.0\exercício.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\bin\Debug\net7.0\exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\bin\Debug\net7.0\exercício.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\refint\exercício.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\exercício.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\backend-1\estruturas de repetição\exercício\obj\Debug\net7.0\ref\exercício.dll

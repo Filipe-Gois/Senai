@@ -1,0 +1,6 @@
+10 pessoas:
+
+A.O número de pessoas que responderam SIM.
+B.O número de pessoas que responderam NÃO;
+C.O número de mulheres que responderam SIM;
+D.A porcentagem de homens que responderam NÃO entre todos os homens analisados.

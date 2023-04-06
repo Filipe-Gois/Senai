@@ -1,0 +1,3 @@
+pedir nota entre 0 e 10
+
+inválido: ficar repetindo até acertar e exibir mensagem

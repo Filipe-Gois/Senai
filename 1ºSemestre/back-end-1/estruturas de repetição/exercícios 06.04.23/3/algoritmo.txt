@@ -1,0 +1,1 @@
+informar tabuada do numero inteiro apresentado

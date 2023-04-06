@@ -1,0 +1,2 @@
+ler nome de usuário e senha
+senha != nome de usuário (mostrar mensagem de erro e voltar)

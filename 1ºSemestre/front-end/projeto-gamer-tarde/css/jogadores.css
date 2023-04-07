@@ -151,6 +151,246 @@ header .menu-usuarios {
     align-items: center;
 }
 
+header .contatos {
+    color: white;
+}
+
+main {
+    margin-top: 60px;
+    background-image: url(../Assets/image/Banner_cadastro_de_Jogadores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1403px;
+    color: white;
+}
+
+main .jogadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+main .jogadores .formulario {
+    width: 335px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+main .jogadores .formulario .titulo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 286px;
+    height: 85px;
+    text-align: center;
+}
+
+
+main .jogadores .formulario .titulo-form h1 {
+    font-size: 28px;
+    color: white;
+    font-family: TitilliumWeb-Black;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+main .jogadores .formulario .titulo-form p {
+    width: 250px;
+    border-bottom: solid 3px #F9AA01;
+}
+
+main .jogadores .formulario .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 273px;
+    height: 293px;
+    align-items: center;
+}
+
+main .jogadores .formulario .cadastro .id-jogador {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+
+}
+
+main .jogadores .formulario .cadastro .id-jogador input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+
+}
+
+
+main .jogadores .formulario .cadastro .id-jogador ::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titilliumweb-regular';
+}
+
+main .jogadores .formulario .cadastro .selecionar-equipe {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+}
+
+main .jogadores .formulario .cadastro .selecionar-equipe input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+main .jogadores .formulario .cadastro .selecionar-equipe ::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titilliumweb-regular';
+}
+
+main .jogadores .formulario .cadastro .nome-jogador {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border-radius: 8px;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    align-items: center;
+    padding-left: 15px;
+}
+
+main .jogadores .formulario .cadastro .nome-jogador input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+main .jogadores .formulario .cadastro .nome-jogador ::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titilliumweb-regular'; 
+}
+
+main .jogadores .formulario .cadastro .email-jogador {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+main .jogadores .formulario .cadastro .email-jogador input {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+main .jogadores .formulario .cadastro .email-jogador ::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titilliumweb-regular'; 
+}
+
+
+main .jogadores .formulario .cadastro .senha-jogador {
+    background: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+main .jogadores .formulario .cadastro .senha-jogador input {
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+main .jogadores .formulario .cadastro .senha-jogador ::placeholder {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titilliumweb-regular'; 
+}
+
+main .jogadores .formulario button {
+    width: 273px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F9AA01;
+    color: #1B1426;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: TitilliumWeb-Bold;
+    border: none;
+    position: relative;
+    bottom: 40px;
+}
+
+main .jogadores table {
+    width: 335px;
+    height: 405px;
+
+}
+
+main .jogadores table thead {
+    width: 100%;
+    height: 51px;
+    color: #F9AA01;
+    border-bottom: 3px solid #F9AA01;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
     .layout-grid {
         width: 85%;
@@ -355,7 +595,7 @@ footer .footer-bottom .links-sociais-footer {
 }
 
 footer .footer-bottom .links-uteis {
-    
+
     margin-bottom: 25%;
 }
 
@@ -381,7 +621,7 @@ footer .footer-bottom .links-uteis .links-uteis-itens {
     font-size: 16px;
     font-weight: 700;
     color: white;
-    
+
 }
 
 footer .footer-bottom .links-uteis .links-uteis-itens .links1 {
@@ -398,6 +638,7 @@ footer .footer-bottom .links-uteis .links-uteis-itens .links1 .abc {
     align-items: center;
 
 }
+
 footer .footer-bottom .links-uteis .links-uteis-itens .links1 .abc hr {
     width: 20px;
     height: 2px;
@@ -412,7 +653,7 @@ footer .footer-bottom .links-uteis .links-uteis-itens a {
     text-decoration: none;
     width: 110px;
     margin-right: 10px;
-    
+
 }
 
 

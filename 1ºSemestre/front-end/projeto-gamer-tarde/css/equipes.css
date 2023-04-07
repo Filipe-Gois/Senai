@@ -151,6 +151,10 @@ header .menu-usuarios {
     align-items: center;
 }
 
+header .contatos {
+    color: white;
+}
+
 main {
     height: 1231px;
     margin-top: 60px;

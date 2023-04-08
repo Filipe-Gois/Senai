@@ -97,6 +97,7 @@ main .banner1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 5;
 }
 
 
@@ -129,6 +130,7 @@ main .banner1 .coisas-do-banner {
     display: flex;
     align-items: center;
     
+    
 }
 
 main .banner1 .img-notebook {
@@ -137,6 +139,7 @@ main .banner1 .img-notebook {
     position: relative;
     top: 90px;
     left: 100px;
+    
 }
 
 main .banner1 .info-banner1 {
@@ -167,4 +170,44 @@ main .banner1 .info-banner1 button {
     border-radius: 60px;
     width: 175px;
     height: 55px;
+}
+
+main .envio {
+    width: 100%;
+    height: 285px;
+    background-color: #E0D2EB;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    padding: 50px;
+    z-index: 6;
+}
+
+main .envio img {
+    width: 50px;
+    height: 50px;
+}
+
+main .envio .resumo {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+main .envio .resumo .caminhao-envio p {
+    margin-left: 65px;
+
+}
+
+main .envio .titulo-caminhao {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+main .envio .titulo-caminhao h4 {
+    font-size: 26px;
 }

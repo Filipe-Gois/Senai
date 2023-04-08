@@ -269,6 +269,7 @@ main .tela-login button {
     font-weight: 700;
     text-align: center;
     border-radius: 8px;
+    border: none;
 }
 
 main .tela-login .senha1 input::placeholder {

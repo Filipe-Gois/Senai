@@ -364,6 +364,10 @@ main .jogadores .formulario button {
 main .jogadores table {
     width: 335px;
     height: 405px;
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    
 
 }
 
@@ -372,15 +376,70 @@ main .jogadores table thead {
     height: 51px;
     color: #F9AA01;
     border-bottom: 3px solid #F9AA01;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: TitilliumWeb-Black;
+    
 }
 
+main .jogadores table thead tr {
+    display: flex;
+    gap: 50px;
+    margin-left: 10px;
+}
 
+main .jogadores table thead tr .nome-thead {
+    position: relative;
+    right: 20px;
+}
 
+main .jogadores table tbody {
+    /* border-collapse: collapse; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    vertical-align: middle;
+    font-family: TitilliumWeb-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 20px;
+    
+}
 
+main .jogadores table tbody tr {
+    width: 335px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border-radius: 8px;
+    
+}
 
+main .jogadores table tbody tr .joao {
+    border-right: #F9AA01 solid 3px;
+    border-left: #F9AA01 solid 3px;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
+main .jogadores table tbody tr .email-joao {
+    border-right: #F9AA01 solid 3px;
+    width: 160px;
+    height: 35px;
+    display: flex;
+}
 
 
 

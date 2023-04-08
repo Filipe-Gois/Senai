@@ -376,6 +376,7 @@ main .equipes table tbody {
     font-weight: 700;
     color: white;
     text-transform: uppercase;
+    
 
 }
 
@@ -398,6 +399,7 @@ main .equipes table tbody tr {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 main .equipes table tbody tr td {

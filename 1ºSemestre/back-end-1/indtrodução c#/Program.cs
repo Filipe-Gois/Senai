@@ -34,9 +34,6 @@
 
 // Console.WriteLine(imc);
 
-
-Console.WriteLine($"Indorme o nome do paciente");
+Console.BackgroundColor = ConsoleColor.Green;
+Console.WriteLine($"Informe o nome do paciente");
 string nome = Console.ReadLine();
-
-Console.BackgroundColor = ConsoleColor.Green
-

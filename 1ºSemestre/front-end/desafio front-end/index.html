@@ -12,9 +12,11 @@
 <body>
     <header>
         <div class="header1 layout-grid">
-            <h1>relap</h1>
+            <h1 class="relap">relap</h1>
             <div class="pesquisa-header">
-                <p>Search</p>
+                <form action="" class="form-search">
+                    <input type="text" name="" id="pesquisa" placeholder="Search">
+                </form>
             </div>
             <nav>
                 <a href="">Store</a>
@@ -24,20 +26,40 @@
                 <a href="">News</a>
             </nav>
             <div class="iconsheader">
-                <img src="../desafio front-end/icons/coracaoheader.svg" alt="">
-                <img src="../desafio front-end/icons/carrinho-header.svg" alt="">
-                <img src="../desafio front-end/icons/menu.svg" alt="">
+                <a href="">
+                    <img src="../desafio front-end/icons/coracaoheader.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../desafio front-end/icons/carrinho-header.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../desafio front-end/icons/menu.svg" alt="">
+                </a>
+
+
             </div>
         </div>
     </header>
 
     <main>
         <section class="banner1">
+            <div class="trocar-banner">
+                <button class="btn-esquerda">
+                    <img src="../desafio front-end/images/left-arrow.png" alt="">
+                </button>
+                <button class="btn-direita">
+                    <img src="../desafio front-end/images/right-arrow.png" alt="">
+                </button>
+            </div>
             <div class="layout-grid">
-                <img src="../desafio front-end/images/banner-notebook-tec-manha.png" alt="">
-                <h3>minimin venim</h3>
-                <h1>Ut labore et dolore</h1>
-                <button>Buy now</button>
+                <div class="coisas-do-banner">
+                    <img src="../desafio front-end/images/banner-notebook-tec-manha.png" alt="" class="img-notebook">
+                    <div class="info-banner1">
+                        <h3>minimin venim</h3>
+                        <h2>Ut labore et dolore</h2>
+                        <button>Buy now</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

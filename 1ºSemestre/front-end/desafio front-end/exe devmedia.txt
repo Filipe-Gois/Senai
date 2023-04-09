@@ -1,0 +1,15 @@
+1)ler 'numero'
+"número = code usuario"
+
+1.1)se 'numero' != 1234 : apresentar msg "usuario invalido"
+encerrar sistema
+
+1.2) se 'numero' == 1234, ler o proximo valor que é a senha.
+
+2) se 'senha' == 9999: exibir a msg "acesso permitido"
+
+2.1) se 'senha' != 9999: exibir a msg "senha incorreta" e duas alternativas
+
+2.2) 1- tentar novamente
+
+2.3) 0- encerrar sistema

@@ -4,3 +4,19 @@ A.O número de pessoas que responderam SIM.
 B.O número de pessoas que responderam NÃO;
 C.O número de mulheres que responderam SIM;
 D.A porcentagem de homens que responderam NÃO entre todos os homens analisados.
+
+
+
+saber o sexo do entrevistado
+saber se gostou do produto
+
+saber num de pessoas q responderam sim
+saber num de pessoas q responderam não
+
+saber o num de mulheres q responderam
+saber o num de mulheres q responderam sim
+
+saber o num de homens q responderam
+saber o num de homens q responderam sim
+
+saber a porcentagem de homens que responderam não

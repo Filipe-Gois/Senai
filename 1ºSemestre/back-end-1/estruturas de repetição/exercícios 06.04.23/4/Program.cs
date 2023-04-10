@@ -1,66 +1,75 @@
 ﻿int contador;
-int contadorSexof = 0;
-int contadorSfsim = 0;
 
-Console.WriteLine($"Bem-vindo ao questionário de nossa empresa.");
+char sexo;
+char opiniao;
 
-for (contador = 1; contador <= 10; contador++)
+int totalsim = 0;
+int totalnao = 0;
+
+int mulherestotal = 0;
+int mulherestotalsim = 0;
+
+int homenstotal = 0;
+int homensnao = 0;
+
+double porcentagemhomem = 0;
+
+for (contador = 1; contador <= 3; contador++)
 {
-    Console.WriteLine($"Informe seu sexo: (m/f)");
-    char sexo = char.Parse(Console.ReadLine()!.ToLower());
+    Console.WriteLine(@$"
+    Olá, informe o sexo do funcionário: 
+    (m) - masculino
+    (f) - feminino");
+
+    sexo = char.Parse(Console.ReadLine()!.ToLower());
+
     if (sexo == 'f')
     {
-        contadorSexof++;
+        mulherestotal++;
     }
 
-
-Console.WriteLine($"{sexo}");
-    Console.WriteLine($"Você gostou do produto oferecido ? (s/n)");
-    char resp = char.Parse(Console.ReadLine()!.ToLower());
-
-
+    else
     {
+        homenstotal++;
+    }
+
+    Console.WriteLine(@$"
+    Você gostou do produto ?
+    (s) - sim
+    (n) - não");
+
+    opiniao = char.Parse(Console.ReadLine()!.ToLower());
+
+    if (opiniao == 's')
+    {
+        totalsim++;
+        
+        if (sexo == 'f')
+        {
+            mulherestotalsim++;
+        }
 
     }
+    else
+    {
+        totalnao++;
+
+        if (sexo == 'm')
+        {
+            homensnao++;
+        }
+    }
+
 }
 
+porcentagemhomem = Math.Round(((double)homensnao /(double)homenstotal)*100, 2);
 
-// int contador;
-// int contadorSexof = 0;
-// int contadorSexom = 0;
-// int contadorSFsim = 0;
+Console.WriteLine($"O total de pessoas que responderam sim foi de: {totalsim}");
+Console.WriteLine($"O total de pessoas que responderam não foi de: {totalnao}");
 
-// for (contador = 1; contador <= 10; contador++)
-// {
-//     Console.WriteLine($"Informe seu sexo: (m) (f)");
-//     char sexo = char.Parse(Console.ReadLine()!);
-//         if (sexo == 'f')
-//         {
-//             contadorSexof++;
-//         }
-//         else if (sexo == 'm')
-//         {
-//             contadorSexom++;
-//         }
+Console.WriteLine($"[O total de mulheres que responderam sim foi de: {mulherestotalsim}]");
 
-//     Console.WriteLine($"Você gostou do produto lançado? sim/nao");
-//     string opiniao = Console.ReadLine()!;
-//         if (true)
-//         {
-            
-//         }
-        
-        
-//         if ((sexo == 'f') && (opiniao == "sim"))
-//         {
-//             contadorSFsim++;
-//         }
+Console.WriteLine($"A porcentagem de homens que não gostaram do produto foi de {porcentagemhomem} %");
 
-
-// }
-
-// Console.WriteLine($"Essa é a quantidade de mulheres que responderam a pesquisa: {contadorSexof}");
-// Console.WriteLine($"Essa é a quantidade de homens que responderam a pesquisa: {contadorSexom}");
-// Console.WriteLine($"Essa é a quantidade de mulheres que responderam que gostaram: {contadorSFsim}");
 
 

@@ -165,7 +165,8 @@ main .envio {
     flex-direction: row;
     z-index: 2;
     padding: 50px;
-    z-index: 6;
+    position: relative;
+    
 }
 
 main .envio img {

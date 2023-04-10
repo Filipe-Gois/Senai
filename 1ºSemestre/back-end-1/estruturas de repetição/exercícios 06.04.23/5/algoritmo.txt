@@ -1,0 +1,11 @@
+receber de 10 usuários:
+
+idade ok
+peso ok
+sexo ok
+
+1-qual o total de homens ? ok
+2-qual o total de mulheres ? ok 
+
+3-média de idade dos homens.
+4-média de idade das mulheres.

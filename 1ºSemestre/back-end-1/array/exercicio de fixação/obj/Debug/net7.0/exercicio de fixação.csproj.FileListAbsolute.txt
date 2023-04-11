@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\bin\Debug\net7.0\exercicio de fixação.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\bin\Debug\net7.0\exercicio de fixação.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\bin\Debug\net7.0\exercicio de fixação.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\bin\Debug\net7.0\exercicio de fixação.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\bin\Debug\net7.0\exercicio de fixação.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\refint\exercicio de fixação.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\exercicio de fixação.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\array\exercicio de fixação\obj\Debug\net7.0\ref\exercicio de fixação.dll

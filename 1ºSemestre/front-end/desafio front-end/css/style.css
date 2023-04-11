@@ -18,12 +18,13 @@ header {
     flex-direction: row;
     background: linear-gradient(91.13deg, rgba(164, 91, 206, 1), rgba(51, 36, 177, 1));
     align-items: center;
+    
 
 }
 
 header .header1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -38,28 +39,30 @@ header .pesquisa-header {
     background-color: white;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    
     
     
 }
 
-header .pesquisa-header .form-search input {
+header .pesquisa-header  #pesquisa {
     outline: none;
     border: none;
     color: grey;
-    height: 50px;
-    width: 465px;
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
 }
 
-header .pesquisa-header .form-search ::placeholder {
+header .pesquisa-header  ::placeholder {
     width: 100%;
 
 }
 
 header nav {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
     text-transform: none;
+    width: 350px;
     
 
 

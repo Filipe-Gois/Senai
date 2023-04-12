@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\bin\Debug\net7.0\exe somar 2 num.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\bin\Debug\net7.0\exe somar 2 num.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\bin\Debug\net7.0\exe somar 2 num.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\bin\Debug\net7.0\exe somar 2 num.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\bin\Debug\net7.0\exe somar 2 num.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\refint\exe somar 2 num.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\exe somar 2 num.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe somar 2 num\obj\Debug\net7.0\ref\exe somar 2 num.dll

@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\bin\Debug\net7.0\exe calcular impsoto de renda.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\bin\Debug\net7.0\exe calcular impsoto de renda.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\bin\Debug\net7.0\exe calcular impsoto de renda.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\bin\Debug\net7.0\exe calcular impsoto de renda.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\bin\Debug\net7.0\exe calcular impsoto de renda.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\refint\exe calcular impsoto de renda.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\exe calcular impsoto de renda.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\funções\exe calcular impsoto de renda\obj\Debug\net7.0\ref\exe calcular impsoto de renda.dll

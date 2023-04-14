@@ -21,14 +21,19 @@
 // 1) ler o numero de litro vendidos e o tipo do combustivel
 // 2) calcular valor a ser pago pelo cliente g=R$ 5,30  a=R$ 4,90
 
-float litroA = 4.9f;
+
+
+
+const float litroA = 4.9f;
+const float litroG = 5.3f;
+
 int litroAq = 0;
-int litroGq;
+int litroGq = 0;
 double resultadoA = 0;
 double resultadoAelse = 0;
-float litroG = 5.3f;
-
-double litroAqinfo;
+double resultadoG = 0;
+double resultadoGelse = 0;
+double litroinfo;
 
 Console.WriteLine(@$"
 Olá, informe o tipo do combustível:
@@ -51,19 +56,19 @@ switch (combus)
     case 'A':
 
         Console.WriteLine($"Quantos litros você deseja ?");
-        litroAqinfo = int.Parse(Console.ReadLine()!);
+        litroinfo = int.Parse(Console.ReadLine()!);
 
         if (litroAq <= 20)
         {
-            resultadoA = (litroAqinfo * 0.97) *litroA;
+            resultadoA = (litroinfo * 0.97) *litroA;
 
-            Console.WriteLine($"Total a pagar em {litroAqinfo} litros: R${Math.Round(resultadoA, 2)}.");
+            Console.WriteLine($"Total a pagar em {litroinfo} litros: R${Math.Round(resultadoA, 2)}.");
 
         }
         else
         {
-            resultadoAelse = (litroAqinfo * 0.95) *litroA;
-            Console.WriteLine($"Total a pagar em {litroAqinfo} litros: R${Math.Round(resultadoAelse, 2)}.");
+            resultadoAelse = (litroinfo * 0.95) *litroA;
+            Console.WriteLine($"Total a pagar em {litroinfo} litros: R${Math.Round(resultadoAelse, 2)}.");
             
         }
 
@@ -72,10 +77,23 @@ switch (combus)
     case 'G':
 
         Console.WriteLine($"Quantos litros você deseja ?");
-        litroGq = int.Parse(Console.ReadLine()!);
+        litroinfo = int.Parse(Console.ReadLine()!);
 
+        if (litroGq <= 20)
+        {
+            resultadoG = (litroinfo * 0.96) * litroG;
+            Console.WriteLine($"Total a pagar em {litroinfo} litros: R${Math.Round(resultadoG, 2)}.");
+        }
 
+        else
+        {
+            resultadoGelse = (litroinfo * 0.94) * litroG;
+            Console.WriteLine($"Total a pagar em {litroinfo} litros: R${Math.Round(resultadoGelse, 2)}.");
+        }
         break;
     default:
         break;
 }
+
+
+// Console.WriteLine($"{numero.Contains()}");

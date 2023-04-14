@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\bin\Debug\net7.0\2 corrigido.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\bin\Debug\net7.0\2 corrigido.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\bin\Debug\net7.0\2 corrigido.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\bin\Debug\net7.0\2 corrigido.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\bin\Debug\net7.0\2 corrigido.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\refint\2 corrigido.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\2 corrigido.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\lista de exe 13.04.23\2 corrigido\obj\Debug\net7.0\ref\2 corrigido.dll

@@ -1,15 +1,10 @@
-﻿Console.WriteLine($"Olá.");
-
-for (int contador = 1; contador <= 10; contador++)
+﻿for (int contador = 1; contador <= 10; contador++)
 {
-
-    Console.WriteLine($"");
-    
-    for (int numero = 1; numero <= 10; numero++)
+    for (int i = 1; i <= 10; i++)
     {
-        int resultado = contador * numero;
-
-        Console.WriteLine($"{contador} x {numero} = {resultado}");
-        
+        int resultado = contador * i;
+        Console.WriteLine($"{contador} X {i} = {resultado}");
     }
+    Console.WriteLine();
+    
 }

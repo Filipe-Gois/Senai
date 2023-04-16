@@ -1,0 +1,15 @@
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\bin\Debug\net7.0\exe tabuada.exe
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\bin\Debug\net7.0\exe tabuada.deps.json
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\bin\Debug\net7.0\exe tabuada.runtimeconfig.json
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\bin\Debug\net7.0\exe tabuada.dll
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\bin\Debug\net7.0\exe tabuada.pdb
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.csproj.AssemblyReference.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.AssemblyInfoInputs.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.AssemblyInfo.cs
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.csproj.CoreCompileInputs.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.dll
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\refint\exe tabuada.dll
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.pdb
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\exe tabuada.genruntimeconfig.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\exe tabuada\obj\Debug\net7.0\ref\exe tabuada.dll

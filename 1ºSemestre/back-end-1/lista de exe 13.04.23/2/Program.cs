@@ -21,6 +21,20 @@
 // 1) ler o numero de litro vendidos e o tipo do combustivel
 // 2) calcular valor a ser pago pelo cliente g=R$ 5,30  a=R$ 4,90
 
+static float alcool(float quant, float preco)
+{
+    if (quant <= 20)
+    {
+    return (quant * preco) * 0.97f;
+    }
+    else
+    {
+        (quant * preco) * 0.95f;
+    }
+
+}
+
+static float gasosa(float quant, float preco)
 
 
 

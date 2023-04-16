@@ -14,7 +14,7 @@
 
 
 
-// usando o while:
+// usando o while: (faz a veerificação da condição no ínicio, antes de executar o códeigo)
 
 // string nome = "Filipe Góis";
 // int i = 0;
@@ -53,3 +53,35 @@
 // }
 
 
+// do while: (faz a veerificação da condição após a execução do código)
+
+
+// int x = 0;
+
+// do
+// {
+//     Console.WriteLine(x);
+//     x++;
+    
+// } 
+
+// while (x <= 10);
+// {
+
+// }
+
+// outro exemplo de do while
+// aqui ele só executa uma vez, pois primeiro ele executa o comando, e depois percebe que está "errado"(false) e não escreve os próximos
+int x = 20;
+
+do
+{
+    Console.WriteLine(x);
+    x++;
+    
+} 
+
+while (x <= 10);
+{
+
+}

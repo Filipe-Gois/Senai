@@ -36,7 +36,7 @@ int[] data = new int[5];
 
 int senha;
 
-static string menu()
+static void menu()
 {
     Console.WriteLine(@$" 
     1- Cadastrar passagem
@@ -61,41 +61,34 @@ static string menu()
             break;
 
         case "2":
+            
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(@$"
+       {i + i}º cadastrado:
 
-            // for (int i = 0; i < 5; i++)
-            // {
-            //     Console.WriteLine(@$"
-            // {i+1}º Cadastrado:
+       Nome: {nomes[i]}
+       Origem do voo: {origem[1]}
+       Destino do voo: {destino[i]}
+       Data do voo: {data[i]} ");
 
-            // Nome: {nomes[i]}
-            // Origem: {origem[i]}
-            // Destino: {destinoi[i]}
-            // Data do voo: {data[i]}");
+            }
 
-            // }
+
             break;
 
+        case "0":
+        Console.WriteLine($"Obrigado por comprar conosco!");
+        break;
+        
         default:
 
             break;
     }
-    return "";
+    
 }
 
-// static void listar()
-// {
-//     for (int i = 0; i < 5; i++)
-//     {
-//         Console.WriteLine(@$"
-//        {i + i}º cadastrado:
 
-//        Nome: {nomes[]}
-//        Origem do voo: 
-//        Destino do voo: 
-//        Data do voo: ");
-
-//     }
-// }
 
 
 static void cadastro()

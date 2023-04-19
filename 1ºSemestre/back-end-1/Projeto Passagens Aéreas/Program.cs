@@ -68,7 +68,7 @@ static void menu()
        {i + i}º cadastrado:
 
        Nome: {nomes[i]}
-       Origem do voo: {origem[1]}
+       Origem do voo: {origem[i]}
        Destino do voo: {destino[i]}
        Data do voo: {data[i]} ");
 

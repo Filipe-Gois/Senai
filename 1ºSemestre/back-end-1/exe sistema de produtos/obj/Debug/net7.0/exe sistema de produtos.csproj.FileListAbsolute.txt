@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\bin\Debug\net7.0\exe sistema de produtos.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\bin\Debug\net7.0\exe sistema de produtos.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\bin\Debug\net7.0\exe sistema de produtos.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\bin\Debug\net7.0\exe sistema de produtos.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\bin\Debug\net7.0\exe sistema de produtos.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\refint\exe sistema de produtos.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\exe sistema de produtos.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\exe sistema de produtos\obj\Debug\net7.0\ref\exe sistema de produtos.dll

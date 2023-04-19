@@ -85,20 +85,11 @@ do
                 if (promoSoun == "S")
                 {
                     promo[i] = true;
-
-
-
                 }
                 else
                 {
                     promo[i] = false;
-
-
-
                 }
-
-
-
 
                 Console.WriteLine($"Deseja cadastrar algo mais ? S/N");
                 soun = Console.ReadLine()!.ToUpper();
@@ -123,16 +114,12 @@ do
                 if (promo[i] == true)
                 {
                     Console.WriteLine($"Produto em promoção.");
-
                 }
                 else
                 {
                     Console.WriteLine($"O produto não está em promoção.");
-
                 }
                 Console.WriteLine();
-
-            
             }
             break;
 

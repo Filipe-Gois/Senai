@@ -1,0 +1,15 @@
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\bin\Debug\net7.0\trab do daniel.exe
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\bin\Debug\net7.0\trab do daniel.deps.json
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\bin\Debug\net7.0\trab do daniel.runtimeconfig.json
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\bin\Debug\net7.0\trab do daniel.dll
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\bin\Debug\net7.0\trab do daniel.pdb
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.csproj.AssemblyReference.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.AssemblyInfoInputs.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.AssemblyInfo.cs
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.csproj.CoreCompileInputs.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.dll
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\refint\trab do daniel.dll
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.pdb
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\trab do daniel.genruntimeconfig.cache
+C:\Users\fytho\OneDrive\Área de Trabalho\trab do daniel\obj\Debug\net7.0\ref\trab do daniel.dll

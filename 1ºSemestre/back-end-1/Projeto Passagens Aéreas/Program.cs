@@ -29,43 +29,94 @@
 string[] nomes = new string[5];
 string[] origem = new string[5];
 string[] destino = new string[5];
-int[] data = new int[5];
+string[] data = new string[5];
+string senha = "123456";
+string opcoes3;
+int i = 0;
+string sn = "";
 
-
-
-
-int senha;
-
-static void menu()
+static string Login(string senha)
 {
+    do
+    {
+
+
+        Console.WriteLine($"Insira sua senha:");
+        senha = Console.ReadLine()!;
+
+        if (senha == "123456")
+        {
+            Console.WriteLine($"Login bem sucedido. Bem-vindo.");
+
+        }
+
+    }
+    while (senha != "123456");
+    return "";
+}
+
+
+Console.WriteLine($"Olá, informe seu usuário:");
+string usuario = Console.ReadLine()!;
+
+Login(senha);
+
+do
+{
+
+
     Console.WriteLine(@$" 
     1- Cadastrar passagem
     2- Listar Passagens
     0- Sair");
 
-    string opcoes3 = Console.ReadLine()!;
+    opcoes3 = Console.ReadLine()!;
 
-    while ((opcoes3 != "1") && (opcoes3 != "2") && (opcoes3 != "0"))
-    {
-        Console.WriteLine($"Insira credenciais válidas:");
-        opcoes3 = Console.ReadLine()!;
 
-    }
 
 
     switch (opcoes3)
     {
 
         case "1":
-            cadastro();
+            do
+            {
+                Console.WriteLine($"Cadastro de passagem:");
+                Console.WriteLine();
+
+                Console.WriteLine($"Olá, informe seu nome");
+                nomes[i] = Console.ReadLine()!;
+
+                Console.WriteLine($"Insira a origem do voo:");
+                origem[i] = Console.ReadLine()!;
+
+                Console.WriteLine($"Insira o destino do voo:");
+                destino[i] = Console.ReadLine()!;
+
+                Console.WriteLine($"Insira a data do voo:");
+                data[i] = Console.ReadLine()!;
+
+                Console.WriteLine(@$"
+        Cadastro concluído.
+        
+        Deseja cadastrar uma nova passagem ? S/N");
+                sn = Console.ReadLine()!.ToUpper();
+
+                if (sn == "S")
+                {
+                    i++;
+                }
+
+            } while (sn == "S");
+
             break;
 
         case "2":
-            
-            for (int i = 0; i < 5; i++)
+
+            for (i = 0; i < 5; i++)
             {
                 Console.WriteLine(@$"
-       {i + i}º cadastrado:
+       {i + 1}º cadastrado:
 
        Nome: {nomes[i]}
        Origem do voo: {origem[i]}
@@ -73,97 +124,24 @@ static void menu()
        Data do voo: {data[i]} ");
 
             }
-
-
             break;
 
         case "0":
-        Console.WriteLine($"Obrigado por comprar conosco!");
-        break;
-        
+            Console.WriteLine($"Obrigado por comprar conosco!");
+            break;
+
         default:
 
             break;
     }
+    }while (opcoes3 != "0");
     
-}
 
 
 
 
-static void cadastro()
-{
-
-    string[] passageiros = new string[1];
-
-    for (int i = 0; i < passageiros.Length; i++)
-    {
-
-        string[] nomes = new string[5];
-        string[] origem = new string[5];
-        string[] destino = new string[5];
-        string[] data = new string[5];
-
-        Console.WriteLine($"Cadastro de passagem:");
-        Console.WriteLine();
-
-
-        Console.WriteLine($"Olá, informe seu nome");
-        nomes[i] = Console.ReadLine()!;
-
-        Console.WriteLine($"Insira a origem do voo:");
-        origem[i] = Console.ReadLine()!;
-
-        Console.WriteLine($"Insira o destino do voo:");
-        destino[i] = Console.ReadLine()!;
-
-        Console.WriteLine($"Insira a data do voo:");
-        data[i] = Console.ReadLine()!;
-
-        Console.WriteLine(@$"
-        Cadastro concluído.
-        
-        Deseja cadastrar uma nova passagem ? S/N");
-        char sn = char.Parse(Console.ReadLine()!.ToUpper());
-
-        if (sn == 'S')
-        {
-            cadastro();
-        }
-        else if (sn == 'N')
-        {
-            menu();
-        }
 
 
 
-        while (sn != 'S' && sn != 'N')
-        {
-            Console.WriteLine(@$"
-            Insira um valor válido.
-            
-            Deseja cadastrar uma nova passagem ? S/N");
-            sn = char.Parse(Console.ReadLine()!.ToUpper());
 
 
-        }
-    }
-}
-
-
-Console.WriteLine($"Olá, informe seu usuário:");
-string usuario = Console.ReadLine()!;
-
-Console.WriteLine($"Olá, informe sua senha:");
-senha = int.Parse(Console.ReadLine()!);
-
-while (senha != 123456)
-{
-    Console.WriteLine($"Senha inválida, insira a correta:");
-    senha = int.Parse(Console.ReadLine()!);
-
-}
-
-Console.WriteLine($"Login bem sucedido");
-
-menu();

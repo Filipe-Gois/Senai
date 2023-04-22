@@ -6,7 +6,7 @@
 
 .layout-grid {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     height: 100%;
 }
 
@@ -24,7 +24,7 @@ header {
 
 header .header1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -102,8 +102,6 @@ main .banner1 {
     z-index: 5;
 }
 
-
-
 main .banner1 .trocar-banner button {
     border: none;
     background-color: transparent;
@@ -117,6 +115,7 @@ main .banner1 .coisas-do-banner {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     
     
 }
@@ -126,38 +125,41 @@ main .banner1 .img-notebook {
     height: 700px;
     position: relative;
     top: 90px;
-    right: 150px;
+    right: 120px;
     
 }
 
 main .banner1 .info-banner1 {
     display: flex;
     flex-direction: column;
-    width: 445px;
+    width: 100%px;
     height: 300px;
     gap: 40px;
     position: relative;
-    right: 250px;
+    right: 300px;
+    
 }
 
 main .banner1 .info-banner1 h3 {
     text-transform: uppercase;
     color: white;
+    font-size: 16px;
 }
 
 main .banner1 .info-banner1 h2 {
     color: white;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
+    
 }
 
-main .banner1 .info-banner1 button {
+main .banner1 .coisas-do-banner .info-banner1 button {
     background-color: #FFC101;
     color: white;
     border: none;
     border-radius: 60px;
     width: 175px;
-    height: 55px;
+    height: 50px;
 }
 
 main .envio {

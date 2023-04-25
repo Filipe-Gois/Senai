@@ -82,8 +82,6 @@ if (trab.Ligado == true)
                         Console.WriteLine($"Contato não encontrado.");
                         break;
                 }
-
-
                 break;
 
             case "4":

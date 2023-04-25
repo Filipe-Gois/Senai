@@ -13,20 +13,14 @@ Celular trab = new Celular();
 string opcao;
 string opcaoMsg;
 
-do
+Console.WriteLine($"Olá, deseja ligar o celular ?");
+trab.LigarCell = Console.ReadLine()!.ToUpper();
+
+while (trab.LigarCell != "S")
 {
-    Console.WriteLine($"Olá, deseja ligar o celular ?");
+    Console.WriteLine($"Ligue o dispositivo.");
     trab.LigarCell = Console.ReadLine()!.ToUpper();
-
-    while (trab.LigarCell != "S")
-    {
-        Console.WriteLine($"Ligue o dispositivo.");
-        trab.LigarCell = Console.ReadLine()!.ToUpper();
-
-    }
-
-} while (trab.LigarCell != "S" && trab.LigarCell != "N");
-
+}
 
 if (trab.LigarCell == "S")
 {
@@ -65,8 +59,6 @@ if (trab.Ligado == true)
             ");
                     opcaoMsg = Console.ReadLine()!;
                 } while (opcaoMsg != "1" && opcaoMsg != "2" && opcaoMsg != "3");
-
-
 
                 switch (opcaoMsg)
                 {

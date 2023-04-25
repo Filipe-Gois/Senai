@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj": {}
+    "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj": {
+    "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj",
+        "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj",
         "projectName": "exe_celular",
-        "projectPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj",
-        "packagesPath": "C:\\Users\\46633783825\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\obj\\",
+        "projectPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\exe_celular.csproj",
+        "packagesPath": "C:\\Users\\fytho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\Senai\\1ºSemestre\\back-end-1\\POO\\exe_celular\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\46633783825\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fytho\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

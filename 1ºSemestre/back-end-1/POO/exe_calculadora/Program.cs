@@ -9,9 +9,7 @@
 
 using exe_calculadora;
 Calculadora operacoes = new Calculadora();
-float n1;
-float n2;
-// float[] n = new float[2];
+
 string opcao;
 do
 {
@@ -33,33 +31,32 @@ Olá, informe a operação que deseja:
 // }
 
 Console.WriteLine($"Informe o primeiro número:");
-n1 = float.Parse(Console.ReadLine()!);
+operacoes.n1 = float.Parse(Console.ReadLine()!);
 
 Console.WriteLine($"Informe o segundo número:");
-n2 = float.Parse(Console.ReadLine()!);
+operacoes.n2 = float.Parse(Console.ReadLine()!);
 
 
 switch (opcao)
 {
     case "1":
 
-        operacoes.Somar(n1, n2);
+        operacoes.Somar(operacoes.n1, operacoes.n2);
 
         break;
 
     case "2":
-        operacoes.Subtrair(n1, n2);
+        operacoes.Subtrair(operacoes.n1, operacoes.n2);
         break;
 
     case "3":
-        operacoes.Multiplicar(n1, n2);
+        operacoes.Multiplicar(operacoes.n1, operacoes.n2);
         break;
 
     case "4":
-        operacoes.Dividir(n1, n2);
+        operacoes.Dividir(operacoes.n1, operacoes.n2);
         break;
     default:
-        Console.WriteLine($"Programa finalizado, volte sempre!");
         break;
 }
 

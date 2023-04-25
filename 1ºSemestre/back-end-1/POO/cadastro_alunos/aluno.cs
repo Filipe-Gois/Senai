@@ -7,36 +7,50 @@ namespace cadastro_alunos
 {
     public class aluno
     {
-        public string nome = "";
-        public string curso = "";
-        public int idade;
-        public string rg = "";
-        public string bolsa = "";
-        public bool bolsa1 = false;
-        public float mediaFinal;
-        public float mensalidade;
+        // atributos/propriedades
+        public string Nome = "";
+        public string Curso = "";
+        public string Idade = "";
+        public string Rg = "";
+        public string Bolsa = "";
+        public bool Bolsa1 = false;
+        public float MediaFinal;
+        public float Mensalidade;
 
-        public float  calcularBolsa(float mediaFinal)
-    {
-        if (mediaFinal >= 8)
+
+        // métodos
+        public float CalcularBolsa(float MediaFinal)
         {
-            Console.WriteLine($"Parabéns, você recebeu 50% de bolsa e pagará {mensalidade * 0.5}");
-            return mensalidade * 0.5f;
+            if (this.MediaFinal >= 8 && this.Bolsa1 == true)
+            {
+                float Valor50 = this.Mensalidade * 0.5f;
+
+                Console.WriteLine($"Parabéns, você recebeu 50% de bolsa e pagará {Valor50}.");
+                return Valor50;
+            }
+
+            else if (this.MediaFinal > 6 && this.MediaFinal < 8 && this.Bolsa1 == true)
+            {
+                float Valor70 = this.Mensalidade * 0.7f;
+
+                Console.WriteLine($"Você recebeu uma bolsa de 30% e pagará {Valor70}.");
+                return this.Mensalidade * 0.7f;
+            }
+            else
+            {
+                Console.WriteLine($"Você não alcançou os parâmetros mínimos para obter bolsa.");
+                return 0;
+            }
+
         }
 
-        else if (mediaFinal > 6 && mediaFinal < 8)
+        public void VerMediaFinal()
         {
-            Console.WriteLine($"Você recebeu uma bolsa de 30% e pagará {mensalidade * 0.7}");
-            return mensalidade * 0.7f;
+            Console.WriteLine($"{this.Nome}, sua média final foi de: {this.MediaFinal}.");
+
         }
-        else{
-            Console.WriteLine($"Você não alcançou os parâmetros mínimos para obter bolsa.");
-            return 0;
-        }
-        
+
     }
 
-    }
 
-    
 }

@@ -18,38 +18,35 @@
 // Acrescente o que achar necessário.
 
 using cadastro_alunos;
-aluno classe = new aluno();
+aluno novoAluno = new aluno();
 
 string opcao;
 
 Console.WriteLine($"Olá, informe seu nome:");
-classe.nome = Console.ReadLine()!;
+novoAluno.Nome = Console.ReadLine()!;
 
 Console.WriteLine($"Informe seu curso:");
-classe.curso = Console.ReadLine()!;
-
+novoAluno.Curso = Console.ReadLine()!;
 
 Console.WriteLine($"Informe sua idade:");
-classe.idade = int.Parse(Console.ReadLine()!);
-
+novoAluno.Idade = Console.ReadLine()!;
 
 Console.WriteLine($"Informe seu RG:");
-classe.rg = Console.ReadLine()!;
+novoAluno.Rg = Console.ReadLine()!;
 
 Console.WriteLine($"Você é bolsista ? S/N");
-classe.bolsa = Console.ReadLine()!.ToUpper();
+novoAluno.Bolsa = Console.ReadLine()!.ToUpper();
 
-if (classe.bolsa == "S")
+if (novoAluno.Bolsa == "S")
 {
-    classe.bolsa1 = true;
+    novoAluno.Bolsa1 = true;
 }
 
 Console.WriteLine($"Informe sua média final:");
-classe.mediaFinal = float.Parse(Console.ReadLine()!);
+novoAluno.MediaFinal = float.Parse(Console.ReadLine()!);
 
 Console.WriteLine($"Informe o quanto você paga de mensalidade:");
-classe.mensalidade = float.Parse(Console.ReadLine()!);
-
+novoAluno.Mensalidade = float.Parse(Console.ReadLine()!);
 
 do
 {
@@ -60,10 +57,6 @@ do
 
     opcao = Console.ReadLine()!;
 
-
-
-
-
     switch (opcao)
     {
         case "0":
@@ -71,15 +64,16 @@ do
             break;
 
         case "1":
-            Console.WriteLine($"Sua média foi de {classe.mediaFinal} pontos.");
-
+            novoAluno.VerMediaFinal();
             break;
 
         case "2":
-            classe.calcularBolsa(classe.mediaFinal);
+            novoAluno.CalcularBolsa(novoAluno.MediaFinal);
             break;
 
         default:
+        Console.WriteLine($"Opção inválida.");
+        
             break;
     }
 

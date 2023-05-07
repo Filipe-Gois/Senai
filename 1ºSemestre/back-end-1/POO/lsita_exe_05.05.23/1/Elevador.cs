@@ -61,12 +61,13 @@ namespace _1
                 Console.WriteLine($"Você saiu do elevador.");
                 return PessoasPresentes;
             }
-            else
-            // if (SairElevador == "S" && PessoasPresentes == 0)
+
+            else if (SairElevador == "S" && PessoasPresentes == 0)
             {
                 Console.WriteLine($"Impossível sair, não existem pessoas no elevador.");
                 return PessoasPresentes;
             }
+            return 0;
         }
 
         public int Subir()
@@ -78,7 +79,7 @@ namespace _1
                 SubirElevador = Console.ReadLine()!.ToUpper();
             } while (SubirElevador != "S" && SubirElevador != "N");
 
-            if (SubirElevador == "S" && AndarAtual <= 9 && CapacidadeElevador <= 19)
+            if (SubirElevador == "S" && AndarAtual <= 9)
             {
                 AndarAtual++;
                 Console.WriteLine($"Você está no {AndarAtual}º andar. {PessoasPresentes} pessoas estão no elevador.");
@@ -87,11 +88,11 @@ namespace _1
             else if (SubirElevador == "S" && TotalAndares >= 9)
             {
                 Console.WriteLine($"Impossível subir.");
-                return AndarAtual;;
-                
+                return AndarAtual; ;
+
             }
             return AndarAtual;
-           
+
         }
 
         public int Descer()
@@ -105,22 +106,24 @@ namespace _1
 
             if (DescerElevador == "S" && AndarAtual > 1)
             {
+                AndarAtual--;
                 Console.WriteLine($"Você está no {AndarAtual}º andar. {PessoasPresentes} pessoas estão no elevador.");
                 return AndarAtual;
             }
             else if (DescerElevador == "S" && TotalAndares <= 1)
             {
                 Console.WriteLine($"Impossível descer.");
-                return AndarAtual;;
-                
+                return AndarAtual; ;
+
             }
-            else{
+            else
+            {
                 Console.WriteLine($"Impossível descer.");
                 return AndarAtual;
-                
+
             }
         }
-      }
-
-
     }
+
+
+}

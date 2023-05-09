@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\bin\Debug\net7.0\classe_estatica.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\bin\Debug\net7.0\classe_estatica.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\bin\Debug\net7.0\classe_estatica.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\bin\Debug\net7.0\classe_estatica.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\bin\Debug\net7.0\classe_estatica.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\refint\classe_estatica.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\classe_estatica.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\classe_estatica\obj\Debug\net7.0\ref\classe_estatica.dll

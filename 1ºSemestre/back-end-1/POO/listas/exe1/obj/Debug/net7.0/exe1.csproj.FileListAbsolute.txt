@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\bin\Debug\net7.0\exe1.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\bin\Debug\net7.0\exe1.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\bin\Debug\net7.0\exe1.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\bin\Debug\net7.0\exe1.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\bin\Debug\net7.0\exe1.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\refint\exe1.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\exe1.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\listas\exe1\obj\Debug\net7.0\ref\exe1.dll

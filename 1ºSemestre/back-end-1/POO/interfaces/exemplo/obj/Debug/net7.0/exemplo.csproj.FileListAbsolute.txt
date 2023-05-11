@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\bin\Debug\net7.0\exemplo.exe
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\bin\Debug\net7.0\exemplo.deps.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\bin\Debug\net7.0\exemplo.runtimeconfig.json
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\bin\Debug\net7.0\exemplo.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\bin\Debug\net7.0\exemplo.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.csproj.AssemblyReference.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\refint\exemplo.dll
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.pdb
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\exemplo.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\Senai\1ºSemestre\back-end-1\POO\interfaces\exemplo\obj\Debug\net7.0\ref\exemplo.dll

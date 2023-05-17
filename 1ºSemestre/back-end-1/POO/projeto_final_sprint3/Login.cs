@@ -7,115 +7,174 @@ namespace projeto_final_sprint3
 {
     public class Login
     {
-        string RespEmail;
-        string RespSenha;
-        public bool Logado { get; set; } = false;
+
+        public bool Logado { get; set; }
+        public string opcao { get; set; } = "";
+        public string opcao2 { get; set; } = "";
+        public string opcao3 { get; set; } = "";
+        public string EmailInformado { get; set; } = "";
+        public string SenhaInformada { get; set; } = "";
 
         public Login()
         {
-            Usuario user = new Usuario();
+            Usuario _user = new Usuario();
+            Logar(_user);
 
-
-            do
+            if (this.Logado == true)
             {
-                Console.WriteLine($"Informe seu Email:");
-                RespEmail = Console.ReadLine()!;
+                Menu();
+            }
 
-                Console.WriteLine($"Informe sua senha:");
-                RespSenha = Console.ReadLine()!;
-
-                if (RespEmail == user.Email && RespSenha == user.Senha)
-                {
-                    Console.WriteLine($"Acesso concedido.");
-                    Logado = true;
-
-                }
-                else
-                {
-                    Console.WriteLine($"Informaões inválidas.");
-
-                }
-            } while (RespEmail != user.Email || RespSenha != user.Senha);
         }
 
         public void Menu()
         {
             Produto produto = new Produto();
-            Console.WriteLine(@$"
+            Marca marca = new Marca();
+
+            do
+            {
+                Console.WriteLine(@$"
             
             Informe a opção desejada:
 
-            [1] - Adicionar produto
-            [2] - Adicionar marca
-            [3] - Listar produtos
-            [4] - Listar marcas
-            [5] - Remover produto
-            [6] - Remover marca
-            [7] - Sair
+            [1] - Produtos
+            [2] - Marcas
+
+            ---------------
+            [0] - Sair
+
             ");
 
-            string opcao = Console.ReadLine()!;
+                opcao = Console.ReadLine()!;
 
-            switch (opcao)
-            {
-                case "1":
-                    Console.WriteLine($"Informe o código do produto: ");
-                    produto.CodigoProduto = int.Parse(Console.ReadLine()!);
-
-                    
+                switch (opcao)
+                {
+                    case "1":
+                        do
+                        {
 
 
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                case "5":
-                    break;
-                case "6":
-                    break;
-                case "7":
-                    break;
+                            Console.WriteLine(@$"
+                    [1] - Cadastrar produto
+                    [2] - Listar produtos
+                    [3] - Remover produto
+
+                    -----------------------
+
+                    [0] - Sair");
+
+                            opcao2 = Console.ReadLine()!;
+                            switch (opcao2)
+                            {
+                                case "1":
+                                    produto.Cadastrar();
+                                    break;
+
+                                case "2":
+                                    produto.Listar();
+                                    break;
+
+                                case "3":
+                                    produto.Deletar();
+                                    break;
+
+                                case "0":
+                                    Console.WriteLine($"Aplicativo encerrado.");
+                                    break;
+
+
+                                default:
+                                    Console.WriteLine($"Opção inválida.");
+                                    break;
+                            }
+                        } while (opcao2 != "1" || opcao2 != "2" || opcao2 != "3");
+                        break;
+                    case "2":
+                    do
+                        {
+
+
+                            Console.WriteLine(@$"
+                    [1] - Cadastrar marca
+                    [2] - Listar marcas
+                    [3] - Remover marca
+
+                    -----------------------
+
+                    [0] - Sair");
+
+                            opcao3 = Console.ReadLine()!;
+                            switch (opcao3)
+                            {
+                                case "1":
+                                    marca.CadastrarMarca();
+                                    break;
+
+                                case "2":
+                                    marca.ListarMarca();
+                                    break;
+
+                                case "3":
+                                    marca.DeletarMarca();
+                                    break;
+
+                                case "0":
+                                    Console.WriteLine($"Aplicativo encerrado.");
+                                    break;
+
+
+                                default:
+                                    Console.WriteLine($"Opção inválida.");
+                                    break;
+                            }
+                        } while (opcao3 != "1" || opcao3 != "2" || opcao3 != "3");
 
 
 
+                        break;
 
+                    case "0":
+                        Console.WriteLine($"Aplicativo encerrado.");
+                        break;
 
-                default:
-                    break;
-            }
+                    default:
+                        Console.WriteLine($"Opção inválida.");
+                        break;
+                }
+            } while (opcao != "0");
         }
 
-        // public void Logar()
-        // {
+        public void Logar(Usuario user)
+        {
+            do
+            {
+                Console.WriteLine($"Informe seu Email:");
+                EmailInformado = Console.ReadLine()!;
 
-        //     Usuario user = new Usuario();
+                Console.WriteLine($"Informe sua senha:");
+                SenhaInformada = Console.ReadLine()!;
 
+                if (EmailInformado == user.Email && SenhaInformada == user.Senha)
+                {
+                    this.Logado = true;
+                    Console.WriteLine($"Acesso concedido.");
+                }
+                else
+                {
+                    this.Logado = false;
+                    Console.WriteLine($"\nInformações inválidas.\n");
 
-        //     do
-        //     {
-        //         Console.WriteLine($"Informe seu Email:");
-        //         RespEmail = Console.ReadLine()!;
-
-        //         Console.WriteLine($"Informe sua senha:");
-        //         RespSenha = Console.ReadLine()!;
-
-        //         if (RespEmail == user.Email && RespSenha == user.Senha)
-        //         {
-        //             Console.WriteLine($"Acesso concedido.");
-        //             Logado = true;
-
-        //         }
-        //         else
-        //         {
-        //             Console.WriteLine($"Informaões inválidas.");
-
-        //         }
-        //     } while (RespEmail != user.Email || RespSenha != user.Senha);
+                }
+            } while (EmailInformado != user.Email || SenhaInformada != user.Senha);
 
 
-        // }
+
+        }
+
+        public void Delosgar()
+        {
+
+        }
     }
 }

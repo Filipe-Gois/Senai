@@ -7,24 +7,52 @@ namespace projeto_final_sprint3
 {
     public class Marca
     {
-        public int CodigoProduto { get; set; }
+        public int CodigoMarca { get; set; }
+        public int codigomarca { get; set; }
         public string NomeMarca { get; set; } = "";
+        public string nomemarca { get; set; } = "";
         public DateTime DataCadastro { get; set; }
+        List<Marca> ListaDeMarcas = new List<Marca>();
 
-        public string Cadastrar(string _marca)
+        public Marca CadastrarMarca()
         {
-            return _marca;
+            Marca novaMarca = new Marca();
+
+            codigomarca = CodigoMarca;
+            nomemarca = NomeMarca;
+
+            Console.WriteLine($"Informe o nome da marca:");
+            nomemarca = Console.ReadLine()!;
+
+            Console.WriteLine($"Informe o código da marca:");
+            codigomarca = int.Parse(Console.ReadLine()!);
+
+            Console.WriteLine($"Marca cadastrada!");
+
+            ListaDeMarcas.Add(new Marca());
+            
+            return novaMarca;
         }
 
         public void ListarMarca()
         {
-            List <Marca> listaMarca = new List<Marca>();
+            Console.WriteLine(@$"Marcas cadastradas:");
+
+            foreach (var item in ListaDeMarcas)
+            {
+                Console.WriteLine(@$"
+                Nome da marca: {item.nomemarca}
+                Código da marca: {item.codigomarca}");
+                
+            }
             
+
         }
 
-        public string DeletarMarca()
+        public void DeletarMarca()
         {
-            return "";
+            int codigomarca = CodigoMarca;
+
         }
     }
 }

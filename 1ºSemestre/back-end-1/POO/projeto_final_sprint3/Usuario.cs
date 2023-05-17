@@ -10,19 +10,24 @@ namespace projeto_final_sprint3
     {
         public int CodigoUsuario { get; set; }
         public string NomeUsuario { get; set; } = "filipe";
-        public string Email { get; set; } = "fefe@";
+        public string Email { get; set; } = "a";
         public string Senha { get; set; } = "123";
-        public DateTime DataCadastro;
+        public DateTime DataCadastro { get; set; }
 
-        public string Cadastrar(string _usuario)
+        public void Cadastrar()
         {
-
-            return "";
+            this.NomeUsuario = "filipe";
+            this.Email = "a";
+            this.Senha = "123";
+            this.DataCadastro = DateTime.Now;
         }
 
-        public string Deletar(string _usuario)
+        public void Deletar()
         {
-            return "";
+            this.NomeUsuario = "";
+            this.Email = "";
+            this.Senha = "";
+            this.DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
         }
 
         

@@ -8,30 +8,34 @@ namespace projeto_final_sprint3
     public class Marca
     {
         public int CodigoMarca { get; set; }
-        public int codigomarca { get; set; }
+        
         public string NomeMarca { get; set; } = "";
-        public string nomemarca { get; set; } = "";
-        public DateTime DataCadastro { get; set; }
+        
+        public DateTime DataCadastro { get; set; } = DateTime.Now;
         List<Marca> ListaDeMarcas = new List<Marca>();
 
-        public Marca CadastrarMarca()
+        public Marca()
         {
-            Marca novaMarca = new Marca();
-
-            codigomarca = CodigoMarca;
-            nomemarca = NomeMarca;
+            
+        }
+        public Marca(int codigomarca, string nomemarca)
+        {
+            CodigoMarca = codigomarca;
+            NomeMarca = nomemarca;
+        }
+        public void CadastrarMarca()
+        {
+            Console.WriteLine($"Informe o código da marca:");
+            CodigoMarca = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine($"Informe o nome da marca:");
-            nomemarca = Console.ReadLine()!;
+            NomeMarca = Console.ReadLine()!;
 
-            Console.WriteLine($"Informe o código da marca:");
-            codigomarca = int.Parse(Console.ReadLine()!);
+            Console.WriteLine(@$"\nMarca cadastrada!
+            {DataCadastro}
+            ");
 
-            Console.WriteLine($"Marca cadastrada!");
-
-            ListaDeMarcas.Add(new Marca());
-            
-            return novaMarca;
+            ListaDeMarcas.Add(new(CodigoMarca, NomeMarca));
         }
 
         public void ListarMarca()
@@ -41,18 +45,23 @@ namespace projeto_final_sprint3
             foreach (var item in ListaDeMarcas)
             {
                 Console.WriteLine(@$"
-                Nome da marca: {item.nomemarca}
-                Código da marca: {item.codigomarca}");
+                Código da marca: {item.CodigoMarca}
+                Nome da marca: {item.NomeMarca}");
                 
             }
-            
-
         }
 
         public void DeletarMarca()
         {
             int codigomarca = CodigoMarca;
 
+            Console.WriteLine($"Informe o código da marca a ser removida:");
+            codigomarca = int.Parse(Console.ReadLine()!);
+
+            Marca m = ListaDeMarcas.Find(x => x.CodigoMarca == codigomarca)!;
+            ListaDeMarcas.Remove(m);
+
+            Console.WriteLine($"\nMarca removida!");
         }
     }
 }

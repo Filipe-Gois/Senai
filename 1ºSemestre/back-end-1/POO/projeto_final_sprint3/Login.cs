@@ -62,7 +62,7 @@ namespace projeto_final_sprint3
 
                     -----------------------
 
-                    [0] - Sair");
+                    [0] - Voltar");
 
                             opcao2 = Console.ReadLine()!;
                             switch (opcao2)
@@ -80,7 +80,7 @@ namespace projeto_final_sprint3
                                     break;
 
                                 case "0":
-                                    Console.WriteLine($"Aplicativo encerrado.");
+                                    
                                     break;
 
 
@@ -88,7 +88,7 @@ namespace projeto_final_sprint3
                                     Console.WriteLine($"Opção inválida.");
                                     break;
                             }
-                        } while (opcao2 != "1" || opcao2 != "2" || opcao2 != "3");
+                        } while (opcao2 != "0");
                         break;
                     case "2":
                     do
@@ -102,7 +102,7 @@ namespace projeto_final_sprint3
 
                     -----------------------
 
-                    [0] - Sair");
+                    [0] - Voltar");
 
                             opcao3 = Console.ReadLine()!;
                             switch (opcao3)
@@ -120,7 +120,7 @@ namespace projeto_final_sprint3
                                     break;
 
                                 case "0":
-                                    Console.WriteLine($"Aplicativo encerrado.");
+                                    
                                     break;
 
 
@@ -128,14 +128,15 @@ namespace projeto_final_sprint3
                                     Console.WriteLine($"Opção inválida.");
                                     break;
                             }
-                        } while (opcao3 != "1" || opcao3 != "2" || opcao3 != "3");
+                        } while (opcao3 != "0");
 
 
 
                         break;
 
                     case "0":
-                        Console.WriteLine($"Aplicativo encerrado.");
+                        Console.WriteLine($"\nAplicativo finalizado");
+                        
                         break;
 
                     default:

@@ -8,15 +8,15 @@ namespace projeto_final_sprint3
     public class Marca
     {
         public int CodigoMarca { get; set; }
-        
+
         public string NomeMarca { get; set; } = "";
-        
+
         public DateTime DataCadastro { get; set; } = DateTime.Now;
         List<Marca> ListaDeMarcas = new List<Marca>();
 
         public Marca()
         {
-            
+
         }
         public Marca(int codigomarca, string nomemarca)
         {
@@ -40,28 +40,49 @@ namespace projeto_final_sprint3
 
         public void ListarMarca()
         {
-            Console.WriteLine(@$"Marcas cadastradas:");
-
-            foreach (var item in ListaDeMarcas)
+            if (ListaDeMarcas.Count == 0)
             {
-                Console.WriteLine(@$"
+                Console.WriteLine($"Não há marcas registradas.");
+
+            }
+
+            else
+            {
+
+
+                Console.WriteLine(@$"Marcas cadastradas:");
+
+                foreach (var item in ListaDeMarcas)
+                {
+                    Console.WriteLine(@$"
                 Código da marca: {item.CodigoMarca}
                 Nome da marca: {item.NomeMarca}");
-                
+                }
             }
         }
 
         public void DeletarMarca()
         {
-            int codigomarca = CodigoMarca;
+            if (ListaDeMarcas.Count == 0)
+            {
+                Console.WriteLine($"Não há marcas a serem excluías.");
 
-            Console.WriteLine($"Informe o código da marca a ser removida:");
-            codigomarca = int.Parse(Console.ReadLine()!);
+            }
 
-            Marca m = ListaDeMarcas.Find(x => x.CodigoMarca == codigomarca)!;
-            ListaDeMarcas.Remove(m);
+            else
+            {
 
-            Console.WriteLine($"\nMarca removida!");
+
+                int codigomarca = CodigoMarca;
+
+                Console.WriteLine($"Informe o código da marca a ser removida:");
+                codigomarca = int.Parse(Console.ReadLine()!);
+
+                Marca m = ListaDeMarcas.Find(x => x.CodigoMarca == codigomarca)!;
+                ListaDeMarcas.Remove(m);
+
+                Console.WriteLine($"\nMarca removida!");
+            }
         }
     }
 }

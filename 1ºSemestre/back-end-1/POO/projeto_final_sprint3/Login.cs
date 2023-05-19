@@ -12,12 +12,16 @@ namespace projeto_final_sprint3
         public string opcao { get; set; } = "";
         public string opcao2 { get; set; } = "";
         public string opcao3 { get; set; } = "";
+        public string opcao4 { get; set; } = "";
         public string EmailInformado { get; set; } = "";
         public string SenhaInformada { get; set; } = "";
+        Usuario user = new Usuario();
 
         public Login()
         {
             Usuario _user = new Usuario();
+            MenuUsuario();
+
             Logar(_user);
 
             if (this.Logado == true)
@@ -80,7 +84,7 @@ namespace projeto_final_sprint3
                                     break;
 
                                 case "0":
-                                    
+
                                     break;
 
 
@@ -91,7 +95,7 @@ namespace projeto_final_sprint3
                         } while (opcao2 != "0");
                         break;
                     case "2":
-                    do
+                        do
                         {
 
 
@@ -120,7 +124,7 @@ namespace projeto_final_sprint3
                                     break;
 
                                 case "0":
-                                    
+
                                     break;
 
 
@@ -136,7 +140,8 @@ namespace projeto_final_sprint3
 
                     case "0":
                         Console.WriteLine($"\nAplicativo finalizado");
-                        
+                        Environment.Exit(0);
+
                         break;
 
                     default:
@@ -175,6 +180,52 @@ namespace projeto_final_sprint3
 
         public void Delosgar()
         {
+
+        }
+        public void MenuUsuario()
+        {
+
+            Console.WriteLine(@$"Olá, informe a opção que desejada:
+        
+        [1] - Cadastrar nova conta
+        [2] - Logar em uma conta já existente");
+
+            opcao4 = Console.ReadLine()!;
+
+
+            switch (opcao4)
+            {
+                case "1":
+                    CadastrarUsuario();
+                    
+                    break;
+
+                case "2":
+
+                    break;
+                default:
+                    Console.WriteLine($"Opção inválida.");
+
+                    break;
+            }
+        }
+
+
+        public void CadastrarUsuario()
+        {
+            Console.WriteLine($"Informe seu nome:");
+            user.NomeUsuario = Console.ReadLine()!;
+
+            Console.WriteLine($"\nInforme seu E-mail:");
+            user.Email = Console.ReadLine()!;
+
+            Console.WriteLine($"\nInforme uma senha:");
+            user.Senha = Console.ReadLine()!;
+
+            Console.WriteLine($"\nUsuário cadastrado!");
+
+            user.DataCadastro = DateTime.Now;
+            Console.WriteLine($"{user.DataCadastro}");
 
         }
     }

@@ -40,7 +40,7 @@ namespace projeto_final_sprint3
             CodigoProduto = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine($"Informe a marca do produto:");
-            _Marca.NomeMarca = Console.ReadLine()!;
+            string nomecarai = Console.ReadLine()!;
 
             Console.WriteLine($"Informe o nome do protudo:");
             NomeProduto = Console.ReadLine()!;
@@ -55,6 +55,7 @@ namespace projeto_final_sprint3
             listadeprodutos.Add(
                 new(CodigoProduto, NomeProduto, Preco, _Marca.NomeMarca)
             );
+            _Marca.MarcaAdd(nomecarai);
         }
 
         public void Listar()
@@ -73,7 +74,7 @@ namespace projeto_final_sprint3
                 {
                     Console.WriteLine(@$"
                 Código: {item.CodigoProduto}
-                Marca: {_Marca.ListarMarca}
+                Marca: 
                 Nome: {item.NomeProduto}
                 Preço: {item.Preco:C2}");
                 }

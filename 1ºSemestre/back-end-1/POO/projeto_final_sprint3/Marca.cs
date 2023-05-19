@@ -9,7 +9,7 @@ namespace projeto_final_sprint3
     {
         public int CodigoMarca { get; set; }
 
-        public string NomeMarca { get; set; } = "";
+        public string NomeMarca { get; set; }
 
         public DateTime DataCadastro { get; set; } = DateTime.Now;
         List<Marca> ListaDeMarcas = new List<Marca>();
@@ -18,11 +18,15 @@ namespace projeto_final_sprint3
         {
 
         }
-        public Marca(int codigomarca, string nomemarca)
+        public Marca(string nomemarca)
         {
-            CodigoMarca = codigomarca;
             NomeMarca = nomemarca;
         }
+        // public Marca(int codigomarca, string nomemarca)
+        // {
+        //     CodigoMarca = codigomarca;
+        //     NomeMarca = nomemarca;
+        // }
         public void CadastrarMarca()
         {
             Console.WriteLine($"Informe o código da marca:");
@@ -35,7 +39,7 @@ namespace projeto_final_sprint3
             {DataCadastro}
             ");
 
-            ListaDeMarcas.Add(new(CodigoMarca, NomeMarca));
+            ListaDeMarcas.Add(new(NomeMarca));
         }
 
         public void ListarMarca()
@@ -59,6 +63,10 @@ namespace projeto_final_sprint3
                 Nome da marca: {item.NomeMarca}");
                 }
             }
+        }
+        public void MarcaAdd(string nomeMarca)
+        {
+            ListaDeMarcas.Add(new(nomeMarca));
         }
 
         public void DeletarMarca()

@@ -17,6 +17,7 @@ namespace projeto_final_sprint3
         public string SenhaInformada { get; set; } = "";
         Usuario user = new Usuario();
 
+
         public Login()
         {
             Usuario _user = new Usuario();
@@ -155,11 +156,12 @@ namespace projeto_final_sprint3
         {
             do
             {
-                Console.WriteLine($"Informe seu Email:");
+                Console.WriteLine($"\nInforme seu Email: (clique duas vezes no 'enter' para acessar.)");
                 EmailInformado = Console.ReadLine()!;
 
                 Console.WriteLine($"Informe sua senha:");
                 SenhaInformada = Console.ReadLine()!;
+
 
                 if (EmailInformado == user.Email && SenhaInformada == user.Senha)
                 {
@@ -197,7 +199,7 @@ namespace projeto_final_sprint3
             {
                 case "1":
                     CadastrarUsuario();
-                    
+
                     break;
 
                 case "2":

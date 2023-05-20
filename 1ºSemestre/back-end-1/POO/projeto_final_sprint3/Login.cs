@@ -173,26 +173,10 @@ namespace projeto_final_sprint3
                     this.Logado = false;
                     Console.WriteLine($"\nInformações inválidas.\n");
 
-                    Console.WriteLine($"Deseja cadastrar um novo usuário ? S/N");
-                    string opcao5 = Console.ReadLine()!.ToUpper();
-
-                    switch (opcao5)
-                    {
-                        case "S":
-                        CadastrarUsuario();
+                    
+                        MenuUsuario();
                         Logar(user);
-                        break;
-
-                        case "N":
-                        Console.WriteLine($"Programa finalizado.");
-                        Environment.Exit(0);
-                        break;
-
-                        default:
-                        Console.WriteLine($"Caracter inválido.");
                         
-                        break;
-                    }
                     
 
                 }
@@ -209,7 +193,7 @@ namespace projeto_final_sprint3
         public void MenuUsuario()
         {
 
-            Console.WriteLine(@$"Olá, informe a opção que desejada:
+            Console.WriteLine(@$"Olá, informe a opção desejada:
         
         [1] - Cadastrar nova conta
         [2] - Logar em uma conta já existente");

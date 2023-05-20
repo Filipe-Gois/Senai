@@ -10,24 +10,18 @@ namespace projeto_final_sprint3
     {
         public int CodigoUsuario { get; set; }
         public string NomeUsuario { get; set; }
-        public string Email { get; set; } = "";
-        public string Senha { get; set; } = "";
+        public string Email { get; set; }
+        public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
         public string opcao { get; set; }
-        List<Usuario> listaDeUsuarios = new List<Usuario>();
+        
 
 
         public Usuario()
         {
 
         }
-        public Usuario(int codigousuario, string nomeusuario, string email, string senha)
-        {
-            CodigoUsuario = codigousuario;
-            NomeUsuario = nomeusuario;
-            Email = email;
-            Senha = senha;
-        }
+        
 
         public void MenuUsuario()
         {
@@ -75,9 +69,7 @@ namespace projeto_final_sprint3
             this.DataCadastro = DateTime.Now;
             Console.WriteLine($"{DataCadastro}");
 
-            listaDeUsuarios.Add(
-                new(CodigoUsuario, NomeUsuario, Email, Senha)
-            );
+            
 
         }
 

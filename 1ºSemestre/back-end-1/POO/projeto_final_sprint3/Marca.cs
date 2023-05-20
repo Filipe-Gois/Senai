@@ -35,7 +35,8 @@ namespace projeto_final_sprint3
             Console.WriteLine($"Informe o nome da marca:");
             NomeMarca = Console.ReadLine()!;
 
-            Console.WriteLine(@$"\nMarca cadastrada!
+            Console.WriteLine(@$"
+            Marca cadastrada!
             {DataCadastro}
             ");
 

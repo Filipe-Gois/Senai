@@ -20,10 +20,10 @@ namespace projeto_final_sprint3
 
         public Login()
         {
-            Usuario _user = new Usuario();
+            
             MenuUsuario();
 
-            Logar(_user);
+            Logar(user);
 
             if (this.Logado == true)
             {
@@ -156,22 +156,44 @@ namespace projeto_final_sprint3
         {
             do
             {
-                Console.WriteLine($"\nInforme seu Email: (clique duas vezes no 'enter' para acessar.)");
+                Console.WriteLine($"\nInforme seu Email:");
                 EmailInformado = Console.ReadLine()!;
 
-                Console.WriteLine($"Informe sua senha:");
+                Console.WriteLine($"\nInforme sua senha:");
                 SenhaInformada = Console.ReadLine()!;
 
 
                 if (EmailInformado == user.Email && SenhaInformada == user.Senha)
                 {
                     this.Logado = true;
-                    Console.WriteLine($"Acesso concedido.");
+                    Console.WriteLine($"\nAcesso concedido.");
                 }
                 else
                 {
                     this.Logado = false;
                     Console.WriteLine($"\nInformações inválidas.\n");
+
+                    Console.WriteLine($"Deseja cadastrar um novo usuário ? S/N");
+                    string opcao5 = Console.ReadLine()!.ToUpper();
+
+                    switch (opcao5)
+                    {
+                        case "S":
+                        CadastrarUsuario();
+                        Logar(user);
+                        break;
+
+                        case "N":
+                        Console.WriteLine($"Programa finalizado.");
+                        Environment.Exit(0);
+                        break;
+
+                        default:
+                        Console.WriteLine($"Caracter inválido.");
+                        
+                        break;
+                    }
+                    
 
                 }
             } while (EmailInformado != user.Email || SenhaInformada != user.Senha);
@@ -215,7 +237,7 @@ namespace projeto_final_sprint3
 
         public void CadastrarUsuario()
         {
-            Console.WriteLine($"Informe seu nome:");
+            Console.WriteLine($"\nInforme seu nome:");
             user.NomeUsuario = Console.ReadLine()!;
 
             Console.WriteLine($"\nInforme seu E-mail:");

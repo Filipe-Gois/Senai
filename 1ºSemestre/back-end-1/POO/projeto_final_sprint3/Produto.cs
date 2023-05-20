@@ -16,8 +16,8 @@ namespace projeto_final_sprint3
         public DateTime DataCadastro { get; set; } = DateTime.Now;
         // n precisa de get e set pq já está instanciando
         public Marca _Marca = new Marca();
-        public Usuario _usuario = new Usuario();
-        public Usuario CadastradoPor { get; set; } = new Usuario();
+        public Usuario user = new Usuario();
+        public string CadastradoPor { get; set; }
 
         public List<Produto> listadeprodutos = new List<Produto>();
 
@@ -40,7 +40,7 @@ namespace projeto_final_sprint3
             CodigoProduto = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine($"Informe a marca do produto:");
-            string nomecarai = Console.ReadLine()!;
+            string nome1 = Console.ReadLine()!;
 
             Console.WriteLine($"Informe o nome do protudo:");
             NomeProduto = Console.ReadLine()!;
@@ -48,14 +48,14 @@ namespace projeto_final_sprint3
             Console.WriteLine($"Informe o preço");
             Preco = int.Parse(Console.ReadLine()!);
 
-
-            Console.WriteLine($"\nProduto cadastrado por {CadastradoPor}");
+            CadastradoPor = user.NomeUsuario;
+            Console.WriteLine($"\nProduto cadastrado por {user.NomeUsuario}");
             Console.WriteLine($"{DataCadastro}");
 
             listadeprodutos.Add(
                 new(CodigoProduto, NomeProduto, Preco, _Marca.NomeMarca)
             );
-            _Marca.MarcaAdd(nomecarai);
+            _Marca.MarcaAdd(nome1);
         }
 
         public void Listar()
@@ -87,12 +87,10 @@ namespace projeto_final_sprint3
             if (listadeprodutos.Count == 0)
             {
                 Console.WriteLine($"Não há produtos a serem removidos.");
-
             }
+
             else
             {
-
-
                 int codigoproduto = CodigoProduto;
 
                 Console.WriteLine($"Informe o código do produto a ser removido:");

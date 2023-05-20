@@ -732,6 +732,7 @@ footer .copy {
         width: 140px;
     }
 
+   
     main {
         margin-top: 0;
     }
@@ -743,7 +744,10 @@ footer .copy {
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 722px;
+        height: 750px;
+        align-items: center;
+        
+
     }
 
     main .banner h1 {
@@ -775,7 +779,93 @@ footer .copy {
 
     main .banneramarelo {
         width: 100%;
-        height: 1000px;
+        height: 100%;
         background-color: #F9AA01;
+        display: flex;
+        align-items: center;
+    }
+    main .banneramarelo .titulo-banner-amarelo
+    {
+        width: 746px;
+        height: 100px;
+    }
+
+    main .banneramarelo .titulo-banner-amarelo h3
+    {
+        font-size: 40px;
+        color:#1B1426;   
+    }
+
+    main .banner-amarelo .killjoy-jinx
+    {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+    }
+
+    main .banner-amarelo .killjoy-jinx .killjoy
+    {
+        margin-top: 30px;
+        padding: 0;
+        width: 605px;
+        height: 700px;
+        
+        
+    }
+
+    main .banner-amarelo .killjoy-jinx .killjoy .imagemkilljoy
+    {
+        width: 425px;
+        height: 700px;
+        position: absolute;
+    }
+
+    main .banner-amarelo .killjoy-jinx .killjoy .jogosdiferentes
+    {
+        width: 360px;
+        height: 440px;
+        position: relative;
+        left: 240px;
+        top: 200px;
+    }
+
+    main .banner-amarelo .killjoy-jinx .killjoy .jogosdiferentes img
+    {
+        width: 143px;
+        height: 143px;
+        margin: 0;
+    }
+
+    main .banner-amarelo .killjoy-jinx .jinx
+    {
+        width: 550px;
+        height: 700px;
+    }
+
+    main .banner-amarelo .killjoy-jinx .jinx .imagemjinx
+    {
+        width: 521px;
+        height: 700px;
+        position: absolute;
+        top: 30px;
+    }
+
+    main .banner-amarelo .killjoy-jinx .jinx .professores53
+    {
+        width: 360px;
+        height: 440px;
+        position: relative;
+        left: -60px;
+        top: 230px;
+    }
+
+    main .banner-amarelo .killjoy-jinx .jinx .professores53 img
+    {
+        width: 162px;
+        height: 162px;
     }
 }

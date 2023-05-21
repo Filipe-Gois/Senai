@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\trab do daniel\\trab do daniel.csproj",
+      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\trab do daniel\\trab do daniel.csproj",
       "projectName": "trab do daniel",
-      "projectPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\trab do daniel\\trab do daniel.csproj",
+      "projectPath": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\trab do daniel\\trab do daniel.csproj",
       "packagesPath": "C:\\Users\\fytho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fytho\\OneDrive\\Área de Trabalho\\trab do daniel\\obj\\",
+      "outputPath": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\trab do daniel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fytho\\AppData\\Roaming\\NuGet\\NuGet.Config"

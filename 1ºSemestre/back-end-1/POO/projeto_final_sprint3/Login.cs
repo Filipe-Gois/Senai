@@ -20,7 +20,7 @@ namespace projeto_final_sprint3
 
         public Login()
         {
-            
+
             MenuUsuario();
 
             Logar(user);
@@ -173,11 +173,11 @@ namespace projeto_final_sprint3
                     this.Logado = false;
                     Console.WriteLine($"\nInformações inválidas.\n");
 
-                    
-                        MenuUsuario();
-                        Logar(user);
-                        
-                    
+
+                    MenuUsuario();
+                    Logar(user);
+
+
 
                 }
             } while (EmailInformado != user.Email || SenhaInformada != user.Senha);
@@ -196,7 +196,8 @@ namespace projeto_final_sprint3
             Console.WriteLine(@$"Olá, informe a opção desejada:
         
         [1] - Cadastrar nova conta
-        [2] - Logar em uma conta já existente");
+        [2] - Logar em uma conta já existente
+        [0] - Sair");
 
             opcao4 = Console.ReadLine()!;
 
@@ -211,6 +212,11 @@ namespace projeto_final_sprint3
                 case "2":
 
                     break;
+                case "0":
+                    Console.WriteLine($"Aplicativo encerrado.");
+                    Environment.Exit(0);
+                    break;
+
                 default:
                     Console.WriteLine($"Opção inválida.");
 

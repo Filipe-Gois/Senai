@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "sldakhfjlkasfg/1.0.0": {
+      "uga/1.0.0": {
         "runtime": {
-          "sldakhfjlkasfg.dll": {}
+          "uga.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "sldakhfjlkasfg/1.0.0": {
+    "uga/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

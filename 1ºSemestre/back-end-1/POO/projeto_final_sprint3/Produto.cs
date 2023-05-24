@@ -10,7 +10,7 @@ namespace projeto_final_sprint3
     {
         public int CodigoProduto { get; set; }
         public string NomeProduto { get; set; } = "";
-        public string NomeMarca { get; set; } = "";
+        public string NomeM { get; set; } = "";
         public float Preco { get; set; }
 
         public DateTime DataCadastro { get; set; } = DateTime.Now;
@@ -40,7 +40,7 @@ namespace projeto_final_sprint3
             CodigoProduto = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine($"Informe a marca do produto:");
-            string nome1 = Console.ReadLine()!;
+            this.NomeM = Console.ReadLine()!;
 
             Console.WriteLine($"Informe o nome do protudo:");
             NomeProduto = Console.ReadLine()!;
@@ -53,9 +53,9 @@ namespace projeto_final_sprint3
             Console.WriteLine($"{DataCadastro}");
 
             listadeprodutos.Add(
-                new(CodigoProduto, NomeProduto, Preco, _Marca.NomeMarca)
+                new(CodigoProduto, NomeProduto, Preco, NomeM)
             );
-            _Marca.MarcaAdd(nome1);
+            _Marca.MarcaAdd(NomeM);
         }
 
         public void Listar()

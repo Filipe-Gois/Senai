@@ -74,7 +74,7 @@ namespace projeto_final_sprint3
         {
             if (ListaDeMarcas.Count == 0)
             {
-                Console.WriteLine($"Não há marcas a serem excluías.");
+                Console.WriteLine($"Não há marcas a serem excluídas.");
 
             }
 

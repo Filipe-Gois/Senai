@@ -22,5 +22,11 @@ namespace exemplo1.Controller
             // chamada da view passando a lista
             produtoView.Listar(produtos);
         }
+
+       public void Cadastrar()
+       {
+        produto.Inserir(produtoView.CadastrarProduto());
+       }
+    
     }
 }

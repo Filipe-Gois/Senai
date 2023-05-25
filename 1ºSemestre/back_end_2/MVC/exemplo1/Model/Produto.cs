@@ -71,12 +71,12 @@ namespace exemplo1.Model
 
         // metodo para inserir um produto na linha do CSV
 
-        public void iNSERIR(Produto p)
+        public void Inserir(Produto p)
         {
-            // array que armazena as linhas obtidas pelo método 
+            // array que armazena as linhas obtidas pelo método PrepararLinhasCSV
             string[] linhas = {PrepararLinhasCSV(p)};
 
-            // add um conteudo especifico em um caminho especifico
+            // inserir todas as linhas no arquivo dentro do PATH
             File.AppendAllLines(PATH, linhas);
         }
     }

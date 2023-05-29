@@ -1,0 +1,15 @@
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\bin\Debug\net7.0\revisao.exe
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\bin\Debug\net7.0\revisao.deps.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\bin\Debug\net7.0\revisao.runtimeconfig.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\bin\Debug\net7.0\revisao.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\bin\Debug\net7.0\revisao.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.csproj.AssemblyReference.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.AssemblyInfoInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.AssemblyInfo.cs
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.csproj.CoreCompileInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\refint\revisao.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\revisao.genruntimeconfig.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\listas\revisao\obj\Debug\net7.0\ref\revisao.dll

@@ -1,0 +1,15 @@
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\bin\Debug\net7.0\sakldsajd.exe
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\bin\Debug\net7.0\sakldsajd.deps.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\bin\Debug\net7.0\sakldsajd.runtimeconfig.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\bin\Debug\net7.0\sakldsajd.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\bin\Debug\net7.0\sakldsajd.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.csproj.AssemblyReference.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.AssemblyInfoInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.AssemblyInfo.cs
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.csproj.CoreCompileInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\refint\sakldsajd.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\sakldsajd.genruntimeconfig.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\sakldsajd\obj\Debug\net7.0\ref\sakldsajd.dll

@@ -36,26 +36,53 @@ namespace projeto_gamer_tarde.Controllers
             return View();
         }
 
+        [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
         {
             Equipe novaEquipe = new Equipe();
 
             novaEquipe.Nome = form["nome"].ToString();
-            novaEquipe.Imagem = form["Imagem"].ToString();
+            // novaEquipe.Imagem = form["Imagem"].ToString();
+            // vem como string, porém, precisamos de uma  imagem
+
+
+            // aqui começa a lógica do upload de imagem
+
+            if (form.Files.Count > 0)
+            {
+                var file = form.Files[0];
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
+
+                if (Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
+
+                var path = Path.Combine(folder, file.FileName);
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
+
+                novaEquipe.Imagem = file.FileName;
+            }
+
+            else
+            {
+                novaEquipe.Imagem = "padrao.png";
+            }
+            // Fim da lógica de upload de imagem
+
 
             c.Equipe.Add(novaEquipe);
             // c.Add(novaEquipe); outra opção
 
             c.SaveChanges();
 
-            ViewBag.Equipe = c.Equipe.ToList();
-
             return LocalRedirect("~/Equipe/Listar");
         }
-
-
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

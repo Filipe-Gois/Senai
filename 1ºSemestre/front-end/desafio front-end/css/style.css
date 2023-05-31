@@ -39,6 +39,7 @@ header .pesquisa-header {
     background-color: white;
     display: flex;
     align-items: center;
+    border-radius: 10px;
     
     
     
@@ -51,6 +52,7 @@ header .pesquisa-header  #pesquisa {
     height: 100%;
     width: 100%;
     margin-left: 15px;
+    border-radius: 10px;
 }
 
 header .pesquisa-header  ::placeholder {

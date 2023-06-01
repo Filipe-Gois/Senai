@@ -13,7 +13,7 @@
     <input type="text" name="Nome" required>
 
     <label for="">Imagem</label>
-    <input type="file" name= "Imagem" required>
+    <input type="file" name="Imagem" required>
 
     <button type="submit">Cadastrar</button>
 
@@ -27,6 +27,7 @@
         <th>ID</th>
         <th>Nome</th>
         <th>Imagem</th>
+        <th>Ações</th>
     </thead>
 
     <tbody>
@@ -36,7 +37,22 @@
             <tr>
                 <td>@equipe.IdEquipe</td>
                 <td>@equipe.Nome</td>
-                <td>@equipe.Imagem</td>
+
+                <td>
+                    @* colocando uma img na exibição *@
+                    <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width="50px">
+                </td>
+
+                <td>
+                    @* // asp-area= mesma coisa do alt do html *@
+                    <a asp-area="Atalho para excluir equipe." asp-controller="Equipe" asp-action="Excluir"
+                        asp-route-id="@equipe.IdEquipe">Excluir</a>
+                </td>
+
+                <td>
+                    <a asp-area="Atalho para editar equipe." asp-controller="Equipe" asp-action="Editar"
+                        asp-route-id="@equipe.IdEquipe">Editar</a>
+                </td>
             </tr>
         }
 

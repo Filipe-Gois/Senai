@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EahFDrTAIat4Y+6jK91BYzXcgtpd/vK4I9/qS/YU5SE=",
+  "Hash": "VOG18L5a0jocAdxg652ioa5aS2x3AhGLYPD9RONMtOM=",
   "Source": "projeto_gamer_tarde",
   "BasePath": "_content/projeto_gamer_tarde",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\ipad.png",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/ipad.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\ipad.png"
+    },
+    {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\ituano.png",
       "SourceId": "projeto_gamer_tarde",
       "SourceType": "Discovered",
@@ -102,6 +119,40 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\ituano.png"
     },
     {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\mac.png",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/mac.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\mac.png"
+    },
+    {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\padrao.png",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/padrao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
+    },
+    {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\SQLQuery1_30.05.2023.sql",
       "SourceId": "projeto_gamer_tarde",
       "SourceType": "Discovered",
@@ -117,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\SQLQuery1_30.05.2023.sql"
+    },
+    {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\vasco_escudo.png",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/vasco_escudo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\vasco_escudo.png"
     },
     {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\WIN_20230404_17_09_15_Pro.jpg",

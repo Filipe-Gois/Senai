@@ -1,0 +1,67 @@
+@model Jogador
+
+@{
+    ViewData["Title"] = "Jogador";
+}
+
+<h4>Tela de Jogadores:</h4>
+
+<form method="post" action="" enctype="multipart/form-data">
+
+    <h1>Cadastrar Jogadores</h1>
+
+    <label for="Nome:">Nome:</label>
+    <input type="text" name="Nome" required>
+
+    <label for="">Email</label>
+    <input type="email" name="Email" required>
+
+    <label for="">Senha:</label>
+    <input type="password" name="Senha" required>
+
+    <label for="">Selecione sua equipe:</label>
+    <select name="Equipe" id="equipe" required>
+        @foreach (Equipe e in ViewBag.Equipe)
+        {
+            <option value="">@e.Nome</option>
+        }
+    </select>
+
+    <button type="submit">Cadastrar:</button>
+
+
+
+</form>
+
+<table class="table table-striped table-responsive">
+
+    <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Equipe</th>
+        <th>Ações</th>
+    </thead>
+
+    <tbody>
+
+        @foreach (Jogador jogador in ViewBag.Jogador)
+        {
+            <tr>
+                <td>@jogador</td>
+                <td>@jogador.Nome</td>
+                <td>@jogador.Email</td>
+                <td>@jogador.Equipe</td>
+                <td>
+                    <a asp-area="Atalho para excluir jogador." asp-controller="Jogador" asp-action="Excluir"
+                        asp-route-id="@jogador.IdJogador">Excluir</a>
+                </td>
+                <td>
+                    <a asp-area="Atalho para editar informações do jogador." asp-controller="Jogador" asp-action="Editar"
+                        asp-route-id="@jogador.IdJogador">Editar</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

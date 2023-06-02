@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     background: linear-gradient(91.13deg, rgba(164, 91, 206, 1), rgba(51, 36, 177, 1));
     align-items: center;
-    
+
 
 }
 
@@ -40,12 +40,12 @@ header .pesquisa-header {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    
-    
-    
+
+
+
 }
 
-header .pesquisa-header  #pesquisa {
+header .pesquisa-header #pesquisa {
     outline: none;
     border: none;
     color: grey;
@@ -55,7 +55,7 @@ header .pesquisa-header  #pesquisa {
     border-radius: 10px;
 }
 
-header .pesquisa-header  ::placeholder {
+header .pesquisa-header ::placeholder {
     width: 100%;
 
 }
@@ -65,7 +65,7 @@ header nav {
     justify-content: space-between;
     text-transform: none;
     width: 350px;
-    
+
 
 
 }
@@ -73,7 +73,7 @@ header nav {
 header nav a {
     text-decoration: none;
     color: white;
-    
+
 }
 
 header .iconsheader img {
@@ -118,8 +118,8 @@ main .banner1 .coisas-do-banner {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-    
+
+
 }
 
 main .banner1 .img-notebook {
@@ -128,7 +128,7 @@ main .banner1 .img-notebook {
     position: relative;
     top: 90px;
     right: 120px;
-    
+
 }
 
 main .banner1 .info-banner1 {
@@ -139,7 +139,7 @@ main .banner1 .info-banner1 {
     gap: 40px;
     position: relative;
     right: 300px;
-    
+
 }
 
 main .banner1 .info-banner1 h3 {
@@ -152,7 +152,7 @@ main .banner1 .info-banner1 h2 {
     color: white;
     text-transform: uppercase;
     font-size: 40px;
-    
+
 }
 
 main .banner1 .coisas-do-banner .info-banner1 button {
@@ -173,7 +173,7 @@ main .envio {
     z-index: 2;
     padding: 50px;
     position: relative;
-    
+
 }
 
 main .envio img {
@@ -208,16 +208,51 @@ main .envio .titulo-caminhao h4 {
 
 main .produtos1 {
     width: 100%;
-    height: 630px;
+    height: 1000px;
     display: flex;
+    background-color: #E2dceb;
+
 }
 
 main .produtos1 .titulos-pd1 {
-    width: 610px;
+    width: 100%;
     height: 235px;
-    margin-top: 70px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     justify-content: center;
+    gap: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+main .produtos1 .titulos-pd1 h2 {
+    font-size: 20px;
+}
+
+main .produtos1 .titulos-pd1 h3 {
+    font-size: 50px;
+}
+
+main .produtos1 .titulos-pd1 p {
+    display: flex;
+    align-items: center;
+}
+
+main .produtos1 .div_produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .produtos1 .produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+main .produtos1 .produtos img {
+    width: 150px;
+    height: 150px;
 }

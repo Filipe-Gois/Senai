@@ -232,11 +232,14 @@ main .titulos-pd1 h3 {
 main .produtos1 .titulos-pd1 p {
     display: flex;
     align-items: center;
+    text-align: center;
+    line-height: 30px;
 }
 
 main .produtos1 .div_produtos {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 
@@ -257,7 +260,107 @@ main .produtos2 {
 
     padding-top: 50px;
     width: 100%;
-    height: 770px;
+    height: 1000px;
     display: flex;
     background-color: #E0D1EB;
+}
+
+.produtos_principais {
+    width: 90%px;
+    height: 500px;
+    background-color: rgb(122, 118, 118);
+    gap: 30px;
+    display: flex;
+    
+    
+}
+
+.celulares1 {
+    width: 370px;
+    height: 100%;
+}
+
+main .celulares12 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .celulares12 .celulares_img {
+    width: 100%;
+    height: 100%;
+}
+
+main .celulares12 .celulares_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.celulares_principal {
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* margin-top: 20px; */
+    /* justify-content: center; */
+}
+
+.celulares_principal button {
+    border-radius: 30px;
+    border: #6C509C;
+    width: 170px;
+    height: 50px;
+    color: #AD81BC;
+    background-color: #E1DBEB;
+}
+
+.celulares33 {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    background-color: white;
+}
+
+.celulares123 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.img_produto123 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.img_produto123 img {
+    width: 470px;
+    height: 200px;
+}
+
+.produto012345 {
+    display: flex;
+    gap: 30px;
+    width: 370px;
+    height: 230px;
+    
+    
+}
+
+.produtos0123456 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.produtos3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }

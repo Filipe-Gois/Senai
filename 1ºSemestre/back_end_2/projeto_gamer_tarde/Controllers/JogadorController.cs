@@ -38,7 +38,8 @@ namespace projeto_gamer_tarde.Controllers
             novoJogador.Nome = form["nome"].ToString();
             novoJogador.Email = form["email"].ToString();
             novoJogador.Senha = form["senha"].ToString();
-            novoJogador.Equipe = form["equipe"].ToString();
+            novoJogador.Equipe = c.Equipe.First(x => x.IdEquipe == int.Parse(form["Equipe"]!));
+            // novoJogador.Equipe = form["equipe"].ToString();
             // OLHA O ERRO, FDP KKKKKKK
 
             c.Jogador.Add(novoJogador);

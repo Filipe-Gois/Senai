@@ -101,6 +101,7 @@ main .banner1 .trocar-banner button {
     background-color: transparent;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 
@@ -154,6 +155,7 @@ main .banner1 .coisas-do-banner .info-banner1 button {
     border-radius: 60px;
     width: 175px;
     height: 50px;
+    cursor: pointer;
 }
 
 main .envio {
@@ -203,7 +205,7 @@ main .produtos1 {
     width: 100%;
     height: 770px;
     display: flex;
-    background-color: #E2dceb;
+    /* background-color: #E2dceb; */
 
 }
 
@@ -268,34 +270,15 @@ main .produtos2 {
 .produtos_principais {
     width: 90%px;
     height: 500px;
-    background-color: rgb(122, 118, 118);
+    /* background-color: rgb(122, 118, 118); */
     gap: 30px;
     display: flex;
-    
-    
+
+
 }
 
 .celulares1 {
     width: 370px;
-    height: 100%;
-}
-
-main .celulares12 {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-main .celulares12 .celulares_img {
-    width: 100%;
-    height: 100%;
-}
-
-main .celulares12 .celulares_img img {
-    width: 100%;
     height: 100%;
 }
 
@@ -305,8 +288,6 @@ main .celulares12 .celulares_img img {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* margin-top: 20px; */
-    /* justify-content: center; */
 }
 
 .celulares_principal button {
@@ -316,51 +297,282 @@ main .celulares12 .celulares_img img {
     height: 50px;
     color: #AD81BC;
     background-color: #E1DBEB;
+    cursor: pointer;
 }
 
-.celulares33 {
-    display: flex;
+main .celulares12 {
     width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main .celulares12 .celulares_img {
+    width: 100%;
+    height: 100%;
+
+}
+
+main .celulares12 .celulares_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.produto4_titulo {
+    width: 50%;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* margin-top: 20px; */
+    /* justify-content: center; */
+}
+
+.produto4_titulo button {
+    border-radius: 30px;
+    border: #6C509C;
+    width: 170px;
+    height: 50px;
+    color: #AD81BC;
+    background-color: #E1DBEB;
+    cursor: pointer;
+}
+
+.produto4 {
+    display: flex;
+    width: 1030px;
     height: 230px;
     background-color: white;
+    border-radius: 10px;
 }
 
-.celulares123 {
+.produto4_article {
     display: flex;
     width: 100%;
     height: 100%;
+    cursor: pointer;
+    gap: 100px;
 }
 
-.img_produto123 {
-    width: 100%;
+.produto4_img {
+    width: 1000px;
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.img_produto123 img {
-    width: 470px;
-    height: 200px;
+.produto4_img img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.produto012345 {
+.produto2_e_3 {
     display: flex;
     gap: 30px;
     width: 370px;
     height: 230px;
     
-    
+
+
 }
 
-.produtos0123456 {
+.produto2_article {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.produto2_article .produto2_titulo {
+    padding-left: 40px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+
+.produto2_1_img {
+    width: 450px;
+    height: 250px;
+}
+
+.produto2_1_img img {
     width: 100%;
     height: 100%;
-    display: flex;
 }
 
-.produtos3 {
+.produto2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
 }
+
+.produto3 {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.produto3_titulo {
+    padding-left: 40px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.produto3_img {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.produto3_img img {
+    width: 100%;
+    height: 70%;
+}
+
+.headsets {
+    padding: 30px;
+    width: 100%;
+    height: 770px;
+}
+
+main .cabecalho_headsets {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+main .cabecalho_headsets h1 {
+    font-size: 50px;
+}
+
+main .cabecalho_headsets nav {
+    text-transform: none;
+    display: flex;
+    gap: 20px;
+}
+
+main .cabecalho_headsets nav a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+main .cabecalho_headsets nav a:hover {
+    
+    
+    color: #6C509C;
+}
+
+
+main .unde {
+    width: 100%;
+    height: 450px;
+    /* background-color: red; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main .unde_article {
+    width: 270px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid pink;
+}
+
+main .unde_article .unde_img {
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+}
+
+main .unde_article .unde_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.unde_preco a {
+    width: 30px;
+    height: 30px;
+}
+
+.unde_preco a img {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.unde_desc {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: 60%;
+}
+
+.unde_desc p {
+    font-size: 25px;
+}
+
+.unde_preco {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+    
+}
+
+.unde_preco_p {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.unde_preco_btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.unde_preco_p h4 {
+    font-size: 30px;
+}
+
+.unde_preco_p p {
+    font-size: 15px;
+}
+
+
+

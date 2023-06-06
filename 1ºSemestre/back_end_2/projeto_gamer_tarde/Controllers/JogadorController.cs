@@ -35,20 +35,60 @@ namespace projeto_gamer_tarde.Controllers
         {
             Jogador novoJogador = new Jogador();
 
-            novoJogador.Nome = form["nome"].ToString();
-            novoJogador.Email = form["email"].ToString();
-            novoJogador.Senha = form["senha"].ToString();
-            novoJogador.Equipe = c.Equipe.First(x => x.IdEquipe == int.Parse(form["Equipe"]!));
-            // novoJogador.Equipe = form["equipe"].ToString();
-            // OLHA O ERRO, FDP KKKKKKK
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
 
             c.Jogador.Add(novoJogador);
             c.SaveChanges();
-            
+
             return LocalRedirect("~/Jogador/Listar");
         }
 
+        [Route("Excluir/{Id}")]
+        public IActionResult Excluir(int id)
+        {
+            Jogador jogadorBuscado = c.Jogador.First(x => x.IdJogador == id);
+            c.Jogador.Remove(jogadorBuscado);
+            c.SaveChanges();
 
+            return LocalRedirect("~/Jogador/Listar");
+        }
+
+        [Route("Editar/{id}")]
+        public IActionResult Editar(int id)
+        {
+            Jogador x = c.Jogador.First(x => x.IdJogador == id);
+            ViewBag.Jogador = x;
+            ViewBag.Equipe = c.Equipe.ToList();
+            return View("Edit");
+        }
+
+        [Route("Atualizar")]
+        public IActionResult Atualizar(IFormCollection form)
+        {
+            Jogador novoJogador = new Jogador();
+            
+            novoJogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == novoJogador.IdJogador);
+
+            jogadorBuscado.Nome = novoJogador.Nome;
+            jogadorBuscado.Email = novoJogador.Email;
+            jogadorBuscado.Senha = novoJogador.Senha;
+            jogadorBuscado.IdEquipe = novoJogador.IdEquipe;
+
+            c.SaveChanges();
+
+
+            return LocalRedirect("~/Jogador/Listar");
+        }
 
 
 

@@ -6,7 +6,7 @@
 
 <h4>Tela de Jogadores:</h4>
 
-<form method="post" action="" enctype="multipart/form-data">
+<form method="post" action='@Url.Action("Cadastrar")'  enctype="multipart/form-data">
 
     <h1>Cadastrar Jogadores</h1>
 
@@ -20,14 +20,14 @@
     <input type="password" name="Senha" required>
 
     <label for="">Selecione sua equipe:</label>
-    <select name="Equipe" id="equipe" required>
+    <select name="IdEquipe" id="equipe" required>
         @foreach (Equipe e in ViewBag.Equipe)
         {
-            <option value="">@e.Nome</option>
+            <option value="@e.IdEquipe">@e.Nome</option>
         }
     </select>
 
-    <button type="submit">Cadastrar:</button>
+    <button type="submit">Cadastrar</button>
 
 
 
@@ -51,7 +51,10 @@
                 <td>@jogador.IdJogador</td>
                 <td>@jogador.Nome</td>
                 <td>@jogador.Email</td>
-                @* <td>@jogador.Equipe</td> *@
+                <td>
+
+                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="Imagem da equipe @jogador.Equipe.Nome" width="50px">
+                </td>
                 <td>
                     <a asp-area="Atalho para excluir jogador." asp-controller="Jogador" asp-action="Excluir"
                         asp-route-id="@jogador.IdJogador">Excluir</a>

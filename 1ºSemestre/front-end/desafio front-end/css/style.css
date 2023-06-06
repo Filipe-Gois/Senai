@@ -268,7 +268,7 @@ main .produtos2 {
 }
 
 .produtos_principais {
-    width: 90%px;
+    width: 100%px;
     height: 500px;
     /* background-color: rgb(122, 118, 118); */
     gap: 30px;
@@ -292,11 +292,11 @@ main .produtos2 {
 
 .celulares_principal button {
     border-radius: 30px;
-    border: #6C509C;
     width: 170px;
     height: 50px;
-    color: #AD81BC;
-    background-color: #E1DBEB;
+    color: #ea01ff;
+    background-color: white;
+    border: 1px solid #ea01ff;
     cursor: pointer;
 }
 
@@ -336,11 +336,12 @@ main .celulares12 .celulares_img img {
 
 .produto4_titulo button {
     border-radius: 30px;
-    border: #6C509C;
+
     width: 170px;
     height: 50px;
-    color: #AD81BC;
-    background-color: #E1DBEB;
+    color: #ea01ff;
+    background-color: white;
+    border: 1px solid #ea01ff;
     cursor: pointer;
 }
 
@@ -380,7 +381,7 @@ main .celulares12 .celulares_img img {
     gap: 30px;
     width: 370px;
     height: 230px;
-    
+
 
 
 }
@@ -457,7 +458,7 @@ main .celulares12 .celulares_img img {
 main .cabecalho_headsets {
     display: flex;
     width: 100%;
-    
+
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -479,8 +480,8 @@ main .cabecalho_headsets nav a {
 }
 
 main .cabecalho_headsets nav a:hover {
-    
-    
+
+
     color: #6C509C;
 }
 
@@ -492,7 +493,7 @@ main .unde {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 main .unde_article {
@@ -526,7 +527,7 @@ main .unde_article .unde_img img {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    
+
 }
 
 .unde_desc {
@@ -548,7 +549,7 @@ main .unde_article .unde_img img {
     justify-content: space-between;
     align-items: stretch;
     margin-top: 50px;
-    
+
 }
 
 .unde_preco_p {
@@ -573,6 +574,3 @@ main .unde_article .unde_img img {
 .unde_preco_p p {
     font-size: 15px;
 }
-
-
-

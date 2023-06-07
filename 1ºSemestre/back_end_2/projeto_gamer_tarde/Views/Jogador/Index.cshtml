@@ -21,6 +21,7 @@
 
     <label for="">Selecione sua equipe:</label>
     <select name="IdEquipe" id="equipe" required>
+        <option value="">Selecione uma equipe:</option>
         @foreach (Equipe e in ViewBag.Equipe)
         {
             <option value="@e.IdEquipe">@e.Nome</option>

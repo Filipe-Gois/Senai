@@ -84,6 +84,7 @@ namespace projeto_gamer_tarde.Controllers
             jogadorBuscado.Senha = novoJogador.Senha;
             jogadorBuscado.IdEquipe = novoJogador.IdEquipe;
 
+            c.Jogador.Update(jogadorBuscado);
             c.SaveChanges();
 
 

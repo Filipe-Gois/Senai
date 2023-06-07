@@ -17,23 +17,27 @@
     <input type="text" name="Email" value="@ViewBag.Jogador.Email">
 
     <label for="">Senha:</label>
-    <input type="text" name="Senha" value="@ViewBag.Jogador.Senha">
+    <input type="password" name="Senha" value="@ViewBag.Jogador.Senha">
 
     <label for="">Equipe:</label>
-    
-        <select name="IdEquipe" id="IdEquipe">
-            <option value="0">Selecione uma equipe:</option>
 
-            @foreach (Equipe equipe in ViewBag.Equipe)
+    <select name="IdEquipe" id="IdEquipe" required>
+        <option value="">Selecione uma equipe:</option>
+
+        @foreach (Equipe equipe in ViewBag.Equipe)
+        {
+            if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
             {
-                if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
-                {
-                    <option value="0"></option>
-                }
+                <option value="@equipe.IdEquipe">@equipe.Nome</option>
             }
-        </select>
+            else
+            {
+                <option value="@equipe.IdEquipe">@equipe.Nome</option>
+            }
+        }
+    </select>
 
-        <button type="submit">Atualizar</button>
+    <button type="submit">Atualizar</button>
 
 
 

@@ -28,6 +28,8 @@ namespace projeto_gamer_tarde.Controllers
         // esse "Listar" tá substituindo o nome do método Index
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             // "mochila" que contem a lista das equipes
             // podemos usa-la na view de equipe
             ViewBag.Equipe = c.Equipe.ToList(); //acessa e exibe as coisas dentro
@@ -93,18 +95,20 @@ namespace projeto_gamer_tarde.Controllers
         [Route("Excluir/{id}")]
         public IActionResult Excluir(int id)
         {
-           Equipe x = c.Equipe.First(x => x.IdEquipe == id);
+            Equipe x = c.Equipe.First(x => x.IdEquipe == id);
 
-           c.Equipe.Remove(x);
+            c.Equipe.Remove(x);
 
-           c.SaveChanges();
+            c.SaveChanges();
 
-           return LocalRedirect("~/Equipe/Listar");
+            return LocalRedirect("~/Equipe/Listar");
         }
 
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             Equipe x = c.Equipe.First(x => x.IdEquipe == id);
 
             ViewBag.Equipe = x;
@@ -123,21 +127,22 @@ namespace projeto_gamer_tarde.Controllers
             {
                 var file = form.Files[0];
 
-                var folder = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img/Equipes");
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
 
                 if (!Directory.Exists(folder))
                 {
                     Directory.CreateDirectory(folder);
                 }
                 var path = Path.Combine(folder, file.FileName);
-                
+
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
                     file.CopyTo(stream);
                 }
                 novaEquipe.Imagem = file.FileName;
             }
-            else{
+            else
+            {
                 novaEquipe.Imagem = "padrao.png";
             }
 

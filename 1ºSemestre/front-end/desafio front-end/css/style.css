@@ -16,7 +16,9 @@ header {
     height: 90px;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(91.13deg, rgba(164, 91, 206, 1), rgba(51, 36, 177, 1));
+    z-index: 1000;
+    position: fixed;
+    backdrop-filter: blur(20px);
     align-items: center;
 
 
@@ -474,15 +476,16 @@ main .cabecalho_headsets nav {
 }
 
 main .cabecalho_headsets nav a {
-    text-decoration: none;
+    text-decoration-color: transparent;
     color: grey;
     font-size: 20px;
 }
 
 main .cabecalho_headsets nav a:hover {
+    text-decoration-color: #ea01ff;
+    text-transform: none;
 
 
-    color: #6C509C;
 }
 
 

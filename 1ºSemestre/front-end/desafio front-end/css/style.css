@@ -6,7 +6,7 @@
 
 .layout-grid {
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
     height: 100%;
 }
 
@@ -290,6 +290,7 @@ main .produtos2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+
 }
 
 .celulares_principal button {
@@ -317,11 +318,13 @@ main .celulares12 .celulares_img {
     width: 100%;
     height: 100%;
 
+
 }
 
 main .celulares12 .celulares_img img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .produto4_titulo {
@@ -376,6 +379,8 @@ main .celulares12 .celulares_img img {
     height: 190px;
     display: flex;
     justify-content: flex-end;
+    border-radius: 10px;
+
 }
 
 .produto2_e_3 {
@@ -412,6 +417,7 @@ main .celulares12 .celulares_img img {
 .produto2_1_img img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .produto2 {
@@ -449,6 +455,7 @@ main .celulares12 .celulares_img img {
 .produto3_img img {
     width: 100%;
     height: 70%;
+    border-radius: 10px;
 }
 
 .headsets {
@@ -577,4 +584,185 @@ main .unde_article .unde_img img {
 
 .unde_preco_p p {
     font-size: 15px;
+}
+
+.magni_conteudo_principal {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.headset_magni {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background-color: #E0D2EB;
+}
+
+.magni_titulo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 100px;
+}
+
+.magni_titulo, .timer {
+    font-size: 50px;
+}
+
+
+
+.magni_article {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-transform: none;
+}
+
+.magni_article a {
+    text-decoration-color: transparent;
+    color: grey;
+    font-size: 20px;
+}
+
+.magni_article a:hover {
+    text-decoration-color: #ea01ff;
+    text-transform: none;
+    color: black;
+    
+}
+
+.magni_article h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.headset_enorme_img {
+    width: 450px;
+    height: 520px;
+    position: relative;
+}
+
+.headset_enorme_img img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.headset_enorme_img p {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    z-index: 100000;
+    background-color: #ea01ff;
+    color: white;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.magni_conteudo {
+    width: 420px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.magni_conteudo h3 {
+    font-size: 30px;
+}
+
+.lorem_p {
+    font-size: 20px;
+    color: grey;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.magni_conteudo_preco_alterado {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.magni_conteudo_preco_alterado_p1 {
+    font-size: 30px;
+    color: green;
+}
+
+.magni_conteudo_preco_alterado_p2 {
+    font-size: 20px;
+    color: grey;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.magni_preco2 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+
+}
+
+.magni_preco2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+
+}
+
+.magni_conteudo_compra_interativo_total {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+.magni_conteudo_compra_interativo_fracao {
+    background-color: #b26ac9;
+    width: 25%;
+    height: 25%;
+    border-radius: 10px, 5px;
+    margin-top: 20px;
+}
+
+.magni_conteudo_compra_interativo_fraca {
+    background-color: rgb(172, 172, 172);
+    width: 25%;
+    height: 25%;
+    border-radius: 10px, 5px;
+    margin-top: 20px;
+}
+
+.magni_btn {
+    width: 170px;
+    height: 60px;
+    background-color: #b26ac9;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.quam {
+    width: 100%;
+    height: 2000px;
 }

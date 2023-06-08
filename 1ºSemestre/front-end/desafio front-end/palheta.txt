@@ -7,3 +7,5 @@
 #E2DCEB
 
 cinza: #d6d6d6
+
+#b26ac9

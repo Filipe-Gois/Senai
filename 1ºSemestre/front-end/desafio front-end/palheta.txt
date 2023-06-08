@@ -5,3 +5,5 @@
 #A06EB0
 
 #E2DCEB
+
+cinza: #d6d6d6

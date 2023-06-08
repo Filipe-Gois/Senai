@@ -207,7 +207,7 @@ main .produtos1 {
     width: 100%;
     height: 770px;
     display: flex;
-    /* background-color: #E2dceb; */
+    background-color: #e2e0e0eb;
 
 }
 
@@ -455,6 +455,7 @@ main .celulares12 .celulares_img img {
     padding: 30px;
     width: 100%;
     height: 770px;
+    background-color: #e2e0e0eb;
 }
 
 main .cabecalho_headsets {

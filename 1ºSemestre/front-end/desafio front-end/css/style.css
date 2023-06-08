@@ -92,13 +92,13 @@ header .iconsheader {
 
 main .banner1 {
     width: 100%;
-    height: 674px;
+    height: 800px;
     background-image: linear-gradient(91.13deg, rgba(164, 91, 206, 1), rgba(51, 36, 177, 1));
     background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    z-index: 5;
+
 }
 
 
@@ -109,10 +109,10 @@ main .banner1 {
     margin-left: 20px;
     display: flex;
     align-items: center;
-    
+
 }
 
-.setas2 {
+.setas21 {
     cursor: pointer;
     border: 1px solid white;
     border-radius: 40px;
@@ -123,7 +123,8 @@ main .banner1 {
 }
 
 
-.setas1 img, .setas2 img {
+.setas1 img,
+.setas21 img {
     width: 40px;
     height: 40px;
 
@@ -149,11 +150,11 @@ main .banner1 .coisas-do-banner {
 }
 
 main .banner1 .img-notebook {
-    width: 1000px;
-    height: 700px;
+    width: 1100px;
+    height: 800px;
     position: relative;
-    top: 90px;
-    right: 120px;
+    top: 120px;
+    right: 0px;
 
 }
 
@@ -181,7 +182,7 @@ main .banner1 .info-banner1 h2 {
 
 }
 
-main .banner1 .coisas-do-banner .info-banner1 button {
+.generico_btn {
     background-color: #FFC101;
     color: white;
     border: none;
@@ -301,6 +302,8 @@ main .produtos2 {
     width: 100%;
     height: 1000px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E0D1EB;
 }
 
@@ -310,6 +313,7 @@ main .produtos2 {
     /* background-color: rgb(122, 118, 118); */
     gap: 30px;
     display: flex;
+    justify-content: center;
 
 
 }
@@ -627,7 +631,7 @@ main .unde_article .unde_img img {
     height: 100px;
     justify-content: space-between;
     align-items: start;
-    
+
 
 }
 
@@ -802,9 +806,10 @@ main .unde_article .unde_img img {
 
 .quam {
     width: 100%;
-    height: 2000px;
+    height: 750px;
     background-color: #e2e0e0eb;
     display: flex;
+    flex-direction: column;
 }
 
 .quam_titulo {
@@ -814,7 +819,7 @@ main .unde_article .unde_img img {
     max-height: 100%;
     margin-top: 70px;
     margin-bottom: 30px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .quam_titulo h2 {
@@ -825,5 +830,142 @@ main .unde_article .unde_img img {
     display: flex;
     width: 100%;
     height: 430px;
+    justify-content: space-around;
+}
+
+.quam_article1 {
+    border: 1px solid #b26ac9;
+    width: 370px;
+    height: 400px;
+    background-color: white;
+}
+
+.quam_article1_img {
+    height: 60%;
+    width: 100%;
+}
+
+.quam_article1_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.quam_article1_conteudo {
+    width: 100%;
+    height: 40%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quam_article1_conteudo h4 {
+    font-size: 20px;
+}
+
+.quam_articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.setas2 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.seta1,
+.seta2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ea01ff;
+    border-radius: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.footer_t_cor {
+    background-color: #3c2caa;
+    width: 100%;
+    height: 50%;
+}
+
+.footer_t {
+    width: 100%;
+    height: 100%;
+    display: flex;
     justify-content: space-between;
+    gap: 50px;
+
+
+}
+
+.ducimus {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+    height: 50%;
+    margin-top: 30px;
+    margin-top: 70px;
+}
+
+.ducimus h1 {
+    font-size: 15px;
+    color: white;
+}
+
+.ducimus h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.ducimus p {
+    font-size: 20px;
+    color: grey;
+
+}
+
+.formulario {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+
+.email_input {
+    width: 380px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.email_input input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.email_input input::placeholder {
+    color: grey;
 }

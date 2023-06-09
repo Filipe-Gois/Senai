@@ -200,6 +200,10 @@ main .banner1 .info-banner1 h2 {
     cursor: pointer;
 }
 
+.generico_btn:hover {
+    color: grey;
+}
+
 main .banner1 .coisas-do-banner .info-banner1 button:hover {
     color: grey;
 }
@@ -298,6 +302,12 @@ main .produtos1 .produtos {
     gap: 10px;
     align-items: center;
 }
+.see {
+    color: black;
+    cursor: pointer;
+}
+
+
 
 main .produtos1 .produtos img {
     width: 150px;
@@ -361,6 +371,11 @@ main .celulares12 {
     cursor: pointer;
 }
 
+main .celulares12:hover {
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
 main .celulares12 .celulares_img {
     width: 100%;
     height: 100%;
@@ -413,6 +428,11 @@ main .celulares12 .celulares_img img {
     gap: 100px;
 }
 
+.produto4_article:hover {
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
 .produto4_img {
     width: 1000px;
     height: 100%;
@@ -449,6 +469,11 @@ main .celulares12 .celulares_img img {
     cursor: pointer;
 }
 
+.produto2_article:hover {
+    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+}
+
 .produto2_article .produto2_titulo {
     padding-left: 40px;
     padding-top: 40px;
@@ -483,6 +508,12 @@ main .celulares12 .celulares_img img {
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.produto3:hover {
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
+    
 }
 
 .produto3_titulo {
@@ -564,8 +595,8 @@ main .unde_article {
 }
 
 main .unde_article:hover {
-    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
-    transition: all .2s;
+    box-shadow: 0px 5px 15px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
     cursor: pointer;
 }
 
@@ -682,6 +713,11 @@ main .unde_article .unde_img img {
     padding: 30px;
     border-radius: 10px;
     text-transform: none;
+}
+
+.magni_article:hover {
+    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
 }
 
 .magni_article a {
@@ -860,8 +896,8 @@ main .unde_article .unde_img img {
 
 .quam_article1:hover {
     top: -2px;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
-    transition: all .2s ease-in-out;
+    box-shadow: 0px 5px 15px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
 }
 
 .quam_article1_img {
@@ -929,6 +965,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    
 
 
 }

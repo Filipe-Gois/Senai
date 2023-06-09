@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -74,6 +78,10 @@ header nav a {
     text-decoration: none;
     color: white;
 
+}
+
+header nav a:hover {
+    color: grey;
 }
 
 header .iconsheader img {
@@ -552,7 +560,13 @@ main .unde_article {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    border: 1px solid pink;
+    border: 1px solid rgb(129, 128, 128);
+}
+
+main .unde_article:hover {
+    box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
+    transition: all .2s;
+    cursor: pointer;
 }
 
 main .unde_article .unde_img {
@@ -834,10 +848,20 @@ main .unde_article .unde_img img {
 }
 
 .quam_article1 {
-    border: 1px solid #b26ac9;
+    /* border: 1px solid #b26ac9; */
     width: 370px;
     height: 400px;
     background-color: white;
+    
+    /* transition: 5s; */
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.quam_article1:hover {
+    top: -2px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transition: all .2s ease-in-out;
 }
 
 .quam_article1_img {
@@ -942,7 +966,7 @@ footer {
     justify-content: start;
     align-items: center;
     gap: 30px;
-    
+
 }
 
 

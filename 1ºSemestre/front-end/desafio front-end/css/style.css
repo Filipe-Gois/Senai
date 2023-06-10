@@ -40,7 +40,10 @@ header .header1 {
 header .header1 .relap {
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
 }
+
+
 
 header .pesquisa-header {
     height: 50px;
@@ -302,6 +305,7 @@ main .produtos1 .produtos {
     gap: 10px;
     align-items: center;
 }
+
 .see {
     color: black;
     cursor: pointer;
@@ -513,7 +517,7 @@ main .celulares12 .celulares_img img {
 .produto3:hover {
     transition: all .3s ease-in-out;
     box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 .produto3_titulo {
@@ -888,7 +892,7 @@ main .unde_article .unde_img img {
     width: 370px;
     height: 400px;
     background-color: white;
-    
+
     /* transition: 5s; */
     cursor: pointer;
     /* position: relative; */
@@ -951,12 +955,13 @@ footer {
     width: 100%;
     height: 800px;
     display: flex;
+    flex-direction: column;
 }
 
 .footer_t_cor {
     background-color: #3c2caa;
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 .footer_t {
@@ -965,7 +970,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    
+
 
 
 }
@@ -1029,4 +1034,68 @@ footer {
 
 .email_input input::placeholder {
     color: grey;
+}
+
+.footer_b {
+    width: 100%;
+    height: 50%;
+    background-color: #E0D2EB;
+
+}
+
+.alto {
+    display: flex;
+    height: 320px;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.tempor {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.baixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-top: 1px solid black; */
+    width: 100%;
+    height: 80px;
+    background-color: #E0D2EB;
+}
+
+.sociais {
+    display: flex;
+}
+
+.sociais img {
+    width: 100%;
+    height: 100%;
+}
+
+.ft {
+    border: 3px solid #ea01ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    padding: 5px;
+}
+
+.pagamento img {
+    width: 30px;
+    height: 30px;
+}
+
+.divisoria {
+    width: 100%;
+    border-top: 1px solid grey;
+    display: flex;
 }

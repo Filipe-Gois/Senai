@@ -938,6 +938,7 @@ main .unde_article .unde_img img {
     gap: 10px;
     align-items: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .seta1,

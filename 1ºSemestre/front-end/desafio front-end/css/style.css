@@ -1070,9 +1070,17 @@ footer {
     background-color: #E0D2EB;
 }
 
+.baixo p {
+    width: 250px;
+}
+
 .sociais {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100%;
+    gap: 40px;
 }
 
 .sociais img {
@@ -1088,9 +1096,25 @@ footer {
     padding: 5px;
 }
 
+.ft a {
+    text-decoration: none;
+}
+
+.pagamento {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
 .pagamento img {
     width: 30px;
     height: 30px;
+}
+
+.pagamento a {
+    text-decoration: none;
 }
 
 .divisoria {

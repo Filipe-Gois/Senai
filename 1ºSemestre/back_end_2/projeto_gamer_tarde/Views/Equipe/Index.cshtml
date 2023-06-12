@@ -7,54 +7,66 @@
 <h1>Tela de Equipes</h1>
 
 
-<form method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+@if (ViewBag.UserName == null)
+{
+    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" required>
-
-    <label for="">Imagem</label>
-    <input type="file" name="Imagem" required>
-
-    <button type="submit">Cadastrar</button>
-
-</form>
+else
+{
 
 
 
+    <form method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
 
-<table class="table table-striped table-responsive">
-    <thead>
-        <th>ID</th>
-        <th>Nome</th>
-        <th>Imagem</th>
-        <th>Ações</th>
-    </thead>
+        <label for="">Nome</label>
+        <input type="text" name="Nome" required>
 
-    <tbody>
+        <label for="">Imagem</label>
+        <input type="file" name="Imagem" required>
 
-        @foreach (Equipe equipe in ViewBag.Equipe)
-        {
-            <tr>
-                <td>@equipe.IdEquipe</td>
-                <td>@equipe.Nome</td>
+        <button type="submit">Cadastrar</button>
 
-                <td>
-                    @* colocando uma img na exibição *@
-                    <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width="50px">
-                </td>
+    </form>
 
-                <td>
-                    @* // asp-area= mesma coisa do alt do html *@
-                    <a asp-area="Atalho para excluir equipe." asp-controller="Equipe" asp-action="Excluir"
-                        asp-route-id="@equipe.IdEquipe">Excluir</a>
-                </td>
 
-                <td>
-                    <a asp-area="Atalho para editar equipe." asp-controller="Equipe" asp-action="Editar"
-                        asp-route-id="@equipe.IdEquipe">Editar</a>
-                </td>
-            </tr>
-        }
 
-    </tbody>
-</table>
+
+    <table class="table table-striped table-responsive">
+        <thead>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Imagem</th>
+            <th>Ações</th>
+        </thead>
+
+        <tbody>
+
+            @foreach (Equipe equipe in ViewBag.Equipe)
+            {
+                <tr>
+                    <td>@equipe.IdEquipe</td>
+                    <td>@equipe.Nome</td>
+
+                    <td>
+                        @* colocando uma img na exibição *@
+                        <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width="50px">
+                    </td>
+
+                    <td>
+                        @* // asp-area= mesma coisa do alt do html *@
+                        <a asp-area="Atalho para excluir equipe." asp-controller="Equipe" asp-action="Excluir"
+                            asp-route-id="@equipe.IdEquipe">Excluir</a>
+                    </td>
+
+                    <td>
+                        <a asp-area="Atalho para editar equipe." asp-controller="Equipe" asp-action="Editar"
+                            asp-route-id="@equipe.IdEquipe">Editar</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+}

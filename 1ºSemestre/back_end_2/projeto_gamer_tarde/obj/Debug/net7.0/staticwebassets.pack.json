@@ -241,6 +241,22 @@
       "PackagePath": "staticwebassets\\assets\\vector-user.svg"
     },
     {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\equipes.css",
+      "PackagePath": "staticwebassets\\css\\equipes.css"
+    },
+    {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\header-footer.css",
+      "PackagePath": "staticwebassets\\css\\header-footer.css"
+    },
+    {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -351,6 +367,14 @@
     {
       "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\headset_1.jpg",
       "PackagePath": "staticwebassets\\img\\Equipes\\headset_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\headset_1.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\headset_1.png"
+    },
+    {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\headset_3.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\headset_3.png"
     },
     {
       "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\ipad.png",

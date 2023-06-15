@@ -4,55 +4,60 @@
     ViewData["Title"] = "Jogador";
 }
 
-<h4>Tela de Jogadores:</h4>
+<link rel="stylesheet" href="~/css/jogadores.css">
 
 @if (ViewBag.UserName == null)
 {
     <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
 
-else
-{
 
-    <form method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+else{
+    <main>
 
-        <h1>Cadastrar Jogadores</h1>
+        <section class="container-grid cadastro-equipes">
 
-        <label for="Nome:">Nome:</label>
-        <input type="text" name="Nome" required>
 
-        <label for="">Email</label>
-        <input type="email" name="Email" required>
+            <form class="frm-cad-equipe" method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Jogadores</h1>
+                    <hr>
+                </div>
 
-        <label for="">Senha:</label>
-        <input type="password" name="Senha" required>
+                
+                
 
-        <label for="">Selecione sua equipe:</label>
-        <select name="IdEquipe" id="equipe" required>
-            <option value="">Selecione uma equipe:</option>
-            @foreach (Equipe e in ViewBag.Equipe)
+                <select class="campo-entrada" id="equipe-select" name="IdEquipe" required>
+                    <option value="">Selecione uma Equipe:</option>
+                    @foreach (Equipe e in ViewBag.Equipe)
             {
                 <option value="@e.IdEquipe">@e.Nome</option>
             }
-        </select>
+                </select>
 
-        <button type="submit">Cadastrar</button>
+                <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:" name="Nome" required>
+                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:" name="Email" required>
+                <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:" name="Senha" required>
+                <button>Cadastrar</button>
 
 
 
-    </form>
 
-    <table class="table table-striped table-responsive">
+            </form>
 
-        <thead>
-            <th>Id</th>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Equipe</th>
-            <th>Ações</th>
-        </thead>
+            <!-- TABELA CADASTRO DE EQUIPES -->
 
-        <tbody>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>&spades;</th>
+                    </tr>
+                </thead>
+
+                <tbody>
 
             @foreach (Jogador jogador in ViewBag.Jogador)
             {
@@ -66,7 +71,9 @@ else
                     </td>
                     <td>
                         <a asp-area="Atalho para excluir jogador." asp-controller="Jogador" asp-action="Excluir"
-                            asp-route-id="@jogador.IdJogador">Excluir</a>
+                            asp-route-id="@jogador.IdJogador">
+                            <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                            </a>
                     </td>
                     <td>
                         <a asp-area="Atalho para editar informações do jogador." asp-controller="Jogador" asp-action="Editar"
@@ -76,6 +83,8 @@ else
             }
 
         </tbody>
-    </table>
+            </table>
+        </section>
+    </main>
 
 }

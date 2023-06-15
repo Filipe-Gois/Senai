@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "17Gb9H1LR9TcFwyAUGeuf8C/Lc+b675GIg+3FB1WJmA=",
+  "Hash": "KyfSB60aX+poeAJoLsIEPsx38Z0Tq/QdSPFISuiPlVs=",
   "Source": "projeto_gamer_tarde",
   "BasePath": "_content/projeto_gamer_tarde",
   "Mode": "Default",
@@ -1105,6 +1105,23 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\jogadores.css",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "css/jogadores.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jogadores.css"
+    },
+    {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\css\\login.css",
       "SourceId": "projeto_gamer_tarde",
       "SourceType": "Discovered",
@@ -1547,6 +1564,23 @@
       "OriginalItemSpec": "wwwroot\\images\\noticia8.png"
     },
     {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\celulares1.1.png",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/celulares1.1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\celulares1.1.png"
+    },
+    {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\headset_1.jpg",
       "SourceId": "projeto_gamer_tarde",
       "SourceType": "Discovered",
@@ -1581,6 +1615,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\headset_1.png"
     },
     {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\headset_2.jpg",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/headset_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\headset_2.jpg"
+    },
+    {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\headset_3.png",
       "SourceId": "projeto_gamer_tarde",
       "SourceType": "Discovered",
@@ -1596,6 +1647,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\headset_3.png"
+    },
+    {
+      "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\img_note.png",
+      "SourceId": "projeto_gamer_tarde",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\",
+      "BasePath": "_content/projeto_gamer_tarde",
+      "RelativePath": "img/Equipes/img_note.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\img_note.png"
     },
     {
       "Identity": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\ipad.png",

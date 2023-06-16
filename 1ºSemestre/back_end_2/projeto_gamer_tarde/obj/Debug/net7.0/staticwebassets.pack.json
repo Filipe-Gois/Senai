@@ -397,8 +397,16 @@
       "PackagePath": "staticwebassets\\img\\Equipes\\ipad.png"
     },
     {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\iphone.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\iphone.png"
+    },
+    {
       "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\ituano.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\ituano.png"
+    },
+    {
+      "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\jbl.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\jbl.jpg"
     },
     {
       "Id": "C:\\Users\\46633783825\\Desktop\\Senai\\1ºSemestre\\back_end_2\\projeto_gamer_tarde\\wwwroot\\img\\Equipes\\mac.png",

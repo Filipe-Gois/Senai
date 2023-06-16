@@ -14,12 +14,35 @@
     <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
 
-else
-{
+
+
+    else
+        {
+
+            <form  class="frm-cad-equipe" method="post" action='@Url.Action("Atualizar")' enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Edição de Equipes</h1>
+                    <hr>
+                </div>
+
+                <input class="campo-entrada" type="hidden" value="@ViewBag.Equipe.IdEquipe" id="idEquipe"
+                    placeholder="Digite o Id da sua equipe:" name="IdEquipe">
+
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome"
+                    value="@ViewBag.Equipe.Nome" required>
+                <label class="foto" for="foto-file">
+                    Nenuma imagem selecionada...
+                    <input type="file" id="foto-file" valeu="@ViewBag.Equipe.Imagem" name="Imagem">
+                </label>
+
+                <button type="Submit">Atualizar</button>
+
+            </form>           
+        }
     
     
 
-<form class="frm-cad-equipe" method="post" action='@Url.Action("Atualizar")' enctype="multipart/form-data">
+@* <form class="frm-cad-equipe" method="post" action='@Url.Action("Atualizar")' enctype="multipart/form-data">
                 <div class="cadequipe-titulo">
                     <h1>Atualizar Equipe</h1>
                     <hr>
@@ -28,8 +51,8 @@ else
 
 
 
-                <input class="campo-entrada" type="hidden" id="idEquipe">
-                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome" required>
+                <input class="campo-entrada" type="hidden" id="idEquipe" value="@ViewBag.Equipe.IdEquipe">
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome" value="@ViewBag.Equipe.Nome" required>
                 <label class="foto" for="foto-file">
                     Nenuma imagem selecionada...
                     <input type="file" id="foto-file" value="@ViewBag.Equipe.Imagem" name="Imagem" required>
@@ -42,12 +65,12 @@ else
         
             </form>
 
-
+ *@
 
 
     
 
-}
+
 
 </section>
 </main>

@@ -58,6 +58,8 @@
                             <a asp-controller="Jogador" asp-action="Index">Jogadores</a>
 
                             <a asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
+
+                            @* <span>Olá, @ViewBag.UserName</span> *@
                         }
                         <a href="~/#noticias">Notícias</a>
 
@@ -137,11 +139,11 @@
                 </div>
 
                 <ul class="menu-footer">
-                    <li class="menu-ftitem"><a href="#">Início</a></li>
-                    <li class="menu-ftitem"><a href="#">Jogadores</a></li>
-                    <li class="menu-ftitem"><a href="#">Notícias</a></li>
-                    <li class="menu-ftitem"><a href="#">Login</a></li>
-                    <li class="menu-ftitem" id="link-equipe"><a href="#">Equipes</a></li>
+                    <li class="menu-ftitem"><a href="">Início</a></li>
+                    <li class="menu-ftitem"><a a asp-controller="Jogador" ascp-action="Index">Jogadores</a></li>
+                    <li class="menu-ftitem"><a href="~/#noticias">Notícias</a></li>
+                    <li class="menu-ftitem"><a a asp-controller="Login" ascp-action="Index">Login</a></li>
+                    <li class="menu-ftitem" id="link-equipe"><a a asp-controller="Equipe" ascp-action="Index">Equipes</a></li>
                 </ul>
             </div>
 

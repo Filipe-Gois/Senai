@@ -3,7 +3,6 @@
 /* Main */
 
 main {
-    margin-top: 60px;
     height: 1231px;
     background-image: url(../images/background-equipes-mobile.png);
     background-size: contain;
@@ -125,7 +124,7 @@ main .cadastro-equipes .frm-cad-equipe .foto {
 
 main .cadastro-equipes .frm-cad-equipe .foto::before {
     display: flex;
-    justify-content: center;
+    gap: 100px;
     align-items: center;
     content: "Imagem da Equipe";
     background-color: #D9D9D9;

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\1ºSemestre\\back-end-1\\POO\\lsita_exe_05.05.23\\1\\1.csproj",
-      "projectName": "1",
-      "projectPath": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\1ºSemestre\\back-end-1\\POO\\lsita_exe_05.05.23\\1\\1.csproj",
+      "projectUniqueName": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\1ºSemestre\\back-end-1\\POO\\lsita_exe_05.05.23\\1_refeito\\1_refeito.csproj",
+      "projectName": "1_refeito",
+      "projectPath": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\1ºSemestre\\back-end-1\\POO\\lsita_exe_05.05.23\\1_refeito\\1_refeito.csproj",
       "packagesPath": "C:\\Users\\fytho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\1ºSemestre\\back-end-1\\POO\\lsita_exe_05.05.23\\1\\obj\\",
+      "outputPath": "C:\\Users\\fytho\\OneDrive\\Documentos\\Senai\\1ºSemestre\\back-end-1\\POO\\lsita_exe_05.05.23\\1_refeito\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fytho\\AppData\\Roaming\\NuGet\\NuGet.Config"

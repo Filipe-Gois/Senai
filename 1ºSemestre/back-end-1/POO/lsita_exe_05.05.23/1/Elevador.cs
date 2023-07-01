@@ -67,6 +67,7 @@ namespace _1
                 Console.WriteLine($"Impossível sair, não existem pessoas no elevador.");
                 return PessoasPresentes;
             }
+
             return 0;
         }
 

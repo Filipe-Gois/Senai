@@ -16,3 +16,10 @@
 // Descer : para descer um andar (não deve descer se já estiver no térreo);
 
 // Encapsular todos os atributos da classe (criar os métodos set e get).
+
+
+using _1_refeito;
+
+Elevador elevador = new Elevador();
+
+elevador.Inicializar(elevador.maximoPessoas, elevador.totalAndares);

@@ -1,0 +1,15 @@
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\bin\Debug\net7.0\1_refeito.exe
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\bin\Debug\net7.0\1_refeito.deps.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\bin\Debug\net7.0\1_refeito.runtimeconfig.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\bin\Debug\net7.0\1_refeito.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\bin\Debug\net7.0\1_refeito.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.csproj.AssemblyReference.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.AssemblyInfoInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.AssemblyInfo.cs
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.csproj.CoreCompileInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\refint\1_refeito.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\1_refeito.genruntimeconfig.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\1_refeito\obj\Debug\net7.0\ref\1_refeito.dll

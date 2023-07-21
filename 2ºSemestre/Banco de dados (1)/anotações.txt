@@ -1,0 +1,25 @@
+sgbd: sistema gerenciador de banco de dados
+
+banco de dados: coleção de tabelas. Onde se armazena dados.
+Base de dados: Conjunto de dados (de maneira crua) que estão armazenadas no banco de dados(servidor)
+ex:
+pasta com diversas planilhas: banco de dados
+PLanilhas: base de dados
+
+Banco de dados relacionais e não relacionais.
+
+
+relacionais: tem relação entre os cadastros (tabelas)
+Não relacionais: pode cadastrar qualquer coisa. Os dados não têm relação entre si. (documentos)
+
+
+
+Dado (matéria bruta da informação): n tem referência(sentido)
+informação: 
+
+
+
+Dado vira informação vira conhecimento
+
+
+Linguagem utilizada em banco de dados: SQL

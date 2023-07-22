@@ -13,3 +13,18 @@ C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\POO\lsita
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.pdb
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.genruntimeconfig.cache
 C:\Users\fytho\OneDrive\Área de Trabalho\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\ref\2.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\bin\Debug\net7.0\2.exe
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\bin\Debug\net7.0\2.deps.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\bin\Debug\net7.0\2.runtimeconfig.json
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\bin\Debug\net7.0\2.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\bin\Debug\net7.0\2.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.csproj.AssemblyReference.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.AssemblyInfoInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.AssemblyInfo.cs
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.csproj.CoreCompileInputs.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\refint\2.dll
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.pdb
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\2.genruntimeconfig.cache
+C:\Users\fytho\OneDrive\Documentos\Senai\1ºSemestre\back-end-1\POO\lsita_exe_05.05.23\2\obj\Debug\net7.0\ref\2.dll

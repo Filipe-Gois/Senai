@@ -1,0 +1,16 @@
+Modelo:
+
+entidade: é a mesma coisa que uma classe no sistema. Ex: equipe e jogador do gamer. Ela será uma tabela/ classe, não é ainda.
+
+Relacionamento:
+1:1 | 1 para 1
+1:N | 1 para N
+N:N | N para N
+
+geralmente n se usa 1:1, pq as vezes a outra entidade pode virar atributo da outra
+
+
+MER e DER: Modelagem de Bancos de Dados
+entidade física: representa algo físico, do mundo real
+entidade lógica: existem em decorrência da interação entre ou com entidades físicas
+

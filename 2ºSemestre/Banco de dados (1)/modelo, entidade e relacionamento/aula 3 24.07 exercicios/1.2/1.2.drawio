@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-07-24T19:11:25.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xcKFz4L-5UdZIoK87_P1" version="21.6.5" type="device">
+  <diagram name="Página-1" id="I9oLy1XKigG2QSSES1KG">
+    <mxGraphModel dx="1050" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-1" value="Construa o Modelo Entidade Relacionamento considerando o seguinte cenário:&#xa;&#xa;&#xa;- uma empresa possui vários veículos&#xa;- um veículo possui marca(gm, ford, fiat), modelo(onix, fiesta, argo) e placa&#xa;- um cliente (cpf, nome) aluga um ou mais veículos" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-2" target="EN4_EAjY8X7hiJVMPtbm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Empresa&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-3" target="EN4_EAjY8X7hiJVMPtbm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Possui&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-4" target="EN4_EAjY8X7hiJVMPtbm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Veículo&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="258" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;N&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-9" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Cliente&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-10" target="EN4_EAjY8X7hiJVMPtbm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-10" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Aluga&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="485" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-13" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="478" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;N&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="478" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-15" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Marca&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-16" target="EN4_EAjY8X7hiJVMPtbm-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-16" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Modelo&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EN4_EAjY8X7hiJVMPtbm-17" target="EN4_EAjY8X7hiJVMPtbm-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EN4_EAjY8X7hiJVMPtbm-17" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Placa&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,4 +1,4 @@
-Modelo:
+Modelo: criar um modelo que explique as características de funcionamento e comportamento de um software
 
 entidade: é a mesma coisa que uma classe no sistema. Ex: equipe e jogador do gamer. Ela será uma tabela/ classe, não é ainda.
 
@@ -14,3 +14,8 @@ MER e DER: Modelagem de Bancos de Dados
 entidade física: representa algo físico, do mundo real
 entidade lógica: existem em decorrência da interação entre ou com entidades físicas
 
+
+
+relação entre tabelas se dá pela chave primária e estrangeira.
+registro: Linha na tabela
+Campo: Coluna na tabela

@@ -18,6 +18,7 @@ namespace IMC
         {
             resultado = peso / Math.Pow(altura, 2);
 
+            
             if (resultado < 17)
             {
                 return "Você está abaixo do peso.";

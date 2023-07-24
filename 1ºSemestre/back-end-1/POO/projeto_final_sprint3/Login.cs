@@ -15,7 +15,7 @@ namespace projeto_final_sprint3
         public string opcao4 { get; set; } = "";
         public string EmailInformado { get; set; } = "";
         public string SenhaInformada { get; set; } = "";
-        Usuario user = new Usuario();
+        public Usuario user { get; set; } = new Usuario();
 
 
         public Login()
@@ -157,13 +157,13 @@ namespace projeto_final_sprint3
             do
             {
                 Console.WriteLine($"\nInforme seu Email:");
-                EmailInformado = Console.ReadLine()!;
+                this.EmailInformado = Console.ReadLine()!;
 
                 Console.WriteLine($"\nInforme sua senha:");
-                SenhaInformada = Console.ReadLine()!;
+                this.SenhaInformada = Console.ReadLine()!;
 
 
-                if (EmailInformado == user.Email && SenhaInformada == user.Senha)
+                if (this.EmailInformado == this.user.Email && this.SenhaInformada == this.user.Senha)
                 {
                     this.Logado = true;
                     Console.WriteLine($"\nAcesso concedido.");
@@ -188,7 +188,6 @@ namespace projeto_final_sprint3
 
         public void Delosgar()
         {
-
         }
         public void MenuUsuario()
         {

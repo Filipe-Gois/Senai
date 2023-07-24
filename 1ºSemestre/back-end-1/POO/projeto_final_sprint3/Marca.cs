@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using projeto_final_sprint3;
 
 namespace projeto_final_sprint3
 {
@@ -12,35 +13,40 @@ namespace projeto_final_sprint3
         public string NomeMarca { get; set; }
 
         public DateTime DataCadastro { get; set; } = DateTime.Now;
-        List<Marca> ListaDeMarcas = new List<Marca>();
+        public Produto produto { get; set; }
+        public List<Marca> ListaDeMarcas = new List<Marca>();
 
         public Marca()
         {
+
+        }
+        public Marca(string nomemarca, int codigomarca)
+        {
+            NomeMarca = nomemarca;
+            CodigoMarca = codigomarca;
 
         }
         public Marca(string nomemarca)
         {
             NomeMarca = nomemarca;
         }
-        // public Marca(int codigomarca, string nomemarca)
-        // {
-        //     CodigoMarca = codigomarca;
-        //     NomeMarca = nomemarca;
-        // }
+
         public void CadastrarMarca()
         {
-            Console.WriteLine($"Informe o código da marca:");
-            CodigoMarca = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine($"Informe o nome da marca:");
             NomeMarca = Console.ReadLine()!;
 
+            Console.WriteLine($"Informe o código da marca:");
+            CodigoMarca = int.Parse(Console.ReadLine()!);
+
+            
             Console.WriteLine(@$"
             Marca cadastrada!
             {DataCadastro}
             ");
 
-            ListaDeMarcas.Add(new(NomeMarca));
+            ListaDeMarcas.Add(new(NomeMarca, CodigoMarca));
         }
 
         public void ListarMarca()
@@ -53,8 +59,8 @@ namespace projeto_final_sprint3
 
             else
             {
-
-
+                    
+               
                 Console.WriteLine(@$"Marcas cadastradas:");
 
                 foreach (var item in ListaDeMarcas)
@@ -65,10 +71,10 @@ namespace projeto_final_sprint3
                 }
             }
         }
-        public void MarcaAdd(string nomeMarca)
-        {
-            ListaDeMarcas.Add(new(nomeMarca));
-        }
+        // public void MarcaAdd(string nomeMarca)
+        // {
+        //     ListaDeMarcas.Add(new(nomeMarca));
+        // }
 
         public void DeletarMarca()
         {
@@ -80,7 +86,6 @@ namespace projeto_final_sprint3
 
             else
             {
-
 
                 int codigomarca = CodigoMarca;
 

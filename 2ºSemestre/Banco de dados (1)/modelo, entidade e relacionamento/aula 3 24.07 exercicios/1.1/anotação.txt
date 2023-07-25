@@ -1,0 +1,1 @@
+quando criar uma entidade ao invés de um atributo: quando precisar escrever vários desse "atributo".

@@ -1,0 +1,10 @@
+modelo lógico e físico:
+1: sai do conceito e traz mais detalhes. tem chave primaria e estrangeira. Serve pra quem desenvolve o sistema 
+2: meio q a prova real do modelo lógico. Implementação física do banco de dados.
+
+PK: identificador da entidade
+
+FK: identificador que vem de outra entidade
+
+    Jogador:
+idJogador | Nome | Equipe (FK)

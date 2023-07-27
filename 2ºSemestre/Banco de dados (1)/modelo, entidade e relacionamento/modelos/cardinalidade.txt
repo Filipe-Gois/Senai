@@ -1,0 +1,23 @@
+N:N
+
+se a caradinalidade for N: TEM FK
+Se a cardinalidade for 1: N TEM FK
+
+N:N = chaves se repetem "dá ruim no banco de dados" (não pode repetir chaves em tabelas diferentes)
+Colocar uma tabela intermediária
+
+Tabela intermediária é feita no minimo com a PK de cada tabela
+
+ex:
+
+
+
+1:1
+
+tanto faz qual vai receber a FK "estou associado ao meu CPF ou o CPF está associado à mim ? (dá na mesma)"
+
+
+exemplo: 1:N
+1: cardinalidade mínima
+N: cardinalidade máxima
+Seguir este princípio

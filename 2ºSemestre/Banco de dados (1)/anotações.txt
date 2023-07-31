@@ -23,3 +23,13 @@ Dado vira informação vira conhecimento
 
 
 Linguagem utilizada em banco de dados: SQL
+
+
+ddl: data definition language (create, update, drop)
+
+dml: data manipulation language
+
+dql: data query language (select)
+
+comandos: insert, update, delete
+

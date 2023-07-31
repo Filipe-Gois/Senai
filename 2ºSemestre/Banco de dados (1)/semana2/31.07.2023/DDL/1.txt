@@ -1,0 +1,18 @@
+sql (linguagem de consulta estruturada): banco de dados
+ssms: gerenciador de banco de dados
+
+sql ≠ sql server
+sql: É a linguagem
+
+interface(ssms) é necessário para ver os dados
+
+tipos de dados mais utilizados:
+valores numéricos inteiros (int);
+valores numéricos decimais;
+valores de data;
+valores de texto;
+valores binários;
+valores de localização geográfica;
+
+
+dql:

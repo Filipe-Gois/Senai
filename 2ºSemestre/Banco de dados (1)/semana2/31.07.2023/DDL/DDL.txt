@@ -1,0 +1,28 @@
+comandos:
+
+CREATE DATABASE
+"cria banco de dados"
+
+USE 'nome do banco de dados'
+usado para trocar o banco de dados usado "como trocar de branch no git"
+
+CREATE TABLE 'nome da tabel' (
+coluna1 tipodedado,
+coluna2 tipodedado,
+coluna3 tipodedado,
+.....
+);
+
+
+*Sempre selecionar os itens que vc quer executar*
+
+*estar em azul significa que é um comando*
+*usa-se letra maiúscula em tudo na linguagem SQL*
+*colocar ";" no final de tudo"
+
+
+GUID: gera um código aleatório
+ex: 50b97e45-526c-4a8d-bddf-2d82e2f1b669
+
+
+existem palavras reservadas da sintaxe SQL, colocar entre [] para o sql entender que é o nome de algo

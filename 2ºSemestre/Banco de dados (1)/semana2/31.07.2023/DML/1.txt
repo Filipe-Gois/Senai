@@ -1,0 +1,1 @@
+INSERT: insere dados em uma tabela

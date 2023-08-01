@@ -1,0 +1,12 @@
+1: modelagem: MER(modelo entidade-relacionamento). Conceito, não visual.
+DER: diagrama conceitual, lógico e físico
+Conceitual: entidade, relação, ardinalidade, atributos
+Lógico: identificar as PKs E FKs
+Físico: teste, prova real. Simular tabela do banco de dados.
+
+2: SGBD
+Tipos de dados
+Scripts SQL(
+1) Data Definition Language (DDL): criar/drop(excluir)/atualizar banco de dados
+2)Data Manipulation Language (DML): Inserir/alterar/excluir dados nas tabelas já existentes
+3) Data Querry Language (DQL): Consultar dados das tabelas dentro do banco

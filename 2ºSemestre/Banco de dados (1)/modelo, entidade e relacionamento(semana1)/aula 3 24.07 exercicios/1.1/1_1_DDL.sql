@@ -15,13 +15,13 @@ CREATE TABLE Pessoa
 );
 
 
-
 CREATE TABLE Email
 (
 	IdEmail INT PRIMARY KEY IDENTITY,
 	IdPessoa INT FOREIGN KEY REFERENCES Pessoa(IdPessoa) NOT NULL,
 	EnderecoEmail VARCHAR(30) UNIQUE NOT NULL
 );
+
 
 CREATE TABLE Telefone
 (
@@ -33,3 +33,4 @@ CREATE TABLE Telefone
 SELECT * FROM Pessoa
 SELECT * FROM Email
 SELECT * FROM Telefone
+

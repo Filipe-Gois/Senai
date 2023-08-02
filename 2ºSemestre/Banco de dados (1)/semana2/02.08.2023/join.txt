@@ -1,0 +1,6 @@
+join é quando tem equivalência entre as tabelas para "junta-las".
+Junção se dá pela relação PK - FK.
+
+left join:
+right join:
+inner join:

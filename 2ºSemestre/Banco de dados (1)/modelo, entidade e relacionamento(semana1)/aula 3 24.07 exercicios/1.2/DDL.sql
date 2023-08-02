@@ -35,6 +35,8 @@ CREATE TABLE Veiculo
 	IdModelo INT FOREIGN KEY REFERENCES Modelo(IdModelo) NOT NULL
 );
 
+--DROP TABLE Veiculo
+
 ALTER TABLE Veiculo
 ADD NomeVeiculo VARCHAR(15) NOT NULL
 

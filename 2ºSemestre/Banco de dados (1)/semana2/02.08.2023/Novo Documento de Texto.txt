@@ -1,0 +1,10 @@
+Normalização: reduzir a redundância de dados no banco , identificando anomalias em relações, decompondo-as em relações melhor estruturadas.
+
+1º Forma normal: todos os atributos contém apenas um valor correspondente
+2º Forma normal: Não pode ter um registro associado à duas chaves.
+3º Forma normal: atributo não chave não pode depender de outro atributo não chave
+
+registro: quando a célula está preenchida com alguma informação
+
+
+https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-banco-de-dados-5647cdf84a12

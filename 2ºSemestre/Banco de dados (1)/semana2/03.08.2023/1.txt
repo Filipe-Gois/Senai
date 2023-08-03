@@ -1,0 +1,14 @@
+left join: vem todas as infos da tabela da esqurda, mas na direita só vêm as coisas correspondentes.
+
+right join: vem todas as infos da tabela da direita, mas na esquerda só vêm as coisas correspondentes.
+
+*Resultado é NULL se não tiver correspondência*
+
+inner join: vem só os que são correspondentes (tipo na hora de listar os livros do autor no projeto de biblioteca)
+
+full outer join: junção do left com right
+
+
+AS: usado para apelidar tabelas ou colunas
+
+ORDER BY: Ordena a partir do que você determinar (asc, desc[ordem ascendente, ordem decrescente])

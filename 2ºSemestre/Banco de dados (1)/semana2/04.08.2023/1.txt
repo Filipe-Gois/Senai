@@ -1,0 +1,1 @@
+na hora de dar o join p unir, tenha as chaves PK E FK como base para esta ação.

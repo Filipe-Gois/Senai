@@ -2,19 +2,27 @@
 USE Exercicio_1_2
 
 SELECT 
-	a.IdAluguel,
-	a.IdCliente,
-	a.IdVeiculo,
-	a.Valor
-
+	IdAluguel,
+	DataInicialAluguel AS Inicio,
+	DataFinalAluguel AS Final,
+	Cliente.NomeCliente,
+	Veiculo.NomeVeiculo,
+	Modelo.NomeModelo,
+	Valor
 
 FROM 
-	Cliente AS c,
-	Aluguel AS a,
-	Veiculo AS v,
+	Aluguel AS a
 
-INNER JOIN
-	Veiculo
+INNER JOIN Cliente
 
-ON
+ON a.IdCliente = Cliente.IdCliente
+
+INNER JOIN Veiculo
+
+ON a.IdVeiculo = Veiculo.IdVeiculo
+
+INNER JOIN Modelo
+
+ON Veiculo.IdModelo = Modelo.IdModelo
+
 

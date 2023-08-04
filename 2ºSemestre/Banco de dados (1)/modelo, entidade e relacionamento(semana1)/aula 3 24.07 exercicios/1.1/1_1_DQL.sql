@@ -4,21 +4,29 @@
 
 --AS: serve para apelidar algo
 USE Exercicio_1_1
+
 SELECT 
-	p.Nome AS NomePessoa, 
-	Telefone.NumeroTelefone AS Telefone, 
-	e.EnderecoEmail AS Email, 
-	p.CNH
+	Nome,
+	CNH,
+	Telefone.NumeroTelefone, 
+	Email.EnderecoEmail
 
 
-FROM 
-	Pessoa AS p, 
-	Email AS E, 
-	Telefone
+FROM
+	Pessoa
 
-WHERE 
-	p.IdPessoa = e.IdPessoa AND p.IdPessoa = Telefone.IdPessoa
+
+INNER JOIN Telefone
+ON Pessoa.IdPessoa = Telefone.IdPessoa
+
+INNER JOIN Email
+ON  Pessoa.IdPessoa = Email.IdPessoa
+
 
 ORDER BY 
 	NOME DESC
 --DESC: decrescente
+
+/*WHERE 
+	p.IdPessoa = e.IdPessoa AND p.IdPessoa = Telefone.IdPessoa
+	*/

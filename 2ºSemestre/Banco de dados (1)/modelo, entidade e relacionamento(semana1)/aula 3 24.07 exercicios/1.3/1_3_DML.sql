@@ -10,7 +10,8 @@ VALUES
 INSERT INTO Raca
 VALUES
 	('Pitbull'),
-	('Poodle');
+	('Poodle'),
+	('Shih tzu');
 
 INSERT INTO TipoPet
 VALUES

@@ -1,0 +1,23 @@
+entidades:
+tipo de usuario
+médico || OK
+adm || OK
+paciente || OK
+clínica (endereço, horário de
+funcionamento, CNPJ, nome fantasia e razão social) || OK
+Consulta (paciente, data do
+agendamento, descrição da consulta e qual médico irá atender a consulta (o médico possuirá sua determinada
+especialidade) || OK
+Comentarios(associado à pacientes e consultas)
+
+relação:
+1Adm =cadastra> NTipoUsuario
+1Adm =Cadastra/cancela> NConsultas
+*Adm informa os dados da clínica
+1Medico =possui> NConsultas
+*medico adiciona prontuario à consulta*
+1Paciente =possui> NConsultas
+
+DQL:
+O médico poderá ver os agendamentos (consultas) associados a ele;
+O paciente poderá visualizar suas próprias consultas;

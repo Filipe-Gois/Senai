@@ -1,6 +1,7 @@
 CREATE DATABASE Projeto_health_clinic
 USE Projeto_health_clinic
 
+--DDL
 CREATE TABLE TipoUsuario
 (
 	IdTipoUsuario INT PRIMARY KEY IDENTITY,
@@ -11,25 +12,29 @@ CREATE TABLE Usuario
 (
 	IdUsuario INT PRIMARY KEY IDENTITY,
 	IdTipoUsuario INT FOREIGN KEY REFERENCES TipoUsuario(IdTipoUsuario) NOT NULL,
+	Nome VARCHAR(20) NOT NULL,
+	Sobrenome VARCHAR(30) NOT NULL,
 	Email VARCHAR(50) UNIQUE NOT NULL,
 	Senha VARCHAR(20) NOT NULL
 );
+
+
 
 CREATE TABLE Clinica
 (
 	IdClinica INT PRIMARY KEY IDENTITY,
 	Endereco VARCHAR(50) NOT NULL,
-	HorarioInicioExpediente SMALLDATETIME NOT NULL,
-	HorarioFimExpediente SMALLDATETIME NOT NULL,
+	HorarioInicioExpediente TIME NOT NULL,
+	HorarioFimExpediente TIME NOT NULL,
 	NomeFantasia VARCHAR(50) UNIQUE NOT NULL,
-	RazaoSocial VARCHAR(50) UNIQUE NOT NULL
+	RazaoSocial VARCHAR(50) UNIQUE NOT NULL,
+	CNPJ CHAR(14) UNIQUE NOT NULL
 );
 
 CREATE TABLE Paciente
 (
 	IdPaciente INT PRIMARY KEY IDENTITY,
 	IdUsuario INT FOREIGN KEY REFERENCES Usuario(IdUsuario) NOT NULL,
-	Nome VARCHAR(50) NOT NULL,
 	RG CHAR(9) UNIQUE NOT NULL,
 	CPF CHAR(11) UNIQUE NOT NULL
 );
@@ -46,8 +51,19 @@ CREATE TABLE Medico
 	IdClinica INT FOREIGN KEY REFERENCES Clinica(IdClinica) NOT NULL,
 	IdMedicoEspecialidade INT FOREIGN KEY REFERENCES MedicoEspecialidade(IdMedicoEspecialidade) NOT NULL,
 	IdUsuario INT FOREIGN KEY REFERENCES Usuario(IdUsuario) NOT NULL,
-	Nome VARCHAR(50) NOT NULL
+	CRM CHAR(9) NOT NULL UNIQUE,
+	Estado CHAR(2) NOT NULL
 );
+
+--CREATE TABLE EstadoCRM
+--(
+--	IdEstadoSigla INT PRIMARY KEY NOT NULL,
+--	EstadoSigla VARCHAR(2) NOT NULL UNIQUE
+--);
+
+--DROP TABLE EstadoCRM
+
+
 
 CREATE TABLE Consulta
 (
@@ -60,7 +76,11 @@ CREATE TABLE Consulta
 CREATE TABLE Comentario
 (
 	IdComentario INT PRIMARY KEY IDENTITY,
-	IdMedico INT FOREIGN KEY REFERENCES Medico(IdMedicO) NOT NULL,
+	IdConsulta INT FOREIGN KEY REFERENCES Consulta(IdConsulta) NOT NULL,
 	IdPaciente INT FOREIGN KEY REFERENCES Paciente(IdPaciente) NOT NULL,
+	Exibe BIT NOT NULL,
 	Descricao VARCHAR(200) NOT NULL
 );
+
+--DROP DATABASE Projeto_health_clinic
+

@@ -15,9 +15,9 @@ CREATE TABLE Usuario
 	Nome VARCHAR(20) NOT NULL,
 	Sobrenome VARCHAR(30) NOT NULL,
 	Email VARCHAR(50) UNIQUE NOT NULL,
-	Senha VARCHAR(20) NOT NULL
+	Senha VARCHAR(20) NOT NULL,
+	DataNascimento DATE NOT NULL
 );
-
 
 
 CREATE TABLE Clinica
@@ -55,6 +55,8 @@ CREATE TABLE Medico
 	Estado CHAR(2) NOT NULL
 );
 
+DROP TABLE Medico
+
 --CREATE TABLE EstadoCRM
 --(
 --	IdEstadoSigla INT PRIMARY KEY NOT NULL,
@@ -82,5 +84,5 @@ CREATE TABLE Comentario
 	Descricao VARCHAR(200) NOT NULL
 );
 
---DROP DATABASE Projeto_health_clinic
+DROP DATABASE Projeto_health_clinic
 

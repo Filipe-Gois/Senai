@@ -9,10 +9,10 @@ VALUES
 
 INSERT INTO Usuario
 VALUES
-	(1,'Filipe','Góis','filipe@gmail.com','12345'),
-	(2,'Guilherme','Henrique','gui@gmail.com','12313')
-	(2,'Richard','Felintro','Richard@gmail.com','192847'),
-	(2,'Murilo','Souza','Murilo@gmail.com','3813740';
+	(1,'Filipe','Góis','filipe@gmail.com','12345','14/01/2007'),
+	(2,'Guilherme','Henrique','gui@gmail.com','12313','14/10/2005'),
+	(2,'Richard','Felintro','Richard@gmail.com','192847','15/06/2006'),
+	(2,'Murilo','Souza','Murilo@gmail.com','3813740','12/11/2005');
 
 
 INSERT INTO Clinica
@@ -39,7 +39,7 @@ VALUES
 INSERT INTO Consulta
 VALUES
 	(2,2,'Consulta de rotina com o paciente Murilo Souza.'),
-	(1,4,'Cirurgia de remoção de coágulo no cérebro.');
+	(1,1,'Cirurgia de remoção de coágulo no cérebro.');
 
 
 INSERT INTO Comentario

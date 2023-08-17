@@ -12,6 +12,10 @@ USE Projeto_health_clinic
 --CRM,
 --Feedback(Comentario da consulta)
 
+--Criar função para retornar os médicos de uma determinada especialidade
+
+--Criar procedure para retornar a idade de um determinado usuário específico
+
 
 
 SELECT
@@ -70,3 +74,20 @@ Usuario M
 
 ON
 M.IdUsuario =Medico.IdUsuario
+
+
+
+
+--CREATE FUNCTION MedicoseEspecialidadesBuscadas(@MEDICO2 VARCHAR(20), @ESPECIALIDADE2 VARCHAR(50))
+--RETURNS @TbMedicoEspecialidade TABLE(ID INT PRIMARY KEY NOT NULL IDENTITY, 
+--									 MedicoNome VARCHAR(20) NOT NULL,
+--									 MedicoEspecialidade VARCHAR (50) NOT NULL)
+
+--AS	
+
+--BEGIN
+	
+
+--END
+
+

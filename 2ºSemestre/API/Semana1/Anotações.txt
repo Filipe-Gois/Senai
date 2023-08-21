@@ -1,0 +1,64 @@
+API: intermediário entre o clinet side e server cloud
+Application
+Programming
+Interface
+
+BD   -  API     -    Client
+
+    <=request      <=request
+
+    Response=>     Response=>
+
+
+
+
+
+rest(conceito): padrão(regras) de implementação
+{
+
+restfull(aplicação de toto o conceito): implementação de todas as regras do padrão rest "API que atende"
+
+HTTP verbs:
+{
+    GET "Equivale a listar dados" EX: Listar(), ;
+    POST "Equivale a enviar dados" EX: Cadastrar();
+    DELETE "Equivale a deletar dados" ;
+    PUT "Equivale a atualizar todos os dados";
+    Patch "Atualiza somente um dado";
+}
+
+json: javascript object notation
+{
+    Survey_id: 123,
+    score: 9
+} (isso é um objeto em JS)
+
+
+
+}
+
+padrão de projeto (maneira como se cria a API)
+{
+    Modelo usado no dev do senai: Repository Pattern, que se utiliza de repositórios
+    Domains(Domínios) => Models
+    Controllers(Controladores)
+    Interfaces(Interfaces)
+    Repositories(Repositórios)
+
+    Domains: Definição das classes, propriedades
+
+    Controllers: métodos Controladores, autentificação, autorização
+
+    Interfaces: Definição dos métodos obrigatórios (contrato)
+
+    Repositórios: implementação dos métodos (regras de negócio)
+
+    Relembrando MVC
+    {
+        Model: Classe, regras de negócio
+        View: Visual
+        Controller: Ligação entre a Model e a View, métodos Controladores
+    }
+}
+
+Visual studio: uma solução pode ter vários projetos

@@ -3,11 +3,19 @@ Application
 Programming
 Interface
 
+Vantagens:
+{
+Integração entre sistemas: API smepre retorna algo no formato JSON, independente da linguagem de programação
+}
+
 BD   -  API     -    Client
 
     <=request      <=request
 
     Response=>     Response=>
+
+Cliente =request>  api
+Cliente <response= api
 
 
 
@@ -62,3 +70,30 @@ padrão de projeto (maneira como se cria a API)
 }
 
 Visual studio: uma solução pode ter vários projetos
+
+
+STATUS CODE:
+{
+    Toda respossta vem com um status code, como se fosse uma menssagem.
+    "Ex: erro 404 quando um site não é encontrado"
+}
+
+
+Front => controller => Repository => 
+Interface
+
+Front: Cliente
+controller: métodos Listar()
+Interface: Definição de métodos
+
+
+Cliente ->     Controller     -> repositório            -> Banco de Dados
+           |                |  implementação do métodos  |               |
+           |    Listar();   |                            |               |
+           |                |                            |               |
+           |                |                            |               |
+                                            |
+                                            ⇩
+
+                                     |            Interface          |
+                                     |      Definição de métodos     |

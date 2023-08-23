@@ -27,6 +27,12 @@ namespace webapi.filmes.tarde.Repositories
 
         public GeneroDomain BuscarPorId(int id)
         {
+
+            /*using (SqlConnection con = new SqlConnection(StringConexao)
+            {
+                string queryNome = "SELECT Nome FROM Genero";
+
+            }*/
             throw new NotImplementedException();
         }
 

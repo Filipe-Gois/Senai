@@ -97,3 +97,10 @@ Cliente ->     Controller     -> repositório            -> Banco de Dados
 
                                      |            Interface          |
                                      |      Definição de métodos     |
+
+
+
+
+
+
+EndPoint ou URL: http://localhost:5000/api/genero 

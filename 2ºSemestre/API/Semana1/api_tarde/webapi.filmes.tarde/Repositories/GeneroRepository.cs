@@ -28,23 +28,49 @@ namespace webapi.filmes.tarde.Repositories
         public GeneroDomain BuscarPorId(int id)
         {
 
-            /*using (SqlConnection con = new SqlConnection(StringConexao)
+            using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string queryNome = "SELECT Nome FROM Genero";
+                string queryId = "SELECT Nome FROM Genero";
 
-            }*/
+            }
             throw new NotImplementedException();
         }
+
+
+        /// <summary>
+        /// Cadastrar um novo genero
+        /// </summary>
+        /// <param name="NovoGenero">Objeto com as informações que serão cadastradas</param>
 
         public void Cadastrar(GeneroDomain NovoGenero)
         {
-            throw new NotImplementedException();
+            //Conectar no bd primeiro "Declara a SqlConnection, passando a string de conexão como parâmetro. É o objeto que faz a conexão com o BD"
+
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                //Declara a query que será executada
+                string queryInsertInto = $"INSERT INTO Genero(Nome) VALUES('{NovoGenero.NomeGenero}')";
+
+                //con.Open();
+                //Tanto faz se dar o con.Open(); dentro ou fora desse using
+
+
+                //Declara o sqlcommand, passando a query que será executada e a conexão com o BD
+                using (SqlCommand cmd = new SqlCommand(queryInsertInto,con))
+                {
+                    //Abre a conexão com o BD
+                    con.Open();
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
 
-        public void deletar(int id)
+        public void Deletar(int id)
         {
             throw new NotImplementedException();
         }
+
 
         /// <summary>
         /// Listar todos os objetos do tipo genero

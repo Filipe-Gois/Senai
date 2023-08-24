@@ -104,3 +104,8 @@ Cliente ->     Controller     -> repositório            -> Banco de Dados
 
 
 EndPoint ou URL: http://localhost:5000/api/genero 
+
+
+
+
+Postman: 

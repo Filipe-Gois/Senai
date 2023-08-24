@@ -47,7 +47,7 @@ namespace webapi.filmes.tarde.Interfaces
         /// Deletar um gênero existente
         /// </summary>
         /// <param name="id">ID do objeto a ser deletado</param>
-        void deletar(int id);
+        void Deletar(int id);
 
     }
 }

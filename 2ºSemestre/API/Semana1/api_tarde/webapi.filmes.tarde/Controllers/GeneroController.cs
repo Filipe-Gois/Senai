@@ -63,5 +63,27 @@ namespace webapi.filmes.tarde.Controllers
             }
 
         }
+
+        /// <summary>
+        /// EndPoint que acessa o método de cadastrar genero
+        /// </summary>
+        /// <param name="genero">Objeto recebido na requisição</param>
+        /// <returns>StatusCode</returns>
+
+        [HttpPost]
+        public IActionResult Post(GeneroDomain genero)
+        {
+            try
+            {
+                //Faz a chamada para o metodo cadastrar
+                _generoRepository.Cadastrar(genero);
+                return StatusCode(201);
+            }
+            catch (Exception erro)
+            {
+                //Retorna StatusCode BadRequest (400) e a mensagem de erro
+                return BadRequest(erro.Message);
+            }
+        }
     }
 }

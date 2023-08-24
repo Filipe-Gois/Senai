@@ -48,8 +48,10 @@ namespace webapi.filmes.tarde.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
+                GeneroDomain NomeGenero1 = NovoGenero.NomeGenero;
                 //Declara a query que será executada
-                string queryInsertInto = $"INSERT INTO Genero(Nome) VALUES('{NovoGenero.NomeGenero}')";
+                string queryInsertInto = $"INSERT INTO Genero(Nome) VALUES('{NomeGenero1}')";
+                //ou colocar NomeGenero no lugar da interpolação
 
                 //con.Open();
                 //Tanto faz se dar o con.Open(); dentro ou fora desse using

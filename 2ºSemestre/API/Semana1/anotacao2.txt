@@ -1,1 +1,5 @@
-problema joana d'arc
+problema joana d'arc:
+textos com ' não podem ser inseridos no BD
+Resumindo: neste problema, qualquer um pode inserir um comando em qualquer formulário   
+
+SQL injection: tecnica avançada usada por hackers. O hacker acessava um formulário e inseria comandos sql, como por exemplo drop data base, e funcionava :/

@@ -85,5 +85,44 @@ namespace webapi.filmes.tarde.Controllers
                 return BadRequest(erro.Message);
             }
         }
+
+        /// <summary>
+        /// EndPoint que acessa o método de deletar genero
+        /// </summary>
+        /// <param name="id">Objeto recebido na requisição</param>
+        /// <returns></returns>
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id) 
+        {
+            try
+            {
+                _generoRepository.Deletar(id);
+                return StatusCode(204);
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+        }
+
+        /// <summary>
+        /// EndPoint que acessa o método de buscar genero por Id
+        /// </summary>
+        /// <param name="id">Objeto recebido na requisição</param>
+        /// <returns></returns>
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            try
+            {
+                _generoRepository.BuscarPorId(id);
+                return StatusCode(200);
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+        }
     }
 }

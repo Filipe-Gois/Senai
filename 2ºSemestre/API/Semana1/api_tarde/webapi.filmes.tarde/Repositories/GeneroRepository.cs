@@ -30,7 +30,27 @@ namespace webapi.filmes.tarde.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string queryId = "SELECT Nome FROM Genero";
+                string queryId = $"SELECT IdGenero, Nome FROM Genero WHERE Genero.IdGenero = {id}";
+
+                con.Open();
+                SqlDataReader rdr;
+
+                using (SqlCommand cmd = new SqlCommand(queryId, con))
+                {
+                    
+                    rdr = cmd.ExecuteReader();
+
+                    while(rdr.Read()) 
+                    { 
+
+                    GeneroDomain genero = new GeneroDomain();
+                    {
+                        genero.IdGenero = Convert.ToInt32(rdr[0]);
+
+                        genero.NomeGenero = rdr[1].ToString();
+                    }
+                    }
+                }
 
             }
             throw new NotImplementedException();
@@ -48,9 +68,9 @@ namespace webapi.filmes.tarde.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                GeneroDomain NomeGenero1 = NovoGenero.NomeGenero;
+                //Sempre coloque uma variável na query, para não dar o erro da joana d'ARC
                 //Declara a query que será executada
-                string queryInsertInto = $"INSERT INTO Genero(Nome) VALUES('{NomeGenero1}')";
+                string queryInsertInto = $"INSERT INTO Genero(Nome) VALUES(@Nome)";
                 //ou colocar NomeGenero no lugar da interpolação
 
                 //con.Open();
@@ -60,6 +80,8 @@ namespace webapi.filmes.tarde.Repositories
                 //Declara o sqlcommand, passando a query que será executada e a conexão com o BD
                 using (SqlCommand cmd = new SqlCommand(queryInsertInto,con))
                 {
+                    cmd.Parameters.AddWithValue("@Nome", NovoGenero.NomeGenero);
+
                     //Abre a conexão com o BD
                     con.Open();
 
@@ -70,7 +92,17 @@ namespace webapi.filmes.tarde.Repositories
 
         public void Deletar(int id)
         {
-            throw new NotImplementedException();
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                string queryDelete = $"DELETE FROM Genero WHERE {id} = Genero.IdGenero";
+
+                using (SqlCommand cmd = new SqlCommand(queryDelete, con))
+                {
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
         }
 
 

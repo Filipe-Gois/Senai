@@ -36,7 +36,7 @@ namespace webapi.filmes.tarde.Interfaces
         void AtualizarIdCorpo(GeneroDomain genero);
 
         /// <summary>
-        /// Atualizar um gênero existente, passando um ID pela URL 
+        /// Atualizar um gênero existente, passando um ID pela URL e só alterando as informações no corpo
         /// </summary>
         /// <param name="id">ID do objeto a ser atualizado</param>
         /// <param name="genero">Objeto com as novas informações</param>

@@ -48,10 +48,10 @@ json: javascript object notation
 padrão de projeto (maneira como se cria a API)
 {
     Modelo usado no dev do senai: Repository Pattern, que se utiliza de repositórios
-    Domains(Domínios) => Models
-    Controllers(Controladores)
-    Interfaces(Interfaces)
-    Repositories(Repositórios)
+    Domains(Domínios) => Models = Representa as classes
+    Controllers(Controladores) = Representa os EndPoints, rotas
+    Interfaces(Interfaces) = Representa o contrato, métodos que deverão ser implementados
+    Repositories(Repositórios) = Representa a lógica, implementação de métodos
 
     Domains: Definição das classes, propriedades
 

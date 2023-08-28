@@ -1,4 +1,5 @@
 --DML
+USE Filmes
 
 INSERT INTO Genero
 VALUES
@@ -23,3 +24,6 @@ Genero
 
 ON
 Genero.IdGenero = Filme.IdGenero
+
+
+--UPDATE Genero SET Genero.Nome = 'Romance' WHERE Genero.IdGenero = 5

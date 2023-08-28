@@ -65,6 +65,32 @@ namespace webapi.filmes.tarde.Controllers
         }
 
         /// <summary>
+        /// EndPoint que acessa o método de buscar genero por Id
+        /// </summary>
+        /// <param name="id">Objeto recebido na requisição</param>
+        /// <returns></returns>
+
+        [HttpGet("{id}")]
+        public IActionResult BuscarPorId(int id)
+        {
+            try
+            {
+
+                GeneroDomain generoBuscado = _generoRepository.BuscarPorId(id);
+
+                if (generoBuscado == null)
+                {
+                    return StatusCode(404);
+                }
+                return StatusCode(200, generoBuscado);
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+        }
+
+        /// <summary>
         /// EndPoint que acessa o método de cadastrar genero
         /// </summary>
         /// <param name="genero">Objeto recebido na requisição</param>
@@ -105,19 +131,42 @@ namespace webapi.filmes.tarde.Controllers
             }
         }
 
+
         /// <summary>
-        /// EndPoint que acessa o método de buscar genero por Id
+        /// Atualiza um gênero informando o Id pelo corpo
         /// </summary>
-        /// <param name="id">Objeto recebido na requisição</param>
+        /// <param name="genero"></param>
         /// <returns></returns>
 
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        [HttpPut]
+        public IActionResult AtualizarPorIdCorpo(GeneroDomain genero)
         {
             try
             {
-                _generoRepository.BuscarPorId(id);
-                return StatusCode(200);
+                _generoRepository.AtualizarIdCorpo(genero);
+                return StatusCode(200,"Gênero atualizado com sucesso!");
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest(erro.Message);
+            }
+        }
+
+        /// <summary>
+        /// Atualiza um gênero informando o Id pela URL
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="genero"></param>
+        /// <returns></returns>
+        [HttpPut("{id}")]
+        public IActionResult AtualizarIdPorUrl(int id, GeneroDomain genero)
+        {
+            try
+            {
+                //Não precisa retornar o objeto
+             _generoRepository.AtualizarIdURL(id, genero);
+                return StatusCode(200, "Gênero atualizado com sucesso!");
             }
             catch (Exception erro)
             {

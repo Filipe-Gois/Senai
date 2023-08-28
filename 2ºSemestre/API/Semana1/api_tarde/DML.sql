@@ -26,4 +26,6 @@ ON
 Genero.IdGenero = Filme.IdGenero
 
 
---UPDATE Genero SET Genero.Nome = 'Romance' WHERE Genero.IdGenero = 5
+UPDATE Filmes SET  = 'Romance' WHERE Genero.IdGenero = 5
+
+ALTER DATABASE Filmes MODIFY NAME = Filmes_Tarde

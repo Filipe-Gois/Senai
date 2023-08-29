@@ -1,6 +1,6 @@
 --DDL
-CREATE DATABASE Filmes
-USE Filmes
+CREATE DATABASE Filmes_Tarde
+USE Filmes_Tarde
 
 CREATE TABLE Genero
 (
@@ -8,9 +8,17 @@ CREATE TABLE Genero
 	Nome VARCHAR(50)
 );
 
+--A coluna Genero.Nome´já está com NOT NULL e UNIQUE
+
+ALTER TABLE Genero
+ADD UNIQUE(Nome)
+
 CREATE TABLE Filme
 (
 	IdFilme INT PRIMARY KEY IDENTITY,
 	IdGenero INT FOREIGN KEY REFERENCES Genero(IdGenero),
-	Titulo VARCHAR(50)
+	Titulo VARCHAR(50) NOT NULL
 );
+
+--ALTER TABLE Filme
+--ALTER COLUMN IdGenero INT NOT NULL

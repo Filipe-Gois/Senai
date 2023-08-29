@@ -23,7 +23,7 @@ namespace webapi.filmes.tarde.Controllers
     /// Route: Define que o tipo de resposta da api é JSON
     /// </summary>
     [Produces("application/json")]
-    public class GeneroController : ControllerBase 
+    public class GeneroController : ControllerBase
     {
         /// <summary>
         /// Objeto que irá receber os métodos definidos na interface
@@ -35,7 +35,7 @@ namespace webapi.filmes.tarde.Controllers
             /// Instância do objeto _generoRepository para que haja referência aos métodos do repositório
             /// </summary>
             _generoRepository = new GeneroRepository();
-            
+
         }
 
 
@@ -45,7 +45,7 @@ namespace webapi.filmes.tarde.Controllers
         /// <returns>Lista de generos e um StatusCode</returns>
 
         [HttpGet]
-        public IActionResult Get() 
+        public IActionResult Get()
         {
             try
             {
@@ -59,7 +59,7 @@ namespace webapi.filmes.tarde.Controllers
             catch (Exception erro)
             {
                 //Retorna um StatusCode 400 - BadRequest e a mensagem de erro
-               return BadRequest(erro.Message);
+                return BadRequest(erro.Message);
             }
 
         }
@@ -75,7 +75,6 @@ namespace webapi.filmes.tarde.Controllers
         {
             try
             {
-
                 GeneroDomain generoBuscado = _generoRepository.BuscarPorId(id);
 
                 if (generoBuscado == null)
@@ -118,7 +117,7 @@ namespace webapi.filmes.tarde.Controllers
         /// <param name="id">Objeto recebido na requisição</param>
         /// <returns></returns>
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id) 
+        public IActionResult Delete(int id)
         {
             try
             {
@@ -143,8 +142,25 @@ namespace webapi.filmes.tarde.Controllers
         {
             try
             {
-                _generoRepository.AtualizarIdCorpo(genero);
-                return StatusCode(200,"Gênero atualizado com sucesso!");
+                GeneroDomain generoBuscado = _generoRepository.BuscarPorId(genero.IdGenero);
+
+                if (generoBuscado != null)
+                {
+                    try
+                    {
+                        _generoRepository.AtualizarIdCorpo(genero);
+                        return StatusCode(204, "Gênero atualizado com sucesso!");
+                    }
+                    catch (Exception erro)
+                    {
+
+                        return BadRequest(erro.Message);
+                    }
+                    
+                }
+
+                return StatusCode(404,"Gênero não encontrado.");
+                
             }
             catch (Exception erro)
             {
@@ -164,9 +180,23 @@ namespace webapi.filmes.tarde.Controllers
         {
             try
             {
-                //Não precisa retornar o objeto
-             _generoRepository.AtualizarIdURL(id, genero);
-                return StatusCode(200, "Gênero atualizado com sucesso!");
+                GeneroDomain generoBuscado = _generoRepository.BuscarPorId(id);
+
+                if(generoBuscado != null)
+                {
+                    try
+                    {
+                        _generoRepository.AtualizarIdURL(id, genero);
+                        return StatusCode(204);
+                    }
+                    catch (Exception erro)
+                    {
+
+                        return BadRequest(erro.Message);
+                    }
+                    
+                }
+                return StatusCode(404);
             }
             catch (Exception erro)
             {

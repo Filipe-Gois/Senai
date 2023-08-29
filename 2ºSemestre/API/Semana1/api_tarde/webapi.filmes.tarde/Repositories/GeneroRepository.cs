@@ -185,7 +185,7 @@ namespace webapi.filmes.tarde.Repositories
                 string Update = "UPDATE Genero SET Genero.Nome = @NomeGenero WHERE Genero.IdGenero = @IdGenero";
                 con.Open();
 
-                using (SqlCommand cmd = new SqlCommand(Update,con))
+                using (SqlCommand cmd = new SqlCommand(Update, con))
                 {
                     cmd.Parameters.AddWithValue("IdGenero", genero.IdGenero);
                     cmd.Parameters.AddWithValue("NomeGenero", genero.NomeGenero);
@@ -217,12 +217,12 @@ namespace webapi.filmes.tarde.Repositories
                 }
             }
         }
-        
 
 
 
 
 
-        
+
+
     }
 }

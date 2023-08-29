@@ -4,6 +4,33 @@
         <name>webapi.filmes.tarde</name>
     </assembly>
     <members>
+        <member name="T:webapi.filmes.tarde.Controllers.FilmeController">
+            <summary>
+            Route: define que a rota de uma requisição será no seguinte formato: dominio/api/nomeController
+            Ex: http://Localhost:5000/api/genero
+            </summary>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.FilmeController.Cadastrar(webapi.filmes.tarde.Domains.FilmeDomain)">
+            <summary>
+            Cadastra um filme associado à um gênero
+            </summary>
+            <param name="filme"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.FilmeController.Delete(System.Int32)">
+            <summary>
+            Deleta um filme através de seu ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.FilmeController.BuscarPorId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="T:webapi.filmes.tarde.Controllers.GeneroController">
             <summary>
             Route: define que a rota de uma requisição será no seguinte formato: dominio/api/nomeController

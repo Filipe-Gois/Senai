@@ -8,12 +8,12 @@ namespace webapi.filmes.tarde.Interfaces
 
         List<FilmeDomain> ListarTodos();
 
-        void BuscarPorId(int id);
+        FilmeDomain BuscarPorId(int id);
 
         void AtualizarIdCorpo(FilmeDomain filme);
 
         void AtualizarIdUrl(int id, FilmeDomain filme);
 
-        void ExcuirPorId(int id);
+        void Deletar(int id);
     }
 }

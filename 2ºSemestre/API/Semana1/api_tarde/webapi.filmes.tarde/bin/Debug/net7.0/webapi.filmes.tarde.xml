@@ -31,6 +31,27 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:webapi.filmes.tarde.Controllers.FilmeController.ListarTodos">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.FilmeController.AtualizarPorUrl(System.Int32,webapi.filmes.tarde.Domains.FilmeDomain)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="filme"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.FilmeController.AtualizarIdCorpo(webapi.filmes.tarde.Domains.FilmeDomain)">
+            <summary>
+            
+            </summary>
+            <param name="filme"></param>
+            <returns></returns>
+        </member>
         <member name="T:webapi.filmes.tarde.Controllers.GeneroController">
             <summary>
             Route: define que a rota de uma requisição será no seguinte formato: dominio/api/nomeController
@@ -133,6 +154,19 @@
             Deletar um gênero existente
             </summary>
             <param name="id">ID do objeto a ser deletado</param>
+        </member>
+        <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.ListarTodos">
+            <summary>
+            
+            </summary>
+            <returns></returns>
         </member>
         <!-- Badly formed XML comment ignored for member "F:webapi.filmes.tarde.Repositories.GeneroRepository.StringConexao" -->
         <member name="M:webapi.filmes.tarde.Repositories.GeneroRepository.ListarTodos">

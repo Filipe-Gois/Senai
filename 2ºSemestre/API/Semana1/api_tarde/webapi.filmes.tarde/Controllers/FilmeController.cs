@@ -81,15 +81,104 @@ namespace webapi.filmes.tarde.Controllers
             {
                 FilmeDomain filmeBuscado = _filmeRepository.BuscarPorId(id);
 
-                if(filmeBuscado == null)
+                if (filmeBuscado != null)
                 {
-                    return StatusCode(404);
+                    return StatusCode(200, filmeBuscado);
                 }
 
-                return StatusCode(200, filmeBuscado);
+                return StatusCode(404);
             }
             catch (Exception erro)
             {
+                return BadRequest(erro.Message);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult ListarTodos()
+        {
+            try
+            {
+                List<FilmeDomain> listaDeFilmes = _filmeRepository.ListarTodos();
+                return StatusCode(200, listaDeFilmes);
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest(erro.Message);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="filme"></param>
+        /// <returns></returns>
+        [HttpPut("{id}")]
+        public IActionResult AtualizarPorUrl(int id, FilmeDomain filme)
+        {
+            try
+            {
+                FilmeDomain filmeBuscado = _filmeRepository.BuscarPorId(id);
+
+                if (filmeBuscado != null)
+                {
+                    try
+                    {
+                        _filmeRepository.AtualizarIdUrl(id, filme);
+                        return StatusCode(204);
+                    }
+                    catch (Exception erro)
+                    {
+
+                        return BadRequest(erro.Message);
+                    }
+
+
+                }
+                return StatusCode(404);
+            }
+            catch (Exception erro)
+            {
+                return BadRequest(erro.Message);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="filme"></param>
+        /// <returns></returns>
+        [HttpPut]
+        public IActionResult AtualizarIdCorpo(FilmeDomain filme)
+        {
+            try
+            {
+                FilmeDomain filmeBuscado = _filmeRepository.BuscarPorId(filme.IdFilme);
+
+                if(filmeBuscado != null)
+                {
+                    try
+                    {
+                        _filmeRepository.AtualizarIdCorpo(filme);
+                        return StatusCode(204);
+                    }
+                    catch (Exception erro)
+                    {
+
+                        return BadRequest(erro.Message);
+                    }
+                }
+                return StatusCode(404);
+            }
+            catch (Exception erro)
+            {
+
                 return BadRequest(erro.Message);
             }
         }

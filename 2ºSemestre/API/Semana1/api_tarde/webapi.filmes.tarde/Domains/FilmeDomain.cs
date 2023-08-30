@@ -15,7 +15,7 @@ namespace webapi.filmes.tarde.Domains
         public GeneroDomain? Genero { get; set; }
 
         [Required(ErrorMessage = "O título do filme é obrigatório.")]
-        public string? NomeFilme { get; set; }
+        public string? Titulo { get; set; }
 
     }
 }

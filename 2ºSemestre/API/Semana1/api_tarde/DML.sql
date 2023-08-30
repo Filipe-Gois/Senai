@@ -25,7 +25,7 @@ Genero
 ON
 Genero.IdGenero = Filme.IdGenero
 
-WHERE Genero.IdGenero = 5
+WHERE Genero.IdGenero = 4
 
 
 UPDATE Filmes SET  = 'Romance' WHERE Genero.IdGenero = 5

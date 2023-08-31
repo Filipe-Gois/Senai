@@ -58,9 +58,9 @@ namespace webapi.filmes.tarde.Repositories
                             IdGenero = Convert.ToInt32(rdr[0]),
 
                             //Atribui a propriedade nome ao valor da coluna nome
-                            NomeGenero = Convert.ToString(rdr[1])
+                            Nome = Convert.ToString(rdr[1])
 
-                            //ou: NomeGenero = rdr["Nome"].ToString()
+                            //ou: Nome = rdr["Nome"].ToString()
 
                         };
 
@@ -106,9 +106,9 @@ namespace webapi.filmes.tarde.Repositories
                         generoBuscado.IdGenero = Convert.ToInt32(rdr[0]);
 
                         //Atribui a propriedade nome ao valor da coluna nome
-                        generoBuscado.NomeGenero = Convert.ToString(rdr[1]);
+                        generoBuscado.Nome = Convert.ToString(rdr[1]);
 
-                        //ou: NomeGenero = rdr["Nome"].ToString()
+                        //ou: Nome = rdr["Nome"].ToString()
                         return generoBuscado;
                     }
                 }
@@ -132,7 +132,7 @@ namespace webapi.filmes.tarde.Repositories
                 //Sempre coloque uma variável na query, para não dar o erro da joana d'ARC
                 //Declara a query que será executada
                 string queryInsertInto = $"INSERT INTO Genero(Nome) VALUES(@Nome)";
-                //ou colocar NomeGenero no lugar da interpolação
+                //ou colocar Nome no lugar da interpolação
 
                 //con.Open();
                 //Tanto faz se dar o con.Open(); dentro ou fora desse using
@@ -141,7 +141,7 @@ namespace webapi.filmes.tarde.Repositories
                 //Declara o sqlcommand, passando a query que será executada e a conexão com o BD
                 using (SqlCommand cmd = new SqlCommand(queryInsertInto, con))
                 {
-                    cmd.Parameters.AddWithValue("@Nome", NovoGenero.NomeGenero);
+                    cmd.Parameters.AddWithValue("@Nome", NovoGenero.Nome);
 
                     //Abre a conexão com o BD
                     con.Open();
@@ -188,7 +188,7 @@ namespace webapi.filmes.tarde.Repositories
                 using (SqlCommand cmd = new SqlCommand(Update, con))
                 {
                     cmd.Parameters.AddWithValue("IdGenero", genero.IdGenero);
-                    cmd.Parameters.AddWithValue("NomeGenero", genero.NomeGenero);
+                    cmd.Parameters.AddWithValue("NomeGenero", genero.Nome);
 
                     cmd.ExecuteNonQuery();
                 }
@@ -211,7 +211,7 @@ namespace webapi.filmes.tarde.Repositories
                 using (SqlCommand cmd = new SqlCommand(Update, con))
                 {
                     cmd.Parameters.AddWithValue("IdGenero", id);
-                    cmd.Parameters.AddWithValue("NomeGenero", genero.NomeGenero);
+                    cmd.Parameters.AddWithValue("NomeGenero", genero.Nome);
 
                     cmd.ExecuteNonQuery();
                 }

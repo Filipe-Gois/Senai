@@ -12,7 +12,7 @@ namespace webapi.filmes.tarde.Domains
 
         [Required(ErrorMessage = "O nome do gênero é obrigatório.")]
         //data annotation: validação caso o cliente não informe o nome do gênero
-        public string? NomeGenero { get; set; }
+        public string? Nome { get; set; }
        
     }
 }

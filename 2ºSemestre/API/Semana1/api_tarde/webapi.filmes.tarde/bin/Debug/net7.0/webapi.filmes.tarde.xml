@@ -26,20 +26,20 @@
         </member>
         <member name="M:webapi.filmes.tarde.Controllers.FilmeController.BuscarPorId(System.Int32)">
             <summary>
-            
+            Busca um filme através de seu ID
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:webapi.filmes.tarde.Controllers.FilmeController.ListarTodos">
             <summary>
-            
+            Lista todos os filmes cadastrados
             </summary>
             <returns></returns>
         </member>
         <member name="M:webapi.filmes.tarde.Controllers.FilmeController.AtualizarPorUrl(System.Int32,webapi.filmes.tarde.Domains.FilmeDomain)">
             <summary>
-            
+            Atualiza os dados de um filme passando seu ID pela URL
             </summary>
             <param name="id"></param>
             <param name="filme"></param>
@@ -47,7 +47,7 @@
         </member>
         <member name="M:webapi.filmes.tarde.Controllers.FilmeController.AtualizarIdCorpo(webapi.filmes.tarde.Domains.FilmeDomain)">
             <summary>
-            
+            Atualiza os dados de um filme passando seu ID pelo corpo 
             </summary>
             <param name="filme"></param>
             <returns></returns>
@@ -105,6 +105,20 @@
             <param name="genero"></param>
             <returns></returns>
         </member>
+        <member name="T:webapi.filmes.tarde.Controllers.UsuarioController">
+            <summary>
+            Route: define que a rota de uma requisição será no seguinte formato: dominio/api/nomeController
+            Ex: http://Localhost:5000/api/genero
+            </summary>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.UsuarioController.Login(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="email"></param>
+            <param name="senha"></param>
+            <returns></returns>
+        </member>
         <member name="T:webapi.filmes.tarde.Domains.FilmeDomain">
             <summary>
             Classe que rerpesenta a entidade/table Filme
@@ -113,6 +127,11 @@
         <member name="T:webapi.filmes.tarde.Domains.GeneroDomain">
             <summary>
             Classe que representa a entidade/tabela Gêneros
+            </summary>
+        </member>
+        <member name="T:webapi.filmes.tarde.Domains.UsuarioDomain">
+            <summary>
+            Classe que representa a entidade(tabela) Usuario
             </summary>
         </member>
         <member name="M:webapi.filmes.tarde.Interfaces.IGeneroRepository.Cadastrar(webapi.filmes.tarde.Domains.GeneroDomain)">
@@ -155,16 +174,50 @@
             </summary>
             <param name="id">ID do objeto a ser deletado</param>
         </member>
+        <member name="M:webapi.filmes.tarde.Interfaces.IUsuarioRepository.BuscarUsuario(System.String,System.String)">
+            <summary>
+            Método que busca um usuário por email e senha
+            pode ser chamado de login
+            </summary>
+            <param name="email">email do usuario</param>
+            <param name="senha">senha do usuario</param>
+            <returns>objeto que foi buscado(usuario)</returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.AtualizarIdCorpo(webapi.filmes.tarde.Domains.FilmeDomain)">
+            <summary>
+            Atualiza os dados de um filme passando seu ID pelo corpo 
+            </summary>
+            <param name="filme"></param>
+        </member>
+        <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.AtualizarIdUrl(System.Int32,webapi.filmes.tarde.Domains.FilmeDomain)">
+            <summary>
+            Atualiza os dados de um filme passando seu ID pela URL
+            </summary>
+            <param name="id"></param>
+            <param name="filme"></param>
+        </member>
         <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.BuscarPorId(System.Int32)">
             <summary>
-            
+            Busca um filme através de seu ID
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.Cadastrar(webapi.filmes.tarde.Domains.FilmeDomain)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="filme"></param>
+        </member>
+        <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme através de seu ID
+            </summary>
+            <param name="id"></param>
+        </member>
         <member name="M:webapi.filmes.tarde.Repositories.FilmeRepository.ListarTodos">
             <summary>
-            
+            Lista todos os filmes cadastrados
             </summary>
             <returns></returns>
         </member>

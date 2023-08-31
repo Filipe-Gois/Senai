@@ -8,6 +8,11 @@ namespace webapi.filmes.tarde.Repositories
     {
 
         private string StringConexao = "Data Source = NOTE14-S14; Initial Catalog = Filmes_Tarde; User Id = sa; Pwd = Senai@134";
+
+        /// <summary>
+        /// Atualiza os dados de um filme passando seu ID pelo corpo 
+        /// </summary>
+        /// <param name="filme"></param>
         public void AtualizarIdCorpo(FilmeDomain filme)
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
@@ -24,7 +29,11 @@ namespace webapi.filmes.tarde.Repositories
                 }
             }
         }
-
+        /// <summary>
+        /// Atualiza os dados de um filme passando seu ID pela URL
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="filme"></param>
         public void AtualizarIdUrl(int id, FilmeDomain filme)
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
@@ -41,22 +50,23 @@ namespace webapi.filmes.tarde.Repositories
             }
         }
         /// <summary>
-        /// 
+        /// Busca um filme através de seu ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         public FilmeDomain BuscarPorId(int id)
         {
-            FilmeDomain filmeBuscado = new FilmeDomain();
+            //FilmeDomain filme;
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string queryId = "SELECT Filme.IdFilme, Filme.Titulo, Genero.Nome FROM Filme INNER JOIN Genero ON Genero.IdGenero = Filme.IdGenero WHERE Filme.IdFilme = @IdFilme";
-
-                con.Open();
+                string queryId = "SELECT Filme.IdFilme, Filme.Titulo, Genero.IdGenero, Genero.Nome FROM Filme INNER JOIN Genero ON Genero.IdGenero = Filme.IdGenero WHERE Filme.IdFilme = @IdFilme";
+                
+                
                 SqlDataReader rdr;
 
                 using (SqlCommand cmd = new SqlCommand(queryId, con))
                 {
+                    con.Open();
                     cmd.Parameters.AddWithValue("@IdFilme", id);
                     cmd.ExecuteNonQuery();
 
@@ -64,7 +74,7 @@ namespace webapi.filmes.tarde.Repositories
 
                     if (rdr.Read())
                     {
-                        FilmeDomain filme = new FilmeDomain()
+                       FilmeDomain filme = new FilmeDomain()
                         {
 
                             IdFilme = Convert.ToInt32(rdr["IdFilme"]),
@@ -73,25 +83,24 @@ namespace webapi.filmes.tarde.Repositories
 
                             Genero = new GeneroDomain()
                             {
-                                NomeGenero = rdr["Nome"].ToString()
+                                IdGenero= Convert.ToInt32(rdr["IdGenero"]),
+                                Nome = rdr["Nome"].ToString()
                             }
 
                         };
 
                         return filme;
 
-
-
-
                     }
                 }
-
             }
-
             return null;
-
         }
 
+        /// <summary>
+        /// Cadastra um novo filme
+        /// </summary>
+        /// <param name="filme"></param>
         public void Cadastrar(FilmeDomain filme)
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
@@ -108,7 +117,10 @@ namespace webapi.filmes.tarde.Repositories
                 }
             }
         }
-
+        /// <summary>
+        /// Deleta um filme através de seu ID
+        /// </summary>
+        /// <param name="id"></param>
         public void Deletar(int id)
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
@@ -124,7 +136,7 @@ namespace webapi.filmes.tarde.Repositories
             }
         }
         /// <summary>
-        /// 
+        /// Lista todos os filmes cadastrados
         /// </summary>
         /// <returns></returns>
         public List<FilmeDomain> ListarTodos()
@@ -153,7 +165,7 @@ namespace webapi.filmes.tarde.Repositories
 
                             Genero = new GeneroDomain()
                             {
-                                NomeGenero = rdr["Nome"].ToString()
+                                Nome = rdr["Nome"].ToString()
                             }
                         };
 

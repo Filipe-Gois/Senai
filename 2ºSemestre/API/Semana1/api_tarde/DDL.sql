@@ -22,3 +22,22 @@ CREATE TABLE Filme
 
 --ALTER TABLE Filme
 --ALTER COLUMN IdGenero INT NOT NULL
+
+
+
+CREATE TABLE Usuario
+(
+	IdUsuario INT PRIMARY KEY IDENTITY,
+	UsuarioEmail VARCHAR(50) NOT NULL UNIQUE,
+	UsuarioSenha VARCHAR(50) NOT NULL,
+	UsuarioPermissao VARCHAR(30),
+	UsuarioNome VARCHAR(50) NOT NULL
+);
+
+INSERT INTO Usuario
+VALUES
+	('guilhermee@gmail.com','1234567','Comum','Guilherme');
+
+	select * from Usuario
+
+	SELECT Usuario.UsuarioNome, Usuario.UsuarioEmail, Usuario.UsuarioPermissao FROM Usuario WHERE Usuario.UsuarioEmail = 'filipe@gmail.com' AND Usuario.UsuarioSenha = '123'

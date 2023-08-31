@@ -55,13 +55,27 @@ namespace webapi.filmes.tarde.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
 
-        [HttpDelete]
+        [HttpDelete("{id")]
         public IActionResult Delete(int id)
         {
             try
             {
-                _filmeRepository.Deletar(id);
-                return StatusCode(204);
+                FilmeDomain filmeBuscado = _filmeRepository.BuscarPorId(id);
+                try
+                {
+                    if(filmeBuscado != null)
+                    {
+                        _filmeRepository.Deletar(id);
+                        return StatusCode(204);
+                    }
+                    return StatusCode(404);
+                }
+                catch (Exception erro)
+                {
+
+                    return BadRequest(erro.Message);
+                }
+
             }
             catch (Exception erro)
             {
@@ -70,7 +84,7 @@ namespace webapi.filmes.tarde.Controllers
             }
         }
         /// <summary>
-        /// 
+        /// Busca um filme através de seu ID
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -95,7 +109,7 @@ namespace webapi.filmes.tarde.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Lista todos os filmes cadastrados
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -114,7 +128,7 @@ namespace webapi.filmes.tarde.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Atualiza os dados de um filme passando seu ID pela URL
         /// </summary>
         /// <param name="id"></param>
         /// <param name="filme"></param>
@@ -150,7 +164,7 @@ namespace webapi.filmes.tarde.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Atualiza os dados de um filme passando seu ID pelo corpo 
         /// </summary>
         /// <param name="filme"></param>
         /// <returns></returns>

@@ -13,6 +13,6 @@ namespace webapi.filmes.tarde.Interfaces
         /// <param name="email">email do usuario</param>
         /// <param name="senha">senha do usuario</param>
         /// <returns>objeto que foi buscado(usuario)</returns>
-       UsuarioDomain BuscarUsuario(string email, string senha);
+        UsuarioDomain BuscarUsuario(string email, string senha);
     }
 }

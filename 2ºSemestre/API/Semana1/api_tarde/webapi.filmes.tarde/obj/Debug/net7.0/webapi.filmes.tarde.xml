@@ -111,7 +111,7 @@
             Ex: http://Localhost:5000/api/genero
             </summary>
         </member>
-        <member name="M:webapi.filmes.tarde.Controllers.UsuarioController.Login(System.String,System.String)">
+        <member name="M:webapi.filmes.tarde.Controllers.UsuarioController.Login(webapi.filmes.tarde.Domains.UsuarioDomain)">
             <summary>
             
             </summary>
@@ -260,6 +260,14 @@
             </summary>
             <param name="id"></param>
             <param name="genero"></param>
+        </member>
+        <member name="M:webapi.filmes.tarde.Repositories.UsuarioRepository.BuscarUsuario(System.String,System.String)">
+            <summary>
+            Método de Login
+            </summary>
+            <param name="email"></param>
+            <param name="senha"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

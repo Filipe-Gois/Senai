@@ -1,0 +1,20 @@
+token JWT: 
+
+Autenticação é diferente de autorização
+
+*CAI EM PROCESSO SELETIVO*
+Autenticação(saber se estou logado)
+Autorização(Permissão)
+
+
+
+
+1º - Definir as as informações(claims) que serão fornecidas no token(payload)
+2º - Definir a chave de acesso ao Token
+3º Definir as credenciais do token (header)
+4º Gerar o token
+5º Retornar o token criado
+
+abrir e fechar = criptografar e descriptografar
+chave assimetrica: mesma chave para abrir e fechar
+chave simetrica: chaves diferentes para abrir e fechar

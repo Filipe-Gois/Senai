@@ -52,7 +52,6 @@ namespace webapi.filmes.tarde.Controllers
                     return StatusCode(404, "Usuário não encontrado, E-mail ou senha inválidos.");
 
                 }
-
                 //Caso encontre o usuario buscado, prosegue para a criação do token
 
                 //1º - Definir as as informações(claims) que serão fornecidas no token(payload)
@@ -63,13 +62,13 @@ namespace webapi.filmes.tarde.Controllers
                     new Claim(JwtRegisteredClaimNames.Jti,usuarioBuscado.IdUsuario.ToString()),
                     //jti = referente ao id do usuario
 
-                    new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.UsuarioEmail.ToString()),
+                    new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.UsuarioEmail),
 
-                    new Claim(ClaimTypes.Role, usuarioBuscado.UsuarioPermissao.ToString()),
+                    new Claim(ClaimTypes.Role, usuarioBuscado.UsuarioPermissao),
 
 
                     //Existe a possibilidade de criar uma Claim personalizada
-                    new Claim("Claim Personalizada","Valor Personalizado")
+                    // new Claim("Claim Personalizada","Valor Personalizado")
                 };
 
                 //2º - Definir a chave de acesso ao Token
@@ -98,7 +97,7 @@ namespace webapi.filmes.tarde.Controllers
                     );
 
                 //5º Retornar o token criado
-                return StatusCode(200, new
+                return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token)
                 });

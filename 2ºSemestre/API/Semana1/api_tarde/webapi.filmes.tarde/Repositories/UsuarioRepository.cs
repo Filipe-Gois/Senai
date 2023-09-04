@@ -38,7 +38,7 @@ namespace webapi.filmes.tarde.Repositories
                             IdUsuario = Convert.ToInt32(rdr["IdUsuario"]),
                             UsuarioNome = rdr["UsuarioNome"].ToString()!,
                             UsuarioEmail = rdr["EmailUsuario"].ToString()!,
-                            UsuarioPermissao = rdr["SenhaUsuario"].ToString()!
+                            UsuarioPermissao = rdr["UsuarioPermissao"].ToString()!
 
                         };
                         return usuarioo;

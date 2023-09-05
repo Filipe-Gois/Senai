@@ -63,8 +63,8 @@ builder.Services.AddSwaggerGen(options =>
         //Contatos do desenvolvedor
         Contact = new OpenApiContact
         {
-            Name = "Murilo Souza Almeida",
-            Url = new Uri("https://github.com/MuriloSouzAlmeid")
+            Name = "Filipe Góis",
+            Url = new Uri("https://github.com/Filipe-Gois")
         }
 
         //Lincensa da aplicação

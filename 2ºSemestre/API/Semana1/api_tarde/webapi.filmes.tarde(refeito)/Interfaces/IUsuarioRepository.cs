@@ -9,5 +9,7 @@ namespace webapi.filmes.tarde.Interfaces
     {
         // LOGIN
         UsuarioDomain LoginUsuario(string email, string senha);
+
+        void UsuarioCadastrar(UsuarioDomain usuario);
     }
 }

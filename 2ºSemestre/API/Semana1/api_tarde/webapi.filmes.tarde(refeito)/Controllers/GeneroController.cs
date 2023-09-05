@@ -99,6 +99,7 @@ namespace webapi.filmes.tarde.Controllers
         /// </summary>
         /// <param name="genero">Ojeto recebido da requisição</param>
         /// <returns>Status code e mensagen a ser exibida</returns>
+        [Authorize(Roles = "Administrador")] //Validação p só o ADM cadastrar
         [HttpPost]
         public IActionResult Post(GeneroDomain genero)
         {

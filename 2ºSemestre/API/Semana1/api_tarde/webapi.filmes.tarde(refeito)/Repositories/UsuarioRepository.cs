@@ -48,5 +48,23 @@ namespace webapi.filmes.tarde.Repositories
                 }
             }
         }
+
+        public void UsuarioCadastrar(UsuarioDomain usuario)
+        {
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                string Insert = "INSERT INTO Usuario VALUES (@Email,@Senha,@Permissao,@NomeUsuario)";
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand(Insert,con))
+                {
+                    cmd.Parameters.AddWithValue("Email",usuario.Email);
+                    cmd.Parameters.AddWithValue("Senha",usuario.Senha);
+                    cmd.Parameters.AddWithValue("Permissao",usuario.Permissao);
+                    cmd.Parameters.AddWithValue("NomeUsuario",usuario.Nome);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

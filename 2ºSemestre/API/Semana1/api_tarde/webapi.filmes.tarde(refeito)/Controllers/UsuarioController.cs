@@ -20,7 +20,28 @@ namespace webapi.filmes.tarde.Controllers
 
         public UsuarioController()
         {
-            _usuarioRepository= new UsuarioRepository();
+            _usuarioRepository = new UsuarioRepository();
+        }
+
+
+        /// <summary>
+        /// Método para cadastrar um usuário
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <returns></returns>
+        [HttpPost()]
+        public IActionResult CadastrarUsuario(UsuarioDomain usuario)
+        {
+            try
+            {
+                _usuarioRepository.UsuarioCadastrar(usuario);
+                return StatusCode(201);
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest(erro.Message);
+            }
         }
 
         /// <summary>
@@ -28,8 +49,8 @@ namespace webapi.filmes.tarde.Controllers
         /// </summary>
         /// <param name="usuario">Objeto com as informações de login do usuário</param>
         /// <returns></returns>
-        [HttpPost]
-        public IActionResult Post(UsuarioDomain usuario)
+        [HttpPost("{id}")]
+        public IActionResult Logar(UsuarioDomain usuario)
         {
             try
             {

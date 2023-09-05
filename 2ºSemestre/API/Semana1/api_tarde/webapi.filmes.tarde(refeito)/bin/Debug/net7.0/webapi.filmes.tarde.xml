@@ -95,7 +95,14 @@
             <param name="_genero">Objeto com as novas informações do gênero a ser atualizado</param>
             <returns></returns>
         </member>
-        <member name="M:webapi.filmes.tarde.Controllers.UsuarioController.Post(webapi.filmes.tarde.Domains.UsuarioDomain)">
+        <member name="M:webapi.filmes.tarde.Controllers.UsuarioController.CadastrarUsuario(webapi.filmes.tarde.Domains.UsuarioDomain)">
+            <summary>
+            Método para cadastrar um usuário
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi.filmes.tarde.Controllers.UsuarioController.Logar(webapi.filmes.tarde.Domains.UsuarioDomain)">
             <summary>
             Método para logar um usuário
             </summary>

@@ -44,3 +44,5 @@ C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Projeto_Inlock\senai.inlock.w
 C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Projeto_Inlock\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net7.0\senai.inlock.webApi..pdb
 C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Projeto_Inlock\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net7.0\senai.inlock.webApi..genruntimeconfig.cache
 C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Projeto_Inlock\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net7.0\ref\senai.inlock.webApi..dll
+C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Projeto_Inlock\senai.inlock.webApi\senai.inlock.webApi\bin\Debug\net7.0\senai.inlock.webApi..xml
+C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Projeto_Inlock\senai.inlock.webApi\senai.inlock.webApi\obj\Debug\net7.0\senai.inlock.webApi..xml

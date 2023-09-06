@@ -5,6 +5,7 @@ namespace senai.inlock.webApi_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Produces("application/json")]
     public class EstudioController : ControllerBase
     {
     }

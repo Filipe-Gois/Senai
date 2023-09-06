@@ -5,6 +5,6 @@ namespace senai.inlock.webApi_.Interfaces
     public interface IJogo
     {
         void CadastrarJogo(JogoDomain jogo);
-        List<JogoDomain> ListarJogosEEstudios();
+        List<JogoDomain> ListarJogos();
     }
 }

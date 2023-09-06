@@ -93,7 +93,7 @@ namespace webapi.filmes.tarde.Controllers
 
                     //3 - Definir as credenciais (tipo de algorítimo que vou usar) do token - (Heder)
                     //dentro do Signing definimos que se trata de uma chave e qual o tipo do algorítmo
-                    var creds = new SigningCredentials(key,SecurityAlgorithms.HmacSha256);
+                    var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                     //4 - Gerar o token em si
                     var token = new JwtSecurityToken(
@@ -114,12 +114,14 @@ namespace webapi.filmes.tarde.Controllers
                     );
 
                     //5 - retornar o token criado
-                    return Ok(new {
+                    return Ok(new
+                    {
                         //cria o manipulador para gerar o token passando como referência o token criado
                         token = new JwtSecurityTokenHandler().WriteToken(token)
                     });
                 }
-            }catch(Exception erro)
+            }
+            catch (Exception erro)
             {
                 return BadRequest(erro.Message);
             }

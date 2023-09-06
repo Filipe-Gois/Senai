@@ -12,7 +12,7 @@ namespace senai.inlock.webApi_.Domains
         public string NomeJogo { get; set; }
         public string DescricaoJogo { get; set; }
         public DateTime DateLancamentoJogo { get; set; }
-        public float ValorJogo { get; set; }
+        public decimal ValorJogo { get; set; }
 
     }
 }

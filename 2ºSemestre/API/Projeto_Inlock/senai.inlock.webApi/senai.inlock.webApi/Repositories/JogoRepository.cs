@@ -6,7 +6,7 @@ namespace senai.inlock.webApi_.Repositories
 {
     public class JogoRepository : IJogo
     {
-        public string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
+        private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
 
         public void CadastrarJogo(JogoDomain jogo)
         {
@@ -24,20 +24,20 @@ namespace senai.inlock.webApi_.Repositories
                     cmd.Parameters.AddWithValue("NomeJogo", jogo.NomeJogo);
                     cmd.Parameters.AddWithValue("DescricaoJogo", jogo.DescricaoJogo);
                     cmd.Parameters.AddWithValue("DataLancamentoJogo", jogo.DateLancamentoJogo);
-                    cmd.Parameters.AddWithValue("ValorJogo", jogo.valorJogo);
+                    cmd.Parameters.AddWithValue("ValorJogo", jogo.ValorJogo);
 
                     cmd.ExecuteNonQuery();
                 }
             }
         }
 
-        public List<JogoDomain> ListarJogosEEstudios()
+        public List<JogoDomain> ListarJogos()
         {
             List<JogoDomain> listaDeJogos = new List<JogoDomain>();
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string SELECTALL = "SELECT Jogo.IdJogo, Jogo.Nome, Jogo.IdEstudio, Estudio.Nome, Jogo.Descricao, Jogo.DataLancamento, Jogo.Valor FROM Jogo INNER JOIN Estudio ON Estudio.IdEstudio = Jogo.Idestudio";
+                string SELECTALL = "SELECT Jogo.IdJogo, Jogo.IdEstudio, Jogo.Nome, Estudio.Nome, Jogo.Descricao, Jogo.DataLancamento, Jogo.Valor FROM Jogo INNER JOIN Estudio ON Estudio.IdEstudio = Jogo.IdEstudio";
 
                 con.Open();
 
@@ -53,15 +53,17 @@ namespace senai.inlock.webApi_.Repositories
                             IdJogo = Convert.ToInt32(leitor["IdJogo"]),
                             NomeJogo = leitor["Nome"].ToString(),
                             IdEstudio = Convert.ToInt32(leitor["IdEstudio"]),
+
                             DescricaoJogo = leitor["Descricao"].ToString(),
                             DateLancamentoJogo = Convert.ToDateTime(leitor["DataLancamento"]),
-                            ValorJogo = float.TryParse(leitor["Valor"]),
+                            ValorJogo = Convert.ToDecimal(leitor["Valor"]),
 
                             Estudio = new EstudioDomain()
                             {
                                 NomeEstudio = leitor["Nome"].ToString()
                             }
                         };
+                        listaDeJogos.Add(jogo);
                     }
                 }
             }

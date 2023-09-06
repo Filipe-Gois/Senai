@@ -30,16 +30,16 @@ builder.Services.AddAuthentication(options =>
         ValidateLifetime = true,
 
         //Forma de criptografia e a validação da chave de autenticação
-        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("filmes-chave-autenticacao-webapi-dev")),
+        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("inlock-chave-autenticacao-webapi-dev")),
 
         //Valida o tempo de expiração do token
         ClockSkew = TimeSpan.FromMinutes(5),
 
         //De onde está vindo (qual o issure)
-        ValidIssuer = "webapi.filmes.tarde",
+        ValidIssuer = "senai.inlock.webApi",
 
         //Para onde está indo (qual o audiece)
-        ValidAudience = "webapi.filmes.tarde"
+        ValidAudience = "senai.inlock.webApi"
     };
 });
 
@@ -52,27 +52,27 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v1",
 
         //Título da API
-        Title = "API Filmes",
+        Title = "API Inlock",
 
         //Descrição da API
-        Description = "API para gerenciamento de filmes e seus gêneros. Introdução à Sprint 2 - Back-end API",
+        Description = "API para gerenciamento de jogos e suas informações.",
 
         //Termos de serviço
-        //TermsOfService = new Uri("https://example.com/terms"),
+        TermsOfService = new Uri("https://example.com/terms"),
 
         //Contatos do desenvolvedor
         Contact = new OpenApiContact
         {
-            Name = "Murilo Souza Almeida",
+            Name = "Filipe Góis",
             Url = new Uri("https://github.com/Filipe-Gois")
-        }
+        },
 
-        //Lincensa da aplicação
-        /*License = new OpenApiLicense
+        //Lincença da aplicação
+        License = new OpenApiLicense
         {
             Name = "Example License",
             Url = new Uri("https://example.com/license")
-        }*/
+        }
     });
 
     //Configura o Swagger para usar o arquivo XML

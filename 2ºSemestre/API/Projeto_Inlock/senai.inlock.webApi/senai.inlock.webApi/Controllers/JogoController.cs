@@ -25,7 +25,7 @@ namespace senai.inlock.webApi_.Controllers
         /// <param name="jogo"></param>
         /// <returns></returns>
         [HttpPost]
-        [Authorize(Roles = "2")]
+        [Authorize(Roles = "Administrador")]
         public IActionResult CadastrarJogo(JogoDomain jogo)
         {
             try
@@ -51,6 +51,7 @@ namespace senai.inlock.webApi_.Controllers
             try
             {
                 List<JogoDomain> jogosBuscados = _jogoRepository.ListarJogos();
+
                 return StatusCode(201, jogosBuscados);
             }
             catch (Exception erro)

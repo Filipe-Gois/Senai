@@ -54,7 +54,7 @@ namespace senai.inlock.webApi_.Controllers
                         new Claim(JwtRegisteredClaimNames.Email, usuario.EmailUsuario),
 
                         //o Role indica o tipo de permissão e vem do usuarioBuscado pq ele é que tem a permissão
-                        new Claim(ClaimTypes.Role, usuarioBuscado.IdTipoUsuario),
+                        new Claim(ClaimTypes.Role, usuarioBuscado.tipoUsuario.TituloTipoUsuario),
 
 
 

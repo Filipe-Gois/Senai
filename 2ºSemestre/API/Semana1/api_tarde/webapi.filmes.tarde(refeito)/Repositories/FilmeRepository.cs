@@ -159,7 +159,7 @@ namespace webapi.filmes.tarde.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string SelecionaTodosFilmes = "SELECT Filme.IdFilme, Filme.Titulo, Filme.IdGenero , Genero.Nome FROM Filme INNER JOIN Genero ON Genero.IdGenero = Filme.IdGenero";
+                string SelecionaTodosFilmes = "SELECT Filme.IdFilme, Filme.Titulo, Filme.IdGenero, Genero.Nome FROM Filme INNER JOIN Genero ON Genero.IdGenero = Filme.IdGenero";
 
                 con.Open();
 

@@ -6,7 +6,8 @@ namespace senai.inlock.webApi_.Repositories
 {
     public class JogoRepository : IJogo
     {
-        private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
+        //private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
+        private string StringConexao { get; set; } = "Data Source = FILIPEGOIS\\SQLEXPRESS; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = xtringer28700";
 
         public void CadastrarJogo(JogoDomain jogo)
         {
@@ -14,12 +15,11 @@ namespace senai.inlock.webApi_.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string INSERT = "INSERT INTO Jogo VALUES(@IdJogo,@IdEstudio,@NomeJogo,@DescricaoJogo,@DataLancamentoJogo,@ValorJogo);";
+                string INSERT = "INSERT INTO Jogo VALUES(@IdEstudio,@NomeJogo,@DescricaoJogo,@DataLancamentoJogo,@ValorJogo);";
 
                 using (SqlCommand cmd = new SqlCommand(INSERT, con))
                 {
                     con.Open();
-                    cmd.Parameters.AddWithValue("IdJogo", jogo.IdJogo);
                     cmd.Parameters.AddWithValue("IdEstudio", jogo.IdEstudio);
                     cmd.Parameters.AddWithValue("NomeJogo", jogo.NomeJogo);
                     cmd.Parameters.AddWithValue("DescricaoJogo", jogo.DescricaoJogo);
@@ -37,7 +37,7 @@ namespace senai.inlock.webApi_.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string SELECTALL = "SELECT Jogo.IdJogo, Jogo.IdEstudio, Jogo.Nome, Estudio.Nome, Jogo.Descricao, Jogo.DataLancamento, Jogo.Valor FROM Jogo INNER JOIN Estudio ON Estudio.IdEstudio = Jogo.IdEstudio";
+                string SELECTALL = "SELECT Jogo.IdJogo, Jogo.IdEstudio, Jogo.NomeJogo, Estudio.NomeEstudio, Jogo.Descricao, Jogo.DataLancamento, Jogo.Valor FROM Jogo INNER JOIN Estudio ON Estudio.IdEstudio = Jogo.IdEstudio";
 
                 con.Open();
 
@@ -51,17 +51,24 @@ namespace senai.inlock.webApi_.Repositories
                         JogoDomain jogo = new JogoDomain()
                         {
                             IdJogo = Convert.ToInt32(leitor["IdJogo"]),
-                            NomeJogo = leitor["Nome"].ToString(),
-                            IdEstudio = Convert.ToInt32(leitor["IdEstudio"]),
-
-                            DescricaoJogo = leitor["Descricao"].ToString(),
+                            NomeJogo = leitor["NomeJogo"].ToString()!,
+                            DescricaoJogo = leitor["Descricao"].ToString()!,
                             DateLancamentoJogo = Convert.ToDateTime(leitor["DataLancamento"]),
                             ValorJogo = Convert.ToDecimal(leitor["Valor"]),
 
+                            IdEstudio = Convert.ToInt32(leitor["IdEstudio"]),
+
                             Estudio = new EstudioDomain()
                             {
-                                NomeEstudio = leitor["Nome"].ToString()
-                            }
+                                IdEstudio = Convert.ToInt32(leitor["IdEstudio"]),
+                                NomeEstudio = leitor["NomeEstudio"].ToString()!
+                                
+                            },
+
+
+
+
+
                         };
                         listaDeJogos.Add(jogo);
                     }

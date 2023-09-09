@@ -6,13 +6,14 @@ namespace senai.inlock.webApi_.Repositories
 {
     public class UsuarioRepository : IUsuario
     {
-        private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
+        //private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
+        private string StringConexao { get; set; } = "Data Source = FILIPEGOIS\\SQLEXPRESS; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = xtringer28700";
 
         public UsuarioDomain Login(string email, string senha)
         {
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string usuarioAutenticacao = "SELECT Usuario.IdUsuario, Usuario.Email, Usuario.senha FROM Usuario WHERE Usuario.Email = @Email AND Usuario.Senha = @Senha";
+                string usuarioAutenticacao = "SELECT Usuario.IdUsuario, Usuario.Email, Usuario.IdTipoUsuario, TiposUsuario.Titulo FROM Usuario INNER JOIN TiposUsuario ON TiposUsuario.IdTipoUsuario = Usuario.IdTipoUsuario WHERE Usuario.Email = @Email AND Usuario.Senha = @Senha";
 
                 SqlDataReader leitor;
                 con.Open();
@@ -30,7 +31,13 @@ namespace senai.inlock.webApi_.Repositories
                         {
                             IdUsuario = Convert.ToInt32(leitor["IdUsuario"]),
                             EmailUsuario = leitor["Email"].ToString()!,
-                            SenhaUsuario = leitor["Senha"].ToString()!,
+                            IdTipoUsuario = Convert.ToInt32(leitor["IdTipoUsuario"]),
+
+                            tipoUsuario = new TipoUsuarioDomain()
+                            {
+                                TituloTipoUsuario = leitor["Titulo"].ToString()
+                            }
+
                         };
 
                         return usuario;

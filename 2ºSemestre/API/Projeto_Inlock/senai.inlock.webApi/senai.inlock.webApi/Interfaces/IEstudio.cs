@@ -4,6 +4,6 @@ namespace senai.inlock.webApi_.Interfaces
 {
     public interface IEstudio
     {
-        EstudioDomain DesafioListarEstudiosESeusJogos();
+        List<EstudioDomain> ListarEstudios();
     }
 }

@@ -8,11 +8,11 @@ SELECT * FROM Estudio;
 
 SELECT * FROM Jogo;
 
-SELECT Jogo.Nome AS Jogo,Estudio.Nome AS Estudio From Jogo
+SELECT Jogo.NomeJogo AS Jogo,Estudio.NomeEstudio AS Estudio From Jogo
 INNER JOIN Estudio
 ON Jogo.IdEstudio = Estudio.IdEstudio;
 
-SELECT Estudio.Nome AS Estudio,Jogo.Nome AS Jogo FROM Estudio
+SELECT Estudio.NomeEstudio AS Estudio,Jogo.NomeJogo AS Jogo FROM Estudio
 LEFT JOIN Jogo
 ON Estudio.IdEstudio = Jogo.IdEstudio;
 
@@ -22,7 +22,7 @@ SELECT * FROM Jogo WHERE IdJogo = 4;
 
 SELECT * FROM Estudio WHERE IdEstudio = 2;
 
-SELECT Estudio.IdEstudio,Estudio.Nome,Jogo.Nome FROM Estudio
+SELECT Estudio.IdEstudio,Estudio.NomeEstudio,Jogo.NomeJogo FROM Estudio
 LEFT JOIN Jogo
 ON Estudio.IdEstudio = Jogo.IdEstudio;
 

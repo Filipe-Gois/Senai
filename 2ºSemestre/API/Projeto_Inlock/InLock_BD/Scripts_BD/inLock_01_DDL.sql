@@ -7,7 +7,7 @@ GO
 CREATE TABLE Estudio
 (
 	IdEstudio INT PRIMARY KEY IDENTITY
-	,Nome VARCHAR(100) NOT NULL
+	,NomeEstudio VARCHAR(100) NOT NULL
 );
 GO
 
@@ -15,7 +15,7 @@ CREATE TABLE Jogo
 (
 	IdJogo INT PRIMARY KEY IDENTITY
 	,IdEstudio INT FOREIGN KEY REFERENCES Estudio(IdEstudio)
-	,Nome VARCHAR(100) NOT NULL
+	,NomeJogo VARCHAR(100) NOT NULL
 	,Descricao VARCHAR(100) NOT NULL
 	,DataLancamento DATE NOT NULL
 	,Valor SMALLMONEY NOT NULL
@@ -37,3 +37,5 @@ CREATE TABLE Usuario
 	,Senha VARCHAR (100) NOT NULL
 );
 GO
+
+drop database inlock_games_tarde

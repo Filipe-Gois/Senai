@@ -6,8 +6,8 @@ namespace senai.inlock.webApi_.Repositories
 {
     public class EstudioRepository : IEstudio
     {
-        //private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
-        private string StringConexao { get; set; } = "Data Source = FILIPEGOIS\\SQLEXPRESS; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = xtringer28700";
+        private string StringConexao { get; set; } = "Data Source = NOTE14-S14; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = Senai@134";
+        //private string StringConexao { get; set; } = "Data Source = FILIPEGOIS\\SQLEXPRESS; Initial Catalog = inlock_games_tarde; User Id = sa; Pwd = xtringer28700";
 
 
         public List<EstudioDomain> ListarEstudios()
@@ -16,7 +16,7 @@ namespace senai.inlock.webApi_.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string SelectAll = "SELECT Estudio.IdEstudio,Estudio.NomeEstudio,Jogo.NomeJogo FROM Estudio LEFT JOIN Jogo ON Estudio.IdEstudio = Jogo.IdEstudio";
+                string SelectAll = "SELECT Estudio.IdEstudio,Estudio.Nome AS Estudio,Jogo.Nome AS Jogo FROM Estudio INNER JOIN Jogo ON Estudio.IdEstudio = Jogo.IdEstudio";
 
                 using (SqlCommand cmd = new SqlCommand(SelectAll, con))
                 {
@@ -30,7 +30,7 @@ namespace senai.inlock.webApi_.Repositories
                         EstudioDomain estudio = new EstudioDomain()
                         {
                             IdEstudio = Convert.ToInt32(leitor["IdEstudio"]),
-                            NomeEstudio = leitor["NomeEstudio"].ToString()!
+                            NomeEstudio = leitor["Estudio"].ToString()!
                         };
 
                         listaDeEstudios.Add(estudio);

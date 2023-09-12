@@ -1,0 +1,41 @@
+ado .net: fazer consulta dentro do código
+
+ORM: Mapeamento objeto relacional
+alg p fazer consulta no BD sem precisar fazer as querys
+
+trabalhar com bd utilizando 
+
+
+EF Core:
+
+code first: gerar um BD a partir do código ( a partir da classe ele gera o banco)
+
+database first: a partir do banco ele gera a classe
+
+
+Semestre 1, MVC - Gamer
+context representava o BD
+
+framework: anotar os pontos necessários para mexer
+
+
+
+*Coisas antecipadas do 4º semestre*
+{
+
+GUID: Gerador de sequencia de caracteres de 16bits (numero aleatório e único), usado para ID.
+utilizar o "UNIQUEIDENTIFIER no banco de dados, caso usar  DBFirst
+por não ter mais identity, precisa usar a função "newid()" para gerar o novo id
+
+
+
+Criptografar senhas (criar uma hash)
+}
+
+
+Ao criar as coisas do BD, abrir o projeto no Visual Studio => ferramentas => gerenciador de pacotes do nuget => console do gerenciador de pacotes
+e colar a "string dde conexão"
+
+Scaffold-DbContext "Data Source=NOTE14-S14; initial catalog=inlock_games_dbFirst_tarde; User Id = sa; Pwd = Senai@134; TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context InLockContext
+
+Com o EF core, a classe Context será responsável pelas pesquisas SQL (não ficarão mais no repository)

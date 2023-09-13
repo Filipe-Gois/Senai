@@ -38,4 +38,6 @@ e colar a "string dde conexão"
 
 Scaffold-DbContext "Data Source=NOTE14-S14; initial catalog=inlock_games_dbFirst_tarde; User Id = sa; Pwd = Senai@134; TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context InLockContext
 
+Scaffold: é responsável por "transformar" as colunas do BD em classes
+
 Com o EF core, a classe Context será responsável pelas pesquisas SQL (não ficarão mais no repository)

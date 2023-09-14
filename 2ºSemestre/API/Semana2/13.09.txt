@@ -1,1 +1,13 @@
 code first:
+
+decimal(4, 2)
+1º dado: total de casas inteiras
+2º dado: total de casas depois da vírgula
+
+Migration: mapear e criar o banco de dados com todas as tabelas
+
+Comando para criar migration com o nome específico: Add-Migration BD
+
+Comando para levar migration do código para o banco: Update-Database
+
+Migration: 

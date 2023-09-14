@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace webapi_inlock_codefirst.Domains
 {
     [Table("TiposUsuario")]
-    public class TipoUsuarioDomain
+    public class TiposUsuarioDomain
     {
         [Key]
         public Guid IdTipoUsuario { get; set; } = Guid.NewGuid();

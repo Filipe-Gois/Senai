@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VnUlKovTeqiL1YwqudcSRcwc+JozZo4tw8DGFqxQhqjuY7Lm0p5uspxPjW/vE6vmStSCaHm/KW0Q6yc6Vczfzg==",
+  "dgSpecHash": "5ekl+sU8btg87pjE9zBi17FhKFu+Gr+fto2UzHJVf2T6gcd6OtUMSi+d8sebF/Oazc0gc+tvxZ39+kPXDosULg==",
   "success": true,
   "projectFilePath": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Semana2\\webapi_inlock_codefirst\\webapi_inlock_codefirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\46633783825\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\46633783825\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\46633783825\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\46633783825\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\46633783825\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.11\\microsoft.aspnetcore.jsonpatch.7.0.11.nupkg.sha512",
     "C:\\Users\\46633783825\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.11\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.11.nupkg.sha512",

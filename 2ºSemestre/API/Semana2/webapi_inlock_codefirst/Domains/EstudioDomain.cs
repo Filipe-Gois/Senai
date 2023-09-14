@@ -9,7 +9,7 @@ namespace webapi_inlock_codefirst.Domains
         [Key] //BD identifica que é uma PK
         public Guid IdEstudio { get; set; } = Guid.NewGuid();
 
-        [Column(TypeName = "VARCHAR(100")]
+        [Column(TypeName = "VARCHAR(100)")]
         [Required(ErrorMessage = "O nome do estúdio é obrigatório!")]
         public string? NomeEstudio { get; set; }
 

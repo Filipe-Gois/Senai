@@ -31,7 +31,7 @@ namespace webapi_inlock_codefirst.Repositories
                 }
 
 
-                return null;
+                return null!;
 
             }
             catch (Exception)
@@ -50,21 +50,24 @@ namespace webapi_inlock_codefirst.Repositories
 
             //}
 
-            public void CadastrarUsuario(UsuarioDomain usuario)
+
+        }
+
+        public void CadastrarUsuario(UsuarioDomain usuario)
+        {
+            try
             {
-                try
-                {
-                    usuario.SenhaUsuario = Criptografia.GerarHash(usuario.SenhaUsuario!);
+                usuario.SenhaUsuario = Criptografia.GerarHash(usuario.SenhaUsuario!);
 
-                    ctx.Usuario.Add(usuario);
+                ctx.Usuario.Add(usuario);
 
-                    ctx.SaveChanges();
-                }
-                catch (Exception)
-                {
+                ctx.SaveChanges();
+            }
+            catch (Exception)
+            {
 
-                    throw;
-                }
+                throw;
             }
         }
     }
+}

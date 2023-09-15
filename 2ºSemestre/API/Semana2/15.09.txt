@@ -1,0 +1,3 @@
+Criar uma classe do tipo controller com o nome LoginController específica para o método de login
+
+criar uma classe com o nome LoginViewModel *vai conter apenas os dados email e senha, para ficar mais leve na hora de usar o método*

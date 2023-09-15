@@ -79,3 +79,6 @@ C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefir
 C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefirst\obj\Debug\net7.0\webapi_inlock_codefirst.genruntimeconfig.cache
 C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefirst\obj\Debug\net7.0\ref\webapi_inlock_codefirst.dll
 C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefirst\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefirst\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefirst\bin\Debug\net7.0\webapi_inlock_codefirst.xml
+C:\Users\46633783825\Desktop\Senai\2ºSemestre\API\Semana2\webapi_inlock_codefirst\obj\Debug\net7.0\webapi_inlock_codefirst.xml

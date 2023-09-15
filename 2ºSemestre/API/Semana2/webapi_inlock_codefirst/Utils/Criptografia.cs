@@ -24,8 +24,6 @@ namespace webapi_inlock_codefirst.Utils
         public static bool CompararHash(string senhaForm, string senhaBanco)
         {
             return BCrypt.Net.BCrypt.Verify(senhaForm, senhaBanco);
-
-
         }
     }
 }

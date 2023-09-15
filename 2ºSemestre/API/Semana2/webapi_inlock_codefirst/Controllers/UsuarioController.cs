@@ -3,8 +3,7 @@ using webapi_inlock_codefirst.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using webapi_inlock_codefirst.Domains;
 using webapi_inlock_codefirst.Interfaces;
-
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace webapi_inlock_codefirst.Controllers
 {
@@ -21,38 +20,17 @@ namespace webapi_inlock_codefirst.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Método para cadastrar um usuário
         /// </summary>
         /// <param name="usuario"></param>
         /// <returns></returns>
         [HttpPost("usuario")]
+        [Authorize("A43666C4-1B34-4AE3-8E86-55BE81BF2628")] //id representante da autorização tipo ADM
         public IActionResult Cadastrar(UsuarioDomain usuario)
         {
             try
             {
                 _usuarioRepository.CadastrarUsuario(usuario);
-                return StatusCode(200, usuario);
-            }
-            catch (Exception erro)
-            {
-
-                return BadRequest(erro.Message);
-            }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="email"></param>
-        /// <param name="senha"></param>
-        /// <returns></returns>
-        [HttpPost("email")]
-        public IActionResult Login(string email, string senha)
-        {
-            try
-            {
-                _usuarioRepository.BuscarUsuario(email, senha);
-
                 return StatusCode(200);
             }
             catch (Exception erro)
@@ -61,5 +39,6 @@ namespace webapi_inlock_codefirst.Controllers
                 return BadRequest(erro.Message);
             }
         }
+
     }
 }

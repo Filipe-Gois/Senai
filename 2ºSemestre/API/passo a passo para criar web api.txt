@@ -1,0 +1,20 @@
+Passos para criar um projeto codeFirst:
+CRIAR NOVO PROJETO do TIPO "API WEB do asp net core" *prestar atenção onde séra criado o projeto*, *n marcar/desmarcar nenhuma caixinha*
+
+Criar as pastas do projeto (Domains, Interfaces, Repositories, *Controllers já vem*, Contexts[], Utils[], ViewModels[])
+
+Baixar os pacotes no NuGet
+
+Criar as domains do tipo Classe
+
+Atribuir as devidas dataanotations de cada classe e coluna
+
+Criar um classe do tipo classe com o nome do projeto + Context na pasta Context. Ex: EventContext
+
+Fazer uma herança da classe "DbContext"
+
+Criar as propriedades do tipo DbSet com o nome das domains Ex: public DbSet<TipoUsuario> TipoUsuario { get; set; }
+
+Declarar o método com a string de Conexão
+
+Abrir o console de gerenciador de pacotes e executar os comandos: 1)dotnet build, 2) Update-Database  *(SEGUIR NESTA ORDEM!!)*

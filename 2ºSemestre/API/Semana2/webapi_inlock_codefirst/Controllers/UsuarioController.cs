@@ -25,7 +25,7 @@ namespace webapi_inlock_codefirst.Controllers
         /// <param name="usuario"></param>
         /// <returns></returns>
         [HttpPost("usuario")]
-        [Authorize("A43666C4-1B34-4AE3-8E86-55BE81BF2628")] //id representante da autorização tipo ADM
+        [Authorize(Roles = "A43666C4-1B34-4AE3-8E86-55BE81BF2628")] //id representante da autorização tipo ADM
         public IActionResult Cadastrar(UsuarioDomain usuario)
         {
             try

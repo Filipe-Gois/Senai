@@ -17,4 +17,4 @@ Criar as propriedades do tipo DbSet com o nome das domains Ex: public DbSet<Tipo
 
 Declarar o método com a string de Conexão
 
-Abrir o console de gerenciador de pacotes e executar os comandos: 1)dotnet build, 2) Update-Database  *(SEGUIR NESTA ORDEM!!)*
+Abrir o console de gerenciador de pacotes e executar os comandos: 1)dotnet build, 2)Add-Migration BD 3)Update-Database  *(SEGUIR NESTA ORDEM!!)*

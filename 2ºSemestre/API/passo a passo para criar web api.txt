@@ -18,3 +18,10 @@ Criar as propriedades do tipo DbSet com o nome das domains Ex: public DbSet<Tipo
 Declarar o método com a string de Conexão
 
 Abrir o console de gerenciador de pacotes e executar os comandos: 1)dotnet build, 2)Add-Migration BD 3)Update-Database  *(SEGUIR NESTA ORDEM!!)*
+
+
+*Observações:*
+{
+	Ao criar a lógica da repository no método de "Deletar(BuscarPorId(id))", só colocar validação de objeto nulo na controller, já no método de "Atualizar(id, objeto)"
+ 	é necessário utilizar um objeto na repository para buscar o objeto à ser atualizado, e, só na controller, fazer a validação de objeto nulo.
+}

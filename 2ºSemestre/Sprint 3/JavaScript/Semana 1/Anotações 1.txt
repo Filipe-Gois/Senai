@@ -1,0 +1,21 @@
+JavaScript: 
+nome popular = javascript
+nome real = ecmascript
+
+Existem eventos no js, como: passar o mouse por cima, clicar, etc.
+
+var: escopo global
+let: escopo local
+const: constante
+
+dá p usar aspas simples e duplas em strings
+
+method: por padrão é get
+get: passa dados pela url
+post: passa dados pelo corpo da requisição
+
+
+Método obrigatório para se colocar antes a lógica de um formulário
+event.preventDefault();
+
+todo formulário tem como tipo de dado padrão, string

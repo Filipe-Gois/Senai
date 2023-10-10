@@ -1,6 +1,7 @@
 JavaScript: 
 nome popular = javascript
 nome real = ecmascript
+Utiliza padrão camelCase
 
 Existem eventos no js, como: passar o mouse por cima, clicar, etc.
 
@@ -11,11 +12,26 @@ const: constante
 dá p usar aspas simples e duplas em strings
 
 method: por padrão é get
+{
+
+
 get: passa dados pela url
 post: passa dados pelo corpo da requisição
+}
 
-
-Método obrigatório para se colocar antes a lógica de um formulário
+Método obrigatório para se colocar antes da lógica de um formulário
 event.preventDefault();
 
 todo formulário tem como tipo de dado padrão, string
+
+
+type submit: envia os dados para algum lugar
+action: lugar p onde vão os dados
+
+tipo de dado:
+{
+    infinity: um número infinito (Divisão por 0 retorna número infinito)
+    NaN: "not a number, era p ser um valor numérico, mas n se tornou"
+    undefined: quando uma variável n tem valor
+    null: quando a variável tem como valor setado "nada" ex: (let n1 = null;)
+}

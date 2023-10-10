@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let nome = "        Filipe Góis";
+
+      let nomeLimpo = nome.trim();
+      console.log(nome);
+      console.log(nome[2]); //pega o caracter número 2 da string, sendo o "l"
+      console.log(nome.toUpperCase()); //Deixa tudo maiúsculo
+      console.log(nome.toLowerCase()); //Deixa tudo minúsculo
+      console.log(nome.trim()); //Remove todos os espaços iniciais da string
+      console.log(nomeLimpo.length); //Retorna o tamanho da string
+
+      console.log(nomeLimpo.substring(5,10)) //retorna todos os caracteres no intervalo entre 5 < 11 
+      console.log(nomeLimpo.substr(5,10)) //retorna todos os caracteres no intervalo entre 5 <= 11
+
+      console.log(nomeLimpo.replace("Filipe", "Murilo")) //Busca o texto Filipe e, caso encontre, substitui por Murilo
+    </script>
+  </body>
+</html>

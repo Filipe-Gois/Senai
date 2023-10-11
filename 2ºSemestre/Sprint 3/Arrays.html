@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let frutas = [`Filipe`, 16, 14.45, true];
+
+      frutas.push(`Mamão`, "Maçã", "Uva"); //.push = .add no c#. Adiciona mais um ao final da lista
+
+      frutas.sort(); //ordena os itens dentro do arrya-/
+      console.log(frutas);
+
+      //   for (let index = 0; index < frutas.length; index++) {
+      //     console.log(`Fruta ${index + 1}: ${frutas[index]}.`);
+      //   }
+
+      frutas.forEach((element, i) => {
+        console.log(`Fruta ${i + 1}: ${element}`);
+      });
+
+      //   frutas.forEach(function (f, i) {
+      //     console.log(`Fruta ${i + 1}: ${f}.`);
+      //   }); //jeito de se usar foreach até 2014, antigo
+    </script>
+  </body>
+</html>

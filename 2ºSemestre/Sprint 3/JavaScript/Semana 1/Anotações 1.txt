@@ -5,6 +5,7 @@ Utiliza padrão camelCase
 
 Existem eventos no js, como: passar o mouse por cima, clicar, etc.
 
+
 var: escopo global
 let: escopo local
 const: constante
@@ -30,8 +31,28 @@ action: lugar p onde vão os dados
 
 tipo de dado:
 {
-    infinity: um número infinito (Divisão por 0 retorna número infinito)
+command:gitlens.showFocusPage    infinity: um número infinito (Divisão por 0 retorna número infinito)
     NaN: "not a number, era p ser um valor numérico, mas n se tornou"
     undefined: quando uma variável n tem valor
     null: quando a variável tem como valor setado "nada" ex: (let n1 = null;)
+}
+
+*Programadores JS sempre usam o console da página para ver os erros*
+
+*Colocar onsubmit() no formulário, pois o botão já tem a propriedade "submit" por padrão*
+
+Arrays:
+{
+    arrays podem armazenar todos os tipos de dados
+
+    foreach: é um método de arrya. Ex: frutas.foreach()
+
+    usar colchetes []
+}
+
+Funções sem nome: Funções anônimas
+
+Objetos:
+{
+    usar chaves {}
 }

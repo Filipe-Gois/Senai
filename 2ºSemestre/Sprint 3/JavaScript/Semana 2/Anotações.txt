@@ -1,0 +1,2 @@
+step="0.01" -- formulário aceita números quebrados
+dá p colocar valor mínimo e máximo no input do formulário

@@ -1,2 +1,16 @@
 step="0.01" -- formulário aceita números quebrados
 dá p colocar valor mínimo e máximo no input do formulário
+
+originalmente, todas as classes derivam da classe "Object"
+
+ao acessar uma propriedade, se ela não existir, o js cria, se existir, ele exibe
+{
+	let gui = new Object(); //ngm mais usa esta bomba
+	gui.nome = "Guilherme"
+	gui.idade = 18
+}
+
+escopo:
+var: escopo global do projeto (NÃO USAR)
+let: escopo local (Certo a se usar)
+const: escopo local

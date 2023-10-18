@@ -1,0 +1,3 @@
+map, filter, reduce, foreach: métodos da classe array
+
+função de callback: função de retorno

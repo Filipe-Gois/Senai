@@ -1,6 +1,9 @@
 //filter, - retorna um novo array apenas com os elementos que atendem a uma condição
+
 //map, - retorna um novo arrya modificado
+
 //reduce, - possui caracteristica de juntar as coisas - retorna somente um número
+
 //foreach - retorna void
 
 const numeros = [1, 2, 3, 15, 10, 164, 2555]

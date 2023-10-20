@@ -6,10 +6,14 @@ destructuring: extrair algo específico de um objeto
 
 props: objeto q possui as propriedades (react)
 
-
-
 chamada assíncrona no JS: resposta da "promessa" tem delay p chegar, mas as os outras coisas continuam rodando
 {
+definição achada no google: "Já as assíncronas são aquelas que acessam ou buscam algum tipo de recurso em um dispositivo externo, 
+como por exemplo um banco de dados, nesse tipo de função precisamos que nosso código espere que a resposta esteja disponível 
+antes de executar a ação seguinte"
+
+método fetch: passar o endereço da api como parâmetro
+
 estados da promisse:
 
 1:pending - estado inicial,
@@ -18,6 +22,42 @@ estados da promisse:
 
 promisse pode ser fulfield (aceita) ou rejeitada
 
+função assíncrona: colocar async na função e await
 
-função assíncrona: colocar async na função e
+EX:
+const promise = await fetch(url)      ;
+const endereco = await promise.json() ;
+}
+
+JSON SERVER{
+
+
+JSON SERVER: biblioteca q cria um simulador de API. Foi feito pela comunidade
+
+Instalar pacotes:
+
+npm install -g json-server
+criar o arquivo db.json
+
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
+
+
+npx    json-server --watch db.json
+
+Caso necessite liberar a execução de scripts de terceiros pelo powershell rode o seguinte comando:
+powershell
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+    ExecutionPolicy -List
+
+"Dar ctrl + c para parar a API"
 }

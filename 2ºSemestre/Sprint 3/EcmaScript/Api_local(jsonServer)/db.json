@@ -1,0 +1,16 @@
+{
+  "imc": [
+    {
+      "id": 1,
+      "nome": "Filipe",
+      "idade": 16,
+      "peso": 59.9
+    },
+    {
+      "nome": "Góis",
+      "idade": 1,
+      "peso": 59.9,
+      "id": 2
+    }
+  ]
+}

@@ -1,16 +1,15 @@
 {
-  "imc": [
+  "contatos": [
     {
-      "id": 1,
-      "nome": "Filipe",
-      "idade": 16,
-      "peso": 59.9
-    },
-    {
-      "nome": "Góis",
-      "idade": 1,
-      "peso": 59.9,
-      "id": 2
+      "cep": "03736170",
+      "endereco": "Rua João Barbosa Ortiz",
+      "bairro": "Vila Buenos Aires",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "nome": "Filipe Góis",
+      "numResidencia": "104",
+      "numeroTelefone": "11911550185",
+      "id": 1
     }
   ]
 }

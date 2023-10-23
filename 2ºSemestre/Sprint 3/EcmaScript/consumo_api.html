@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form>
+    <form onsubmit="Cadastrar(event)">
       <label for="cep">CEP</label>
       <input
         type="number"
@@ -34,9 +34,64 @@
       <label for="estado">Estado</label>
       <input type="text" placeholder=" ... " id="estado" />
       <br /><br />
+
+      <label for="nome">Nome</label>
+      <input required type="text" placeholder=" ... " id="nome" />
+      <br /><br />
+
+      <label for="numeroTel">Número de telefone:</label>
+      <input required type="number" placeholder=" ... " id="numeroTel" />
+      <br /><br />
+
+      <label for="numRes">Número da residência</label>
+      <input required type="number" placeholder=" ... " id="numRes" />
+      <br /><br />
+
+      <button>Cadastrar</button>
     </form>
 
     <script>
+      const urlLocal = "http://localhost:3000/contatos";
+
+      async function Cadastrar(e) {
+        e.preventDefault();
+
+        const endereco = document.getElementById("endereco").value;
+        const bairro = document.getElementById("bairro").value;
+        const cidade = document.getElementById("cidade").value;
+        const estado = document.getElementById("estado").value;
+        const cep = document.getElementById("cep").value;
+
+        const nome = document.getElementById("nome").value;
+        const numResidencia = document.getElementById("numRes").value;
+        const numeroTelefone = document.getElementById("numeroTel").value;
+
+        const objDados = {
+          cep,
+          endereco,
+          bairro,
+          cidade,
+          estado,
+          nome,
+          numResidencia,
+          numeroTelefone,
+        };
+
+        try {
+          const promise = await fetch(urlLocal, {
+            //transforma um objeto em JSON
+            body: JSON.stringify(objDados),
+            headers: { "Content-Type": "application/JSON" },
+            method: "post",
+          });
+
+          const retorno = promise.json(); //pega o retorno da API
+          console.log(retorno);
+        } catch (error) {
+          alert(error);
+        }
+      }
+
       async function chamarApi() {
         const cep = document.getElementById("cep").value;
         const url = `https://viacep.com.br/ws/${cep}/json/`;

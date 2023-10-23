@@ -12,7 +12,7 @@ definição achada no google: "Já as assíncronas são aquelas que acessam ou b
 como por exemplo um banco de dados, nesse tipo de função precisamos que nosso código espere que a resposta esteja disponível 
 antes de executar a ação seguinte"
 
-método fetch: passar o endereço da api como parâmetro
+método fetch: passar o endereço da api como parâmetro.Inicia o processo de busca, retomando uma "promise"
 
 estados da promisse:
 
@@ -30,9 +30,9 @@ const endereco = await promise.json() ;
 }
 
 JSON SERVER{
+Passos para criar uma API local:
 
-
-JSON SERVER: biblioteca q cria um simulador de API. Foi feito pela comunidade
+JSON SERVER: biblioteca q cria um simulador de API. "Foi feito pela comunidade"
 
 Instalar pacotes:
 
@@ -50,7 +50,7 @@ criar o arquivo db.json
 }
 
 
-npx    json-server --watch db.json
+npx json-server --watch db.json
 
 Caso necessite liberar a execução de scripts de terceiros pelo powershell rode o seguinte comando:
 powershell
@@ -61,3 +61,5 @@ powershell
 
 "Dar ctrl + c para parar a API"
 }
+
+resource: "recurso" nome da controller da API (rota)

@@ -1,11 +1,13 @@
 é um tipo de padrão para nomear
 
-"nomePai  nomeFilho"
+"nomePai__nomeFilho"
 
 caso um filho seja diferente:
-"nomePai  nomeFilho--red"
+"nomePai__nomeFilho--red"
 
 "--red" indica que o modificador é red
 
 caso tenha nome composto:
-"nomePai  nome-filho
+"nomePai__nome-filho
+
+usar __ para colocar o nome do filho logo depois

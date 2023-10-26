@@ -1,0 +1,11 @@
+é um tipo de padrão para nomear
+
+"nomePai  nomeFilho"
+
+caso um filho seja diferente:
+"nomePai  nomeFilho--red"
+
+"--red" indica que o modificador é red
+
+caso tenha nome composto:
+"nomePai  nome-filho

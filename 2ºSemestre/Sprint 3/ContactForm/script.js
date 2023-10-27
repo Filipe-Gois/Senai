@@ -1,7 +1,7 @@
 //1ºpasso: definir as variávei
 
 //url da api local
-let urlLocal = "http://localhost:3000/contatos"
+const urlLocal = "http://localhost:3000/contatospessoas"
 
 
 
@@ -10,8 +10,8 @@ let urlLocal = "http://localhost:3000/contatos"
 //3º passo: chamar a API "VIACEP" para fazer a validação do cep informado
 
 async function chamarApi() {
-    let cep = document.getElementById('cep').value
-    let urlCep = `https://viacep.com.br/ws/${cep}/json/`
+    const cep = document.getElementById('cep').value
+    const urlCep = `https://viacep.com.br/ws/${cep}/json/`
 
     try {
         alert("Cep encontrado")
@@ -47,29 +47,49 @@ function limparDados() {
     document.getElementById('UF').value = ""
 }
 
+function limparTodosOsDados() {
+    document.getElementById('nome').value = ""
+    document.getElementById('sobrenome').value = ""
+    document.getElementById('email').value = ""
+
+    document.getElementById('pais').value = ""
+    document.getElementById('pais').value = ""
+    document.getElementById('telefone').value = ""
+
+    document.getElementById('cep').value = ""
+    document.getElementById('rua').value = ""
+    document.getElementById('numero').value = ""
+    document.getElementById('complemento').value = ""
+    document.getElementById('bairro').value = ""
+    document.getElementById('cidade').value = ""
+    document.getElementById('UF').value = ""
+
+    document.getElementsByClassName('anotacoes').value = ""
+}
+
 // 6º passo:criar método para cadastrar um contato na lista
 
 async function cadastrar(e) {
-    e.preventDefault()
-    let nome = document.getElementById('nome').value
-    let sobrenome = document.getElementById('sobrenome').value
-    let email = document.getElementById('email').value
+    e.preventDefault();
+    const nome = document.getElementById('nome').value
+    const sobrenome = document.getElementById('sobrenome').value
+    const email = document.getElementById('email').value
 
-    let pais = document.getElementById('pais').value
-    let ddd = document.getElementById('pais').value
-    let telefone = document.getElementById('telefone').value
+    const pais = document.getElementById('pais').value
+    const ddd = document.getElementById('pais').value
+    const telefone = document.getElementById('telefone').value
 
-    let cep = document.getElementById('cep').value
-    let rua = document.getElementById('rua').value
-    let numeroCasa = document.getElementById('numero').value
-    let complemento = document.getElementById('complemento').value
-    let bairro = document.getElementById('bairro').value
-    let cidade = document.getElementById('cidade').value
-    let uf = document.getElementById('UF').value
+    const cep = document.getElementById('cep').value
+    const rua = document.getElementById('rua').value
+    const numeroCasa = document.getElementById('numero').value
+    const complemento = document.getElementById('complemento').value
+    const bairro = document.getElementById('bairro').value
+    const cidade = document.getElementById('cidade').value
+    const uf = document.getElementById('UF').value
 
-    let anotacoes = document.getElementsByClassName('anotacoes').value
+    const anotacoes = document.getElementsByClassName('anotacoes').value
 
-    let dados = {
+    const dados = {
         nome,
         sobrenome,
         email,
@@ -80,21 +100,24 @@ async function cadastrar(e) {
         rua,
         numeroCasa,
         complemento,
-        bairro, cidade,
+        bairro,
+        cidade,
         uf,
         anotacoes
     }
 
 
     try {
-        let promise = await fetch(urlLocal, {
+        const promise = await fetch(urlLocal, {
             body: JSON.stringify(dados),
-            headers: { "Content-Type": "application/JSON" },
-            method: "post",
+            headers: { "Content-Type": "application/json" },
+            method: "post"
         });
 
-        let retorno = promise.json();
+        const retorno = promise.json();
         console.log(retorno);
+
+        alert(`Cadastrado com sucesso!`)
     }
     catch (error) {
         alert(error)

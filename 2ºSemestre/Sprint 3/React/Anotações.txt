@@ -1,0 +1,57 @@
+Desabilitar autoSave p n bugar o projeto
+
+Usar arrow function
+
+npx: roda um script
+
+
+node_modules: 
+{
+    pasta onde estão todos os pacotes do node NÃO FICAR MEXENDO (esta pasta n é upada pro github por conta de ser mutio pesada [já é configurada por padrão no gitignore])
+
+*quando for baixar um projeto react do github: bixar a pasta com o comando "npm i"*
+}
+
+
+package.json: 
+{
+    "como se fosse a csproj.cs"
+    é o arquivo de configuração do projeto
+    NÃO MEXER
+
+}
+
+public:
+{
+    é a q de fato vai pro navegador
+}
+
+
+pasta: inicial minúscula
+arquivo: inicial Maiúscula
+
+*OBRIGATÓRIO COLOCAR A INICIAL DO ARQUIVO COM LETRA MAIÚSCULA, CASO CONTRÁRIO, N É RECONHECIDO COMO COMPONENTE REACT*
+
+
+
+import React from "react";
+importa o react de "react" que está dentro da node_modules
+possibilitando utilizar html dentro
+
+
+
+export default Titulo();
+torna o componente Titulo() pública para ser usado em todo o projeto
+É OBRIGATÓRIO EXPORTAR O COMPONENTE AO CRIA-LO
+
+
+props: dados que os componentes recebem para exibir
+
+
+Não pode ter dois componentes irmãos fora de um container jsx (JS fragment)
+usar as abertura e fechamento de tags para solucionar este erro: Ex:
+<>
+
+<h1>Oi 1</h1>
+<h2>Oi 2</h2>
+</>

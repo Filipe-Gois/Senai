@@ -10,6 +10,28 @@
       "numResidencia": "104",
       "numeroTelefone": "11911550185",
       "id": 1
+    },
+    {
+      "cep": "03736170",
+      "endereco": "Rua João Barbosa Ortiz",
+      "bairro": "Vila Buenos Aires",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "nome": "Fefefefefe",
+      "numResidencia": "10124",
+      "numeroTelefone": "1191231254",
+      "id": 2
+    },
+    {
+      "cep": "03736170",
+      "endereco": "Rua João Barbosa Ortiz",
+      "bairro": "Vila Buenos Aires",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "nome": "Fefefefefe",
+      "numResidencia": "10124",
+      "numeroTelefone": "1191231254",
+      "id": 3
     }
   ]
 }

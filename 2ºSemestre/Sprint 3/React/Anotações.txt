@@ -7,9 +7,9 @@ npx: roda um script
 
 node_modules: 
 {
-    pasta onde estão todos os pacotes do node NÃO FICAR MEXENDO (esta pasta n é upada pro github por conta de ser mutio pesada [já é configurada por padrão no gitignore])
+    pasta onde estão todos os pacotes do node NÃO FICAR MEXENDO (esta pasta n é upada pro github por conta de ser muito pesada [já é configurada por padrão no gitignore])
 
-*quando for baixar um projeto react do github: bixar a pasta com o comando "npm i"*
+*quando for baixar um projeto react do github: baixar a pasta com o comando "npm i"*
 }
 
 
@@ -26,11 +26,16 @@ public:
     é a q de fato vai pro navegador
 }
 
+padrão para cirar diretórios e arquivos:
+{
 
 pasta: inicial minúscula
 arquivo: inicial Maiúscula
 
 *OBRIGATÓRIO COLOCAR A INICIAL DO ARQUIVO COM LETRA MAIÚSCULA, CASO CONTRÁRIO, N É RECONHECIDO COMO COMPONENTE REACT*
+}
+
+
 
 
 
@@ -40,8 +45,8 @@ possibilitando utilizar html dentro
 
 
 
-export default Titulo();
-torna o componente Titulo() pública para ser usado em todo o projeto
+export default Titulo;
+torna o componente Titulo público para ser usado em todo o projeto
 É OBRIGATÓRIO EXPORTAR O COMPONENTE AO CRIA-LO
 
 

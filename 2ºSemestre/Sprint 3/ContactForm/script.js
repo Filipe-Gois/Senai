@@ -10,14 +10,13 @@ const urlLocal = "http://localhost:3000/contatospessoas"
 //3º passo: chamar a API "VIACEP" para fazer a validação do cep informado
 
 async function chamarApi() {
-    const cep = document.getElementById('cep').value
+    const cep = extrairId('cep')
     const urlCep = `https://viacep.com.br/ws/${cep}/json/`
 
     try {
-        alert("Cep encontrado")
+        //alert("Cep encontrado")
         let promise = await fetch(urlCep);
         let endereco = await promise.json();
-        console.log(endereco);
 
         //exibe os dados buscados pelo cep dentro dos valores dos inputs
         exibirDados(endereco);
@@ -45,15 +44,6 @@ function limparDados() {
     campos.forEach(campo => {
         document.getElementById(campo).value = "";
     });
-
-
-    //código antigo
-    // document.getElementById('rua').value = ""
-    // document.getElementById('numero').value = ""
-    // document.getElementById('complemento').value = ""
-    // document.getElementById('bairro').value = ""
-    // document.getElementById('cidade').value = ""
-    // document.getElementById('UF').value = ""
 }
 
 function limparTodosOsDados() {
@@ -63,30 +53,9 @@ function limparTodosOsDados() {
     campos.forEach(campo => {
         document.getElementById(campo).value = '';
     });
-
-
-    //código antigo
-    // document.getElementById('nome').value = ""
-    // document.getElementById('sobrenome').value = ""
-    // document.getElementById('email').value = ""
-
-    // document.getElementById('pais').value = ""
-    // document.getElementById('ddd').value = ""
-    // document.getElementById('telefone').value = ""
-
-    // document.getElementById('cep').value = ""
-    // document.getElementById('rua').value = ""
-    // document.getElementById('numero').value = ""
-    // document.getElementById('complemento').value = ""
-    // document.getElementById('bairro').value = ""
-    // document.getElementById('cidade').value = ""
-    // document.getElementById('UF').value = ""
-
-    // document.getElementsByClassName('anotacoes').value = ""
 }
 
 // 6º passo:criar método para cadastrar um contato na lista
-
 async function Cadastrar(e) {
     e.preventDefault();
 
@@ -109,6 +78,7 @@ async function Cadastrar(e) {
 
 
     try {
+        //chama o método de cadastrar os dados de um contato
         cadastrarContato(dados)
         alert(`Cadastrado com sucesso!`)
     }
@@ -117,7 +87,6 @@ async function Cadastrar(e) {
     }
 
 }
-
 
 //método responsável pelo cadastro de um contato
 async function cadastrarContato(d) {

@@ -36,91 +36,105 @@ function exibirDados(e) {
     document.getElementById('cidade').value = e.localidade
     document.getElementById('UF').value = e.uf;
 }
-// 5º passo:criar método para limpar os campos do formulário
 
+// 5º passo:criar método para limpar os campos do formulário
 function limparDados() {
-    document.getElementById('rua').value = ""
-    document.getElementById('numero').value = ""
-    document.getElementById('complemento').value = ""
-    document.getElementById('bairro').value = ""
-    document.getElementById('cidade').value = ""
-    document.getElementById('UF').value = ""
+
+    const campos = ['rua', 'numero', 'complemento', 'bairro', 'cidade', 'UF']
+
+    campos.forEach(campo => {
+        document.getElementById(campo).value = "";
+    });
+
+
+    //código antigo
+    // document.getElementById('rua').value = ""
+    // document.getElementById('numero').value = ""
+    // document.getElementById('complemento').value = ""
+    // document.getElementById('bairro').value = ""
+    // document.getElementById('cidade').value = ""
+    // document.getElementById('UF').value = ""
 }
 
 function limparTodosOsDados() {
-    document.getElementById('nome').value = ""
-    document.getElementById('sobrenome').value = ""
-    document.getElementById('email').value = ""
 
-    document.getElementById('pais').value = ""
-    document.getElementById('pais').value = ""
-    document.getElementById('telefone').value = ""
+    const campos = ['nome', 'sobrenome', 'email', 'pais', 'ddd', 'telefone', 'cep', 'rua', 'numero', 'complemento', 'bairro', 'cidade', 'UF', 'anotacoes']
 
-    document.getElementById('cep').value = ""
-    document.getElementById('rua').value = ""
-    document.getElementById('numero').value = ""
-    document.getElementById('complemento').value = ""
-    document.getElementById('bairro').value = ""
-    document.getElementById('cidade').value = ""
-    document.getElementById('UF').value = ""
+    campos.forEach(campo => {
+        document.getElementById(campo).value = '';
+    });
 
-    document.getElementsByClassName('anotacoes').value = ""
+
+    //código antigo
+    // document.getElementById('nome').value = ""
+    // document.getElementById('sobrenome').value = ""
+    // document.getElementById('email').value = ""
+
+    // document.getElementById('pais').value = ""
+    // document.getElementById('ddd').value = ""
+    // document.getElementById('telefone').value = ""
+
+    // document.getElementById('cep').value = ""
+    // document.getElementById('rua').value = ""
+    // document.getElementById('numero').value = ""
+    // document.getElementById('complemento').value = ""
+    // document.getElementById('bairro').value = ""
+    // document.getElementById('cidade').value = ""
+    // document.getElementById('UF').value = ""
+
+    // document.getElementsByClassName('anotacoes').value = ""
 }
 
 // 6º passo:criar método para cadastrar um contato na lista
 
-async function cadastrar(e) {
+async function Cadastrar(e) {
     e.preventDefault();
-    const nome = document.getElementById('nome').value
-    const sobrenome = document.getElementById('sobrenome').value
-    const email = document.getElementById('email').value
-
-    const pais = document.getElementById('pais').value
-    const ddd = document.getElementById('pais').value
-    const telefone = document.getElementById('telefone').value
-
-    const cep = document.getElementById('cep').value
-    const rua = document.getElementById('rua').value
-    const numeroCasa = document.getElementById('numero').value
-    const complemento = document.getElementById('complemento').value
-    const bairro = document.getElementById('bairro').value
-    const cidade = document.getElementById('cidade').value
-    const uf = document.getElementById('UF').value
-
-    const anotacoes = document.getElementsByClassName('anotacoes').value
 
     const dados = {
-        nome,
-        sobrenome,
-        email,
-        pais,
-        ddd,
-        telefone,
-        cep,
-        rua,
-        numeroCasa,
-        complemento,
-        bairro,
-        cidade,
-        uf,
-        anotacoes
-    }
+        nome: extrairId('nome'),
+        sobrenome: extrairId('sobrenome'),
+        email: extrairId('email'),
+        pais: extrairId('pais'),
+        ddd: extrairId('ddd'),
+        telefone: extrairId('telefone'),
+        cep: extrairId('cep'),
+        rua: extrairId('rua'),
+        numeroCasa: extrairId('numero'),
+        complemento: extrairId('complemento'),
+        bairro: extrairId('bairro'),
+        cidade: extrairId('cidade'),
+        uf: extrairId('UF'),
+        anotacoes: extrairId('anotacoes')
+    };
 
 
     try {
-        const promise = await fetch(urlLocal, {
-            body: JSON.stringify(dados),
-            headers: { "Content-Type": "application/json" },
-            method: "post"
-        });
-
-        const retorno = promise.json();
-        console.log(retorno);
-
+        cadastrarContato(dados)
         alert(`Cadastrado com sucesso!`)
     }
     catch (error) {
         alert(error)
     }
 
+}
+
+
+//método responsável pelo cadastro de um contato
+async function cadastrarContato(d) {
+    try {
+        await fetch(urlLocal, {
+            body: JSON.stringify(d),
+            headers: { "Content-Type": "application/json" },
+            method: "post"
+        });
+    }
+    catch (error) {
+        throw (error)
+    }
+}
+
+
+//Busca o valor de um input html pelo seu id. Criei para o código do objeto "dados" ficar mais limpo
+function extrairId(id) {
+    return document.getElementById(id).value;
 }

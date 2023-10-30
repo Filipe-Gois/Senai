@@ -1,5 +1,9 @@
 Desabilitar autoSave p n bugar o projeto
 
+
+npm = isntalar
+npx = executar
+
 Usar arrow function
 
 npx: roda um script
@@ -60,3 +64,40 @@ usar as abertura e fechamento de tags para solucionar este erro: Ex:
 <h1>Oi 1</h1>
 <h2>Oi 2</h2>
 </>
+
+
+state:
+{
+    const [cont, setcont] = useState(o);
+
+    0  //state
+
+    usar uma segunda função que manipule o valor da variável
+    altera os valores em tempo real
+
+
+    Ex:
+
+    constante || nomeDaContstante || segundaFuncao || indica que o contador começa em 0
+    const [Contador, setContador] = useState(0);
+
+    const handleIncrementar = () => setContador(Contador + 1);
+
+    const handleDecrementar = () => setContador(Contador -1);
+
+
+
+
+    return (
+        <>
+            <p>{Contador}</p>
+            {/* //NÃO COLOCAR OS PARENTESES. Caso precise colcoar parâmetros, encapsular o método em uma arrow function */}
+            <button onClick={() => {handleIncrementar()}}>Incrementar</button>
+
+            <button onClick={() => {handleDecrementar()}}>Decrementar</button>
+        </>
+    );
+}
+
+instalar pacote react-router-dom:
+npm i react-router-dom

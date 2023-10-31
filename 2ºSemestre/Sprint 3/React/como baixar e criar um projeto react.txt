@@ -7,4 +7,6 @@ npx create-react-app "nome da pasta"
 
 
 instalar pacote react-router-dom:
-npm i react-router-dom
+npm i react-router-dom --save
+
+*--save: salva o pacote como dependência do projeto, fazendo ser baixado automaticamente ao dar o "npm i"*

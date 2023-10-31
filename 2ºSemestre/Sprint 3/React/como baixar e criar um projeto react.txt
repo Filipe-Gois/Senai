@@ -4,3 +4,7 @@ npm i -g create-react-app
 
 criar uma pasta react:
 npx create-react-app "nome da pasta"
+
+
+instalar pacote react-router-dom:
+npm i react-router-dom

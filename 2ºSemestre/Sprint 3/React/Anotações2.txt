@@ -3,3 +3,29 @@ import { Link } from 'react-router-dom';
 Usar a tag "Link" no lugar do <a></a>
 Usar "to" no lugar de href=""
 isso faz com que a página não atualize ao trocar de rota
+
+
+definir as props no componente p personalizar dps
+
+importar o componente Header e colocar dentro de <BrowserRouter>, assim, todas as rotas terão a Header por padrão
+Ex:
+{
+	<BrowserRouter>
+            <Header />
+            <Routes>
+
+                <Route element={<EventosPage />} path='/eventos' />
+
+                <Route element={<HomePage />} path='/' exact />
+
+                <Route element={<TipoEventos />} path='/tipo-eventos' />
+                <Route element={<LoginPage />} path='/login' />
+                <Route element={<TestePage />} path='/teste' />
+
+            </Routes>
+
+        </BrowserRouter>
+}
+
+
+children: colocar dentro de um componente duplo, pois simboliza as tags filhas deste componente

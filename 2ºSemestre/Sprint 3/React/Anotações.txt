@@ -72,6 +72,7 @@ state:
 
     0  //state
 
+	"variaveis state são variaveis especiais, são objetos"
     usar uma segunda função que manipule o valor da variável
     altera os valores em tempo real
 

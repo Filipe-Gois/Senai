@@ -29,3 +29,18 @@ Ex:
 
 
 children: colocar dentro de um componente duplo, pois simboliza as tags filhas deste componente
+{
+
+Ex:
+	<Header> 
+
+	<Header/>
+}
+
+
+
+
+
+
+
+

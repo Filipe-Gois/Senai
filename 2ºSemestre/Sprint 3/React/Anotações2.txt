@@ -38,9 +38,11 @@ Ex:
 }
 
 
+Binding: quando o filho altera os dados do pai através do state
+
+bibliotecas para trabalhar com banners: 
 
 
 
-
-
-
+swiper react components 
+https://swiperjs.com

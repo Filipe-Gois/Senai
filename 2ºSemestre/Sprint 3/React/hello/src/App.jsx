@@ -20,7 +20,7 @@ function App() {
 
       <Card titulo="Titulo" descricao="Breve descrição do evento, pode ser um paragrafo pequenoBreve descrição do evento, pode ser um paragrafo pequeno.Breve descrição do evento, pode ser um paragrafo pequeno." /> */}
 
-      {/* <Contador /> */}
+      <Contador />
 
       <Rotas />
 

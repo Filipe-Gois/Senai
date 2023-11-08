@@ -1,0 +1,6 @@
+definição: elemento que armazena valores de propriedade de um componente. Quando o valor é alterado,
+esses objetos são renderizados novamente.
+
+
+Diferença entre state e let:
+let precisa recarregar a pg p alterar o valor, já o state, não. É alterado em tempo real com o state "lembra uma SPA"

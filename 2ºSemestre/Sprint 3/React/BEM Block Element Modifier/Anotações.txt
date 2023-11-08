@@ -1,4 +1,6 @@
-é um tipo de padrão para nomear
+é um tipo de padrão para nomear classes css
+
+"bloco__elemento--modificador"
 
 "nomePai__nomeFilho"
 

@@ -1,0 +1,68 @@
+aceita dois argumentos 
+Se n colcoar o segundo, executará infinitamente
+No segundo parametro, é um array vazio ou nao
+
+
+useEffect(<function>, <dependencia>)
+
+3 tipos de uso do effect:
+quando o componente é carregado,
+quando a variavel é alterada,
+quando desmonta(tira da tela) o componente
+
+
+useEffect(() => {
+  //Runs on every render
+});
+
+useEffect(() => {
+  //Runs only on the first render
+}, []);
+
+
+
+consegue dar loop infinito caso o componente seja remontado
+
+
+
+
+
+import { useState, useEffect } from "react";
+import ReactDOM from "react-dom/client";
+
+function Timer() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCount((count) => count + 1);
+    }, 1000);
+  });
+
+  return <h1>I've rendered {count} times!</h1>;
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Timer />);
+
+
+
+
+
+
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  const [calculation, setCalculation] = useState(0);
+
+  useEffect(() => {
+    setCalculation(() => count * 2);
+  }, [count]); // <- add the count variable here
+
+  //executa quando o "count" for alterado
+
+
+
+
+
+  

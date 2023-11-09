@@ -9,10 +9,10 @@
 const numeros = [1, 2, 3, 15, 10, 164, 2555]
 
 //map:
-//const dobro = numeros.map((n) => n * 2)
+const dobro = numeros.map((n) => n * 2)
 
-// console.log(numeros);
-// console.log(dobro);
+console.log(numeros);
+console.log(dobro);
 
 //filter
 //

@@ -1,0 +1,3 @@
+se o export n for default, precisa colocar como destructuring na hora de importar em outra página
+
+react tooltip: deixar aquela sobreposição quando o texto n cabe "olhar o card do event plus"

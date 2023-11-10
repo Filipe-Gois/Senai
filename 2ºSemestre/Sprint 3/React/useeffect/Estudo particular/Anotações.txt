@@ -1,0 +1,1 @@
+"dá p usar p controlar oq vc quer q seja renderizado e quantas vezes será renderizado"

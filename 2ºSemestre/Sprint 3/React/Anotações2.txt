@@ -45,3 +45,5 @@ bibliotecas para trabalhar com banners:
 
 swiper react components 
 https://swiperjs.com
+
+nos inputs, utilizar o campo 'name', pois o react n pega por 'id'

@@ -1,0 +1,1 @@
+meio mais simples comparado com o fetch. Benefícios: trata erros mais facilmente e pode cancelar solicitações

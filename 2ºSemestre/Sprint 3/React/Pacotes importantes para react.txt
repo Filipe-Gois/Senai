@@ -1,0 +1,9 @@
+instalar pacote react-router-dom:
+npm i react-router-dom --save
+
+instalar pacote axios;
+npm i axios
+
+
+bibliotecas para trabalhar com banners tipo slides: 
+swiper react components 

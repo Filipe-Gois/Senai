@@ -11,7 +11,7 @@ npx: roda um script
 
 node_modules: 
 {
-    pasta onde estão todos os pacotes do node NÃO FICAR MEXENDO (esta pasta n é upada pro github por conta de ser muito pesada [já é configurada por padrão no gitignore])
+    pasta onde estão todos os pacotes do node *NÃO FICAR MEXENDO* (esta pasta n é upada pro github por conta de ser muito pesada [já é configurada por padrão no gitignore])
 
 *quando for baixar um projeto react do github: baixar a pasta com o comando "npm i"*
 }
@@ -60,7 +60,6 @@ props: dados que os componentes recebem para exibir
 Não pode ter dois componentes irmãos fora de um container jsx (JS fragment)
 usar as abertura e fechamento de tags para solucionar este erro: Ex:
 <>
-
 <h1>Oi 1</h1>
 <h2>Oi 2</h2>
 </>

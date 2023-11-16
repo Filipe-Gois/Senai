@@ -1,0 +1,31 @@
+BCrypt.Net-Next -- criptografia de senhas
+
+
+ErikEJ.EntityFrameworkCore.SqlServer.DateOnlyTimeOnly -- n lembro direito, mas era p solucionar um bug referente à data e hora
+
+
+Microsoft.AspNetCore.Authentication.JwtBearer -- token de segurança JWT
+
+
+System.IdentityModel.Tokens.Jwt -- token de segurança JWT
+
+
+Microsoft.AspNetCore.Mvc.NewtonsoftJson -- Corrige bug de loop infinito
+
+
+Microsoft.AspNetCore.OpenApi
+
+
+Microsoft.EntityFrameworkCore.Design
+
+
+Microsoft.EntityFrameworkCore.SqlServer -- usar o entity com sqlserver
+
+
+Microsoft.EntityFrameworkCore.Tools
+
+
+Newtonsoft.Json
+
+
+Swashbuckle.AspNetCore

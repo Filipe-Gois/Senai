@@ -1,9 +1,11 @@
 baixar react:
-npm i -g create-react-app
+npm i -g create-react-app 
 
 
 criar uma pasta react:
 npx create-react-app "nome da pasta"
+OU
+npm create vite@latest
 
 
 instalar pacote react-router-dom:

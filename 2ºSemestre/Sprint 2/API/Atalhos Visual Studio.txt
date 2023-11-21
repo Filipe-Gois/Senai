@@ -1,0 +1,3 @@
+Selecionar vários nomes de uma vez: ALT + SHIFT + .
+Identar código: Ctrl + K + D
+Salvar tudo: Ctrl = SHIFT+ S

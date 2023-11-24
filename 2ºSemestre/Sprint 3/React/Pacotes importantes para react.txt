@@ -7,3 +7,5 @@ npm i axios
 
 bibliotecas para trabalhar com banners tipo slides: 
 swiper react components 
+
+

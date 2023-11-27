@@ -1,0 +1,13 @@
+Context API
+
+prop dreling: pai > filho > neto
+pai passa as propriedades pro filho e o filho passa essas prorpiedades pro neto do pai
+
+context api: pai > neto
+dá p determinar o escopo (alcance) dessas variáveis
+provider: abrangência q o state vai ter
+persistência de dados: "msm qnd sai do gmail, se entrar dnv, ele ainda tá logado."
+local storage: recurso do navegador onde armazena-se dados de login de modo local
+
+useContext() 
+const [nome]

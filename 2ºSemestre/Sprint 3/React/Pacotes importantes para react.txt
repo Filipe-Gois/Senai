@@ -8,4 +8,5 @@ npm i axios
 bibliotecas para trabalhar com banners tipo slides: 
 swiper react components 
 
-
+instalar pacote do jwt token para decodificar token de usuário para acessar suas informações
+npm i jwt-decode

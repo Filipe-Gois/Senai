@@ -1,0 +1,12 @@
+ternário encadeado:
+
+{userData.role === "Administrador" ? ( //if
+                    <>
+                        <Link to="/tipo-eventos" className='navbar__item' onClick={() => setExibeNavbar(false)}>Tipo Eventos</Link>
+                        <Link to="/eventos" className='navbar__item' onClick={() => setExibeNavbar(false)}>Eventos</Link>
+                    </>
+                ) : (//if
+                    userData.role == "Comum" ? (
+                        <Link to="/eventos-aluno" className='navbar__item' onClick={() => setExibeNavbar(false)}>Meus Eventos</Link>
+                    )
+                        : null)}

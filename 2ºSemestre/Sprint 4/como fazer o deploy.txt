@@ -1,0 +1,7 @@
+Passos para colocar uma aplicação no ar (deploy)
+
+1º entrar em resource groups
+
+2º Create a resource group
+
+3º "comprar" sql database

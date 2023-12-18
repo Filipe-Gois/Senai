@@ -1,0 +1,13 @@
+No contexto do seu código, o operador de propagação está sendo usado para criar uma nova cópia do array mainArray e adicionar um novo array a ele. Aqui está um exemplo de como isso funciona:
+
+const [mainArray, setMainArray] = useState([]);
+
+const addNewArray = () => {
+ setMainArray([...mainArray, ['new', 'array']]);
+};
+
+
+
+Neste exemplo, "...mainArray" cria uma nova cópia de "mainArray". Então, "['new', 'array']" é adicionado ao final desta nova cópia. Finalmente, "setMainArray" é chamado para atualizar o estado de "mainArray" com esta nova cópia 2.
+
+ao final, o valor de "mainArray" será seu valor original + o array"['new', 'array']".

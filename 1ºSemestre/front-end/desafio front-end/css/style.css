@@ -373,7 +373,7 @@ main .celulares12 {
 }
 
 main .celulares12:hover {
-    transition: all .3s ease-in-out;
+    /* transition: all .3s ease-in-out; */
     box-shadow: 0px 10px 15px 20px rgba(0, 0, 0, 0.2);
 }
 

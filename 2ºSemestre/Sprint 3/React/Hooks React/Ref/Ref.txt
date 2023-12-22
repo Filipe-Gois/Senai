@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=Le5SkDfi8Ic
+https://www.youtube.com/watch?v=XQDK3YVMS0o
+
+Ref:
+{
+    diferença entre useRef e variavel comum: mesmo com a re-renderização do componente, o useRef salva o valor, a variavel comum, não
+    1:
+    {
+        se dois ou mais itens compartilham o mesmo valor de referencia, é como se fossem a mesma variavel.
+
+    valor do estado é alterado sem re-renderizar o componente
+
+    dependendo, dá p substituir o useState por useRef
+
+    useRef: não re-renderiza componente ao alterar valor
+    useState: re-renderiza componente ao alterar valor
+
+    Ao inves de ter a função de manipulação (Ex: [const batata, setBatata]...), ele tem algo chamado current
+    }
+
+    2:
+    {
+        referencias em elementos do DOM
+        toda tag jsx possui uma tag chamada "ref"
+        faz a conexao entre o componente e referencia
+    }
+
+    3: 
+    {
+        referencia do valor anterior
+    }
+}

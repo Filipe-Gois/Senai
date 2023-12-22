@@ -1,0 +1,20 @@
+react-router-dom:
+npm i react-router-dom --save
+
+axios;
+npm i axios --save
+
+
+bibliotecas para trabalhar com banners tipo slides: 
+swiper: https://swiperjs.com/element#installation
+npm i swiper --save
+
+instalar pacote do jwt token para decodificar token de usuário para acessar suas informações
+jwt-toke:
+npm i jwt-decode --save
+
+
+biblioteca para usar scroll infinito (se precisar carregar muitas coisas em uma página, os itens serem carregados a medida que o usuario vai rolando o scroll *usar caso aplicação esteja lenta e existam muitos itens a serem renderizados*)
+infinite-scroll:
+npm i --save react-infinite-scroll-component
+

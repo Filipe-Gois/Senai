@@ -1,0 +1,19 @@
+memo react:
+só é renderizado qnd uma prop muda, ao invés de renderizar qnd o componente pai renderizar
+Usado para otimizar a aplicação
+
+
+
+
+
+Hook Form:
+{
+  const {register , handleSubmit} = useForm()
+
+register: cria uma ref(referencia) do campo, tendo acesso ao campo *é como se fosse definir uma classe pro componente*
+	
+handleSubmit: recebe outra função. Não precisa declarar e.preventDefault() *já feito automaticamente*
+
+
+
+}

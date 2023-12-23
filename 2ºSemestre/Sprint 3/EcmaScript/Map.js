@@ -34,11 +34,12 @@ comentariosOk.forEach(e => console.log(e.comentario));
 
 
 //reduce
-//valorInicial: é o 2
+//valorInicial: valorInicial do array
 //n: cada objeto dentro do array "numeros" 
 //o resultado será: 1+ 2+ 3+ 15+ 10+ 164+ 2555 = 2752
-const soma = numeros.reduce((valorInicial, n) => {
-    return valorInicial + n;
+//esse parametro 2 ao final da função representa o valor inicial do parametro "valorInicial", assim, ele começará com 2 e irá iterar com todos os outros numeros do array
+const soma = numeros.reduce((valorInicial, index) => {
+    return valorInicial + index;
 }, 2)
 
 console.log(soma);

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai.inlock.webApi</name>
+    </assembly>
+    <members>
+        <member name="M:senai.inlock.webApi.Controllers.JogoController.Get">
+            <summary>
+            Método para listar todos os jogos e suas informações
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.JogoController.Post(senai.inlock.webApi.Domains.JogoDomain)">
+            <summary>
+            Método para cadastrar um jogo
+            </summary>
+            <param name="jogo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

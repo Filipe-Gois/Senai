@@ -18,3 +18,17 @@ biblioteca para usar scroll infinito (se precisar carregar muitas coisas em uma 
 infinite-scroll:
 npm i --save react-infinite-scroll-component
 
+biblioteca para formularios:
+react hook form:
+npm install react-hook-form
+
+
+biblioteca responsável por criar máscaras para inputs (colocar os pontos e a barra em um input de cpf, etc)
+npm i react-input-mask
+
+ou
+
+(recomendável)
+https://www.youtube.com/watch?v=NG1Edui7rT0
+(biblioteca geral, existe p qlqr framework)
+npm i remask

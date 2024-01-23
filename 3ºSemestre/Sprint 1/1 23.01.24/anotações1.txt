@@ -1,0 +1,41 @@
+Desenvolvimento mobile: 
+{
+
+o que é:
+{
+        software desenvolvido para ser instalado em dispositivos moveis
+        baixado de uma loja on-line como google-play ou App Store
+}
+
+caracteristicas:
+{
+    interface intuitiva, facil de entender e navegar
+    planos de negocios, marketing e financeiro
+}
+
+desenvolvimento nativo e hibrido:
+{
+    nativo:
+    {
+        Utiliza a linguagem nativa dos sistemas
+        Swift e Objective-C para desenvolver apps para IOS
+        Java e Kotlin para desenvolver apps para Android
+        Necessário desenvolver um projeto para cada plataforma
+        Melhor aproveitamento dos recursos
+        Acesso mais fluido as funcionalidades do dispositivo
+    }
+
+    hibrido:
+    {
+        Um mesmo código será reaproveitado em ambas plataformas
+        IOS
+
+        Android
+
+        Para desenvolvimento multiplataforma, temos as seguintes
+        opções:
+        Flutter, Ionic e React Native
+    }
+}
+
+}

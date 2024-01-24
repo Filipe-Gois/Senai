@@ -1,0 +1,36 @@
+html -- react Native
+
+div  -- View
+div  -- ScrollView
+p    -- Ttext
+img  -- Image
+
+IOS X Android: quando o react native é traduzido p linguagem do sistema, altera-se o nome dos componentes para o padrão do sistema
+
+
+estilização:
+{
+    Nativo (inline):
+    {
+        aplicar estilização no próprio componente, sem utilizar um arquivo css à parte
+    }
+
+    Nativo (import do react-native) : StyleSheet
+    {
+
+    }
+    
+    Biblioteca : Styled Components
+    {
+
+    }
+
+
+    flex-direction: no react Native o padrão é column
+    flex: proporção (usar no lugar de % ao tornar "responsivo")
+}
+
+expo:
+{
+    framework que facilita o desenvolvimento mobile
+}

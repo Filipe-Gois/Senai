@@ -1,0 +1,6 @@
+npm install --global expo-cli
+
+create-expo-app "nome do projeto"   
+
+
+npx expo start

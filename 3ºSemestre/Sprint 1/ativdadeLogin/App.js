@@ -3,6 +3,7 @@ import { Image, SafeAreaView, StyleSheet, Text, TextInput, TouchableOpacity, Vie
 import Label from './src/components/Label/Label';
 import useLoadFonts from './src/components/useLoadFonts/useLoadFonts';
 import * as SplashScreen from 'expo-splash-screen';
+import { useEffect } from 'react';
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
@@ -39,7 +40,7 @@ export default function App() {
                 <TextInput placeholderTextColor={"#fff"} placeholder='Senha' style={styles.input} />
               </View>
 
-              <TouchableOpacity style={styles.button}>
+              <TouchableOpacity  style={styles.button}>
 
                 <Text style={styles.textButton}>Entrar</Text>
 

@@ -1,0 +1,35 @@
+prop é definida no filho e valor é atribuido no pai
+
+
+hook: 
+{
+    Funções que permitem conectar (anexar ou anexar uma funcionalidade ao componente) ao estado e ao ciclo de vida da aplicação
+
+    useEffect(() => {
+    console.log('fefe)
+    })                      -- roda infinitamente
+
+
+    useEffect(() => {
+    console.log('fefe)
+    }, [])                   -- roda na montagem do componente
+
+
+    useEffect(() => {
+    console.log('fefe)
+    }, [pessoas])             -- roda na montagem do componente e ao atualizar da variavel "pessoas"
+
+
+
+    useEffect(() => {
+    console.log('fefe)
+
+
+    () => {
+        return console.log('fefe)
+    }
+
+    }, [pessoas])             -- roda na montagem do componente, ao atualizar da variavel "pessoas" e na desconstrução do componente
+
+
+}

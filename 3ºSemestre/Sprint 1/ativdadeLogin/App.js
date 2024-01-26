@@ -1,9 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { Image, SafeAreaView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import Label from './src/components/Label/Label';
+import useLoadFonts from './src/components/useLoadFonts/useLoadFonts';
+import * as SplashScreen from 'expo-splash-screen';
+SplashScreen.preventAutoHideAsync();
 
 export default function App() {
+
+  const { fontsLoaded, onLayoutRootView } = useLoadFonts();
+
+  if (!fontsLoaded)
+    return null;
+
+
   return (
-    <SafeAreaView style={styles.login__section}>
+    <SafeAreaView onLayout={onLayoutRootView} style={styles.login__section}>
       <View style={styles.login__section}>
 
         <View style={styles.grid}>
@@ -12,14 +23,21 @@ export default function App() {
 
 
             <View style={styles.logo__content}>
-              <Image style={styles.image} source={require(`./src/assets/images/logo_hosp.jpg`)} />
+              <Image style={styles.image} source={require(`./src/assets/images/logo_hosp.png`)} />
               <Text style={styles.logo__contentText}>Login</Text>
             </View>
 
             <View style={styles.login__form}>
-              <TextInput placeholderTextColor={"#fff"} placeholder='Email' style={styles.input} />
-              <TextInput placeholderTextColor={"#fff"} placeholder='Senha' style={styles.input} />
+              <View style={styles.inputContainer}>
+                <Label text={"Email"} />
+                <TextInput placeholderTextColor={"#fff"} placeholder='Email' style={styles.input} />
+              </View>
 
+
+              <View style={styles.inputContainer}>
+                <Label text={"Senha"} />
+                <TextInput placeholderTextColor={"#fff"} placeholder='Senha' style={styles.input} />
+              </View>
 
               <TouchableOpacity style={styles.button}>
 
@@ -47,6 +65,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#C8E7EF'
 
 
   },
@@ -58,24 +77,26 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     height: '100%',
-
-    justifyContent: 'space-evenly',
+    gap: 50,
+    justifyContent: 'center',
   },
   logo__content: {
     display: 'flex',
     alignItems: 'center',
-    gap: 40
+
   },
   logo__contentText: {
-    fontSize: 30
+    fontSize: 30,
+    color: '#002240',
+    fontFamily: 'Poppins_Bold'
   },
   login__form: {
     display: 'flex',
     gap: 20
   },
   image: {
-    width: 100,
-    height: 100
+    width: 200,
+    height: 200
   },
   input: {
     backgroundColor: '#90CDE2',
@@ -84,6 +105,9 @@ const styles = StyleSheet.create({
     height: 40,
     padding: 20,
     alignSelf: 'center'
+  },
+  inputContainer: {
+    gap: 10
 
 
   },

@@ -1,2 +1,30 @@
 usar na web:
 npx expo install react-native-web react-dom @expo/metro-runtime
+
+
+
+estrutura de pastas:
+{
+	• .expo : informações do framework Expo
+	• assets : arquivos estáticos (images, icons, fonts)
+	• node_modules : bibliotecas do Node e outras
+
+	• gitignore : o que não deve subir para o repositório
+	• App.js : onde a aplicação se inicia
+	• app.json : informações do projeto
+	• babel.config.js : transpilador JavaScript
+	• package-lock.json : cache dos recursos do projeto
+	• package.json : recursos do projeto
+
+}
+
+Criando um padrão de arquitetura:
+{
+	• assets : arquivos estáticos (imagens, ícones)
+	• components: componentes reutilizáveis
+	• routes : rotas do projeto (se houver roteamento)
+
+	• screens : telas do app
+	• services : recursos externos e Apis
+	• Utils : funções utilitárias
+}

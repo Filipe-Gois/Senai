@@ -1,17 +1,18 @@
-import { View, Text, StyleSheet } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 
-const Person = ({ name, age }) => {
+
+
+const Game = ({ name, desenvolvedora, dataLancamento }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Nome: {name}</Text>
-            <Text style={styles.text}>Idade: {age}</Text>
+            <Text style={styles.text}>{name}</Text>
+            <Text style={styles.text}>{desenvolvedora}</Text>
+            <Text style={styles.text}>{dataLancamento}</Text>
         </View>
     );
 };
 
-
 const styles = StyleSheet.create({
-
     container: {
         backgroundColor: '#c1c1c1',
         padding: 15,
@@ -26,4 +27,4 @@ const styles = StyleSheet.create({
     },
 })
 
-export default Person;
+export default Game;

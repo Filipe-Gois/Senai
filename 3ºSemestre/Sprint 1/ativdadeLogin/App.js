@@ -40,7 +40,7 @@ export default function App() {
                 <TextInput placeholderTextColor={"#fff"} placeholder='Senha' style={styles.input} />
               </View>
 
-              <TouchableOpacity  style={styles.button}>
+              <TouchableOpacity style={styles.button}>
 
                 <Text style={styles.textButton}>Entrar</Text>
 
@@ -67,6 +67,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#C8E7EF'
+
+
 
 
   },

@@ -1,0 +1,1 @@
+é um componente responsável por renderizar listas

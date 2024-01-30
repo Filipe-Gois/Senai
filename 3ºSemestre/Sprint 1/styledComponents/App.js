@@ -1,6 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { useEffect, useState } from 'react';
+import { Container } from './src/components/container/Container';
+import { Title, TitleWhite } from './src/components/title/Title';
+import { ButtonDecrement, ButtonIncrement } from './src/components/button/Button';
+import { ThemeProvider } from 'styled-components';
+import { Theme } from './src/Theme';
+
 
 
 export default function App() {
@@ -15,48 +21,30 @@ export default function App() {
 
 
   return (
-    <SafeAreaView style={styles.container}>
-      <Text>Contador: {count}</Text>
+    <ThemeProvider theme={Theme}>
 
-      <TouchableOpacity style={{ ...styles.buttonDecremento, backgroundColor: 'blue' }} onPress={increment}>
+      <Container>
+        <Title>Número: {count}</Title>
+        <ButtonIncrement onPress={increment}>
 
-        <Text style={styles.text}>
-          Aumentar!
-        </Text>
+          <TitleWhite>
+            Aumentar!
+          </TitleWhite>
 
-      </TouchableOpacity>
 
-      <TouchableOpacity style={styles.buttonDecremento} onPress={decrement}>
+        </ButtonIncrement>
 
-        <Text style={styles.text}>
-          Diminuir!
-        </Text>
+        <ButtonDecrement onPress={decrement}>
+          <TitleWhite>
+            Diminuir!
+          </TitleWhite>
+        </ButtonDecrement>
 
-      </TouchableOpacity>
-      <StatusBar style="auto" />
-    </SafeAreaView>
+
+        <StatusBar style="auto" />
+      </Container>
+
+    </ThemeProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  buttonDecremento: {
-    backgroundColor: 'red',
-    width: 100,
-    height: 40,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: 50,
-    margin: 20
-  },
-  text: {
-    color: '#fff'
-  }
-
-});

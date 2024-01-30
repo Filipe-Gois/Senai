@@ -1,0 +1,7 @@
+styled components no react native
+
+mesmo esquema do react normal
+
+
+
+baixar extensáo "vscode-styled-components"

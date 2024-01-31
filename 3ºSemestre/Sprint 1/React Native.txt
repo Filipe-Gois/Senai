@@ -1,8 +1,8 @@
 html -- react Native
 
 div  -- View
-div  -- ScrollView
-p    -- Ttext
+div  -- ScrollView  (view que dá p scrollar a tela)
+p    -- Text
 img  -- Image
 
 IOS X Android: quando o react native é traduzido p linguagem do sistema, altera-se o nome dos componentes para o padrão do sistema
@@ -34,3 +34,6 @@ expo:
 {
     framework que facilita o desenvolvimento mobile
 }
+
+
+para importar componente de maneira mais facil: selecionar ultima letra do componente e dar ctrl + space

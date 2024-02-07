@@ -1,0 +1,10 @@
+acessar o site: expo vector icons
+
+exemplo:
+import { FontAwesome6 } from '@expo/vector-icons';
+
+"dar o import do icone"
+
+<FontAwesome6 name="google" size={24} color="black" />
+
+"chamar o componente"

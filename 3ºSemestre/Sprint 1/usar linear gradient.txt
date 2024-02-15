@@ -1,0 +1,22 @@
+usar linear gradient com expo e react native:
+
+npx expo install expo-linear-gradient
+
+
+import { LinearGradient } from 'expo-linear-gradient';
+
+
+
+ <View style={styles.container}>
+      <LinearGradient
+        // Gradiente de fundo
+        colors={['rgba(0,0,0,0.8)', 'transparent']}
+        style={styles.background}
+      />
+      <LinearGradient
+        // Gradiente do botão
+        colors={['#4c669f', '#3b5998', '#192f6a']}
+        style={styles.button}>
+        <Text style={styles.text}>Entrar com Facebook</Text>
+      </LinearGradient>
+    </View>

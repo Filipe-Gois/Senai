@@ -1,0 +1,2 @@
+npm install moment --save
+npm i react-native-calendar-strip

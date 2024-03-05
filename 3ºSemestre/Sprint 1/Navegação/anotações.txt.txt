@@ -1,0 +1,18 @@
+
+
+react native navigation
+react native Router flux (baseado em fluxo de dados)
+
+navigation {
+    tipos de navegação:
+    {
+        stack, tabs (menu), modal, drawer (menu expandível)
+    }
+}
+
+app tá usando o stack, ent, se for usar outro tipo de navegacao, precisa criar outro arquivo
+
+criar pasta "Main" => "Main.js" dentro de Screens
+
+navigate: é uma abordagem de "pilha" uma Screens fica em cima da outra
+replace: tira um item da pilha e substitui por outro

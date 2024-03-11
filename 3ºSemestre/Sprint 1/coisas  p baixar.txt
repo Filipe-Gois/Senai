@@ -1,2 +1,6 @@
 expo:
 npm install --global expo-cli
+
+
+componente de loading: 
+<ActivityIndicator />

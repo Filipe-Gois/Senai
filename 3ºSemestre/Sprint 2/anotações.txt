@@ -1,0 +1,1 @@
+recursos nativos: meios (API'S, bibliotecas) para facilitar o acesso a recursos internos do dispositivo (gps, camera frontal, etc)

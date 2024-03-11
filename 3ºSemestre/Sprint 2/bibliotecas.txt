@@ -1,0 +1,16 @@
+geolocalização:
+{
+    npm install react-native-maps-directions
+    npx expo install react-native-maps
+    npx expo install expo-location
+
+    componentes: {
+        MapView:
+        {
+            initialRegion: local de partida
+        }
+        MapViewDirections:{
+            
+        }
+    }
+}

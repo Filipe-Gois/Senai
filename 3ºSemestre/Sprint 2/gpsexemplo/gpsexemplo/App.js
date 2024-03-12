@@ -4,13 +4,23 @@ import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import {
   requestForegroundPermissionsAsync, //solikcitar permissao da localização
   getCurrentPositionAsync, //captura a localização atual
+  watchPositionAsync, //captura em tempos a localização
+  LocationAccuracy, //precisão da captura
 } from "expo-location";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 import MapViewDirections from "react-native-maps-directions";
 import { mapsKey } from "./Utils/MapsKey";
 
 const App = () => {
+  const [finalPosition, setFinalPosition] = useState({
+    latitude: -23.5068153,
+    longitude: -46.5159653,
+    latitudeDelta: 0.005,
+    longitudeDelta: 0.005,
+  });
+  const mapReference = useRef(null);
+
   const [initialPosition, setInitialPosition] = useState(null);
 
   const CapturarLocalizacao = async () => {
@@ -25,15 +35,58 @@ const App = () => {
     }
   };
 
+  const RecarregarVisualizacaoMapa = async () => {
+    if (mapReference.current && initialPosition) {
+      await mapReference.current.fitToCoordinates(
+        [
+          {
+            latitude: initialPosition.coords.latitude,
+            longitude: initialPosition.coords.longitude,
+          },
+          {
+            latitude: finalPosition.latitude,
+            longitude: finalPosition.longitude,
+          },
+        ],
+        {
+          edgePadding: { top: 60, right: 60, bottom: 60, left: 60 },
+          animated: true,
+        }
+      );
+    }
+  };
+
   useEffect(() => {
     CapturarLocalizacao();
+
+    //capturar localização
+    watchPositionAsync(
+      {
+        accuracy: LocationAccuracy.High,
+        timeInterval: 1000,
+        distanceInterval: 1,
+      },
+      async (response) => {
+        await setInitialPosition(response);
+
+        mapReference.current?.animateCamera({
+          pitch: 60,
+          center: response.coords,
+        });
+      }
+    );
   }, [1000]);
+
+  useEffect(() => {
+    RecarregarVisualizacaoMapa();
+  }, [initialPosition === null]);
 
   return (
     <View style={styles.container}>
       {initialPosition !== null ? (
         <>
           <MapView
+            ref={mapReference}
             initialRegion={{
               latitude: initialPosition.coords.latitude,
               longitude: initialPosition.coords.longitude,
@@ -60,22 +113,14 @@ const App = () => {
 
             <MapViewDirections
               origin={initialPosition.coords}
-              destination={{
-                latitude: -23.5068153,
-                longitude: -46.5159653,
-                latitudeDelta: 0.005,
-                longitudeDelta: 0.005,
-              }}
+              destination={finalPosition}
               strokeWidth={5}
               strokeColor="#496DBA"
               apikey={mapsKey}
             />
 
             <Marker
-              coordinate={{
-                latitude: -23.5068153,
-                longitude: -46.5159653,
-              }}
+              coordinate={finalPosition}
               title="Exemplo de local"
               description="Senai Paulo Antonio Skaf"
               pinColor="red"

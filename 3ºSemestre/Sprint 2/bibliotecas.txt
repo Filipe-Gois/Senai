@@ -14,3 +14,9 @@ geolocalização:
         }
     }
 }
+
+Camera{
+
+    npx expo install expo-camera
+    npx expo install expo-media-library
+}

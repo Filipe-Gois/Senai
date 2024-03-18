@@ -20,3 +20,9 @@ Camera{
     npx expo install expo-camera
     npx expo install expo-media-library
 }
+
+notifications
+{
+npx expo install expo-notifications
+
+}

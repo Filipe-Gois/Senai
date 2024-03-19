@@ -23,6 +23,16 @@ Camera{
 
 notifications
 {
-npx expo install expo-notifications
+    npx expo install expo-notifications
 
+}
+
+biometria  ou faceId
+{
+    npx expo install expo-local-authentication
+}
+
+acessar armazenamento 
+{
+    npx expo install @react-native-async-storage/async-storage
 }

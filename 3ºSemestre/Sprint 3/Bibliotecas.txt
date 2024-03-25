@@ -1,0 +1,6 @@
+npm install base-64
+
+npm install jwt-decode
+{
+	quebra o web token
+}

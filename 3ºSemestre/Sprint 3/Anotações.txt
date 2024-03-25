@@ -1,0 +1,3 @@
+ao usar a api com mobile, deve-se compartilha-la pelo ip (ipv4), para ser reconhecida pelo mobile
+
+cmd > digitar: ipconfig > pegar o ipv4 > abrir visual studio > abrir pasta properties > launchSettings.json > substituir o "applicationUrl": "http://{colocar o ip do dispositivo}:4466",

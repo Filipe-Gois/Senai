@@ -1,0 +1,6 @@
+como enviar email com c#:
+pacotes:
+{
+mimekit
+mailkit
+}

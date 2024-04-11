@@ -4,3 +4,9 @@ pacotes:
 mimekit
 mailkit
 }
+
+como realizar manipulação de imagem com azure (blob):
+pacotes:
+{
+azure.storage.blobs
+}

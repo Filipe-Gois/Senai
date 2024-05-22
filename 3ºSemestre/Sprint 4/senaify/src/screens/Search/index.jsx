@@ -90,7 +90,8 @@ const Search = ({ token, atual, audio, setAtual, setAudio }) => {
             data={lista}
             renderItem={({ item }) => (
               <Music
-                label="music-item"
+                label="music-item-search"
+                labelButton="icon-button-search"
                 play={atual == item.preview_url}
                 onPress={() =>
                   playSound(item.preview_url, atual, setAtual, audio, setAudio)

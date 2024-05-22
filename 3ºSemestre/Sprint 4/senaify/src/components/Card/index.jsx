@@ -46,6 +46,7 @@ export const Music = ({
   onPress,
   label,
   labelName = "",
+  labelButton
 }) => {
   const [isLiked, setIsLiked] = useState(isLike);
 
@@ -82,11 +83,21 @@ export const Music = ({
       </ContainerMusic>
 
       {like && (
-        <ButtonLike onPress={() => handleLike()} testID="icon-button">
+        <ButtonLike onPress={() => handleLike()} testID={labelButton}>
           {isLiked ? (
-            <FontAwesome name="heart" size={18} color="#FF0000" accessibilityLabel="icon-like"/>
+            <FontAwesome
+              name="heart"
+              size={18}
+              color="#FF0000"
+              accessibilityLabel="icon-like"
+            />
           ) : (
-            <FontAwesome name="heart-o" size={18} color="#1ED760" accessibilityLabel="icon-deslike"/>
+            <FontAwesome
+              name="heart-o"
+              size={18}
+              color="#1ED760"
+              accessibilityLabel="icon-deslike"
+            />
           )}
         </ButtonLike>
       )}

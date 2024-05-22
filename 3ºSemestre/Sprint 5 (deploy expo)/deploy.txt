@@ -1,0 +1,10 @@
+eas build:configure
+
+
+dentro de production, colocar:
+"android": {
+"buildType": "apk"
+}
+
+
+npx eas build --platform android

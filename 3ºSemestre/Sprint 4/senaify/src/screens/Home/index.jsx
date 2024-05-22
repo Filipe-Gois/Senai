@@ -148,6 +148,7 @@ const Home = ({ token, atual, audio, setAtual, setAudio }) => {
                   renderItem={({ item }) => (
                     <Music
                       label="music-item"
+                      labelButton={"icon-button"}
                       labelName={
                         item === "Vamo de Pagodin" ? "Vamo de Pagodin" : ""
                       }

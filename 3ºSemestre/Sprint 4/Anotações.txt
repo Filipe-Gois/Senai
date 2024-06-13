@@ -1,0 +1,14 @@
+existem bibliotecas específicas para testes
+
+teste unitário: testar uma parte específica do código. Verificar as funcionalidades de menor unidade de código
+
+teste de integração: analisa o context da função e ver se ela se comunica devidamente com outras funções. Servem para determinar se as unidades de software desenvolvidas independentemente, funcionam corretamente quando estão conectadas umas as outras
+
+teste de ponta a ponta (E2E): 
+
+
+ferramenta usada para testes unitarios no react native/ react: cypress.io
+
+baixar o cypress: npm install cypress --save-dev
+
+rodar o cypress: dividir o terminal e colocar o comando "npx cypress open"

@@ -1,0 +1,12 @@
+como enviar email com c#:
+pacotes:
+{
+mimekit
+mailkit
+}
+
+como realizar manipulação de imagem com azure (blob):
+pacotes:
+{
+azure.storage.blobs
+}

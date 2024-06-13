@@ -1,0 +1,41 @@
+npx expo install @react-native-community/datetimepicker
+
+
+import DateTimePicker from "@react-native-community/datetimepicker";
+
+export const InputData = () => {
+  const [date, setDate] = useState(new Date());
+  const [mode, setMode] = useState("date");
+  const [show, setShow] = useState(false);
+
+  const onChange = (event, selectedDate) => {
+    const currentDate = selectedDate || date;
+    setShow(false);
+    setDate(currentDate);
+  };
+
+  const showMode = (currentMode) => {
+    setShow(true);
+    setMode(currentMode);
+  };
+
+  return (
+    <View style={styles.container}>
+      <View>
+        <Button onPress={() => showMode("date")} title="Show Date Picker" />
+      </View>
+      <View>
+        <Button onPress={() => showMode("time")} title="Show Time Picker" />
+      </View>
+      <Text style={styles.text}>Selected: {date.toLocaleString()}</Text>
+      {show && (
+        <DateTimePicker
+          value={date}
+          mode={mode}
+          display="default"
+          onChange={onChange}
+        />
+      )}
+    </View>
+  );
+};

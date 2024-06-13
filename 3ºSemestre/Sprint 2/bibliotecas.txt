@@ -36,3 +36,8 @@ acessar armazenamento
 {
     npx expo install @react-native-async-storage/async-storage
 }
+
+bibliote com componentes prontos react native:
+{
+npm install react-native-paper
+}

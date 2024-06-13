@@ -33,3 +33,11 @@ dql: data query language (select)
 
 comandos: insert, update, delete
 
+
+Caso dê erro ao dar drop database: 
+{
+
+ALTER DATABASE FitTrackBD SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+drop database FitTrackBD
+
+}

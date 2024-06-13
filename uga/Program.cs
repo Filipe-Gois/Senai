@@ -26,7 +26,7 @@ do
 
     senhaValida = Login(senha);
 
-} while (senhaValida != true);
+} while (!senhaValida);
 
 string opcao;
 

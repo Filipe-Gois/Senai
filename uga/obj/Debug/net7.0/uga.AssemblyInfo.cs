@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("uga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f6c4be44b578d9a27fcaf331232a26251bf5932")]
 [assembly: System.Reflection.AssemblyProductAttribute("uga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("uga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

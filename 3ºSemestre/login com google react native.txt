@@ -1,0 +1,11 @@
+login com google react native e expo:
+
+baixar o jdk 17 e configurar o JAVA_HOME como variavel de ambiente no SO
+
+usar o supabase
+
+sha1:5E:8F:16:06:2E:A3:CD:2C:4A:0D:54:78:76:BA:A6:F3:8C:AB:F6:25
+
+
+
+cd android && ./gradlew signingReport

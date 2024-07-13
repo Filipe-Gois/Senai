@@ -1,6 +1,6 @@
 npm install --global expo-cli
 
-npx create-expo-app "nome do projeto"   
+npx create-expo-app --template   
 
 
 npx expo start

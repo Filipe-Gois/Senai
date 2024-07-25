@@ -1,0 +1,32 @@
+armazenam dados em um formato diferente das tabelas relacionais
+-mais rápido que o sql
+-Flexibilidade para esquemas dinâmicos
+quando utilizar: 
+
+uma aplicacao back end pode se conectar com um bd sql e nosql
+
+principais tipos de nosql: 
+Chave / Valor
+Cada chave está associada a um valor JSON. Isso permite um acesso rápido aos dados por
+meio de uma chave única
+
+
+Documento:
+estamos construindo um sistema de gerenciamento de biblioteca. Cada livro pode ter
+diferentes atributos, e nem todos os livros têm os mesmos campos. Esse é um exemplo
+clássico de documento JSON para representar um livro
+podemos ver que cada livro é representado
+como um documento JSON com
+diferentes campos
+
+Coluna:
+estamos construindo um sistema de análise de vendas para uma loja online. Aqui está
+como podemos organizar os dados em um banco de dados de colunas
+cada linha representa um produto e cada coluna representa as vendas em um determinado
+ano. Isso é ideal para consultas analíticas, onde precisamos recuperar dados de forma
+eficiente com base em diferentes dimensões
+
+Grafos:
+vamos imaginar uma rede social onde usuários podem ser amigos uns dos outros, e
+também podem gostar de páginas ou publicações. Aqui está como isso pode ser
+modelado em um banco de dados de grafos

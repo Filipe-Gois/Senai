@@ -1,0 +1,5 @@
+uma api mais enxuta. Rotas ficam direto na program.cs
+
+criar projeto asp.net core vazio
+
+pacotes para baixar: "MongoDB.Driver", Swashbuckle.AspNetCore.SwaggerUI, Swashbuckle.AspNetCore.SwaggerGen, Swashbuckle.AspNetCore.Swagger, Swashbuckle.AspNetCore

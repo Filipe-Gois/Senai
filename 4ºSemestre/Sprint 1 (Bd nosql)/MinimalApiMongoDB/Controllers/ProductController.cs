@@ -38,7 +38,7 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-                var produto = await _product.Find(x => x.Id == id).ToListAsync();
+                var produto = await _product.Find(x => x.IdProduto.ToString() == id).FirstOrDefaultAsync() ?? throw new Exception("Nenhum produto encontrado!");
                 return StatusCode(200, produto);
             }
             catch (Exception e)
@@ -53,8 +53,6 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-
-
                 _product.InsertOne(produto);
                 return StatusCode(201);
             }
@@ -70,7 +68,7 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-                _product.DeleteOne(x => x.Id == id);
+                _product.DeleteOne(x => x.IdProduto.ToString() == id);
                 return StatusCode(204);
             }
             catch (Exception e)
@@ -84,15 +82,9 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-                var filter = Builders<Product>.Filter.Eq(product => product.Id, id);
+                var produtoFiltrado = Builders<Product>.Filter.Eq(product => product.IdProduto.ToString(), id) ?? throw new Exception("Nenhum produto encontrado!");
 
-                var update = Builders<Product>.Update
-    .Set(product => product, produto);
-
-                var t = filter.ToJson();
-
-
-                await _product.UpdateOneAsync(filter, update);
+                await _product.ReplaceOneAsync(produtoFiltrado, produto);
                 return StatusCode(204);
             }
             catch (Exception e)

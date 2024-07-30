@@ -114,7 +114,7 @@ namespace MinimalApiMongoDB.Controllers
 
                 if (clienteList.Count == 0 || usuarioList.Count == 0)
                 {
-                    throw new Exception("Nenhum treino encontrado!");
+                    throw new Exception("Nenhum cliente encontrado!");
                 }
 
                 List<ExibirClienteViewModel> clienteUsuario = [];

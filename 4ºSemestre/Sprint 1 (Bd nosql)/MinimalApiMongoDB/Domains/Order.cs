@@ -18,7 +18,7 @@ namespace MinimalApiMongoDB.Domains
 
 
         [BsonElement("status")]
-        public StatusOrder Status { get; set; } = StatusOrder.Pendente;
+        public string? Status { get; set; }
 
         [BsonElement("Date")]
         public DateTime Date { get; set; } = DateTime.UtcNow;

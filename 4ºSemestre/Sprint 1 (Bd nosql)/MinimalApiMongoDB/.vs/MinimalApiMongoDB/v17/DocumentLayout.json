@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\",
+  "WorkspaceRootPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\fytho\\documents\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\fytho\\documents\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\fytho\\documents\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\viewmodels\\order\\atualizarorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|solutionrelative:viewmodels\\order\\atualizarorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|solutionrelative:domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\fytho\\documents\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\viewmodels\\order\\cadastrarorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|solutionrelative:viewmodels\\order\\cadastrarorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 1 (bd nosql)\\minimalapimongodb\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3CCB1A-01C4-4B62-A221-FA9922456758}|MinimalApiMongoDB.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,42 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T01:05:58.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Domains\\Order.cs",
-              "RelativeDocumentMoniker": "Domains\\Order.cs",
-              "ToolTip": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Domains\\Order.cs",
-              "RelativeToolTip": "Domains\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T00:55:12.439Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AtualizarOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\ViewModels\\Order\\AtualizarOrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Order\\AtualizarOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\ViewModels\\Order\\AtualizarOrderViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Order\\AtualizarOrderViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T19:28:01.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAADgAAAAeAAAA",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAEwKUAAAC1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T00:46:44.962Z",
               "EditorCaption": ""
@@ -69,14 +61,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CadastrarOrder.cs",
-              "DocumentMoniker": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\ViewModels\\Order\\CadastrarOrder.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Order\\CadastrarOrder.cs",
-              "ToolTip": "C:\\Users\\fytho\\Documents\\Github\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\ViewModels\\Order\\CadastrarOrder.cs",
-              "RelativeToolTip": "ViewModels\\Order\\CadastrarOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAVAAAA",
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAYwF8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T23:09:20.667Z"
+              "WhenOpened": "2024-07-30T18:49:17.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Domains\\Order.cs",
+              "RelativeDocumentMoniker": "Domains\\Order.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 1 (Bd nosql)\\MinimalApiMongoDB\\Domains\\Order.cs",
+              "RelativeToolTip": "Domains\\Order.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:55:12.439Z",
+              "EditorCaption": ""
             }
           ]
         }

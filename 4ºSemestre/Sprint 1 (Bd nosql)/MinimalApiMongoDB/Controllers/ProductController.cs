@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
 using MinimalApiMongoDB.Domains;
 using MinimalApiMongoDB.Services;
+using MinimalApiMongoDB.ViewModels.Product;
 using MongoDB.Bson;
 using MongoDB.Bson.IO;
 using MongoDB.Driver;
@@ -19,12 +20,36 @@ namespace MinimalApiMongoDB.Controllers
         private readonly IMongoCollection<Product> _product = mongoDBService.GetDatabase.GetCollection<Product>("product");
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetAll()
+        public async Task<ActionResult<List<ExibirProdutoViewModel>>> GetAll()
         {
             try
             {
-                var products = await _product.Find(FilterDefinition<Product>.Empty).ToListAsync();
-                return StatusCode(200, products);
+                List<Product> produtosBuscados = await _product.Find(FilterDefinition<Product>.Empty).ToListAsync();
+
+                if (produtosBuscados.Count == 0)
+                {
+                    throw new Exception("Nenhum produto encontrado!");
+                }
+
+                List<ExibirProdutoViewModel> produtos = [];
+                foreach (Product produto in produtosBuscados)
+                {
+                    ExibirProdutoViewModel produtoViewModel = new ExibirProdutoViewModel()
+
+                    {
+                        Nome = produto.Nome,
+                        AdditionalAtributes = produto.AdditionalAtributes,
+                        IdProduto = produto.IdProduto.ToString(),
+                        Preco = produto.Preco,
+
+                    };
+
+
+
+                    produtos.Add(produtoViewModel);
+                }
+
+                return StatusCode(200, produtos);
             }
             catch (Exception e)
             {
@@ -34,11 +59,22 @@ namespace MinimalApiMongoDB.Controllers
         }
 
         [HttpGet("BuscarPorId")]
-        public async Task<ActionResult<Product>> BuscarPorId(string id)
+        public async Task<ActionResult<ExibirProdutoViewModel>> BuscarPorId(string id)
         {
             try
             {
-                var produto = await _product.Find(x => x.IdProduto.ToString() == id).FirstOrDefaultAsync() ?? throw new Exception("Nenhum produto encontrado!");
+                Product produtoBuscado = await _product.Find(x => x.IdProduto.ToString() == id).FirstOrDefaultAsync() ?? throw new Exception("Nenhum produto encontrado!");
+
+
+                ExibirProdutoViewModel produto = new()
+                {
+                    IdProduto = produtoBuscado.IdProduto.ToString(),
+                    Preco = produtoBuscado.Preco,
+                    AdditionalAtributes = produtoBuscado.AdditionalAtributes,
+                    Nome = produtoBuscado.Nome,
+                };
+
+
                 return StatusCode(200, produto);
             }
             catch (Exception e)
@@ -49,11 +85,18 @@ namespace MinimalApiMongoDB.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(Product produto)
+        public ActionResult Post(CadastrarProdutoViewModel produto)
         {
             try
             {
-                _product.InsertOne(produto);
+                Product novoProduto = new()
+                {
+                    AdditionalAtributes = produto.AdditionalAtributes,
+                    Nome = produto.Nome,
+                    Preco = produto.Preco,
+                };
+
+                _product.InsertOne(novoProduto);
                 return StatusCode(201);
             }
             catch (Exception e)
@@ -78,13 +121,18 @@ namespace MinimalApiMongoDB.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult> Update(string id, Product produto)
+        public async Task<ActionResult> Update(string id, CadastrarProdutoViewModel produto)
         {
             try
             {
                 FilterDefinition<Product> produtoFiltrado = Builders<Product>.Filter.Eq(product => product.IdProduto.ToString(), id) ?? throw new Exception("Nenhum produto encontrado!");
+                Product produtoBuscado = await _product.Find(produtoFiltrado).FirstOrDefaultAsync();
 
-                await _product.ReplaceOneAsync(produtoFiltrado, produto);
+                produtoBuscado.Preco = produto.Preco;
+                produtoBuscado.Nome = produto.Nome;
+                produtoBuscado.AdditionalAtributes = produto.AdditionalAtributes;
+
+                await _product.ReplaceOneAsync(produtoFiltrado, produtoBuscado);
                 return StatusCode(204);
             }
             catch (Exception e)

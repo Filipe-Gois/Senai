@@ -82,7 +82,7 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-                var produtoFiltrado = Builders<Product>.Filter.Eq(product => product.IdProduto.ToString(), id) ?? throw new Exception("Nenhum produto encontrado!");
+                FilterDefinition<Product> produtoFiltrado = Builders<Product>.Filter.Eq(product => product.IdProduto.ToString(), id) ?? throw new Exception("Nenhum produto encontrado!");
 
                 await _product.ReplaceOneAsync(produtoFiltrado, produto);
                 return StatusCode(204);

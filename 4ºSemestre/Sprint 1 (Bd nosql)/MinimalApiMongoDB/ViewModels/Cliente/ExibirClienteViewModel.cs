@@ -4,7 +4,7 @@ namespace MinimalApiMongoDB.ViewModels.Cliente
 {
     public class ExibirClienteViewModel
     {
-        public ObjectId IdCliente { get; set; }
+        public string? IdCliente { get; set; }
         public string? Nome { get; set; } = string.Empty;
         public string? Email { get; set; } = string.Empty;
         public string? Senha { get; set; } = string.Empty;

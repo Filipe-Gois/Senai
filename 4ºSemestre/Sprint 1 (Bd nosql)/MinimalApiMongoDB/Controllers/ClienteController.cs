@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using MinimalApiMongoDB.Domains;
 using MinimalApiMongoDB.Services;
 using MinimalApiMongoDB.ViewModels.Cliente;
+using MongoDB.Bson;
 using MongoDB.Driver;
+using System.Collections.Generic;
 
 namespace MinimalApiMongoDB.Controllers
 {
@@ -19,14 +21,18 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
+                Cliente clienteBuscado = await _cliente.Find(x => x.CPF == cliente.CPF).FirstOrDefaultAsync();
+
+                if (clienteBuscado != null)
+                {
+                    throw new Exception("CPF já cadastrado em nosso sistema!");
+                }
 
                 Usuario novoUsuario = new()
                 {
                     Email = cliente.Email,
                     Nome = cliente.Nome,
                     Senha = cliente.Senha,
-
-
                 };
                 Cliente novoCliente = new()
                 {
@@ -36,7 +42,6 @@ namespace MinimalApiMongoDB.Controllers
                     Telefone = cliente.Telefone,
                     AdditionalAtributes = cliente.AdditionalAtributesCliente,
                     IdUsuario = novoUsuario.IdUsuario
-
                 };
 
                 await _usuario.InsertOneAsync(novoUsuario);
@@ -56,8 +61,9 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-                _cliente.DeleteOne(x => x.IdCliente.ToString() == id);
-                _usuario.DeleteOne(x => x.IdUsuario.ToString() == id);
+                DeleteResult clienteDeletado = _cliente.DeleteOne(x => x.IdCliente.ToString() == id);
+                DeleteResult usuarioDeletado = _usuario.DeleteOne(x => x.IdUsuario.ToString() == id);
+
                 return StatusCode(204);
             }
             catch (Exception e)
@@ -66,20 +72,29 @@ namespace MinimalApiMongoDB.Controllers
             }
         }
 
-
         [HttpPut]
         public async Task<ActionResult> Update(string id, AtualizarDadosClienteViewModel atualizarCliente)
         {
             try
             {
 
-                Cliente cliente = await _cliente.Find(cliente => cliente.IdCliente.ToString() == id).FirstOrDefaultAsync() ?? throw new Exception("Nenhum cliente encontrado!");
+                FilterDefinition<Cliente> clienteFilter = Builders<Cliente>.Filter.Eq(cliente => cliente.IdCliente, ObjectId.Parse(id));
+                Cliente cliente = await _cliente.Find(clienteFilter).FirstOrDefaultAsync();
+                FilterDefinition<Usuario> usuarioFilter = Builders<Usuario>.Filter.Eq(Usuario => Usuario.IdUsuario, ObjectId.Parse(id));
+                Usuario usuario = await _usuario.Find(usuarioFilter).FirstOrDefaultAsync();
 
+                cliente.Telefone = string.IsNullOrEmpty(atualizarCliente.Telefone) ? cliente.Telefone : atualizarCliente.Telefone;
+                cliente.Endereco = string.IsNullOrEmpty(atualizarCliente.Endereco) ? cliente.Endereco : atualizarCliente.Endereco;
+                cliente.AdditionalAtributes = atualizarCliente.AdditionalAtributesCliente!.Count == 0 ? cliente.AdditionalAtributes : atualizarCliente.AdditionalAtributesCliente;
+                cliente.CPF = string.IsNullOrEmpty(atualizarCliente.CPF) ? cliente.CPF : atualizarCliente.CPF;
 
-                Usuario usuario = await _usuario.Find(usuario => usuario.IdUsuario.ToString() == id).FirstOrDefaultAsync() ?? throw new Exception("Nenhum usuário encontrado!");
+                usuario.Nome = string.IsNullOrEmpty(atualizarCliente.Nome) ? usuario.Nome : atualizarCliente.Nome;
+                usuario.Email = string.IsNullOrEmpty(atualizarCliente.Email) ? usuario.Email : atualizarCliente.Email;
+                usuario.Senha = string.IsNullOrEmpty(atualizarCliente.Senha) ? usuario.Senha : atualizarCliente.Senha;
+                usuario.AdditionalAtributes = atualizarCliente.AdditionalAtributesUsuario!.Count == 0 ? usuario.AdditionalAtributes : atualizarCliente.AdditionalAtributesUsuario;
 
-                await _usuario.ReplaceOneAsync(usuario, atualizarCliente.Usuario!);
-                await _cliente.ReplaceOneAsync(cliente, atualizarCliente.Cliente!);
+                await _usuario.ReplaceOneAsync(usuarioFilter, usuario);
+                await _cliente.ReplaceOneAsync(clienteFilter, cliente);
                 return StatusCode(204);
             }
             catch (Exception e)
@@ -106,29 +121,26 @@ namespace MinimalApiMongoDB.Controllers
 
                 foreach (Cliente cliente in clienteList)
                 {
-                    ExibirClienteViewModel cli = new();
-
-
                     foreach (Usuario usuario in usuarioList)
                     {
-                        //usuario
-                        cli.Nome = usuario.Nome;
-                        cli.Email = usuario.Email;
-                        cli.Senha = usuario.Senha;
-                        cli.AdditionalAtributesUsuario = usuario.AdditionalAtributes;
+                        ExibirClienteViewModel cli = new()
+                        {
+                            //usuario
+                            Nome = usuario.Nome,
+                            Email = usuario.Email,
+                            Senha = usuario.Senha,
+                            AdditionalAtributesUsuario = usuario.AdditionalAtributes,
 
-
-                        //cliente
-                        cli.IdCliente = cliente.IdCliente;
-                        cli.Telefone = cliente.Telefone;
-                        cli.Endereco = cliente.Endereco;
-                        cli.CPF = cliente.CPF;
-                        cli.AdditionalAtributesCliente = cliente.AdditionalAtributes;
+                            //cliente
+                            IdCliente = cliente.IdCliente.ToString(),
+                            Telefone = cliente.Telefone,
+                            Endereco = cliente.Endereco,
+                            CPF = cliente.CPF,
+                            AdditionalAtributesCliente = cliente.AdditionalAtributes
+                        };
+                        clienteUsuario.Add(cli);
                     }
-
-                    clienteUsuario.Add(cli);
                 }
-
 
                 return StatusCode(200, clienteUsuario);
             }
@@ -155,17 +167,13 @@ namespace MinimalApiMongoDB.Controllers
                     Senha = usuario.Senha,
                     AdditionalAtributesUsuario = usuario.AdditionalAtributes,
 
-
                     //cliente
-                    IdCliente = cliente.IdCliente,
+                    IdCliente = cliente.IdCliente.ToString(),
                     Telefone = cliente.Telefone,
                     Endereco = cliente.Endereco,
                     CPF = cliente.CPF,
                     AdditionalAtributesCliente = cliente.AdditionalAtributes,
-
                 };
-
-
 
                 return StatusCode(200, cli);
             }

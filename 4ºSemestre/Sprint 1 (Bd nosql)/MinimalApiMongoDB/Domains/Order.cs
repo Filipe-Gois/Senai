@@ -6,7 +6,9 @@ namespace MinimalApiMongoDB.Domains
 
     public enum StatusOrder
     {
-
+        Pendente,
+        Cancelada,
+        Concluida,
     }
     public class Order
     {
@@ -16,15 +18,16 @@ namespace MinimalApiMongoDB.Domains
 
 
         [BsonElement("status")]
-        public StatusOrder Status { get; set; }
+        public StatusOrder Status { get; set; } = StatusOrder.Pendente;
 
         [BsonElement("Date")]
         public DateTime Date { get; set; } = DateTime.UtcNow;
 
 
+        [BsonElement("IdCliente")]
+        public ObjectId IdCliente { get; set; }
 
-
-        //referencia do produto
-        //referencia do cliente
+        [BsonElement("IdProduto")]
+        public List<ObjectId>? IdsProdutos { get; set; }
     }
 }

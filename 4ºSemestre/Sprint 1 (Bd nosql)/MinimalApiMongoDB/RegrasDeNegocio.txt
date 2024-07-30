@@ -1,0 +1,12 @@
+//Criar a classe User na pasta Domains
+//Id, name, email, password e atributos adicionais
+
+//Criar a classe Client na pasta Domains
+//Id, UserId, Cpf, Phone, Address, atributos adicionais
+
+//Criar a classe Order na pasta Domains
+//Id, Date, Status
+//referência aos produtos do pedido
+//referência ao cliente que fez o pedido
+
+//Criar os controllers 

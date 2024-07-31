@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\bin\Debug\net8.0\Calculo.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\bin\Debug\net8.0\Calculo.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\bin\Debug\net8.0\Calculo.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\bin\Debug\net8.0\Calculo.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\bin\Debug\net8.0\Calculo.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\refint\Calculo.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\Calculo.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\xUnitTest\Calculo\obj\Debug\net8.0\ref\Calculo.dll

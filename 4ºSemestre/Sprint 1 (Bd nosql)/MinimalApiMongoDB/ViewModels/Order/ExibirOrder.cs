@@ -1,4 +1,5 @@
 ﻿using MinimalApiMongoDB.Domains;
+using MinimalApiMongoDB.ViewModels.Cliente;
 using MinimalApiMongoDB.ViewModels.Product;
 
 namespace MinimalApiMongoDB.ViewModels.Order
@@ -10,5 +11,6 @@ namespace MinimalApiMongoDB.ViewModels.Order
         public DateTime? Date { get; set; }
         public string? Status { get; set; }
         public List<ExibirProdutoViewModel>? Produtos { get; set; } = [];
+        public ExibirClienteViewModel? ClienteOrder { get; set; }
     }
 }

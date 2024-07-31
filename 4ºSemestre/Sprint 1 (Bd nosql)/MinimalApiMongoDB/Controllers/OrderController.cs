@@ -16,7 +16,8 @@ namespace MinimalApiMongoDB.Controllers
     {
 
         private readonly IMongoCollection<Order> _order = mongoDBService.GetDatabase.GetCollection<Order>("Order");
-        private readonly IMongoCollection<Usuario> _usuario = mongoDBService.GetDatabase.GetCollection<Usuario>("Cliente");
+        private readonly IMongoCollection<Cliente> _cliente = mongoDBService.GetDatabase.GetCollection<Cliente>("Cliente");
+        private readonly IMongoCollection<Usuario> _usuario = mongoDBService.GetDatabase.GetCollection<Usuario>("Usuario");
         private readonly IMongoCollection<Product> _product = mongoDBService.GetDatabase.GetCollection<Product>("product");
 
         [HttpGet]
@@ -26,40 +27,69 @@ namespace MinimalApiMongoDB.Controllers
             {
                 List<Order> ordersBuscadas = await _order.Find(FilterDefinition<Order>.Empty).ToListAsync();
 
+
+
                 List<ExibirOrder> ordersFiltradas = [];
 
                 foreach (Order order in ordersBuscadas)
                 {
+
+                    Cliente clienteBuscado = await _cliente.Find(c => c.IdCliente == order.IdCliente).FirstOrDefaultAsync() ?? throw new Exception("Nenhum cliente encontrado!");
+
+                    Usuario usuarioBuscado = await _usuario.Find(c => c.IdUsuario == order.IdCliente).FirstOrDefaultAsync() ?? throw new Exception("Nenhum usuario encontrado!");
+
+
+
                     ExibirOrder exibirOrder = new()
                     {
+
                         IdOrder = order.IdOrder.ToString(),
                         IdCliente = order.IdCliente.ToString(),
                         Date = order.Date,
                         Status = order.Status,
+                        Produtos = [], // Inicialize a lista de produtos
+                        ClienteOrder = new()
+                        {
+                            IdCliente = clienteBuscado.IdCliente.ToString(),
+                            //usuario
+                            Nome = usuarioBuscado.Nome,
+                            Email = usuarioBuscado.Email,
+                            Senha = usuarioBuscado.Senha,
+                            AdditionalAtributesUsuario = usuarioBuscado.AdditionalAtributes,
+
+                            //cliente
+                            CPF = clienteBuscado.CPF,
+                            Endereco = clienteBuscado.Endereco,
+                            Telefone = clienteBuscado.Telefone,
+                            AdditionalAtributesCliente = clienteBuscado.AdditionalAtributes,
+                        },
                     };
 
                     foreach (ObjectId idProdutoInOrder in order.IdsProdutos!)
                     {
-                        Product produtoBuscado = await _product.Find(produto => produto.IdProduto.ToString() == idProdutoInOrder.ToString()).FirstOrDefaultAsync();
+                        // Busque o produto associado ao idProdutoInOrder
+                        Product produtoBuscado = await _product.Find(produto => produto.IdProduto == idProdutoInOrder).FirstOrDefaultAsync();
 
-                        ExibirProdutoViewModel exibirProdutoViewModel = new()
+                        if (produtoBuscado != null) // Verifique se o produto foi encontrado
                         {
-                            IdProduto = produtoBuscado.IdProduto.ToString(),
-                            AdditionalAtributes = produtoBuscado.AdditionalAtributes,
-                            Nome = produtoBuscado.Nome,
-                            Preco = produtoBuscado.Preco,
-                        };
+                            ExibirProdutoViewModel exibirProdutoViewModel = new()
+                            {
+                                IdProduto = produtoBuscado.IdProduto.ToString(),
+                                AdditionalAtributes = produtoBuscado.AdditionalAtributes,
+                                Nome = produtoBuscado.Nome,
+                                Preco = produtoBuscado.Preco,
 
+                            };
 
-
-                        exibirOrder.Produtos!.Add(exibirProdutoViewModel ?? null!);  //aqui está dando null
-                        ordersFiltradas.Add(exibirOrder);
+                            exibirOrder.Produtos.Add(exibirProdutoViewModel); // Adicione o produto à lista
+                        }
                     }
 
-
-
+                    ordersFiltradas.Add(exibirOrder); // Adicione o pedido à lista após adicionar todos os produtos
                 }
+
                 return StatusCode(200, ordersFiltradas);
+
             }
             catch (Exception e)
             {
@@ -75,12 +105,31 @@ namespace MinimalApiMongoDB.Controllers
             {
                 Order order = await _order.Find(order => order.IdOrder.ToString() == id).FirstOrDefaultAsync() ?? throw new Exception("Nenhuma order encontrada!");
 
+                Cliente clienteBuscado = await _cliente.Find(c => c.IdCliente == order.IdCliente).FirstOrDefaultAsync() ?? throw new Exception("Nenhum cliente encontrado!");
+
+                Usuario usuarioBuscado = await _usuario.Find(c => c.IdUsuario == order.IdCliente).FirstOrDefaultAsync() ?? throw new Exception("Nenhum usuario encontrado!");
+
                 ExibirOrder exibirOrder = new()
                 {
                     Date = order.Date,
                     IdOrder = order.IdOrder.ToString(),
                     IdCliente = order.IdCliente.ToString(),
                     Status = order.Status,
+                    ClienteOrder = new()
+                    {
+                        IdCliente = clienteBuscado.IdCliente.ToString(),
+                        //usuario
+                        Nome = usuarioBuscado.Nome,
+                        Email = usuarioBuscado.Email,
+                        Senha = usuarioBuscado.Senha,
+                        AdditionalAtributesUsuario = usuarioBuscado.AdditionalAtributes,
+
+                        //cliente
+                        CPF = clienteBuscado.CPF,
+                        Endereco = clienteBuscado.Endereco,
+                        Telefone = clienteBuscado.Telefone,
+                        AdditionalAtributesCliente = clienteBuscado.AdditionalAtributes,
+                    },
                 };
 
 
@@ -116,9 +165,11 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
-
-
                 Order order = _order.Find(order => order.IdCliente.ToString() == id).FirstOrDefault() ?? throw new Exception("Nenhuma order encontrada!");
+
+                Cliente clienteBuscado = _cliente.Find(c => c.IdCliente == order.IdCliente).FirstOrDefault() ?? throw new Exception("Nenhum cliente encontrado!");
+
+                Usuario usuarioBuscado = _usuario.Find(c => c.IdUsuario == order.IdCliente).FirstOrDefault() ?? throw new Exception("Nenhum usuario encontrado!");
 
                 ExibirOrder exibirOrder = new()
                 {
@@ -126,6 +177,21 @@ namespace MinimalApiMongoDB.Controllers
                     IdOrder = order.IdOrder.ToString(),
                     IdCliente = order.IdCliente.ToString(),
                     Status = order.Status,
+                    ClienteOrder = new()
+                    {
+                        IdCliente = clienteBuscado.IdCliente.ToString(),
+                        //usuario
+                        Nome = usuarioBuscado.Nome,
+                        Email = usuarioBuscado.Email,
+                        Senha = usuarioBuscado.Senha,
+                        AdditionalAtributesUsuario = usuarioBuscado.AdditionalAtributes,
+
+                        //cliente
+                        CPF = clienteBuscado.CPF,
+                        Endereco = clienteBuscado.Endereco,
+                        Telefone = clienteBuscado.Telefone,
+                        AdditionalAtributesCliente = clienteBuscado.AdditionalAtributes,
+                    },
                 };
 
 
@@ -148,6 +214,7 @@ namespace MinimalApiMongoDB.Controllers
 
                 return StatusCode(200, exibirOrder);
             }
+
             catch (Exception e)
             {
 

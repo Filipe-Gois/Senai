@@ -22,10 +22,16 @@ namespace MinimalApiMongoDB.Controllers
             try
             {
                 Cliente clienteBuscado = await _cliente.Find(x => x.CPF == cliente.CPF).FirstOrDefaultAsync();
+                Usuario usuarioBuscado = await _usuario.Find(x => x.Email == cliente.Email).FirstOrDefaultAsync();
 
                 if (clienteBuscado != null)
                 {
                     throw new Exception("CPF já cadastrado em nosso sistema!");
+                }
+
+                if (usuarioBuscado != null)
+                {
+                    throw new Exception("Email já cadastrado em nosso sistema!");
                 }
 
                 Usuario novoUsuario = new()
@@ -108,20 +114,23 @@ namespace MinimalApiMongoDB.Controllers
         {
             try
             {
+                // Supondo que Cliente tem uma propriedade UsuarioId que se refere ao ID do usuário
                 List<Cliente> clienteList = await _cliente.Find(FilterDefinition<Cliente>.Empty).ToListAsync();
                 List<Usuario> usuarioList = await _usuario.Find(FilterDefinition<Usuario>.Empty).ToListAsync();
 
-
                 if (clienteList.Count == 0 || usuarioList.Count == 0)
                 {
-                    throw new Exception("Nenhum cliente encontrado!");
+                    throw new Exception("Nenhum cliente ou usuário encontrado!");
                 }
 
                 List<ExibirClienteViewModel> clienteUsuario = [];
 
+                // Crie um dicionário de usuários para acesso rápido
+                Dictionary<string, Usuario> usuarioDict = usuarioList.ToDictionary(u => u.IdUsuario.ToString());
+
                 foreach (Cliente cliente in clienteList)
                 {
-                    foreach (Usuario usuario in usuarioList)
+                    if (usuarioDict.TryGetValue(cliente.IdUsuario.ToString(), out Usuario usuario))
                     {
                         ExibirClienteViewModel cli = new()
                         {
@@ -143,6 +152,7 @@ namespace MinimalApiMongoDB.Controllers
                 }
 
                 return StatusCode(200, clienteUsuario);
+
             }
             catch (Exception e)
             {

@@ -1,0 +1,7 @@
+Fact:
+Uso: O atributo Fact é usado para métodos de teste que não recebem parâmetros. É utilizado para testar um cenário específico e garantir que o comportamento do código está correto para esse cenário.
+Propósito: Ideal para testes que não necessitam de dados variados e são sempre executados da mesma forma.
+
+Theory:
+Uso: O atributo Theory é usado para métodos de teste que precisam de dados variados. Ele permite que você defina um teste que pode ser executado com diferentes conjuntos de dados fornecidos por um ou mais métodos de dados.
+Propósito: Ideal para cenários onde você deseja testar uma função com várias entradas e verificar se ela se comporta conforme o esperado para cada conjunto de dados.

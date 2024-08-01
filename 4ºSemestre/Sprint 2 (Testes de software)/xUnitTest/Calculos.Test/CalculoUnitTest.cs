@@ -8,15 +8,20 @@ namespace Calculos.Test
 {
     public class CalculoUnitTest
     {
+        //principio AAA : Act: Arrange, Assert
+        //principio AAA : Agir: Organizar, Provar
         [Fact]
         public void SomarDoisNumeros()
         {
+            //organizar
             double n1 = 10;
             double n2 = 5;
             double valorEsperadoSoma = 15;
 
+            //agir
             double soma = Calculo.Somar(n1, n2);
 
+            //provar
             Assert.Equal(valorEsperadoSoma, soma);
 
         }

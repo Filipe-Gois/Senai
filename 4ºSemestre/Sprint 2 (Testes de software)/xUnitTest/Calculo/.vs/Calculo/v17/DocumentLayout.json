@@ -3,18 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{164182EC-BE7C-44D1-9C18-D295A8F011AB}|..\\Calculos.Test\\Calculos.Test.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 2 (testes de software)\\xunittest\\calculos.test\\calculounittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FF47F76-CC0A-4626-80D9-2BF3C602183B}|Calculo.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 2 (testes de software)\\xunittest\\calculo\\calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FF47F76-CC0A-4626-80D9-2BF3C602183B}|Calculo.csproj|solutionrelative:calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164182EC-BE7C-44D1-9C18-D295A8F011AB}|..\\Calculos.Test\\Calculos.Test.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 2 (testes de software)\\xunittest\\calculos.test\\calculounittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FF47F76-CC0A-4626-80D9-2BF3C602183B}|Calculo.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 2 (testes de software)\\xunittest\\calculo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FF47F76-CC0A-4626-80D9-2BF3C602183B}|Calculo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{164182EC-BE7C-44D1-9C18-D295A8F011AB}|..\\Calculos.Test\\Calculos.Test.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 2 (testes de software)\\xunittest\\calculos.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FF47F76-CC0A-4626-80D9-2BF3C602183B}|Calculo.csproj|c:\\users\\46633783825\\desktop\\github\\senai\\4\u00BAsemestre\\sprint 2 (testes de software)\\xunittest\\calculo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FF47F76-CC0A-4626-80D9-2BF3C602183B}|Calculo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,37 +24,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CalculoUnitTest.cs",
               "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculos.Test\\CalculoUnitTest.cs",
               "RelativeDocumentMoniker": "..\\Calculos.Test\\CalculoUnitTest.cs",
               "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculos.Test\\CalculoUnitTest.cs",
               "RelativeToolTip": "..\\Calculos.Test\\CalculoUnitTest.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAwEEAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T19:55:24.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Calculo.cs",
               "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculo\\Calculo.cs",
               "RelativeDocumentMoniker": "Calculo.cs",
               "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculo\\Calculo.cs",
               "RelativeToolTip": "Calculo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T19:54:35.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculos.Test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\Calculos.Test\\UnitTest1.cs",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "..\\Calculos.Test\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T19:54:19.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T19:54:19.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\4\u00BASemestre\\Sprint 2 (Testes de software)\\xUnitTest\\Calculo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

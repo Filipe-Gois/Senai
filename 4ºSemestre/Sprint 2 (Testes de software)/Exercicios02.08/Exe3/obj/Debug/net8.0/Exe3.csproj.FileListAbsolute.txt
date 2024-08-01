@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\bin\Debug\net8.0\Exe3.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\bin\Debug\net8.0\Exe3.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\bin\Debug\net8.0\Exe3.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\bin\Debug\net8.0\Exe3.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\bin\Debug\net8.0\Exe3.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\refint\Exe3.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\Exe3.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 2 (Testes de software)\Exercicios02.08\Exe3\obj\Debug\net8.0\ref\Exe3.dll

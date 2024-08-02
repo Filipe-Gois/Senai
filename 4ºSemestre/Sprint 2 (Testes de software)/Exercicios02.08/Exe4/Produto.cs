@@ -10,8 +10,8 @@ namespace Exe4
     {
         public Guid IdLivro { get; set; } = Guid.NewGuid();
 
-        public string Nome { get; set; }
-        public int Quantidade { get; set; }
+        public string Nome { get; set; } = string.Empty;
+        public int Quantidade { get; set; } = 1;
 
     }
 }

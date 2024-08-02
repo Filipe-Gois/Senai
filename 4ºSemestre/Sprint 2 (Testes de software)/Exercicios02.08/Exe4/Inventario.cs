@@ -12,21 +12,21 @@ namespace Exe4
         public Dictionary<Guid, Produto> InventarioLista { get; set; } = [];
         public void AdicionarProduto(Produto produto)
         {
+            bool existeProduto = InventarioLista.ContainsKey(produto.IdLivro);
 
 
-            foreach (var item in InventarioLista)
+
+            if (existeProduto)
             {
-                //se contem
-                if (InventarioLista.ContainsKey(item.Key))
-                {
-                    item.Value.Quantidade++;
-                }
-                //se n contem
-                else
-                {
-                    InventarioLista.Add(produto.IdLivro, produto);
-                }
+                InventarioLista[produto.IdLivro].Quantidade++;
+            }
+            else
+            {
+                InventarioLista.Add(produto.IdLivro, produto);
             }
         }
+
+        public int BuscarQuantidadeDoProdutoPeloNome(string nomePrduto) => InventarioLista.FirstOrDefault(x => x.Value.Nome == nomePrduto).Value.Quantidade;
+
     }
 }

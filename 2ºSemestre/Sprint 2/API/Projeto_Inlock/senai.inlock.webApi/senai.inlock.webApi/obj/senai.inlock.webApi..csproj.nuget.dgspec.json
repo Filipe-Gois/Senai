@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj": {}
+    "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj": {}
   },
   "projects": {
-    "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj": {
+    "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
+        "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
         "projectName": "senai.inlock.webApi.",
-        "projectPath": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
+        "projectPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
         "packagesPath": "C:\\Users\\46633783825\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
+        "outputPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46633783825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

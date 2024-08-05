@@ -1645,11 +1645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
+      "projectUniqueName": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
       "projectName": "senai.inlock.webApi.",
-      "projectPath": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
+      "projectPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi..csproj",
       "packagesPath": "C:\\Users\\46633783825\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\46633783825\\Desktop\\Senai\\2ºSemestre\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
+      "outputPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\Senai\\2ºSemestre\\Sprint 2\\API\\Projeto_Inlock\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\46633783825\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1672,6 +1672,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1714,8 +1719,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'System.Data.SqlClient' 4.8.5 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'System.IdentityModel.Tokens.Jwt' 6.32.2 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

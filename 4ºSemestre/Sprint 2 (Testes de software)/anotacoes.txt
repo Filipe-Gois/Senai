@@ -1,0 +1,1 @@
+se for testar em api: para não acessar o contexto do banco, usar o pacote Moq *Está no projeto ProductManager*

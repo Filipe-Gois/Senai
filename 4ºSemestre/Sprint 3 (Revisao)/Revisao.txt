@@ -1,0 +1,15 @@
+fluxo de controle: ordem em que os as instruçõ0es de um programa são executadas
+
+Depuração ou debug:  processo de encontrar erros e corrigir erros em um programa
+
+Compilador: Traduz o código fonte de um programa em código de máquina
+
+Linguagem compilada: precisa ser traduzida para linguagem de maquina. A compilação demora um pouco por primeiro ler todo o código e só assim, mas o código 
+
+Linguagem interpretada: interpreta linha por linha
+
+Modularidade: dividir o código em partes menores (ex: componentes react)
+
+Recursão: quando uma função chama ela mesma
+
+Abstração: criar uma representação simplificada de um objeto, trazendo o mínimo de informações dele, mas que sejam utilizadas. 

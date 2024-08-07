@@ -1,0 +1,61 @@
+if - simples
+
+if(condicao) //avalia se a condicao é true
+{
+//bloco de codigo
+}
+
+if/else - composto
+
+if(condicao) //avalia se a condicao é true
+{
+//bloco de codigo
+}
+else
+{
+//bloco de codigo
+}
+
+else if - encadeado ou aninhado
+
+if(condicao) //avalia se a condicao é true
+{
+//bloco de codigo
+}
+else if(condicao)
+{
+
+}
+else
+{
+//bloco de codigo
+}
+
+if ternário
+
+banana ? "Come" : "Não come"
+       if      else
+switch case 
+
+int valor = 10;
+switch(valor)
+{
+    case 10:
+    {
+        console.writeLine(valor);
+        break;
+    }
+    case 20:
+    {
+        console.writeLine(valor);
+        break;
+    }
+
+    //caso nenhum case seja true
+    default:
+    {
+        console.writeLine("default");
+
+        break;
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\bin\Debug\net8.0\GerenciamentoDeNotasEAlunos.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\bin\Debug\net8.0\GerenciamentoDeNotasEAlunos.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\bin\Debug\net8.0\GerenciamentoDeNotasEAlunos.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\bin\Debug\net8.0\GerenciamentoDeNotasEAlunos.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\bin\Debug\net8.0\GerenciamentoDeNotasEAlunos.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\refint\GerenciamentoDeNotasEAlunos.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\GerenciamentoDeNotasEAlunos.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\GerenciamentoDeNotasEAlunos\obj\Debug\net8.0\ref\GerenciamentoDeNotasEAlunos.dll

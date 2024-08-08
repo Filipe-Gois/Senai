@@ -17,5 +17,23 @@ namespace MediaAlunoExe.Utils
 
             return media / notas.Count;
         }
+
+        public static void AlterarStatusAluno(Aluno aluno)
+        {
+            float alunoMedia = CalcularMedia(aluno.Notas);
+            switch (alunoMedia)
+            {
+                case >= 6:
+                    aluno.Aprovar();
+                break;
+                case >= 4:
+                    aluno.Recuperacao();
+                break;
+                
+                default:
+                    aluno.Reprovar();
+                break;
+            }
+        }
     }
 }

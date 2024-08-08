@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\bin\Debug\net8.0\CalcularSomaDosNumerosPares.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\bin\Debug\net8.0\CalcularSomaDosNumerosPares.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\bin\Debug\net8.0\CalcularSomaDosNumerosPares.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\bin\Debug\net8.0\CalcularSomaDosNumerosPares.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\bin\Debug\net8.0\CalcularSomaDosNumerosPares.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\refint\CalcularSomaDosNumerosPares.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\CalcularSomaDosNumerosPares.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\CalcularSomaDosNumerosPares\obj\Debug\net8.0\ref\CalcularSomaDosNumerosPares.dll

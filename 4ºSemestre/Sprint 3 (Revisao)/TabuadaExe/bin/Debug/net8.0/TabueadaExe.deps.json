@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TabueadaExe/1.0.0": {
+        "runtime": {
+          "TabueadaExe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TabueadaExe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

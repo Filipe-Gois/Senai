@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GerenciamentoDeNotasEAlunos/1.0.0": {
+        "runtime": {
+          "GerenciamentoDeNotasEAlunos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GerenciamentoDeNotasEAlunos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

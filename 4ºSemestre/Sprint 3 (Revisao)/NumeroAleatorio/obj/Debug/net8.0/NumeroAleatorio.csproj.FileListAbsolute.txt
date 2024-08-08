@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\bin\Debug\net8.0\NumeroAleatorio.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\bin\Debug\net8.0\NumeroAleatorio.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\bin\Debug\net8.0\NumeroAleatorio.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\bin\Debug\net8.0\NumeroAleatorio.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\bin\Debug\net8.0\NumeroAleatorio.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\refint\NumeroAleatorio.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\NumeroAleatorio.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\NumeroAleatorio\obj\Debug\net8.0\ref\NumeroAleatorio.dll

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MediaAlunoExe")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GerenciamentoDeNotasEAlunos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb280ce273a56d11690b9c007d4e0aeeaefa3b6c")]
-[assembly: System.Reflection.AssemblyProductAttribute("MediaAlunoExe")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MediaAlunoExe")]
+[assembly: System.Reflection.AssemblyProductAttribute("GerenciamentoDeNotasEAlunos")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GerenciamentoDeNotasEAlunos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

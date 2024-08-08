@@ -18,9 +18,6 @@ namespace MediaAlunoExe
         public List<float> Notas { get; set; } = [];
 
         public StatusAluno StatusAluno { get; private set; } = StatusAluno.EmAnalise;
-
-
-
         public void Aprovar()
         {
             StatusAluno = StatusAluno.Aprovado;

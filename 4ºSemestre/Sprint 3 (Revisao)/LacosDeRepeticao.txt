@@ -1,0 +1,12 @@
+For - quando sabemos exatamente a quantidade de vezes que iremos executar o loop
+
+for(int i = 0; int > 6; i++)
+{
+//bloco de codigo
+}
+
+instrucao 1: variavel de inicialização
+instrucao 2: condição
+instrucao 3: iterador de incremento ou decremento
+
+do while: executa o codigo pelo menos uma vez antes de verificar se é true

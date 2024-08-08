@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\bin\Debug\net8.0\TabueadaExe.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\bin\Debug\net8.0\TabueadaExe.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\bin\Debug\net8.0\TabueadaExe.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\bin\Debug\net8.0\TabueadaExe.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\bin\Debug\net8.0\TabueadaExe.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\refint\TabueadaExe.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\TabueadaExe.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\TabueadaExe\obj\Debug\net8.0\ref\TabueadaExe.dll

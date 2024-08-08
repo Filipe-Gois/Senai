@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CalcularSomaDosNumerosPares/1.0.0": {
+        "runtime": {
+          "CalcularSomaDosNumerosPares.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalcularSomaDosNumerosPares/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

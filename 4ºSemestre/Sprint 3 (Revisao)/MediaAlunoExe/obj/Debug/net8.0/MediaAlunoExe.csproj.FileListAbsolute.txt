@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\bin\Debug\net8.0\MediaAlunoExe.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\bin\Debug\net8.0\MediaAlunoExe.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\bin\Debug\net8.0\MediaAlunoExe.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\bin\Debug\net8.0\MediaAlunoExe.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\bin\Debug\net8.0\MediaAlunoExe.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\refint\MediaAlunoExe.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\MediaAlunoExe.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\MediaAlunoExe\obj\Debug\net8.0\ref\MediaAlunoExe.dll

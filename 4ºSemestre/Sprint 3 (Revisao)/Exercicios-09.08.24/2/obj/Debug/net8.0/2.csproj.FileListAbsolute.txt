@@ -1,0 +1,15 @@
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.AssemblyInfoInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.AssemblyInfo.cs
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.csproj.CoreCompileInputs.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.sourcelink.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\bin\Debug\net8.0\2.exe
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\bin\Debug\net8.0\2.deps.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\bin\Debug\net8.0\2.runtimeconfig.json
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\bin\Debug\net8.0\2.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\bin\Debug\net8.0\2.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\refint\2.dll
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.pdb
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\2.genruntimeconfig.cache
+C:\Users\46633783825\Desktop\GitHub\Senai\4ºSemestre\Sprint 3 (Revisao)\Exercicios-09.08.24\2\obj\Debug\net8.0\ref\2.dll

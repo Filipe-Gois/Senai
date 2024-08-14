@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaAlunoExe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb280ce273a56d11690b9c007d4e0aeeaefa3b6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e653ab912fc8cb3a03718d9d815e7e0c96be4fbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaAlunoExe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaAlunoExe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

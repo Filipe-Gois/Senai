@@ -1,0 +1,16 @@
+intermediário entre o back end e o front
+
+Pattern: repository pattern
+
+autenticação: indetificação
+
+autorização: 
+
+dotnet:plataforma de desenvolvimento da microsoft para windows, web, cloud, mobile, etc
+
+dotnet framework? versao original do .net usado principalmente para aplicacoes windows
+
+.net core: criado para ser multiplataforma, permitindo criar aplicacoes que rodem em windows, mac, linux
+
+.net 8:  a partir do .net 5 a microsoft inificou o .net framework e o .net
+asp.net: é um framework especifico dentro da plataforma .net, usado para construir aplicacoes web e apis

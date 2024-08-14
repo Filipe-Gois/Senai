@@ -1,0 +1,67 @@
+dado: valor unico
+{
+   data de nascimento 14/01/2007
+}
+
+informação: tudo que voce faz a partir do processamento de um dado
+{
+    idade: 17 anos
+}
+
+ssms: gerenciador de banco de dados
+sql server: 
+sql: linguagem de banco de dados
+
+banco de dados realcional e nao realcional
+
+colunas: propriedades
+linhas: registros
+quadrado que armazena o dado: campo
+
+DDL: data definition language
+{
+
+}
+DML: data Manipulation language
+{
+
+}
+DQL: data query language
+{
+   joins
+   {
+    inner: traz os registros que estejam relacionados entre si
+    left:
+    right:
+    full:
+   } 
+}
+
+Modelagem de bd
+{
+    tipos de modelagem
+    {
+    conceitual:
+    lógico:
+    fisico:
+    }
+
+ Normalização de bd:
+ {
+
+ }
+
+}
+
+tipos de dados
+{
+
+}
+
+Procedure:
+
+Trigger:
+
+Funções:
+
+Funções nativas:

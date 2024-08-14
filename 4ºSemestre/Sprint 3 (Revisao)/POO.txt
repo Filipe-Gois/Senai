@@ -1,0 +1,56 @@
+classe: molde, conceito para os objetos que serão materializados
+
+objeto: materialização da classe
+
+metodos e propriedades: são membros da classe
+
+public - modificador de acesso 
+int - tipo de dado
+Idade - nome da variavel
+{get; set} 
+
+
+
+public - acesso total
+private - acesso somente dentro da classe
+protected - acesso somente dentro da classe e quem herdar dessa classe
+internal - acesso total dentro do projeto. Se houverem dois projetos, suas props nao poderão se comunicar se tiverem o tipo de dado internal
+
+
+static: não precisa de uma instancia de um objeto para acessar os metodos, sendo acessados de varias partes do projeto
+
+Pilares:
+{
+
+1)Polimorfismo
+{
+    capacidade de um metodo ter varias formas (sobrescrita). Ex:
+
+    int soma(int n1, int n2);
+    int soma(int n1, int n2, int n3);
+
+    
+}
+
+2)Herança: qucapacidade de uma classe ter metodos e props de outra classe
+{
+    herança de classe só pode ter uma. Herança de interface pode ter várias
+    Classe : Classe2, interface
+    *classe sempre será herdada primeiro*
+}
+
+3)Encapsulamento
+{
+    proteger as suas propriedades ou metodos com os modificadores de acesso
+}
+
+4)Abstração
+{
+    trazer para uma classe apenas propriedades que importam
+    Classe abstrata: nao pode ser instanciada
+
+    super classe: classe abstrata que é herdada pelas demais classes
+}
+}
+
+metodo construtor: metodo que inicializa o objeto

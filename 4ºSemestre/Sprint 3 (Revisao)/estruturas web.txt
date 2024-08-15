@@ -1,0 +1,11 @@
+html, css e js
+
+section: usada para conteudos que estão sob o mesmo contexto
+article: usado para separar um item que possui um conteudo individual (é um conteudo independente)
+
+header e footer: 1 ou mais
+main: só uma por pagina
+
+rem: tem como parametro o html
+em: tem como parametro o container pai
+vmax: considera a maior proporção da tela. Ex: 1920x1080, considera a largura, por ser maior

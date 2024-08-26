@@ -1,0 +1,14 @@
+Biblioteca: ferramenta
+Framework: conjunto de ferramentas
+
+SPA: Single page application
+{
+    montagem de componentes em uma unica tela
+}
+
+Tópicos inportantes: 
+{
+    componentização
+    Estados e propriedades
+    Hooks
+}

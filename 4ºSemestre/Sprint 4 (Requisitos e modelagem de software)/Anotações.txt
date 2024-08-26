@@ -1,0 +1,25 @@
+stakesolders: pessoas envolvidas no projeto
+
+Requisito funcional:
+
+Requisito não funcional:
+
+Levantamento de requisitos
+{
+    
+Levantamento de requisitos: fase em que se coleta, analisa e documenta as necessidades e expectativas dos usuários e stakesolders. Seu objetivo é garantir que o sistema desenvolvido atenda às expectativas dos stakesolders e seja útil para o propósito na qual foi criado.
+
+técnicas de Levantamento de requisitos:
+
+1)Entrevistas
+2)Observação
+3)Questionários
+4)WorkShops
+5)Prototipagem
+
+}
+
+Gerenciamento de requisitos
+{
+    Definição: processo contínuo
+}

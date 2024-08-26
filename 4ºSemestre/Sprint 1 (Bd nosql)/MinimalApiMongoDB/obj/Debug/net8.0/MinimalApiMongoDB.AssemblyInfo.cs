@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinimalApiMongoDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9be1844ea374701312030e7e388ee87d18bf6ec8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f09e3c6e4cf5b93b5678c007f5d1d3f0bdb92532")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinimalApiMongoDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinimalApiMongoDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
